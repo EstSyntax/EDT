@@ -7,5 +7,7 @@ Tekstid on pärit eesti keele Tasakaalus korpusest http://www.cl.ut.ee/korpused/
 Tekstid on esmalt analüüsitud reeglipõhise, kitsenduste grammatikal põhineva sõltuvussüntaktilise analüsaatoriga; automaatselt analüüsitud faile on parandatud käsitsi.
 
 Süntaktilise märgenduse juhend paikneb dokumentatsiooni hulgas (syntmargendus.pdf).
+Morfoloogilise märgenduse selgitus paikneb lingil: http://www.cl.ut.ee/korpused/morfliides/seletus
+
 
 Kooditabel on utf8.
