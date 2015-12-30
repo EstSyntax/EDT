@@ -9,5 +9,11 @@ Tekstid on esmalt analüüsitud reeglipõhise, kitsenduste grammatikal põhineva
 Süntaktilise märgenduse juhend paikneb dokumentatsiooni hulgas (syntmargendus.pdf).
 Morfoloogilise märgenduse selgitus paikneb lingil: http://www.cl.ut.ee/korpused/morfliides/seletus
 
+Võrreldes 2014. a versiooniga on parandatud automaatsel töötlemisel väljatulnud vigu, lisatud ütte märgend, parandatud ühendverbe, uuesti läbi analüüsitud kolmandik ilukirjandusest.
+
+Dokumentatsioon:
+  * lähtefailide kirjeldus ja maht: puudepangaallikad.pdf
+  * formaadikirjeldus: formaadiselgitus.pdf
+  * märgendus: syntmargendus.pdf
 
 Kooditabel on utf8.
