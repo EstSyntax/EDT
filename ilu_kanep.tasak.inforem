@@ -7106,8 +7106,8 @@
 	"peale" L0 D @Vpart #12->13
 "<asetada>"
 	"aseta" Lda V main inf @OBJ #13->8
-"<6.>"
-	"6." L0 N ord @?? #14->0
+"<.>"
+	"." L0 Z Fst #14->14
 "</s>"
 
 "<s>"
@@ -7184,14 +7184,12 @@
 	"toppi" L0 V main imper pres ps2 sg ps af @FMV #9->2
 "<seemned>"
 	"seeme" Ld S com pl nom @OBJ #10->9
-"<7>"
-	"7" L0 N card @?? #11->0
 "<1-2cm>"
-	"1-2cm" L0 N card nominal @NN> #12->13
+	"1-2cm" L0 N card nominal @NN> #11->12
 "<sügavusele>"
-	"sügavus" Lle S com sg all @ADVL #13->9
+	"sügavus" Lle S com sg all @ADVL #12->9
 "<.>"
-	"." Z Fst #14->14
+	"." Z Fst #13->13
 "</s>"
 
 "<s>"

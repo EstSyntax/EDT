@@ -285,7 +285,7 @@
 "<korda>"
     "kord" L0 S com sg part @ADVL #6->2
 "<elus>"
-    "elu" Ls S com sg in @ADVL #7->2
+    "elu" Ls S com sg in @ADVL #7->6
 "<.>"
     "." Z Fst #8->8
 "</s>"
@@ -857,7 +857,7 @@
 "<kõrval>"
     "kõrval" L0 K post @ADVL #8->9
 "<70>"
-    "70" L0 N card @SUBJ #9->3
+    "70" L0 N card @PRD #9->3
 "<.>"
     "." Z Fst #10->10
 "</s>"
@@ -943,9 +943,9 @@
 "<juba>"
     "juba" L0 D @ADVL #4->3
 "<kolmekümne>"
-    "kolm_kümmend" L0 N card sg gen l @NN> #5->6
+    "kolm_kümmend" L0 N card sg gen l @NN> #5->7
 "<kahe>"
-    "kaks" L0 N card sg gen l @ADVL #6->7
+    "kaks" L0 N card sg gen l @<Q #6->5
 "<aastane>"
     "aastane" L0 A pos sg nom @PRD #7->3
 "<.>"
@@ -4993,7 +4993,7 @@
 "<,>"
     "," Z Com #4->4
 "<kui>"
-    "kui" L0 J crd @J #5->10
+    "kui" L0 J sub @J #5->10
 "<sa>"
     "sina" L0 P pers ps2 sg nom @SUBJ #6->10
 "<nii>"
@@ -5991,7 +5991,7 @@
 "<kahte>"
     "kaks" L0 N card sg part l @<P #6->5
 "<panka>"
-    "pank" L0 S com sg adit @ADVL #7->4
+    "pank" L0 S com sg adit @<Q #7->6
 "<,>"
     "," Z Com #8->8
 "<siis>"
@@ -6695,11 +6695,11 @@
 "<kui>"
     "kui" L0 J sub @J #22->31
 "<eksalteeritud>"
-    "eksalteeritud" L0 A pos partic AN> #23->24
+    "eksalteeritud" L0 A pos partic @AN> #23->27
 "<ja>" 
     "ja" L0 J crd @J #24->25
 "<lapsik>"
-    "lapsik" L0 A pos sg nom @AN> #25->26
+    "lapsik" L0 A pos sg nom @AN> #25->23
 "<näitlejannahakatis>"
     "näitlejanna_hakatis" L0 S com sg nom @NN> #26->27
 "<Aune>"

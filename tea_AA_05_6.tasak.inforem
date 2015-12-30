@@ -36183,9 +36183,9 @@
 "<s>"
 
 "<6.>"
-	"6." L0 N ord @ADVL #1->2
+	"6." L0 N ord @ADVL #1->0
 "<IEEE>"
-	"IEEE" L0 Y nominal @?? #2->3
+	"IEEE" L0 Y nominal @?? #2->0
 "<1484.12.1-2002>"
 	"1484.12.1-2002" L0 N card @?? #3->0
 "<Learning>"

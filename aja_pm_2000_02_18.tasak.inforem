@@ -32967,7 +32967,7 @@
 "<finaalmängu>"
 	"finaal_mäng" L0 S com sg part @OBJ #7->5
 "<New York>"
-	"New_York" L0 S prop sg nom @NN> #8->9
+	"New York" L0 S prop sg nom @NN> #8->9
 "<Knicksi>"
 	"Knicks" L0 S prop sg gen @NN> #9->10
 "<vastu>"
@@ -52783,7 +52783,7 @@
 "<kas>"
 	"kas" L0 D @ADVL #5->6
 "<on>"
-	"ole" L0 V main indic pres ps3 sg ps af @FMV #6->12
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #6->3
 "<veel>"
 	"veel" L0 D @ADVL #7->6
 "<midagi>"

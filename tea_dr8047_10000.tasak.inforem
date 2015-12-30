@@ -9743,7 +9743,7 @@
 "<(>"
 	"(" Z Opr #34->34
 "<Omega-3>"
-	"Omega-3" L0 N card @NONE #35->35
+	"Omega-3" L0 S com sg nom @NONE #35->35
 "<…>"
 	"…" L0 Y nominal @NONE #36->36
 "<,>"
@@ -10681,7 +10681,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<Omega-3>"
-	"Omega-3" L0 N card @NONE #11->11
+	"Omega-3" L0 S com sg nom @NONE #11->11
 "<…>"
 	"…" L0 Y nominal @NONE #12->12
 "<,>"
