@@ -1,0 +1,263 @@
+
+DELIMITERS = "<s>" "</s>" "<p>" "</p>";
+
+
+SECTION
+
+
+LIST Modonly = ("või" V) "saa" "pida" "näi" "tundu" "paist" "tohti";
+"<ja>" REMOVE (J sub);
+
+LIST POS = A D G I J K N P S V X Y Z ;
+LIST SPAVK = A D G K P S V X ;
+LIST Eraldajad = >>> <<< Col Scl Dsh Com Opr Cpr Quo Oqu Cqu "ja" "ning" ("või" J) "ega" "ehk" ;
+LIST LLZ = Fst Int Exc ; 
+LIST >>> = >>>; 
+LIST <<< = <<<; 
+LIST Jutum1 = Quo Oqu;
+LIST Jutum2 = Quo Cqu;
+LIST Jutum = Quo Oqu Cqu;
+LIST Jutum1>>> = Quo Oqu >>>;
+LIST Jutum2<<< = Quo Cqu <<<;
+LIST VoimCLB = "ja" "ning" ("või" J) "aga" "ega" "ehk" ; 
+LIST ONCLB = "kes" "mis" "milline" "missugune" "et" "kuni" "sest" "siis" "siiski" "kuna" 
+ "kus" "kust" "kuhu" "kustkaudu" "kuidas" "mil" "millal" "miks" "mispärast"  "mistõttu" "mismoodi"
+ "misjaoks"  "mistarvis" "seepärast" "sellepärast" "sest" "seetõttu" "selletõttu" "kas" "kuidas" "seega" "järelikult"
+ "mis_sugune" "kust_kaudu" "mis_pärast"  "mis_tõttu" "mis_moodi"
+ "mis_jaoks"  "mis_tarvis" "see_pärast" "selle_pärast" "see_tõttu" "selle_tõttu";
+LIST OnCLB = "kes" "mis" "milline" "missugune" "et" "kui" "kuni" "sest" "siis" "siiski" "kuna" "nagu" "justkui"
+ "otsekui"  "kus" "kust" "kuhu" "kustkaudu" "kuidas" "muidu" "mil" "millal" "miks" "mispärast"  "mistõttu" "mismoodi"
+ "misjaoks"  "mistarvis" "seepärast" "sellepärast" "sest" "seetõttu" "selletõttu" "kas" "kuidas" "seega" "järelikult"
+ "mis_sugune" "just_kui" "otse_kui" "kust_kaudu" "mis_pärast"  "mis_tõttu" "mis_moodi"
+ "mis_jaoks"  "mis_tarvis" "see_pärast" "selle_pärast" "see_tõttu" "selle_tõttu";
+LIST On2CLB = "kes" "mis" "milline" "missugune" "kus" "kust" "kuhu" "mis_sugune" ;
+LIST NaguCLB = "nii" "nõnda" "just" "justkui" "otsekui" "samuti" "niisamuti" "niisama" "just_kui" "otse_kui" "nii_samuti" "nii_sama" ;
+LIST EtCLB = "ilma" "olgugi" "selleks" "vaid" "nii" "nõnda" "just" "niisamuti" "niisama" "nii_samuti" "nii_sama" ;
+LIST KuiCLB = "enne" "niipea" "niivõrd" "seni" "senikaua" "sestsaadik" "sestpeale" "parajasti" "sellal" "nii" "nõnda"
+ "just" "samuti" "niisamuti" "niisama"  "nii_pea" "nii_võrd" "seni_kaua" "sest_saadik" "sest_peale" "nii_samuti" "nii_sama";
+LIST NaguKui = "nagu" "kui" "otsekui" "justkui" "vaid" "nii" "nõnda" "just" "niisamuti" "niisama" "just_kui" "otse_kui" "nii_samuti" "nii_sama" ("mis" nom);
+
+LIST CLO = CLO;
+LIST CLC = CLC;
+LIST CLBa = CLB;
+LIST SORP = "<s>" "</s>" "<p>" "</p>";
+LIST ComCol = Com Col Scl ;
+
+LIST KoolTir = Col Scl Dsh Com ;
+LIST Sid|Kvm = J Com Col Scl ;
+LIST Quo = Quo Oqu Cqu ;
+LIST CLB = CLB >>>; 
+LIST CLBC = CLB CLBC >>>;
+LIST Kvm = Z ;
+LIST Y = Y ;
+LIST Cap = <cap> cap;
+LIST PropCap = (prop <cap>) (prop cap);
+
+LIST Subst = S;
+LIST Adj = A;
+LIST Verb = V;
+LIST Pron = P;
+LIST Adv = D;
+LIST InterRefl = inter refl ;
+LIST Nominal = S P A N (Y nominal);
+LIST Sid|Kvm|Clb = J Z CLB ;
+LIST Ei = "ei" ;
+LIST AP = A P ;
+LIST AS = A S ;
+LIST A = A ;
+LIST D = D ;
+LIST S = S ;
+LIST P = P ;
+LIST K = K ;
+LIST J = J ;
+LIST Y = Y ;
+LIST I = I ;
+LIST G = G ;
+LIST Z = Z ;
+LIST Arv = N "arv" "tuhatkond";
+LIST Verb = V ;
+LIST Koma = Com ;
+LIST KuiEtKas = "kui" "et" "kas" ;
+LIST FinV = (V ps1) (V ps2) (Vps3) ("ole" neg) ("ole" partic) (cond pres ps);
+LIST FinVPart = (V ps1) (V ps2) (Vps3) ("ei" V) partic inf ;
+LIST EgaVõi = "ega" ("või" J) ;
+LIST OLAlgus = "kui" "siis" "kas" "kes" "mis" "ehk" ;
+LIST DaInf = inf ;
+LIST MaInf = (sup ps ill) ;
+LIST SPAND = S P A N D (Y nominal) (Y adjectival);
+LIST SPAN = S P A N (Y nominal) (Y adjectival);
+LIST SPA = S P A ;
+LIST NOSPAN =  I J K V X Y Z ;
+LIST NOSPANJ =  I K V X Y Z ;
+LIST SubstAdj = S A;
+LIST NotAS = P D V J N K I;
+LIST Nom = nom ;
+LIST Gen = gen ;
+LIST Part = part ;
+LIST GP = gen part ;
+LIST Ill = adt adit (sg ill) (pl ill); 
+LIST Adit = adt adit (sg ill) (pl ill);
+LIST In = in ;
+LIST El = el ;
+LIST All = all ;
+LIST Ad = ad ;
+LIST Abl = abl ;
+LIST Tr = tr ;
+LIST Term = term ;
+LIST Es = es ;
+LIST Abes = abes ;
+LIST Ab = abes ;
+LIST Kom = kom ;
+LIST NiNaTaGa = term es abes kom ;
+LIST NGP = nom gen part ;
+LIST AdvAdjGen = A D gen ;
+LIST Pärisnimi = (S prop) (S cap);
+LIST SgNom = (sg nom) ; 
+LIST PlNom = (pl nom) ; 
+LIST SgEl = (sg el) ; 
+LIST PlEl = (pl el) ;
+LIST SgGen = (sg gen);
+LIST PlGen = (pl gen);
+LIST SgPart = (sg part);
+LIST PlPart = (pl part);
+LIST ABC = "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l" "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x" "y" "z" 
+	   "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L" "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X" "Y" "Z";
+LIST Kaane = nom gen part adit (sg ill) (pl ill) in el ad all abl tr es abes kom;
+
+LIST SPN = S P N ;
+LIST SP = S P ;
+SET SPNom = SP + Nom ;
+SET SPPart = SP + Part ;
+
+LIST OleSaa =  ("ole" aux) "saa" ("jää" V); 
+LIST OlemSaa =  "ole" "saa" ("jää" V); 
+LIST NudTud = <nud> <tud> <dud> <nu> <tu> <du> (partic past); 
+
+#ADD:00 (CLB) (Fst) OR (Exc) OR (Int) OR (Ell) (NOT 0 (CLB)) ; 
+#ADD:K0 (CLB) ABC (1 Kvm) (NOT 0 (CLB) OR SORP) ; 
+#ADD:K0 (CLB) ABC (-1 Kvm) (NOT 0 (CLB) OR SORP) ; 
+#ADD:K1 (CLB) (Y ?) (-1 (>>>)) (NOT 0 (CLB)) ; 
+
+ADD (CLB) (Z) (0 (Col) OR (Scl)) (NOT 0 (CLB) OR (CLBC))  ;
+ADD (CLB) (*) (0 Sid|Kvm)(1 ONCLB)(NOT 2 Kvm)(*1 FinV OR DaInf OR (quot)) (NOT 0 (CLB))  ; 
+ADD (CLB) (*) (0 Sid|Kvm)(1 OnCLB)(NOT 2 Kvm)(NOT 0 (CLB))  ;
+SUBSTITUTE (J crd) (J crd CLB) (crd) (0 Sid|Kvm)(1 OnCLB)(NOT 2 Kvm)(NOT 0 (CLB))  ;
+ADD (CLB) (*) (0 KoolTir)(1 OnCLB) (*1 (mod))(NOT 0 (CLB))  ; 
+ADD (CLB) (*) (0 Sid|Kvm)(1 OnCLB)(*1C FinV BARRIER Eraldajad) (NOT 0 (CLB))  ; 
+ADD (CLB) (*) (0 Sid|Kvm)(1 OnCLB)(*1C FinV + NudTud BARRIER Eraldajad LINK 1 CLBC) (NOT 0 (CLB))  ; 
+ADD (CLB) (*) (0 KoolTir)(1 NaguCLB)(2 ("nagu")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 KuiCLB)(2 ("kui"))  (NOT 0 (CLB)) ;
+ADD (CLB) (Z Com) (1 EtCLB)(2 ("et")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 ("sama") + (ad))(2 ("aeg") + (ad))(3 ("kui")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 ("pärast"))(2 ("see") + Part)(3 ("kui")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 ("seni"))(2 ("kuni")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 ("see") + (el))(2 ("hoolimata")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (1 ("see") + (all))(2 ("vaatamata")) (NOT 0 (CLB))  ;
+ADD (CLB) (Z Com) (-1 (I)) ;
+ADD (CLB) (Z Com) (1 FinV - D)(NOT 1 Subst)(*-1 FinV BARRIER CLB) (NOT 0 (CLB))  ; 
+ADD (CLB) (Z Com) (1 (V aux neg))(2 FinV + (neg))(NOT 1 Subst)(*-1 FinV BARRIER CLB) (NOT 0 (CLB))  ; 
+ADD (CLB) (Z) (-1 VoimCLB - CLB)(*1 FinV BARRIER Eraldajad)(*-2 FinV BARRIER CLB) (NOT 0 (CLB))  ; 
+ADD (CLB) (Z) (1 VoimCLB)(*2 FinV BARRIER Eraldajad)(*-1 FinV BARRIER CLB) (NOT 0 (CLB))  ; 
+ADD (CLB) (Z) (1 VoimCLB)(2 VoimCLB)(*3 FinV BARRIER Eraldajad)(*-1 FinV BARRIER CLB) ; 
+ADD (CLB) (Z) (0 KoolTir)(1 ("see") OR ("kes") OR ("mis"))(*2 FinV BARRIER Eraldajad)(*-1 FinV BARRIER CLB) (NOT 0 (CLB))  ; 
+
+
+ADD (CLB) (Com) (*-1C FinV BARRIER J OR Kvm)(*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+ADD (CLB) (Com) (*-1C FinV BARRIER J OR Kvm)(*1C FinV + OlemSaa BARRIER Kvm LINK NOT 0 (partic)) (NOT 0 (CLB)) ; 
+ADD (CLB) (Com) (*-1C Verb + OlemSaa BARRIER Kvm)(*1C FinV + OlemSaa BARRIER Kvm LINK NOT 0 (partic)) (NOT 0 (CLB)) ; 
+ADD (CLB) (Com) (*-1C Verb + OlemSaa BARRIER Kvm)(*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ; 
+ADD (CLB) (Com) (*-1C FinV BARRIER CLB)(*1 FinV BARRIER J OR Kvm LINK NOT 0 NudTud) (NOT 0 (CLB)) ; 
+ADD (CLB) (Opr) (*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+ADD (CLB) (Cpr) (*-1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+
+SUBSTITUTE (J crd) (J crd CLB) (J crd) (*-1C FinV BARRIER J OR Kvm)(*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+SUBSTITUTE (J crd) (J crd CLB) (J crd) (*-1 ("ole") BARRIER J OR Kvm)(*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+SUBSTITUTE (J crd) (J crd CLB) (J crd) (NOT 0 ("aga"))(*-1 FinV - NudTud OR ("ole") BARRIER J OR Kvm)(*1 FinV BARRIER J OR Kvm) (NOT 0 (CLB) OR (CLBC)) ;
+SUBSTITUTE (J crd) (J crd CLB) (J crd) (NOT 0 ("aga"))(-1 FinV)(*1 FinV BARRIER J OR Kvm) (NOT 0 (CLB) OR (CLBC)) ;
+ADD (CLB) (Com) (*1 FinV OR (V partic) BARRIER Kvm LINK *-1C Nom BARRIER Kvm)
+	     (*-1C FinV BARRIER Kvm LINK *-1C Nom  BARRIER CLB) (NOT 0 (CLB)) ; 
+
+SUBSTITUTE ("ning" J crd) ("ning" J crd CLB) ("ning") (*-1 (crd) BARRIER J OR Kvm LINK *-1C FinV OR ("ole") BARRIER J OR Kvm)(*1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+SUBSTITUTE ("ning" J crd) ("ning" J crd CLB) ("ning") (*-1C FinV OR ("ole") BARRIER J OR Kvm)(*1 (crd) BARRIER J OR Kvm LINK *1C FinV BARRIER J OR Kvm) (NOT 0 (CLB)) ;
+
+ADD (CLB) (*)   (0 On2CLB)(*1C FinV BARRIER Eraldajad)(*-1C FinV BARRIER CLB) (NOT 0 (CLB))(NOT -1 (CLB))(NOT -2 (CLB))  ;
+
+ADD (CLB) (Z Com) (1 On2CLB OR VoimCLB)(*2C FinV BARRIER Eraldajad) (*-1C FinV) 
+                (*-1 (V partic) OR FinV BARRIER Eraldajad) (NOT 0 (CLB))  ;
+
+ADD (CLB) (*)   (0 KoolTir)(*1C FinV BARRIER Eraldajad)(*-1 FinV - NudTud BARRIER Eraldajad LINK NOT 0 D) (NOT 0 (CLB))  ;     
+ADD (CLB) (*)   (0 KoolTir)(*1C FinV BARRIER Eraldajad)(*-1C FinV BARRIER Eraldajad) (NOT 0 (CLB)) ;     
+ADD (CLB) (*)   (0 KoolTir)(*1C FinV + ("ole") BARRIER Eraldajad)
+                           (*-1C FinV OR (V partic) BARRIER Eraldajad) (NOT 0 (CLB))  ;     
+ADD (CLB) (*)   (0 KoolTir)(1C FinV)(*-1C FinV BARRIER Eraldajad) (NOT 0 (CLB))  ;     
+
+ADD (CLB) (*)   (0 KoolTir)(1 FinV)(NOT 1 (partic)) 
+                (*-1 ("kui") BARRIER Eraldajad)
+                (*-1 ("ka") BARRIER Eraldajad)
+                (*-1 FinV BARRIER Eraldajad) (NOT 0 (CLB)) ;     
+ADD (CLBC) (*)   (0 KoolTir)(*2 FinV BARRIER Eraldajad)(*-1 FinV BARRIER Eraldajad) (NOT 0 (CLB) OR (CLBC)) ;     
+ADD (CLBC) (*)   (0 KoolTir)(*1 FinV + ("ole") BARRIER Eraldajad)
+                           (*-1 FinV OR (V partic past) BARRIER Eraldajad) (NOT 0 (CLB) OR (CLBC)) ;     
+ADD (CLBC) (*)   (0 KoolTir)(1 FinV)(NOT 1 NudTud)(*-1 FinV BARRIER Eraldajad) (NOT 0 (CLB) OR (CLBC))  ;     
+ADD (CLB) (*)   (0 VoimCLB)(*1C FinV BARRIER Eraldajad)(*-1C FinV BARRIER CLBC) (NOT 0 (CLB))(NOT -1 (CLB))(NOT -2 (CLB))  ;
+
+ADD (CLB) (Z Opr) (*1 (Cpr) LINK *-1C FinV BARRIER (Opr)) ;
+ADD:K2 (CLB) (Z Cpr) (*-1 (Opr) LINK *1C FinV LINK NOT 0 (partic)) ;
+ADD (CLB) (Z Com) (1 (P pers))(2C FinV) ;
+ADD (CLB) (Z Com) (1 ("kuid"))(*2C FinV BARRIER Sid|Kvm) ;
+
+ADD (CLBC) (Z)   (0 (Quo) OR (Oqu))(NOT -1 OnCLB)(*1O (Quo) OR (Cqu) LINK *-1 FinV)(NOT 0 (CLB)) ;
+ADD (CLB) (Z)   (0 (Quo) OR (Oqu))(*-1 FinV BARRIER CLB)(*1O (Quo) OR (Cqu) LINK *-1C FinV)(NOT 0 (CLB)) ;
+ADD (CLB) (Z)   (0 (Quo) OR (Oqu))(-1 (Z))(NOT 0 (CLB)) ;
+ADD (CLB) (Z) (0 (Quo) OR (Cqu))(1C FinV)(*-1 FinV OR (V partic)) (NOT 0 (CLB)) ;
+ADD (CLB) (Z Dsh) (-1 (Quo) OR (Cqu))(NOT 0 (CLB)) ;
+ADD (CLB) (Z)   (0 (Quo) OR (Oqu))(-1 (Col))(NOT 0 (CLB)) ;
+ADD (CLBC) (Z Opr) (*1 (Cpr) LINK *-1 FinV OR (V partic)) (NOT 0 (CLB) OR (CLBC));
+ADD (CLBC) (Z Cpr) (*-1 (Opr) LINK *1 FinV OR (V partic)) (NOT 0 (CLB) OR (CLBC));
+ADD (CLBC) (Z) (*-1 (Cpr) LINK *-1 (Opr) LINK *1 FinV OR (V partic)) (NOT 0 (CLB) OR (CLBC));
+
+ADD (CLBC) (Z) (1 FinV)(NOT 1 NudTud)(*-1 FinV OR (V partic)) (NOT 0 (CLB) OR (CLBC));
+ADD (CLBC) (*) (0 VoimCLB - ("aga")) (*1 FinV OR (V partic) BARRIER Eraldajad)
+	     (*-1 FinV - NudTud BARRIER Eraldajad) (NOT 0 (CLB) OR (CLBC))(NOT -1 (CLB))(NOT -2 (CLB)) ;
+ADD (CLBC) (*) (0 VoimCLB - ("aga")) (*1 FinV OR (V partic) BARRIER Eraldajad)
+	     (*-1 (V partic) BARRIER Eraldajad LINK -1 CLB) (NOT 0 (CLB) OR (CLBC))(NOT -1 (CLB))(NOT -2 (CLB)) ;
+ADD (CLBC) (*) (0 VoimCLB - ("aga")) (*1 FinV OR (V partic) BARRIER Eraldajad)
+	     (-1 FinV OR (V partic)) (NOT 0 (CLB) OR (CLBC))(NOT -1 (CLB))(NOT -2 (CLB)) ;
+
+ADD (CLB) (Dsh) (NOT 0 (CLB))(*-1 FinV BARRIER CLB)(*1 FinV BARRIER J OR CLB) 
+		(*-1 SPNom BARRIER CLB LINK NOT 0 (partic))(*1 SPNom BARRIER J OR CLB LINK NOT 0 (partic)) ;
+ADD (CLB) (*) (-1 (Dsh CLB) OR (Quo CLB)) (NOT 0 (CLB) OR ("</s>"))(NOT *-2 (Dsh))(NOT *1 (Dsh));
+
+
+
+
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 OnCLB)(NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol)
+			(**1 (Com CLB) LINK NOT 1 OnCLB LINK NOT 1 OnCLB); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 EtCLB)(2 ("et"))(NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol)
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 1 OnCLB); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 KuiCLB)(2 ("kui"))(NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol)
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 1 OnCLB); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 NaguCLB)(2 ("nagu"))(NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol)
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 1 OnCLB); 
+
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 OnCLB)
+			(**1 (Com CLB) LINK NOT 1 OnCLB LINK NOT 0 FinV OR DaInf LINK NOT *1 FinV OR DaInf BARRIER CLB OR ComCol); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 EtCLB)(2 ("et"))
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 0 FinV OR DaInf LINK NOT *1 FinV OR DaInf BARRIER CLB OR ComCol); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 KuiCLB)(2 ("kui"))
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 0 FinV OR DaInf LINK NOT *1 FinV OR DaInf BARRIER CLB OR ComCol); 
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 NaguCLB)(2 ("nagu"))
+			(**2 (Com CLB) LINK NOT 1 OnCLB LINK NOT 0 FinV OR DaInf LINK NOT *1 FinV OR DaInf BARRIER CLB OR ComCol); 
+
+
+ADD (CLO) (Com CLB) (NOT 0 CLO)(1 OnCLB)(-1 (S nom))(NOT *-2 FinV OR DaInf BARRIER CLB OR ComCol)
+			(**1 (Com CLB) LINK NOT 1 OnCLB LINK NOT 1 OnCLB); 
+
+ADD (CLC) (Com CLB) (NOT 0 CLC)(NOT 1 OnCLB)(*-1 CLO LINK NOT *1 CLC)(NOT *1 FinV OR DaInf BARRIER CLB OR ComCol); 
+ADD (CLC) (Com CLB) (NOT 0 CLC)(NOT 1 OnCLB)(*-1 CLO LINK NOT *1 CLC)(*-1 CLO LINK NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol); 
+
+ADD (CLC) (Com CLB) (NOT 0 CLC)(NOT 1 OnCLB)(*-1 CLO LINK NOT *1 CLC)(*-1 CLO LINK -1 (S nom) LINK NOT *-1 FinV OR DaInf BARRIER CLB OR ComCol); 
+
+SETPARENT (@J crd) (NONE p (*)) TO (1 (*));
+
+END
