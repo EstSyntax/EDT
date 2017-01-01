@@ -22,7 +22,6 @@
 	"aasta" Lst S com sg el @ADVL #10->8
 "<.>"
 	"." Z Fst #11->11
-
 "</s>"
 
 "<s>"
@@ -640,7 +639,7 @@
 "<üks>"
 	"üks" L0 N card sg nom l @NN> #14->15
 "<ajakiri>"
-	"aja_kiri" L0 S com sg nom @SUBJ #15->0
+	"aja_kiri" L0 S com sg nom @SUBJ #15->10
 "<vähem>"
 	"vähem" L0 D @ADVL #16->15
 "<kui>"
@@ -1347,8 +1346,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @ADVL #2->1
+"<2>"
+	"2" L0 N card @ADVL #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -1369,8 +1370,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N ord @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -1391,28 +1394,34 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<3.>"
-	"3." L0 N card sg nom @NN> #2->3
+"<3>"
+	"3" L0 N card sg nom @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
+"</s>"
+
+"<s>"
+
 "<46>"
-	"46" L0 N card sg nom @<NN #3->1
+	"46" L0 N card sg nom @NN> #1->3
+"<,>"
+	"," Z Com #2->2
+"<XX>"
+	"XX" L0 Y nominal @SUBJ #3->0
 "<,>"
 	"," Z Com #4->4
-"<XX>"
-	"XX" L0 Y nominal @?? #5->0
-"<,>"
-	"," Z Com #6->6
 "<t>"
-	"t" L0 Y nominal @?? #7->0
+	"t" L0 Y nominal @<NN #5->3
 "<(>"
-	"(" Z Opr #8->8
+	"(" Z Opr #6->6
 "<2>"
-	"2" L0 N card @?? #9->0
+	"2" L0 N card @<NN #7->5
 "<;>"
-	";" Z Scl #10->10
+	";" Z Scl #8->8
 "<18>"
-	"18" L0 N card sg nom @?? #11->0
+	"18" L0 N card sg nom @<NN #9->7
 "<)>"
-	")" Z Cpr #12->12
+	")" Z Cpr #10->10
 "</s>"
 
 "<s>"
@@ -1628,7 +1637,7 @@
 "<(>"
 	"(" Z Opr #28->28
 "<1>"
-	"1" L0 N card sg nom @ADVL #29->0
+	"1" L0 N card sg nom @ADVL #29->4
 "<)>"
 	")" Z Cpr #30->30
 "<.>"
@@ -1734,7 +1743,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<2>"
-	"2" L0 N card sg nom @ADVL #19->0
+	"2" L0 N card sg nom @ADVL #19->2
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -1788,7 +1797,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<3>"
-	"3" L0 N card sg nom @ADVL #23->0
+	"3" L0 N card sg nom @ADVL #23->5
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -1884,7 +1893,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<2>"
-	"2" L0 N card sg nom @ADVL #9->0
+	"2" L0 N card sg nom @ADVL #9->4
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -2028,7 +2037,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<4>"
-	"4" L0 N card sg nom @ADVL #15->0
+	"4" L0 N card sg nom @ADVL #15->4
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -2060,7 +2069,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<4>"
-	"4" L0 N card @ADVL #12->0
+	"4" L0 N card @ADVL #12->4
 "<,>"
 	"," Z Com #13->13
 "<5>"
@@ -2124,7 +2133,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<2>"
-	"2" L0 N card @ADVL #26->0
+	"2" L0 N card @ADVL #26->2
 "<,>"
 	"," Z Com #27->27
 "<4>"
@@ -2216,7 +2225,7 @@
 "<autosoomide>"
 	"autosoom" Lde S com pl gen @NN> #9->10
 "<struktuurianomaaliaid>"
-	"struktuuri_anomaalia" Lid S com pl part @SUBJ #10->0
+	"struktuuri_anomaalia" Lid S com pl part @SUBJ #10->4
 "<2,1>"
 	"2,1" L0 N card @ADVL #11->10
 "<->"
@@ -2228,7 +2237,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<4>"
-	"4" L0 N card @ADVL #16->0
+	"4" L0 N card @ADVL #16->4
 "<,>"
 	"," Z Com #17->17
 "<5>"
@@ -2262,7 +2271,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<4>"
-	"4" L0 N card sg nom @ADVL #11->0
+	"4" L0 N card sg nom @ADVL #11->4
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -2272,7 +2281,7 @@
 "<s>"
 
 "<Tabel>"
-	"tabel" L0 S com sg nom @SUBJ #1->0
+	"tabel" L0 S com sg nom @SUBJ #1->12
 "<1>"
 	"1" L0 N card nom sg nom @<NN #2->1
 "<(>"
@@ -2438,7 +2447,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<4-6>"
-	"4-6" L0 N card sg nom @ADVL #21->0
+	"4-6" L0 N card sg nom @ADVL #21->3
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -2468,7 +2477,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<4>"
-	"4" L0 N card sg nom @ADVL #11->0
+	"4" L0 N card sg nom @ADVL #11->7
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -2692,7 +2701,7 @@
 "<TÜ>"
 	"TÜ" L0 Y nominal @NN> #5->9
 "<üld->"
-	"üld" S com <-> @NN> #6->9
+	"üld" L0 S com <-> @NN> #6->9
 "<ja>"
 	"ja" L0 J crd @J #7->8
 "<molekulaarpatoloogia>"
@@ -2850,7 +2859,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<7>"
-	"7" L0 N card sg nom @ADVL #17->0
+	"7" L0 N card sg nom @ADVL #17->12
 "<)>"
 	")" Z Cpr #18->18
 "<ja>"
@@ -2944,7 +2953,7 @@
 "<erinevat>"
 	"erinev" Lt A pos sg part @AN> #16->17
 "<rakuliini>"
-	"raku_liin" L0 S com sg part @<Q #17->14
+	"raku_liin" L0 S com sg part @<Q #17->12
 "<,>"
 	"," Z Com #18->18
 "<mis>"
@@ -3018,7 +3027,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<8>"
-	"8" L0 N card sg nom @ADVL #21->0
+	"8" L0 N card sg nom @ADVL #21->14
 "<)>"
 	")" Z Cpr #22->22
 "<C-vöötide>"
@@ -3134,7 +3143,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<6>"
-	"6" L0 N card @ADVL #28->0
+	"6" L0 N card @ADVL #28->5
 "<,>"
 	"," Z Com #29->29
 "<7>"
@@ -3292,7 +3301,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<4>"
-	"4" L0 N card sg nom @ADVL #28->0
+	"4" L0 N card sg nom @ADVL #28->14
 "<)>"
 	")" Z Cpr #29->29
 "<,>"
@@ -3336,7 +3345,7 @@
 "<(>"
 	"(" Z Opr #49->49
 "<4>"
-	"4" L0 N card @ADVL #50->0
+	"4" L0 N card @ADVL #50->40
 "<,>"
 	"," Z Com #51->51
 "<5>"
@@ -3420,7 +3429,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<5>"
-	"5" L0 N card sg nom @ADVL #21->0
+	"5" L0 N card sg nom @ADVL #21->2
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -3522,11 +3531,11 @@
 "<(>"
 	"(" Z Opr #20->20
 "<47>"
-	"47" L0 N card sg nom @?? #21->0
+	"47" L0 N card sg nom @NN> #21->23
 "<,>"
 	"," Z Com #22->22
 "<XXY>"
-	"XXY" L0 Y nominal @?? #23->0
+	"XXY" L0 Y nominal @<NN #23->18
 "<)>"
 	")" Z Cpr #24->24
 "<(>"
@@ -3574,7 +3583,7 @@
 "<(>"
 	"(" Z Opr #46->46
 "<4>"
-	"4" L0 N card sg nom @ADVL #47->0
+	"4" L0 N card sg nom @ADVL #47->37
 "<)>"
 	")" Z Cpr #48->48
 "<.>"
@@ -3590,29 +3599,29 @@
 "<[>"
 	"[" Z Osq #3->3
 "<46>"
-	"46" L0 N card sg nom @?? #4->0
+	"46" L0 N card sg nom @NN> #4->6
 "<,>"
 	"," Z Com #5->5
 "<XY>"
-	"XY" L0 Y nominal @?? #6->0
+	"XY" L0 Y nominal @<NN #6->1
 "<,>"
 	"," Z Com #7->7
 "<inv>"
-	"inv" L0 S com sg nom @?? #8->0
+	"inv" L0 S com sg nom @<NN #8->6
 "<(>"
 	"(" Z Opr #9->9
 "<9>"
-	"9" L0 N card sg nom @?? #10->0
+	"9" L0 N card sg nom @<NN #10->8
 "<)>"
 	")" Z Cpr #11->11
 "<(>"
 	"(" Z Opr #12->12
 "<p11>"
-	"p11" L0 Y nominal @?? #13->0
+	"p11" L0 Y nominal @<NN #13->8
 "<;>"
 	";" Z Scl #14->14
 "<q13>"
-	"q13" L0 Y nominal @?? #15->0
+	"q13" L0 Y nominal @<NN #15->13
 "<)>"
 	")" Z Cpr #16->16
 "<]>"
@@ -3658,7 +3667,7 @@
 "<(>"
 	"(" Z Opr #37->37
 "<4>"
-	"4" L0 N card sg nom @ADVL #38->0
+	"4" L0 N card sg nom @ADVL #38->27
 "<)>"
 	")" Z Cpr #39->39
 "<.>"
@@ -3736,7 +3745,7 @@
 "<esinemissagedus>"
 	"esinemis_sagedus" L0 S com sg nom @SUBJ #26->28
 "<ei>"
-	"ei" L0 V aux neg @NEG #27->34
+	"ei" L0 V aux neg @NEG #27->28
 "<erine>"
 	"erine" L0 V main indic pres ps neg @FMV #28->4
 "<kirjanduse>"
@@ -3770,21 +3779,21 @@
 "<[>"
 	"[" Z Osq #4->4
 "<46>"
-	"46" L0 N card sg nom @?? #5->0
+	"46" L0 N card sg nom @NN> #5->7
 "<,>"
 	"," Z Com #6->6
 "<Xfra>"
-	"Xfra" L0 S prop sg nom @?? #7->0
+	"Xfra" L0 S prop sg nom @<NN #7->3
 "<(>"
 	"(" Z Opr #8->8
 "<X>"
-	"X" L0 Y nominal @?? #9->0
+	"X" L0 Y nominal @<NN #9->7
 "<)>"
 	")" Z Cpr #10->10
 "<(>"
 	"(" Z Opr #11->11
 "<q27.3>"
-	"q27.3" L0 Y nominal @?? #12->0
+	"q27.3" L0 Y nominal @<NN #12->7
 "<)>"
 	")" Z Cpr #13->13
 "<]>"
@@ -3796,33 +3805,33 @@
 "<[>"
 	"[" Z Osq #17->17
 "<46>"
-	"46" L0 N card sg nom @?? #18->0
+	"46" L0 N card sg nom @NN> #18->20
 "<,>"
 	"," Z Com #19->19
 "<XX>"
-	"XX" L0 Y nominal @?? #20->0
+	"XX" L0 Y nominal @<NN #20->16
 "<,>"
 	"," Z Com #21->21
 "<t>"
-	"t" L0 Y nominal @?? #22->0
+	"t" L0 Y nominal @<NN #22->20
 "<(>"
 	"(" Z Opr #23->23
 "<2>"
-	"2" L0 N card @?? #24->0
+	"2" L0 N card @<NN #24->22
 "<;>"
 	";" Z Scl #25->25
 "<18>"
-	"18" L0 N card sg nom @?? #26->0
+	"18" L0 N card sg nom @<NN #26->24
 "<)>"
 	")" Z Cpr #27->27
 "<(>"
 	"(" Z Opr #28->28
 "<q23>"
-	"q23" L0 Y nominal @?? #29->0
+	"q23" L0 Y nominal @<NN #29->22
 "<;>"
 	";" Z Scl #30->30
 "<q23>"
-	"q23" L0 Y nominal @?? #31->0
+	"q23" L0 Y nominal @<NN #31->29
 "<)>"
 	")" Z Cpr #32->32
 "<]>"
@@ -3876,7 +3885,7 @@
 "<(>"
 	"(" Z Opr #57->57
 "<4>"
-	"4" L0 N card @ADVL #58->0
+	"4" L0 N card @ADVL #58->48
 "<,>"
 	"," Z Com #59->59
 "<5>"
@@ -3998,7 +4007,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<9qh+>"
-	"9qh+" Y nominal @<NN #8->6
+	"9qh+" L0 Y nominal @<NN #8->6
 "<)>"
 	")" Z Cpr #9->9
 "<3>"
@@ -4032,7 +4041,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<9qh+>"
-	"9qh+" Y nominal @<NN #25->23
+	"9qh+" L0 Y nominal @<NN #25->23
 "<ja>"
 	"ja" L0 J crd @J #26->27
 "<Yqh+>"
@@ -4090,7 +4099,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<6>"
-	"6" L0 N card sg nom @ADVL #21->0
+	"6" L0 N card sg nom @ADVL #21->12
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -4192,7 +4201,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<9>"
-	"9" L0 N card sg nom @ADVL #13->0
+	"9" L0 N card sg nom @ADVL #13->2
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -4286,7 +4295,7 @@
 "<ja>"
 	"ja" L0 J crd @J #5->6
 "<kromosoomivariante>"
-	"kromosoomi_variant" Le S com pl part @SUBJ #6->0
+	"kromosoomi_variant" Le S com pl part @SUBJ #6->1
 "<kolmes>"
 	"kolm" Ls N card sg in l @ADVL #7->6
 "<peres>"
@@ -4400,7 +4409,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<9>"
-	"9" L0 N card sg nom @ADVL #14->0
+	"9" L0 N card sg nom @ADVL #14->2
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -4538,7 +4547,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<10>"
-	"10" L0 N card sg nom @ADVL #13->0
+	"10" L0 N card sg nom @ADVL #13->3
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -4576,33 +4585,33 @@
 "<karüotüüp>"
 	"karüo_tüüp" L0 S com sg nom @SUBJ #5->3
 "<46>"
-	"46" L0 N card sg nom @?? #6->0
+	"46" L0 N card sg nom @NN> #6->8
 "<,>"
 	"," Z Com #7->7
 "<XX>"
-	"XX" L0 Y nominal @?? #8->0
+	"XX" L0 Y nominal @PRD #8->3
 "<,>"
 	"," Z Com #9->9
 "<t>"
-	"t" L0 Y nominal @?? #10->0
+	"t" L0 Y nominal @<NN #10->8
 "<(>"
 	"(" Z Opr #11->11
 "<2>"
-	"2" L0 N card @?? #12->0
+	"2" L0 N card @<NN #12->10
 "<;>"
 	";" Z Scl #13->13
 "<18>"
-	"18" L0 N card sg nom @?? #14->0
+	"18" L0 N card sg nom @<NN #14->12
 "<)>"
 	")" Z Cpr #15->15
 "<(>"
 	"(" Z Opr #16->16
 "<q23>"
-	"q23" L0 Y nominal @?? #17->0
+	"q23" L0 Y nominal @<NN #17->10
 "<;>"
 	";" Z Scl #18->18
 "<q23>"
-	"q23" L0 Y nominal @?? #19->0
+	"q23" L0 Y nominal @<NN #19->17
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -4742,23 +4751,23 @@
 "<vastavalt>"
 	"vastavalt" L0 D @DN> #8->11
 "<46>"
-	"46" L0 N card sg nom @PRD #9->5
+	"46" L0 N card sg nom @NN> #9->11
 "<,>"
 	"," Z Com #10->10
 "<XX>"
-	"XX" L0 N ord sg nom @<NN #11->9
+	"XX" L0 N ord sg nom @PRD #11->5
 "<ja>"
-	"ja" L0 J crd @J #12->17
+	"ja" L0 J crd @J #12->15
 "<46>"
-	"46" L0 N card sg nom @PRD #13->9
+	"46" L0 N card sg nom @NN> #13->15
 "<,>"
 	"," Z Com #14->14
 "<XX>"
-	"XX" L0 Y nominal @<NN #15->13
+	"XX" L0 Y nominal @PRD #15->11
 "<,>"
 	"," Z Com #16->16
 "<9qh+>"
-	"9qh+" Y nominal @<NN #17->13
+	"9qh+" L0 Y nominal @<NN #17->15
 "<.>"
 	"." Z Fst #18->18
 "</s>"
@@ -4826,7 +4835,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<2>"
-	"2" L0 N card sg nom @ADVL #16->0
+	"2" L0 N card sg nom @ADVL #16->3
 "<)>"
 	")" Z Cpr #17->17
 "<.>"
@@ -4855,8 +4864,10 @@
 	"rakk" Lde S com pl gen @NN> #9->10
 "<küpsemist>"
 	"küpsemine" Lt S com sg part @OBJ #10->7
-"<jm.>"
+"<jm>"
 	"jm" L0 Y nominal @ADVL #11->7
+"<.>"
+	"." Z Fst #12->12
 "</s>"
 
 "<s>"
@@ -4888,7 +4899,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<11>"
-	"11" L0 N card sg nom @ADVL #14->0
+	"11" L0 N card sg nom @ADVL #14->4
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -4908,15 +4919,15 @@
 "<karüotüüp>"
 	"karüo_tüüp" L0 S com sg nom @SUBJ #5->3
 "<46>"
-	"46" L0 N card sg nom @PRD #6->3
+	"46" L0 N card sg nom @NN> #6->8
 "<,>"
 	"," Z Com #7->7
 "<X>"
-	"X" L0 N ord @<NN #8->6
+	"X" L0 N ord @PRD #8->3
 "<,>"
 	"," Z Com #9->9
 "<fra>"
-	"fra" L0 S com sg nom @<NN #10->6
+	"fra" L0 S com sg nom @<NN #10->8
 "<(>"
 	"(" Z Opr #11->11
 "<X>"
@@ -5392,7 +5403,7 @@
 "<juhul>"
 	"juht" Ll S com sg ad @ADVL #12->13
 "<41%>"
-	"41%" L0 N card sg in @ADVL #13->0
+	"41%" L0 N card sg in @ADVL #13->3
 "<rakkudes>"
 	"rakk" Ldes S com pl in @<Q #14->13
 "<.>"
@@ -5438,21 +5449,21 @@
 "<on>"
 	"ole" L0 V aux indic pres ps3 sg ps af @FCV #3->19
 "<inv>"
-	"inv" L0 S com sg nom @?? #4->0
+	"inv" L0 S com sg nom @NN> #4->13
 "<(>"
 	"(" Z Opr #5->5
 "<9>"
-	"9" L0 N card sg nom @?? #6->0
+	"9" L0 N card sg nom @<NN #6->4
 "<)>"
 	")" Z Cpr #7->7
 "<(>"
 	"(" Z Opr #8->8
 "<p11>"
-	"p11" L0 Y nominal @?? #9->0
+	"p11" L0 Y nominal @<NN #9->4
 "<;>"
 	";" Z Scl #10->10
 "<q13>"
-	"q13" L0 Y nominal @?? #11->0
+	"q13" L0 Y nominal @<NN #11->9
 "<)>"
 	")" Z Cpr #12->12
 "<tähtsusele>"
@@ -5490,7 +5501,7 @@
 "<(>"
 	"(" Z Opr #29->29
 "<9>"
-	"9" L0 N card @ADVL #30->0
+	"9" L0 N card @ADVL #30->23
 "<,>"
 	"," Z Com #31->31
 "<12>"
@@ -5522,7 +5533,7 @@
 "<,>"
 	"," Z Com #9->9
 "<9qh+>"
-	"9qh+" Y nominal @<NN #10->8
+	"9qh+" L0 Y nominal @<NN #10->8
 "<.>"
 	"." Z Fst #11->11
 "</s>"
@@ -5630,35 +5641,35 @@
 "<oli>"
 	"ole" Li V main indic impf ps3 sg ps af @FMV #3->0
 "<46>"
-	"46" L0 N card sg nom @?? #4->0
+	"46" L0 N card sg nom @NN> #4->6
 "<,>"
 	"," Z Com #5->5
 "<XY>"
-	"XY" L0 Y nominal @?? #6->0
+	"XY" L0 Y nominal @PRD #6->3
 "<,>"
 	"," Z Com #7->7
 "<inv>"
-	"inv" L0 S com sg nom @?? #8->0
+	"inv" L0 S com sg nom @<NN #8->6
 "<(>"
 	"(" Z Opr #9->9
 "<9>"
-	"9" L0 N card sg nom @?? #10->0
+	"9" L0 N card sg nom @<NN #10->8
 "<)>"
 	")" Z Cpr #11->11
 "<(>"
 	"(" Z Opr #12->12
 "<p11q13>"
-	"p11q13" L0 Y nominal @?? #13->0
+	"p11q13" L0 Y nominal @<NN #13->8
 "<)>"
 	")" Z Cpr #14->14
 "<,>"
 	"," Z Com #15->15
 "<9qh+>"
-	"9qh+" Y nominal @?? #16->0
+	"9qh+" L0 Y nominal @<NN #16->6
 "<,>"
 	"," Z Com #17->17
 "<Yqh+>"
-	"Yqh+" L0 Y nominal @?? #18->0
+	"Yqh+" L0 Y nominal @<NN #18->6
 "<.>"
 	"." Z Fst #19->19
 "</s>"
@@ -5824,7 +5835,7 @@
 "<aasta>"
 	"aasta" L0 S com sg gen @<Q #24->23
 "<4>"
-	"4" L0 N card sg nom @SUBJ #25->0
+	"4" L0 N card sg nom @SUBJ #25->18
 "<peret>"
 	"pere" Lt S com sg part @<Q #26->25
 "<.>"
@@ -5856,7 +5867,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<vt>"
-	"vt" L0 Y nominal @IMV #12->0
+	"vt" L0 Y nominal @IMV #12->4
 "<jn>"
 	"jn" L0 Y nominal @OBJ #13->12
 "<4>"
@@ -5950,7 +5961,7 @@
 "<et>"
 	"et" L0 J sub @J #6->13
 "<1>"
-	"1" L0 N card sg nom @ADVL #7->0
+	"1" L0 N card sg nom @ADVL #7->13
 "<)>"
 	")" Z Cpr #8->8
 "<uuritud>"
@@ -5996,7 +6007,7 @@
 "<s>"
 
 "<2>"
-	"2" L0 N card sg nom @ADVL #1->0
+	"2" L0 N card sg nom @ADVL #1->5
 "<)>"
 	")" Z Cpr #2->2
 "<kromosoomianomaaliate>"
@@ -6050,7 +6061,7 @@
 "<s>"
 
 "<3>"
-	"3" L0 N card sg nom @ADVL #1->0
+	"3" L0 N card sg nom @ADVL #1->9
 "<)>"
 	")" Z Cpr #2->2
 "<kromosoomivariantide>"
@@ -6078,7 +6089,7 @@
 "<s>"
 
 "<4>"
-	"4" L0 N card sg nom @ADVL #1->0
+	"4" L0 N card sg nom @ADVL #1->10
 "<)>"
 	")" Z Cpr #2->2
 "<üle>"
@@ -6321,8 +6332,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -6366,7 +6379,7 @@
 "<10-12p>"
 	"10-12p" L0 N card nominal @NN> #19->17
 "<rühm>"
-	"rühm" L0 S com sg nom @SUBJ #20->0
+	"rühm" L0 S com sg nom @SUBJ #20->3
 "<koos>"
 	"koos" L0 D @ADVL #21->20
 "<)>"
@@ -6802,7 +6815,7 @@
 "<ning>"
 	"ning" L0 J crd @J #19->20
 "<võrrelda>"
-	"võrdle" Lda V main inf @IMV #20->3
+	"võrdle" Lda V main inf @SUBJ #20->4
 "<seda>"
 	"see" Lda P dem sg part @OBJ #21->20
 "<10-12päevast>"
@@ -6870,15 +6883,17 @@
 "<mehi>"
 	"mees" L0 S com pl part @SUBJ #18->19
 "<oli>"
-	"ole" Li V main indic impf ps3 sg ps af @FMV #19->0
+	"ole" Li V main indic impf ps3 sg ps af @FMV #19->2
 "<178>"
 	"178" L0 N card sg nom @ADVL #20->19
 "<ja>"
 	"ja" L0 J crd @J #21->22
 "<naisi>"
-	"naine" L0 S com pl part @SUBJ #22->0
-"<446.>"
-	"446." L0 N card @ADVL #23->22
+	"naine" L0 S com pl part @SUBJ #22->19
+"<446>"
+	"446" L0 N card @ADVL #23->22
+"<.>"
+	"." Z Fst #24->24
 "</s>"
 
 "<s>"
@@ -7360,7 +7375,7 @@
 "<Ritchie>"
 	"Ritchie" L0 S prop sg gen @NN> #9->10
 "<liigeseindeks>"
-	"liigese_indeks" L0 S com sg nom @SUBJ #10->0
+	"liigese_indeks" L0 S com sg nom @<NN #10->6
 "<ning>"
 	"ning" L0 J crd @J #11->17
 "<gon->"
@@ -7374,7 +7389,7 @@
 "<Lequesne'i>"
 	"Lequesne" L0 S prop sg gen @NN> #16->17
 "<indeks>"
-	"indeks" L0 S com sg nom @SUBJ #17->10
+	"indeks" L0 S com sg nom @<NN #17->10
 "<;>"
 	";" Z Scl #18->18
 "<RA-rühmas>"
@@ -7382,7 +7397,7 @@
 "<Ritchie>"
 	"Ritchie" L0 S prop sg gen @NN> #20->21
 "<liigeseindeks>"
-	"liigese_indeks" L0 S com sg nom @SUBJ #21->17
+	"liigese_indeks" L0 S com sg nom @<NN #21->17
 "<;>"
 	";" Z Scl #22->22
 "<SPO-rühmas>"
@@ -7394,7 +7409,7 @@
 "<töötatud>"
 	"tööta=tud" L0 A pos partic @AN> #26->27
 "<küsimustikud>"
-	"küsimustik" Ld S com pl nom @SUBJ #27->21
+	"küsimustik" Ld S com pl nom @<NN #27->21
 "<3>"
 	"3" L0 N card sg gen @NN> #28->30
 "<palli>"
@@ -7446,7 +7461,7 @@
 "<Tomaieri>"
 	"Tomaier" L0 S prop sg gen @NN> #52->53
 "<sümptom>"
-	"sümptom" L0 S com sg nom @SUBJ #53->27
+	"sümptom" L0 S com sg nom @<NN #53->27
 "<sentimeetrites>"
 	"senti_meeter" Ltes S com pl in @<NN #54->53
 "<.>"
@@ -7810,11 +7825,11 @@
 "<(>"
 	"(" Z Opr #12->12
 "<n>"
-	"n" L0 Y nominal @SUBJ #13->14
+	"n" L0 Y nominal @<NN #13->11
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #14->2
+	"=" L0 Y @J #14->15
 "<264>"
-	"264" L0 N card sg nom @ADVL #15->14
+	"264" L0 N card sg nom @<NN #15->13
 "<)>"
 	")" Z Cpr #16->16
 "<ja>"
@@ -7826,11 +7841,11 @@
 "<(>"
 	"(" Z Opr #20->20
 "<n>"
-	"n" L0 Y nominal @SUBJ #21->22
+	"n" L0 Y nominal @<NN #21->19
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #22->2
+	"=" L0 Y @J #22->23
 "<70>"
-	"70" L0 N card sg nom @ADVL #23->22
+	"70" L0 N card sg nom @<NN #23->21
 "<)>"
 	")" Z Cpr #24->24
 "<rühmas>"
@@ -7986,13 +8001,13 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #13->14
 "<67,2%>"
-	"67,2%" L0 N card @ADVL #14->0
+	"67,2%" L0 N card @ADVL #14->3
 "<haigetest>"
 	"haige" Ltest S com pl el @<NN #15->14
 "<(>"
 	"(" Z Opr #16->16
 "<vt>"
-	"vt" L0 Y nominal @IMV #17->0
+	"vt" L0 Y nominal @IMV #17->3
 "<jn>"
 	"jn" L0 Y nominal @OBJ #18->17
 "<1>"
@@ -8048,13 +8063,13 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #13->14
 "<67,3>"
-	"67,3" L0 N card @PRD #14->0
+	"67,3" L0 N card @PRD #14->7
 "<->"
 	"-" Z Dsh #15->15
 "<9,2>"
 	"9,2" L0 N card sg nom @PRD #16->14
 "<aastat>"
-	"aasta" Lt S com sg part @<Q #17->16
+	"aasta" Lt S com sg part @<Q #17->14
 "<,>"
 	"," Z Com #18->18
 "<see>"
@@ -8160,11 +8175,11 @@
 "<(>"
 	"(" Z Opr #13->13
 "<n>"
-	"n" L0 Y nominal @SUBJ #14->15
+	"n" L0 Y nominal @<NN #14->12
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #15->19
+	"=" L0 Y @J #15->16
 "<26>"
-	"26" L0 N card sg nom @ADVL #16->15
+	"26" L0 N card sg nom @<NN #16->14
 "<)>"
 	")" Z Cpr #17->17
 "<tõttu>"
@@ -8230,13 +8245,13 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #13->14
 "<59,1>"
-	"59,1" L0 N card @PRD #14->0
+	"59,1" L0 N card @PRD #14->7
 "<->"
 	"-" Z Dsh #15->15
 "<8,6>"
 	"8,6" L0 N card sg nom @PRD #16->14
 "<aastat>"
-	"aasta" Lt S com sg part @<Q #17->16
+	"aasta" Lt S com sg part @<Q #17->14
 "<;>"
 	";" Z Scl #18->18
 "<erinevus>"
@@ -8336,11 +8351,11 @@
 "<(>"
 	"(" Z Opr #7->7
 "<n>"
-	"n" L0 Y nominal @SUBJ #8->9
+	"n" L0 Y nominal @<NN #8->6
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #9->12
+	"=" L0 Y @J #9->10
 "<295>"
-	"295" L0 N card sg nom @PRD #10->9
+	"295" L0 N card sg nom @<NN #10->8
 "<)>"
 	")" Z Cpr #11->11
 "<oli>"
@@ -8358,11 +8373,11 @@
 "<(>"
 	"(" Z Opr #18->18
 "<n>"
-	"n" L0 Y nominal @SUBJ #19->20
+	"n" L0 Y nominal @<NN #19->17
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #20->23
+	"=" L0 Y @J #20->21
 "<106>"
-	"106" L0 N card @ADVL #21->20
+	"106" L0 N card @<NN #21->19
 "<)>"
 	")" Z Cpr #22->22
 "<1,44>"
@@ -8438,7 +8453,7 @@
 "<pööramise>"
 	"pööramine" L0 S com sg gen @NN> #10->11
 "<piiratus>"
-	"piiratud" Ls A pos sg in @SUBJ #11->0
+	"piiratud" Ls A pos sg in @SUBJ #11->5
 "<52,8%>"
 	"52,8%" L0 N card @ADVL #12->11
 "<;>"
@@ -8559,8 +8574,10 @@
 	"indeks" L0 S com sg nom @<NN #26->22
 "<üle>"
 	"üle" L0 K pre @<KN #27->26
-"<2.>"
-	"2." L0 N card @<P #28->27
+"<2>"
+	"2" L0 N card @<P #28->27
+"<.>"
+	"." Z Fst #29->29
 "</s>"
 
 "<s>"
@@ -8660,13 +8677,13 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #14->15
 "<63,6>"
-	"63,6" L0 N card @PRD #15->0
+	"63,6" L0 N card @PRD #15->8
 "<->"
 	"-" Z Dsh #16->16
 "<11,2>"
 	"11,2" L0 N card sg nom @PRD #17->15
 "<aastat>"
-	"aasta" Lt S com sg part @<Q #18->17
+	"aasta" Lt S com sg part @<Q #18->15
 "<;>"
 	";" Z Scl #19->19
 "<vanuseline>"
@@ -8714,11 +8731,11 @@
 "<(>"
 	"(" Z Opr #15->15
 "<p>"
-	"p" L0 Y nominal @SUBJ #16->17
+	"p" L0 Y nominal @<NN #16->14
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #17->4
+	"=" L0 Y @J #17->18
 "<0,02>"
-	"0,02" L0 N card sg nom @ADVL #18->17
+	"0,02" L0 N card sg nom @<NN #18->16
 "<)>"
 	")" Z Cpr #19->19
 "<.>"
@@ -8856,11 +8873,11 @@
 "<(>"
 	"(" Z Opr #12->12
 "<p>"
-	"p" L0 Y nominal @SUBJ #13->14
+	"p" L0 Y nominal @<NN #13->11
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #14->3
+	"=" L0 Y @J #14->15
 "<0,09>"
-	"0,09" L0 N card sg nom @ADVL #15->14
+	"0,09" L0 N card sg nom @<NN #15->13
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -8888,11 +8905,11 @@
 "<(>"
 	"(" Z Opr #9->9
 "<n>"
-	"n" L0 Y nominal @SUBJ #10->11
+	"n" L0 Y nominal @<NN #10->8
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #11->3
+	"=" L0 Y @J #11->12
 "<44>"
-	"44" L0 N card sg nom @ADVL #12->11
+	"44" L0 N card sg nom @<NN #12->10
 "<)>"
 	")" Z Cpr #13->13
 "<või>"
@@ -8902,11 +8919,11 @@
 "<(>"
 	"(" Z Opr #16->16
 "<n>"
-	"n" L0 Y nominal @SUBJ #17->18
+	"n" L0 Y nominal @<NN #17->15
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #18->11
+	"=" L0 Y @J #18->19
 "<357>"
-	"357" L0 N card sg nom @ADVL #19->18
+	"357" L0 N card sg nom @<NN #19->17
 "<)>"
 	")" Z Cpr #20->20
 "<ravi>"
@@ -8950,13 +8967,13 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #13->14
 "<48,1>"
-	"48,1" L0 N card @PRD #14->0
+	"48,1" L0 N card @PRD #14->7
 "<->"
 	"-" Z Dsh #15->15
 "<8,6>"
 	"8,6" L0 N card sg nom @PRD #16->14
 "<aastat>"
-	"aasta" Lt S com sg part @<Q #17->16
+	"aasta" Lt S com sg part @<Q #17->14
 "<;>"
 	";" Z Scl #18->18
 "<erinevus>"
@@ -9094,11 +9111,11 @@
 "<(>"
 	"(" Z Opr #25->25
 "<p>"
-	"p" L0 Y nominal @SUBJ #26->27
+	"p" L0 Y nominal @<NN #26->24
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #27->20
+	"=" L0 Y @J #27->28
 "<0,054>"
-	"0,054" L0 N card sg nom @ADVL #28->27
+	"0,054" L0 N card sg nom @<NN #28->26
 "<)>"
 	")" Z Cpr #29->29
 "<ning>"
@@ -9112,11 +9129,11 @@
 "<(>"
 	"(" Z Opr #34->34
 "<p>"
-	"p" L0 Y nominal @SUBJ #35->36
+	"p" L0 Y nominal @<NN #35->33
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #36->20
+	"=" L0 Y @J #36->37
 "<0,056>"
-	"0,056" L0 N card sg nom @ADVL #37->36
+	"0,056" L0 N card sg nom @<NN #37->35
 "<)>"
 	")" Z Cpr #38->38
 "<.>"
@@ -9150,11 +9167,11 @@
 "<(>"
 	"(" Z Opr #9->9
 "<n>"
-	"n" L0 Y nominal @SUBJ #10->11
+	"n" L0 Y nominal @<NN #10->8
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #11->5
+	"=" L0 Y @J #11->12
 "<47>"
-	"47" L0 N card @ADVL #12->11
+	"47" L0 N card @<NN #12->10
 "<)>"
 	")" Z Cpr #13->13
 "<2,23>"
@@ -9182,11 +9199,11 @@
 "<(>"
 	"(" Z Opr #25->25
 "<n>"
-	"n" L0 Y nominal @SUBJ #26->27
+	"n" L0 Y nominal @<NN #26->24
 "<=>"
-	"=" "võrdu" Lb V main indic pres ps3 sg ps af @FMV #27->5
+	"=" L0 Y @J #27->28
 "<13>"
-	"13" L0 N card @ADVL #28->27
+	"13" L0 N card @<NN #28->26
 "<)>"
 	")" Z Cpr #29->29
 "<1,79>"
@@ -9270,7 +9287,7 @@
 "<ja>"
 	"ja" L0 J crd @J #10->11
 "<VAS>"
-	"VAS" L0 Y nominal @SUBJ #11->0
+	"VAS" L0 Y nominal @SUBJ #11->5
 "<78%>"
 	"78%" L0 N card @ADVL #12->11
 "<haigetest>"
@@ -9310,7 +9327,7 @@
 "<rühmas>"
 	"rühm" Ls S com sg in @ADVL #14->15
 "<59,0>"
-	"59,0" L0 N card sg nom @PRD #15->0
+	"59,0" L0 N card sg nom @PRD #15->7
 "<(>"
 	"(" Z Opr #16->16
 "<6,2>"
@@ -9522,7 +9539,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<1>"
-	"1" L0 N card @ADVL #23->0
+	"1" L0 N card @ADVL #23->21
 "<,>"
 	"," Z Com #24->24
 "<2>"
@@ -9558,7 +9575,7 @@
 "<(>"
 	"(" Z Opr #40->40
 "<1>"
-	"1" L0 N card sg nom @ADVL #41->0
+	"1" L0 N card sg nom @ADVL #41->38
 "<)>"
 	")" Z Cpr #42->42
 "<,>"
@@ -9572,7 +9589,7 @@
 "<(>"
 	"(" Z Opr #47->47
 "<3>"
-	"3" L0 N card sg nom @ADVL #48->0
+	"3" L0 N card sg nom @ADVL #48->46
 "<)>"
 	")" Z Cpr #49->49
 "<.>"
@@ -9644,7 +9661,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<1>"
-	"1" L0 N card @ADVL #15->0
+	"1" L0 N card @ADVL #15->3
 "<,>"
 	"," Z Com #16->16
 "<4>"
@@ -9680,7 +9697,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<3>"
-	"3" L0 N card @ADVL #12->0
+	"3" L0 N card @ADVL #12->8
 "<,>"
 	"," Z Com #13->13
 "<4>"
@@ -9708,7 +9725,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<4>"
-	"4" L0 N card sg nom @ADVL #26->0
+	"4" L0 N card sg nom @ADVL #26->19
 "<)>"
 	")" Z Cpr #27->27
 "<,>"
@@ -9776,7 +9793,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<3>"
-	"3" L0 N card @ADVL #22->0
+	"3" L0 N card @ADVL #22->2
 "<,>"
 	"," Z Com #23->23
 "<4>"
@@ -10076,7 +10093,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<3>"
-	"3" L0 N card sg nom @ADVL #14->0
+	"3" L0 N card sg nom @ADVL #14->2
 "<)>"
 	")" Z Cpr #15->15
 "<,>"
@@ -10160,7 +10177,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<5>"
-	"5" L0 N card @ADVL #18->0
+	"5" L0 N card @ADVL #18->7
 "<,>"
 	"," Z Com #19->19
 "<6>"
@@ -10270,7 +10287,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<3>"
-	"3" L0 N card @ADVL #12->0
+	"3" L0 N card @ADVL #12->2
 "<,>"
 	"," Z Com #13->13
 "<8>"
@@ -10308,7 +10325,7 @@
 "<(>"
 	"(" Z Opr #30->30
 "<10>"
-	"10" L0 N card sg nom @ADVL #31->0
+	"10" L0 N card sg nom @ADVL #31->20
 "<)>"
 	")" Z Cpr #32->32
 "<.>"
@@ -10995,8 +11012,10 @@
 	"ole" Lvat V main quot pres ps af @OBJ #6->2
 "<üle>"
 	"üle" L0 K pre @ADVL #7->6
-"<50.>"
-	"50." L0 N ord @<P #8->7
+"<50>"
+	"50" L0 N card @<P #8->7
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -11088,7 +11107,7 @@
 "<ja>"
 	"ja" L0 J crd @J #18->19
 "<seda>"
-	"see" Lda P dem sg part @SUBJ #19->0
+	"see" Lda P dem sg part @SUBJ #19->11
 "<põhiliselt>"
 	"põhiliselt" L0 D @DN> #20->22
 "<Alzheimeri>"
@@ -11356,7 +11375,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<1>"
-	"1" L0 N card sg nom @ADVL #17->0
+	"1" L0 N card sg nom @ADVL #17->4
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -11388,7 +11407,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<2>"
-	"2" L0 N card sg nom @ADVL #12->0
+	"2" L0 N card sg nom @ADVL #12->4
 "<)>"
 	")" Z Cpr #13->13
 "<,>"
@@ -11414,7 +11433,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<3>"
-	"3" L0 N card sg nom @ADVL #25->0
+	"3" L0 N card sg nom @ADVL #25->21
 "<)>"
 	")" Z Cpr #26->26
 "<.>"
@@ -11520,7 +11539,7 @@
 "<(>"
 	"(" Z Opr #6->6
 "<4>"
-	"4" L0 N card sg nom @ADVL #7->0
+	"4" L0 N card sg nom @ADVL #7->3
 "<)>"
 	")" Z Cpr #8->8
 "<,>"
@@ -11600,7 +11619,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<5>"
-	"5" L0 N card sg nom @ADVL #13->0
+	"5" L0 N card sg nom @ADVL #13->3
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -11746,7 +11765,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<6>"
-	"6" L0 N card sg nom @ADVL #25->0
+	"6" L0 N card sg nom @ADVL #25->1
 "<)>"
 	")" Z Cpr #26->26
 "<.>"
@@ -12104,7 +12123,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<7>"
-	"7" L0 N card sg nom @ADVL #19->0
+	"7" L0 N card sg nom @ADVL #19->5
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -12130,7 +12149,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<RHK-10>"
-	"RHK-10" L0 N card sg nom @ADVL #9->0
+	"RHK-10" L0 N card sg nom @ADVL #9->3
 "<)>"
 	")" Z Cpr #10->10
 "<:>"
@@ -12140,7 +12159,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Ägeda>"
 	"äge" L0 A pos sg gen @AN> #2->3
 "<algusega>"
@@ -12182,7 +12201,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<F>"
-	"F" L0 Y nominal @ADVL #15->0
+	"F" L0 Y nominal @ADVL #15->4
 "<01.0>"
 	"01.0" L0 N card sg nom @ADVL #16->15
 "<)>"
@@ -12194,7 +12213,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->7
 "<Multiinfarktne>"
 	"multi_infarktne" L0 A pos sg nom @AN> #2->7
 "<(>"
@@ -12210,7 +12229,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<F>"
-	"F" L0 Y nominal @ADVL #9->0
+	"F" L0 Y nominal @ADVL #9->7
 "<01.1>"
 	"01.1" L0 N card sg nom @ADVL #10->9
 "<)>"
@@ -12222,7 +12241,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Subkortikaalne>"
 	"subkortikaalne" L0 A pos sg nom @AN> #2->3
 "<VD>"
@@ -12230,7 +12249,7 @@
 "<(>"
 	"(" Z Opr #4->4
 "<F>"
-	"F" L0 Y nominal @ADVL #5->0
+	"F" L0 Y nominal @ADVL #5->3
 "<01.2>"
 	"01.2" L0 N card sg nom @ADVL #6->5
 "<)>"
@@ -12260,7 +12279,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->5
 "<Lakunaarsetest>"
 	"lakunaarne" Ltest A pos sg el @AN> #2->3
 "<infarktidest>"
@@ -12276,7 +12295,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Binswangeri>"
 	"Binswanger" L0 S prop sg gen @NN> #2->3
 "<tõbi>"
@@ -12288,7 +12307,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Esineda>"
 	"esine" Lda V main inf @IMV #2->0
 "<võib>"
@@ -12312,7 +12331,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<F>"
-	"F" L0 Y nominal @ADVL #13->0
+	"F" L0 Y nominal @ADVL #13->2
 "<01.3>"
 	"01.3" L0 N card sg nom @ADVL #14->13
 "<)>"
@@ -12385,8 +12404,10 @@
 	"CADASIL" Ll Y nominal @<NN #30->27
 "<)>"
 	")" Z Cpr #31->31
-"<jt.>"
+"<jt>"
 	"jt" L0 Y nominal @<NN #32->27
+"<.>"
+	"." Z Fst #33->33
 "</s>"
 
 "<s>"
@@ -12604,7 +12625,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<8>"
-	"8" L0 N card sg nom @ADVL #15->0
+	"8" L0 N card sg nom @ADVL #15->2
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -12646,7 +12667,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<9>"
-	"9" L0 N card sg nom @ADVL #17->0
+	"9" L0 N card sg nom @ADVL #17->11
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -12762,7 +12783,7 @@
 "<(>"
 	"(" Z Opr #33->33
 "<10>"
-	"10" L0 N card sg nom @ADVL #34->0
+	"10" L0 N card sg nom @ADVL #34->4
 "<)>"
 	")" Z Cpr #35->35
 "<.>"
@@ -12944,7 +12965,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<vt>"
-	"vt" L0 Y nominal @IMV #13->0
+	"vt" L0 Y nominal @IMV #13->11
 "<jn>"
 	"jn" L0 Y nominal @OBJ #14->13
 "<1>"
@@ -12988,7 +13009,7 @@
 "<s>"
 
 "<Kesk->"
-	"kesk" S com cap <-> @NN> #1->4
+	"kesk" L0 S com cap <-> @NN> #1->4
 "<ja>"
 	"ja" L0 J crd @J #2->3
 "<vaheaju>"
@@ -13062,7 +13083,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<11>"
-	"11" L0 N card sg nom @ADVL #13->0
+	"11" L0 N card sg nom @ADVL #13->3
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -13298,7 +13319,7 @@
 "<juhtudest>"
 	"juht" Ldest S com pl el @<NN #16->15
 "<afaasia>"
-	"afaasia" L0 S com sg nom @SUBJ #17->0
+	"afaasia" L0 S com sg nom @SUBJ #17->13
 "<,>"
 	"," Z Com #18->18
 "<12%>"
@@ -13348,7 +13369,7 @@
 "<,>"
 	"," Z Com #12->12
 "<hemiparees>"
-	"hemi_parees" L0 S com sg nom @SUBJ #13->0
+	"hemi_parees" L0 S com sg nom @SUBJ #13->9
 "<24%>"
 	"24%" L0 N card @ADVL #14->13
 "<ja>"
@@ -13366,7 +13387,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<12>"
-	"12" L0 N card sg nom @ADVL #22->0
+	"12" L0 N card sg nom @ADVL #22->9
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -13450,7 +13471,7 @@
 "<(>"
 	"(" Z Opr #32->32
 "<12>"
-	"12" L0 N card sg nom @ADVL #33->0
+	"12" L0 N card sg nom @ADVL #33->1
 "<)>"
 	")" Z Cpr #34->34
 "<.>"
@@ -13908,7 +13929,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<13>"
-	"13" L0 N card sg nom @ADVL #11->0
+	"13" L0 N card sg nom @ADVL #11->3
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -13940,7 +13961,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<silent>"
-	"silent" L0 S com sg nom @?? #12->0
+	"silent" L0 S com sg nom @<NN #12->10
 "<)>"
 	")" Z Cpr #13->13
 "<infarktideks>"
@@ -13962,7 +13983,7 @@
 "<ja>"
 	"ja" L0 J crd @J #5->6
 "<seda>"
-	"see" Lda P dem sg part @SUBJ #6->0
+	"see" Lda P dem sg part @SUBJ #6->3
 "<eriti>"
 	"eriti" L0 D @DN> #7->8
 "<frontaalsagaras>"
@@ -14070,7 +14091,7 @@
 "<,>"
 	"," Z Com #10->10
 "<enam>"
-	"enam" L0 D @ADVL #11->2
+	"enam" L0 D @DN> #11->13
 "<frontaalsagara>"
 	"frontaal_sagar" L0 S com sg gen @NN> #12->13
 "<valgeaines>"
@@ -14110,7 +14131,7 @@
 "<(>"
 	"(" Z Opr #30->30
 "<14>"
-	"14" L0 N card sg nom @ADVL #31->0
+	"14" L0 N card sg nom @ADVL #31->2
 "<)>"
 	")" Z Cpr #32->32
 "<.>"
@@ -14150,7 +14171,7 @@
 "<,>"
 	"," Z Com #15->15
 "<käitumis->"
-	"käitumis" S com <-> @NN> #16->14
+	"käitumis" L0 S com <-> @NN> #16->14
 "<või>"
 	"või" L0 J crd @J #17->18
 "<kognitiivse>"
@@ -14430,7 +14451,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<16>"
-	"16" L0 N card sg nom @ADVL #22->0
+	"16" L0 N card sg nom @ADVL #22->3
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -14500,7 +14521,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<17>"
-	"17" L0 N card sg nom @ADVL #9->0
+	"17" L0 N card sg nom @ADVL #9->3
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -14864,7 +14885,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<18>"
-	"18" L0 N card sg nom @ADVL #13->0
+	"18" L0 N card sg nom @ADVL #13->7
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -14908,7 +14929,7 @@
 "<corpus>"
 	"corpus" L0 S com sg nom @NN> #17->18
 "<callosum'i>"
-	"callosum" L0 S com sg gen @<NN #18->16
+	"callosum" L0 S com sg gen @<P #18->16
 "<kulgevate>"
 	"kulgev" Lte A pos pl gen @AN> #19->13
 "<juhteteede>"
@@ -14956,7 +14977,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<19>"
-	"19" L0 N card sg nom @ADVL #17->0
+	"19" L0 N card sg nom @ADVL #17->3
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -14994,7 +15015,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<20>"
-	"20" L0 N card sg nom @ADVL #15->0
+	"20" L0 N card sg nom @ADVL #15->1
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -15202,7 +15223,7 @@
 "<(>"
 	"(" Z Opr #40->40
 "<21>"
-	"21" L0 N card sg nom @ADVL #41->0
+	"21" L0 N card sg nom @ADVL #41->2
 "<)>"
 	")" Z Cpr #42->42
 "<.>"
@@ -15270,7 +15291,7 @@
 "<(>"
 	"(" Z Opr #29->29
 "<12>"
-	"12" L0 N card sg nom @ADVL #30->0
+	"12" L0 N card sg nom @ADVL #30->4
 "<)>"
 	")" Z Cpr #31->31
 "<.>"
@@ -15452,7 +15473,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<23>"
-	"23" L0 N card sg nom @ADVL #20->0
+	"23" L0 N card sg nom @ADVL #20->12
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -15482,7 +15503,7 @@
 "<,>"
 	"," Z Com #10->10
 "<immuun->"
-	"immuun" A pos <-> @AN> #11->14
+	"immuun" L0 A pos <-> @AN> #11->14
 "<ja>"
 	"ja" L0 J crd @J #12->13
 "<põletikuliste>"
@@ -15490,7 +15511,7 @@
 "<haiguste>"
 	"haigus" Lte S com pl gen @NN> #14->15
 "<puudumine>"
-	"puudumine" L0 S com sg nom @SUBJ #15->4
+	"puudumine" L0 S com sg nom @SUBJ #15->9
 "<.>"
 	"." Z Fst #16->16
 "</s>"
@@ -15594,7 +15615,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<24>"
-	"24" L0 N card sg nom @ADVL #14->0
+	"24" L0 N card sg nom @ADVL #14->6
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -15626,7 +15647,7 @@
 "<mm>"
 	"mm" L0 Y nominal @<Q #11->10
 "<läbimõõduga>"
-	"läbi_mõõt" Lga S com sg kom @ADVL #12->4
+	"läbi_mõõt" Lga S com sg kom @ADVL #12->3
 "<)>"
 	")" Z Cpr #13->13
 "<,>"
@@ -15634,7 +15655,7 @@
 "<sileda>"
 	"sile" L0 A pos sg gen @AN> #15->16
 "<seinaga>"
-	"sein" Lga S com sg kom @ADVL #16->4
+	"sein" Lga S com sg kom @ADVL #16->3
 "<ja>"
 	"ja" L0 J crd @J #17->18
 "<paiknevad>"
@@ -15648,7 +15669,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<12>"
-	"12" L0 N card sg nom @ADVL #23->0
+	"12" L0 N card sg nom @ADVL #23->3
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -15798,7 +15819,7 @@
 "<(>"
 	"(" Z Opr #36->36
 "<vt>"
-	"vt" L0 Y nominal @IMV #37->0
+	"vt" L0 Y nominal @IMV #37->2
 "<jn>"
 	"jn" L0 Y nominal @OBJ #38->37
 "<2>"
@@ -15908,7 +15929,7 @@
 "<kolde>"
 	"kolle" L0 S com sg gen @NN> #8->9
 "<diameeter>"
-	"diameeter" L0 S com sg nom @SUBJ #9->0
+	"diameeter" L0 S com sg nom @SUBJ #9->6
 "<alla>"
 	"alla" L0 K pre @ADVL #10->9
 "<5>"
@@ -15952,13 +15973,13 @@
 "<külgvatsakeste>"
 	"külg_vatsake" Lte S com pl gen @NN> #30->31
 "<frontaal->"
-	"frontaal" A pos <-> @AN> #31->34
+	"frontaal" L0 A pos <-> @AN> #31->34
 "<ja>"
 	"ja" L0 J crd @J #32->33
 "<tagasarvede>"
 	"taga_sarv" Lde S com pl gen @NN> #33->31
 "<piirkond>"
-	"piirkond" L0 S com sg nom @ADVL #34->0
+	"piirkond" L0 S com sg nom @ADVL #34->28
 "<,>"
 	"," Z Com #35->35
 "<piki>"
@@ -16010,7 +16031,7 @@
 "<eraldi>"
 	"eraldi" L0 A pos @AN> #14->15
 "<fail>"
-	"fail" L0 S com sg nom @SUBJ #15->0
+	"fail" L0 S com sg nom @SUBJ #15->9
 "<ppt>"
 	"ppt" L0 Y nominal @<NN #16->15
 "<,>"
@@ -16084,7 +16105,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<12>"
-	"12" L0 N card sg nom @ADVL #13->0
+	"12" L0 N card sg nom @ADVL #13->2
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -16236,7 +16257,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<24>"
-	"24" L0 N card sg nom @ADVL #20->0
+	"24" L0 N card sg nom @ADVL #20->6
 "<)>"
 	")" Z Cpr #21->21
 "<,>"
@@ -16282,7 +16303,7 @@
 "<(>"
 	"(" Z Opr #42->42
 "<24>"
-	"24" L0 N card @ADVL #43->0
+	"24" L0 N card @ADVL #43->34
 "<,>"
 	"," Z Com #44->44
 "<25>"
@@ -16482,7 +16503,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<24>"
-	"24" L0 N card sg nom @ADVL #22->0
+	"24" L0 N card sg nom @ADVL #22->4
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -16574,7 +16595,7 @@
 "<,>"
 	"," Z Com #9->9
 "<ja>"
-	"ja" L0 J crd @J #10->18
+	"ja" L0 J crd @J #10->21
 "<kui>"
 	"kui" L0 J sub @J #11->18
 "<see>"
@@ -16724,7 +16745,7 @@
 "<sageli>"
 	"sageli" L0 D @ADVL #14->12
 "<nägemis->"
-	"nägemis" S com <-> @ADVL #15->12
+	"nägemis" L0 S com <-> @ADVL #15->12
 "<ja>"
 	"ja" L0 J crd @J #16->17
 "<kuulmispuudega>"
@@ -16744,11 +16765,11 @@
 "<(>"
 	"(" Z Opr #4->4
 "<nägemis->"
-	"nägemis" S com <-> @<NN #5->3
+	"nägemis" L0 S com <-> @<NN #5->3
 "<,>"
 	"," Z Com #6->6
 "<kuulmis->"
-	"kuulmis" S com <-> @<NN #7->5
+	"kuulmis" L0 S com <-> @<NN #7->5
 "<ja>"
 	"ja" L0 J crd @J #8->9
 "<tasakaaluhäire>"
@@ -16882,7 +16903,7 @@
 "<Alzheimeri>"
 	"Alzheimer" L0 S prop sg gen @NN> #13->14
 "<tõbi>"
-	"tõbi" L0 S com sg nom @SUBJ #14->0
+	"tõbi" L0 S com sg nom @SUBJ #14->2
 "<50%>"
 	"50%" L0 N card sg nom @ADVL #15->14
 "<,>"
@@ -17352,7 +17373,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<vt>"
-	"vt" L0 Y nominal @IMV #15->0
+	"vt" L0 Y nominal @IMV #15->1
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #16->15
 "<1>"
@@ -17362,7 +17383,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<8>"
-	"8" L0 N card sg nom @ADVL #20->0
+	"8" L0 N card sg nom @ADVL #20->1
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -17471,8 +17492,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -17492,7 +17515,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<8>"
-	"8" L0 N card sg nom @ADVL #8->0
+	"8" L0 N card sg nom @ADVL #8->2
 "<)>"
 	")" Z Cpr #9->9
 "</s>"
@@ -17566,7 +17589,7 @@
 "<dementsusele>"
 	"dementsus" Lle S com sg all @ADVL #16->12
 "<ning>"
-	"ning" J crd CLB L0 CLBC @J #17->18
+	"ning" L0 J crd CLB @J #17->18
 "<toob>"
 	"too" Lb V main indic pres ps3 sg ps af @FMV #18->8
 "<ilmsiks>"
@@ -18214,7 +18237,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<26>"
-	"26" L0 N card sg nom @ADVL #21->0
+	"26" L0 N card sg nom @ADVL #21->11
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -18285,16 +18308,20 @@
 	"võt" Ltud V main partic past imps @IMV #5->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #6->5
-"<2.>"
-	"2." L0 N card @<NN #7->6
+"<2>"
+	"2" L0 N card @<NN #7->6
+"<.>"
+	"." Z Fst #8->8
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -18316,7 +18343,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<26>"
-	"26" L0 N card sg nom @ADVL #9->0
+	"26" L0 N card sg nom @ADVL #9->5
 "<)>"
 	")" Z Cpr #10->10
 "</s>"
@@ -18610,7 +18637,7 @@
 "<arvatav>"
 	"arvatav" L0 A pos sg nom @AN> #3->4
 "<toimemehhanism>"
-	"toime_mehhanism" L0 S com sg nom @SUBJ #4->2
+	"toime_mehhanism" L0 S com sg nom @PRD #4->2
 "<memantiinil>"
 	"memantiin" Ll S com sg ad @<NN #5->4
 "<,>"
@@ -18646,7 +18673,7 @@
 "<neuroprotektiivne>"
 	"neuro_protektiivne" L0 A pos sg nom @AN> #9->10
 "<toime>"
-	"toime" L0 S com sg nom @SUBJ #10->4
+	"toime" L0 S com sg nom @OBJ #10->4
 "<,>"
 	"," Z Com #11->11
 "<s.t>"
@@ -18802,7 +18829,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<29-32>"
-	"29-32" L0 N card sg nom @ADVL #21->0
+	"29-32" L0 N card sg nom @ADVL #21->2
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -18864,7 +18891,7 @@
 "<(>"
 	"(" Z Opr #26->26
 "<33>"
-	"33" L0 N card sg nom @ADVL #27->0
+	"33" L0 N card sg nom @ADVL #27->11
 "<)>"
 	")" Z Cpr #28->28
 "<.>"
@@ -18998,7 +19025,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<34>"
-	"34" L0 N card sg nom @ADVL #16->0
+	"34" L0 N card sg nom @ADVL #16->2
 "<)>"
 	")" Z Cpr #17->17
 "<.>"
@@ -19094,8 +19121,8 @@
 "<kahjustusest>"
 	"kahjustus" Lst S com sg el @ADVL #24->25
 "<tingitud>"
-	"tingitud" L0 A pos @AN> #25->26
-"<dementsusga>"
+	"tingitud" L0 A pos @AN> #25->20
+"<dementsusega>"
 	"dementsus" Lga S com sg kom @ADVL #26->18
 "<;>"
 	";" Z Scl #27->27
@@ -19107,8 +19134,10 @@
 	"piirkond" L0 S com sg gen @NN> #30->31
 "<infarktiga>"
 	"infarkt" Lga S com sg kom @ADVL #31->26
-"<jne.>"
+"<jne>"
 	"jne" L0 Y nominal @ADVL #32->31
+"<.>"
+	"." Z Fst #33->33
 "</s>"
 
 "<s>"
@@ -19128,7 +19157,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Dementsussündroomi>"
 	"dementsus_sündroom" L0 S com sg gen @NN> #2->3
 "<diagnoos>"
@@ -19168,7 +19197,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Ajuveresoonkonna>"
 	"aju_vere_soonkond" L0 S com sg gen @NN> #2->3
 "<haiguse>"
@@ -19182,7 +19211,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Neuroloogilised>"
 	"neuroloogiline" Ld A pos pl nom @AN> #2->3
 "<ärajäämanähud>"
@@ -19194,7 +19223,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->5
 "<Vaskulaarsele>"
 	"vaskulaarse" Lle A pos sg all @AN> #2->3
 "<kahjustusele>"
@@ -19212,7 +19241,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Dementsus>"
 	"dementsus" L0 S com sg nom @SUBJ #2->3
 "<on>"
@@ -19286,7 +19315,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Varajane>"
 	"varajane" L0 A pos sg nom @AN> #2->3
 "<kõnnakuhäire>"
@@ -19298,7 +19327,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Tasakaaluhäired>"
 	"tasa_kaalu_häire" Ld S com pl nom @SUBJ #2->0
 "<anamneesis>"
@@ -19316,7 +19345,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Varajased>"
 	"varajane" Ld A pos pl nom @AN> #2->3
 "<põieprobleemid>"
@@ -19334,7 +19363,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Pseudobulbaarparalüüs>"
 	"pseudobulbaar_paralüüs" L0 S com sg nom @SUBJ #2->0
 "<.>"
@@ -19344,7 +19373,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Meeleolu>"
 	"meele_olu" L0 S com sg gen @SUBJ #2->0
 "<ja>"
@@ -19378,7 +19407,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->9
 "<Varase>"
 	"varane" L0 A pos sg gen @AN> #2->3
 "<mäluhäire>"
@@ -19414,7 +19443,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->6
 "<Peale>"
 	"peale" L0 K pre @ADVL #2->6
 "<kognitiivsete>"
@@ -19438,7 +19467,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->6
 "<KT>"
 	"KT" L0 Y nominal @SUBJ #2->6
 "<ja>"
@@ -19472,7 +19501,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Esinevad>"
 	"esine" Lvad V main indic pres ps3 pl ps af @FMV #2->0
 "<dementsus>"
@@ -19502,7 +19531,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Puudub>"
 	"puudu" Lb V main indic pres ps3 sg ps af @FMV #2->0
 "<kindel>"
@@ -19528,7 +19557,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Märkamatu>"
 	"märkamatu" L0 A pos sg nom @AN> #2->3
 "<algus>"
@@ -19580,7 +19609,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Vastavus>"
 	"vastavus" L0 S com sg nom @SUBJ #2->0
 "<tõenäose>"
@@ -19598,7 +19627,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Insult>"
 	"insult" L0 S com sg nom @OBJ #2->3
 "<kinnitatud>"
@@ -19642,7 +19671,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Puuduvad>"
 	"puudu" Lvad V main indic pres ps3 pl ps af @FMV #2->0
 "<teised>"
@@ -19688,7 +19717,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->7
 "<Ega>"
 	"ega" L0 D @ADVL #2->7
 "<VD>"
@@ -19712,7 +19741,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Kas>"
 	"kas" L0 D @ADVL #2->3
 "<on>"
@@ -19732,7 +19761,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Kliinilisel>"
 	"kliiniline" Ll A pos sg ad @AN> #2->3
 "<kirjeldamisel>"
@@ -19812,7 +19841,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Neurovisualiseerimine>"
 	"neuro_visualiseeri=mine" L0 S com sg nom @SUBJ #2->3
 "<on>"
@@ -19836,9 +19865,9 @@
 "<,>"
 	"," Z Com #12->12
 "<kuigi>"
-	"kuigi" L0 J sub @J #13->19
+	"kuigi" L0 J sub @J #13->15
 "<loodetavasti>"
-	"loodetavasti" L0 D @ADVL #14->19
+	"loodetavasti" L0 D @ADVL #14->15
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #15->9
 "<ka>"
@@ -19862,7 +19891,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Ravis>"
 	"ravi" Ls S com sg in @ADVL #2->3
 "<on>"
@@ -19953,8 +19982,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -19981,8 +20012,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -20068,7 +20101,7 @@
 "<,>"
 	"," Z Com #11->11
 "<joonis>"
-	"joonis" L0 S com sg nom @OBJ #12->0
+	"joonis" L0 S com sg nom @OBJ #12->8
 "<1>"
 	"1" L0 N card sg nom @<NN #13->12
 "<eraldi>"
@@ -20094,11 +20127,13 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #2->0
-"<1.>"
-	"1." L0 N card @<NN #3->2
+"<1>"
+	"1" L0 N card @<NN #3->2
+"<.>"
+	"." Z Fst #4->4
 "</s>"
 
 "<s>"
@@ -20124,11 +20159,13 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #2->0
-"<2.>"
-	"2." L0 N card @<NN #3->2
+"<2>"
+	"2" L0 N card @<NN #3->2
+"<.>"
+	"." Z Fst #4->4
 "</s>"
 
 "<s>"
@@ -20142,11 +20179,13 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #2->0
-"<2.>"
-	"2." L0 N card @<NN #3->2
+"<2>"
+	"2" L0 N card @<NN #3->2
+"<.>"
+	"." Z Fst #4->4
 "</s>"
 
 "<s>"
@@ -20161,8 +20200,10 @@
 	"·" L0 Y nominal @ADVL #1->0
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #2->0
-"<2.>"
-	"2." L0 N card @<NN #3->2
+"<2>"
+	"2" L0 N card @<NN #3->2
+"<.>"
+	"." Z Fst #4->4
 "</s>"
 
 "<s>"
@@ -20242,7 +20283,7 @@
 "<probleemiks>"
 	"probleem" Lks S com sg tr @ADVL #10->9
 "<ning>"
-	"ning" J crd CLB L0 CLBC @J #11->12
+	"ning" L0 J crd CLB @J #11->12
 "<vajab>"
 	"vaja" Lb V main indic pres ps3 sg ps af @FMV #12->9
 "<seetõttu>"
@@ -20470,7 +20511,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<vt>"
-	"vt" L0 Y nominal @IMV #28->0
+	"vt" L0 Y nominal @IMV #28->4
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #29->28
 "<1>"
@@ -20682,7 +20723,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<3>"
-	"3" L0 N card sg nom @ADVL #15->0
+	"3" L0 N card sg nom @ADVL #15->8
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -20784,7 +20825,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<4>"
-	"4" L0 N card sg nom @ADVL #25->0
+	"4" L0 N card sg nom @ADVL #25->4
 "<)>"
 	")" Z Cpr #26->26
 "<.>"
@@ -20902,7 +20943,7 @@
 "<(>"
 	"(" Z Opr #37->37
 "<5>"
-	"5" L0 N card sg nom @ADVL #38->0
+	"5" L0 N card sg nom @ADVL #38->11
 "<)>"
 	")" Z Cpr #39->39
 "<.>"
@@ -20942,7 +20983,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<5>"
-	"5" L0 N card sg nom @ADVL #16->0
+	"5" L0 N card sg nom @ADVL #16->6
 "<)>"
 	")" Z Cpr #17->17
 "<.>"
@@ -21010,7 +21051,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<vt>"
-	"vt" L0 Y nominal @IMV #17->0
+	"vt" L0 Y nominal @IMV #17->9
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #18->17
 "<2>"
@@ -21064,7 +21105,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<5>"
-	"5" L0 N card sg nom @ADVL #21->0
+	"5" L0 N card sg nom @ADVL #21->5
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -21134,7 +21175,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<6>"
-	"6" L0 N card sg nom @ADVL #23->0
+	"6" L0 N card sg nom @ADVL #23->4
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -21178,7 +21219,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<7>"
-	"7" L0 N card sg nom @ADVL #18->0
+	"7" L0 N card sg nom @ADVL #18->2
 "<)>"
 	")" Z Cpr #19->19
 "<.>"
@@ -21254,7 +21295,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<8>"
-	"8" L0 N card sg nom @ADVL #19->0
+	"8" L0 N card sg nom @ADVL #19->14
 "<)>"
 	")" Z Cpr #20->20
 "<,>"
@@ -21322,7 +21363,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<9>"
-	"9" L0 N card sg nom @ADVL #19->0
+	"9" L0 N card sg nom @ADVL #19->3
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -21496,7 +21537,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<10>"
-	"10" L0 N card sg nom @ADVL #23->0
+	"10" L0 N card sg nom @ADVL #23->4
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -21625,8 +21666,10 @@
 	"hingamis_elund" Lte S com pl gen @NN> #7->8
 "<amüloidoosi>"
 	"amüloidoos" L0 S com sg gen @NN> #8->9
-"<vorm.>"
+"<vorm>"
 	"vorm" L0 S com sg nom @PRD #9->3
+"<.>"
+	"." Z Fst #10->10
 "</s>"
 
 "<s>"
@@ -21644,9 +21687,9 @@
 "<mitmesõlmeliseks>"
 	"mitme_sõlmeline" Lks A pos sg tr @AN> #6->4
 "<ja>"
-	"ja" L0 J crd @J #7->10
+	"ja" L0 J crd @J #7->8
 "<difuusseks>"
-	"difuusne" Lks A pos sg tr @AN> #8->11
+	"difuusne" Lks A pos sg tr @AN> #8->4
 "<alveoseptaalseks>"
 	"alveoseptaalne" Lks A pos sg tr @AN> #9->11
 "<parenhümatoosseks>"
@@ -22040,7 +22083,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<11>"
-	"11" L0 N card sg nom @ADVL #19->0
+	"11" L0 N card sg nom @ADVL #19->6
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -22084,7 +22127,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<8>"
-	"8" L0 N card sg nom @ADVL #11->0
+	"8" L0 N card sg nom @ADVL #11->5
 "<)>"
 	")" Z Cpr #12->12
 "<ning>"
@@ -22156,7 +22199,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<12>"
-	"12" L0 N card sg nom @ADVL #13->0
+	"12" L0 N card sg nom @ADVL #13->3
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -22268,7 +22311,7 @@
 "<kopsuarterite>"
 	"kopsu_arter" Lte S com pl gen @NN> #12->13
 "<kahjustus>"
-	"kahjustus" L0 S com sg nom @SUBJ #13->0
+	"kahjustus" L0 S com sg nom @<NN #13->8
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -22332,7 +22375,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<13>"
-	"13" L0 N card sg nom @ADVL #23->0
+	"13" L0 N card sg nom @ADVL #23->4
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -22430,7 +22473,7 @@
 "<(>"
 	"(" Z Opr #29->29
 "<5>"
-	"5" L0 N card sg nom @ADVL #30->0
+	"5" L0 N card sg nom @ADVL #30->9
 "<)>"
 	")" Z Cpr #31->31
 "<.>"
@@ -22514,7 +22557,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<11>"
-	"11" L0 N card sg nom @ADVL #14->0
+	"11" L0 N card sg nom @ADVL #14->8
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -22580,7 +22623,7 @@
 "<(>"
 	"(" Z Opr #28->28
 "<vt>"
-	"vt" L0 Y nominal @IMV #29->0
+	"vt" L0 Y nominal @IMV #29->4
 "<jn>"
 	"jn" L0 Y nominal @OBJ #30->29
 "<1>"
@@ -22630,51 +22673,51 @@
 "<s>"
 
 "<Mõningatel>"
-    "mõningas" Ltel P pl ad @NN> #1->2
+	"mõningas" Ltel P pl ad @NN> #1->2
 "<juhtudel>"
-    "juht" Ldel S com pl ad @ADVL #2->3
+	"juht" Ldel S com pl ad @ADVL #2->3
 "<on>"
-    "ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
 "<amüloidoosi>"
-    "amüloi_doos" L0 S com sg part @OBJ #4->6
+	"amüloi_doos" L0 S com sg part @OBJ #4->6
 "<raske>"
-    "raske" L0 A pos sg nom @PRD #5->3
+	"raske" L0 A pos sg nom @PRD #5->3
 "<eristada>"
-    "erista" Lda V main inf @SUBJ #6->3
+	"erista" Lda V main inf @SUBJ #6->3
 "<reumatoidartriidi>"
-    "reumatoid_artriit" L0 S com sg gen @ADVL #7->21
+	"reumatoid_artriit" L0 S com sg gen @ADVL #7->21
 "<,>"
-    "," Z Com #8->8
+	"," Z Com #8->8
 "<Sjögreni>"
-    "Sjögren" L0 S prop sg gen @NN> #9->10
+	"Sjögren" L0 S prop sg gen @NN> #9->10
 "<sündroomi>"
-    "sündroom" L0 S com sg gen @ADVL #10->7
+	"sündroom" L0 S com sg gen @ADVL #10->7
 "<,>"
-    "," Z Com #11->11
+	"," Z Com #11->11
 "<anküloseeriva>"
-    "anküloseeriv" L0 A pos sg gen @AN> #12->13
+	"anküloseeriv" L0 A pos sg gen @AN> #12->13
 "<spondüliidi>"
-    "spondüliit" L0 S com sg gen @ADVL #13->10
+	"spondüliit" L0 S com sg gen @ADVL #13->10
 "<,>"
-    "," Z Com #14->14
+	"," Z Com #14->14
 "<põletikuliste>"
-    "põletiku=line" Lte A pos pl gen @AN> #15->16
+	"põletiku=line" Lte A pos pl gen @AN> #15->16
 "<seedeelundite>"
-    "seede_elund" Lte S com pl gen @ADVL #16->13
+	"seede_elund" Lte S com pl gen @ADVL #16->13
 "<(>"
-    "(" Z Opr #17->17
+	"(" Z Opr #17->17
 "<Crohni>"
-    "Crohn" L0 S prop sg gen @NN> #18->19
+	"Crohn" L0 S prop sg gen @NN> #18->19
 "<tõbi>"
-    "tõbi" L0 S com sg nom @<NN #19->16
+	"tõbi" L0 S com sg nom @<NN #19->16
 "<)>"
-    ")" Z Cpr #20->20
+	")" Z Cpr #20->20
 "<puhustest>"
-    "puhune" Ltest A pos pl el @AN> #21->22
+	"puhune" Ltest A pos pl el @AN> #21->22
 "<kopsumanifestatsioonidest>"
-    "kopsu_manifestatsioon" Ldest S com pl el @ADVL #22->6
+	"kopsu_manifestatsioon" Ldest S com pl el @ADVL #22->6
 "<.>"
-    "." Z Fst #23->23
+	"." Z Fst #23->23
 "</s>"
 
 "<s>"
@@ -22758,7 +22801,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<1>"
-	"1" L0 N card @ADVL #15->0
+	"1" L0 N card @ADVL #15->3
 "<,>"
 	"," Z Com #16->16
 "<2>"
@@ -22830,7 +22873,7 @@
 "<(>"
 	"(" Z Opr #29->29
 "<14>"
-	"14" L0 N card sg nom @ADVL #30->0
+	"14" L0 N card sg nom @ADVL #30->5
 "<)>"
 	")" Z Cpr #31->31
 "<.>"
@@ -22990,7 +23033,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<15>"
-	"15" L0 N card sg nom @ADVL #18->0
+	"15" L0 N card sg nom @ADVL #18->4
 "<)>"
 	")" Z Cpr #19->19
 "<.>"
@@ -23060,13 +23103,13 @@
 "<(>"
 	"(" Z Opr #30->30
 "<16>"
-	"16" L0 N card sg nom @ADVL #31->0
+	"16" L0 N card sg nom @ADVL #31->14
 "<)>"
 	")" Z Cpr #32->32
 "<(>"
 	"(" Z Opr #33->33
 "<vt>"
-	"vt" L0 Y nominal @IMV #34->0
+	"vt" L0 Y nominal @IMV #34->14
 "<jn>"
 	"jn" L0 Y nominal @OBJ #35->34
 "<1>"
@@ -23104,7 +23147,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<17>"
-	"17" L0 N card sg nom @ADVL #13->0
+	"17" L0 N card sg nom @ADVL #13->1
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -23142,7 +23185,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<8>"
-	"8" L0 N card sg nom @ADVL #15->0
+	"8" L0 N card sg nom @ADVL #15->6
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -23200,7 +23243,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<8>"
-	"8" L0 N card sg nom @ADVL #13->0
+	"8" L0 N card sg nom @ADVL #13->7
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -23316,7 +23359,7 @@
 "<(>"
 	"(" Z Opr #9->9
 "<18>"
-	"18" L0 N card sg nom @ADVL #10->0
+	"18" L0 N card sg nom @ADVL #10->5
 "<)>"
 	")" Z Cpr #11->11
 "<ning>"
@@ -23392,7 +23435,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<19>"
-	"19" L0 N card @ADVL #25->0
+	"19" L0 N card @ADVL #25->7
 "<,>"
 	"," Z Com #26->26
 "<20>"
@@ -23488,7 +23531,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<5>"
-	"5" L0 N card sg nom @ADVL #13->0
+	"5" L0 N card sg nom @ADVL #13->4
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -23540,11 +23583,11 @@
 "<kliinilistele>"
 	"kliiniline" Ltele A pos pl all @AN> #21->26
 "<ning>"
-	"ning" L0 J crd @J #22->25
+	"ning" L0 J crd @J #22->24
 "<organfunktsioone>"
 	"organ_funktsioon" Le S com pl part @OBJ #23->24
 "<peegeldavatele>"
-	"peegelda=v" Ltele A pos pl all partic @AN> #24->26
+	"peegelda=v" Ltele A pos pl all partic @AN> #24->21
 "<biokeemilistele>"
 	"bio_keemiline" Ltele A pos pl all @AN> #25->26
 "<analüüsidele>"
@@ -23592,7 +23635,7 @@
 "<,>"
 	"," Z Com #47->47
 "<elektro->"
-	"elektro" S com <-> @OBJ #48->42
+	"elektro" L0 S com <-> @OBJ #48->42
 "<ja>"
 	"ja" L0 J crd @J #49->50
 "<ehhokardiograafia>"
@@ -23606,7 +23649,7 @@
 "<(>"
 	"(" Z Opr #54->54
 "<5>"
-	"5" L0 N card sg nom @ADVL #55->0
+	"5" L0 N card sg nom @ADVL #55->8
 "<)>"
 	")" Z Cpr #56->56
 "<.>"
@@ -23916,7 +23959,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<vt>"
-	"vt" L0 Y nominal @IMV #28->0
+	"vt" L0 Y nominal @IMV #28->7
 "<jn>"
 	"jn" L0 Y nominal @OBJ #29->28
 "<2>"
@@ -24106,7 +24149,7 @@
 "<(>"
 	"(" Z Opr #9->9
 "<vt>"
-	"vt" L0 Y nominal @IMV #10->0
+	"vt" L0 Y nominal @IMV #10->1
 "<jn>"
 	"jn" L0 Y nominal @OBJ #11->10
 "<3>"
@@ -24130,7 +24173,7 @@
 "<suudme>"
 	"suue" L0 S com sg gen @NN> #5->10
 "<ja>"
-	"ja" L0 J crd @J #6->10
+	"ja" L0 J crd @J #6->9
 "<6.>"
 	"6." L0 N ord @AN> #7->8
 "<segmendi>"
@@ -24200,7 +24243,7 @@
 "<põletikulisi>"
 	"põletiku=line" Li A pos pl part @AN> #9->10
 "<muutusi>"
-	"muutus" Li S com pl part @OBJ #10->0
+	"muutus" Li S com pl part @OBJ #10->2
 "<,>"
 	"," Z Com #11->11
 "<kasvajarakke>"
@@ -25140,7 +25183,7 @@
 "<,>"
 	"," Z Com #25->25
 "<köha>"
-	"köha" L0 S com sg nom @SUBJ #26->22
+	"köha" L0 S com sg nom @SUBJ #26->24
 "<ja>"
 	"ja" L0 J crd @J #27->28
 "<veriköha>"
@@ -25435,8 +25478,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -25459,8 +25504,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -25474,7 +25521,7 @@
 "<(>"
 	"(" Z Opr #4->4
 "<Gillmore>"
-	"Gillmore" L0 S prop sg nom @SUBJ #5->0
+	"Gillmore" L0 S prop sg nom @SUBJ #5->3
 "<&>"
 	"&" L0 J crd @J #6->7
 "<Hawkins>"
@@ -25510,7 +25557,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Plasmarakulise>"
 	"plasma_raku=line" L0 A pos sg gen @AN> #2->3
 "<düskraasia>"
@@ -25522,7 +25569,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Amüloidi>"
 	"amüloid" L0 S com sg nom @NN> #2->3
 "<eellasproteiinide>"
@@ -25534,7 +25581,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Fibrillide>"
 	"fibrill" Lde S com sg gen @NN> #2->3
 "<moodustumise>"
@@ -25546,7 +25593,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Fibrillide>"
 	"fibrill" Lde S com sg gen @NN> #2->3
 "<degradatsiooni>"
@@ -25566,7 +25613,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Sümptomid>"
 	"sümptom" Ld S com pl nom @SUBJ #2->0
 "</s>"
@@ -25574,19 +25621,19 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Kopsufunktsiooni->"
-	"kopsu_funktsioon" L0 S com sg gen @SUBJ #2->0
+	"kopsu_funktsioon" L0 S com sg gen @SUBJ #2->4
 "<ja>"
 	"ja" L0 J crd @J #3->4
 "<koormustestid>"
-	"koormustest" Ld S com pl nom @SUBJ #4->2
+	"koormustest" Ld S com pl nom @SUBJ #4->0
 "</s>"
 
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Radioloogilised>"
 	"radioloogi=line" Ld A pos pl nom @AN> #2->3
 "<uuringud>"
@@ -25604,7 +25651,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<Bronhoskoopia>"
 	"bronhoskoopia" L0 S com sg nom @SUBJ #2->0
 "</s>"
@@ -25628,7 +25675,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<B-rakkude>"
 	"B-rakk" Lde S com pl gen @NN> #2->4
 "<klonaalne>"
@@ -25640,7 +25687,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<123I>"
 	"123I" L0 Y nominal @NN> #2->3
 "<SAP>"
@@ -25652,7 +25699,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Organite>"
 	"organ" Lte S com pl gen @NN> #2->3
 "<düsfunktsiooni>"
@@ -25683,8 +25730,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -25709,8 +25758,10 @@
 	"modifitseeri=tult" L0 D @ADVL #1->0
 "<allikast>"
 	"allikas" Lst S com sg el @ADVL #2->1
-"<5.>"
-	"5." L0 N card @<NN #3->2
+"<5>"
+	"5" L0 N card @<NN #3->2
+"<.>"
+	"." Z Fst #4->4
 "</s>"
 
 "<s>"
@@ -25725,16 +25776,20 @@
 	"amüloid" L0 S com sg gen @NN> #4->5
 "<komponent>"
 	"komponent" L0 S com sg nom @NN> #5->6
-"<P.>"
-	"P." L0 Y nominal @<NN #6->1
+"<P>"
+	"P" L0 Y nominal @<NN #6->1
+"<.>"
+	"." Z Fst #7->7
 "</s>"
 
 "<s>"
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -25803,8 +25858,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<3.>"
-	"3." L0 N card @<NN #2->1
+"<3>"
+	"3" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -25824,7 +25881,7 @@
 "<sama>"
 	"sama" L0 P dem sg nom @NN> #7->8
 "<patsient>"
-	"patsient" L0 S com sg nom @SUBJ #8->0
+	"patsient" L0 S com sg nom @SUBJ #8->5
 "<,>"
 	"," Z Com #9->9
 "<kes>"
@@ -25870,7 +25927,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<Ž>"
-	"Ž" L0 Y nominal @ADVL #15->0
+	"Ž" L0 Y nominal @ADVL #15->1
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -25898,7 +25955,7 @@
 "<suue>"
 	"suue" L0 S com sg nom @SUBJ #9->10
 "<näha>"
-	"näge" La V main inf @IMV #10->3
+	"näge" La V main inf @IMV #10->7
 "<ülal>"
 	"ülal" L0 D @ADVL #11->10
 "<)>"
@@ -25912,7 +25969,7 @@
 "<suue>"
 	"suue" L0 S com sg nom @SUBJ #16->17
 "<näha>"
-	"näge" La V main inf @IMV #17->3
+	"näge" La V main inf @IMV #17->14
 "<all>"
 	"all" L0 D @ADVL #18->17
 "<)>"
@@ -25927,8 +25984,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<4.>"
-	"4." L0 N card @<NN #2->1
+"<4>"
+	"4" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -26106,7 +26165,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<1>"
-	"1" L0 N card sg nom @ADVL #11->0
+	"1" L0 N card sg nom @ADVL #11->2
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -26478,7 +26537,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<2>"
-	"2" L0 N card sg nom @ADVL #16->0
+	"2" L0 N card sg nom @ADVL #16->3
 "<)>"
 	")" Z Cpr #17->17
 "<.>"
@@ -26648,7 +26707,7 @@
 "<limakorgi>"
 	"lima_kork" L0 S com sg gen @NN> #22->23
 "<kvaliteedil>"
-	"kvaliteet" Ll S com sg ad @ADVL #23->0
+	"kvaliteet" Ll S com sg ad @ADVL #23->2
 "<.>"
 	"." Z Fst #24->24
 "</s>"
@@ -26695,8 +26754,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -26711,8 +26772,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<3.>"
-	"3." L0 N card @<NN #2->1
+"<3>"
+	"3" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -26730,7 +26793,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<vedeliku>"
 	"vedelik" L0 S com sg gen @NN> #2->4
 "<liigne>"
@@ -26742,7 +26805,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<alfa-adrenoblokaatorid>"
 	"alfa-adreno_blokaator" Ld S com pl nom @SUBJ #2->0
 "<->"
@@ -26768,7 +26831,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<südamepuudulikkus>"
 	"südame_puudulikkus" L0 S com sg nom @SUBJ #2->0
 "<,>"
@@ -26780,7 +26843,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<alfa-adrenoagonistid>"
 	"alfa-adrenoagon=ist" Ld S com pl nom @SUBJ #2->0
 "<->"
@@ -26808,7 +26871,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<beetaadrenoagonistid>"
 	"beeta_adrenoagon=ist" Ld S com pl nom @SUBJ #2->0
 "<->"
@@ -26822,7 +26885,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<deliirium>"
 	"deliirium" L0 S com sg nom @SUBJ #2->0
 "<,>"
@@ -26834,7 +26897,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Ca-kanali>"
 	"Ca-kanal" L0 S com sg gen @NN> #2->3
 "<blokaatorid>"
@@ -26866,7 +26929,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<alkohol>"
 	"alkohol" L0 S com sg nom @SUBJ #2->0
 "<->"
@@ -26896,7 +26959,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<vürtsid>"
 	"vürts" Ld S com pl nom @SUBJ #2->0
 "<,>"
@@ -26918,7 +26981,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->2
 "<kohv>"
 	"kohv" L0 S com sg nom @SUBJ #2->0
 "<,>"
@@ -26962,7 +27025,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<3>"
-	"3" L0 N card sg nom @ADVL #8->0
+	"3" L0 N card sg nom @ADVL #8->2
 "<)>"
 	")" Z Cpr #9->9
 "</s>"
@@ -27224,7 +27287,7 @@
 "<sekundaarne>"
 	"sekundaarne" L0 A pos sg nom @AN> #16->17
 "<neerukahjustus>"
-	"neeru_kahjustus" L0 S com sg nom @SUBJ #17->0
+	"neeru_kahjustus" L0 S com sg nom @SUBJ #17->9
 "<(>"
 	"(" Z Opr #18->18
 "<hüdronefroos>"
@@ -27357,8 +27420,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -28564,7 +28629,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<4-6>"
-	"4-6" L0 N card sg nom @ADVL #19->0
+	"4-6" L0 N card sg nom @ADVL #19->4
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -28596,7 +28661,7 @@
 "<s>"
 
 "<1.>"
-	"1." L0 N ord @ADVL #1->0
+	"1." L0 N ord @ADVL #1->3
 "<Detrusor'it>"
 	"detrusor" Lt S com sg part @OBJ #2->3
 "<lõõgastavad>"
@@ -28684,7 +28749,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<Driptane>"
-	"Driptane" L0 S prop sg nom @<NN #15->3
+	"Driptane" L0 S prop sg nom @<NN #15->13
 "<2,5>"
 	"2,5" L0 N card @ADVL #16->15
 "<-5>"
@@ -28830,7 +28895,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<efektiivsus>"
-	"efektiivsus" L0 S com sg nom @SUBJ #15->0
+	"efektiivsus" L0 S com sg nom @SUBJ #15->3
 "<66%>"
 	"66%" L0 N card @PRD #16->15
 "<ilma>"
@@ -28896,21 +28961,21 @@
 "<,>"
 	"," Z Com #12->12
 "<vaid>"
-	"vaid" L0 J crd @J #13->14
+	"vaid" L0 J crd @J #13->17
 "<ka>"
 	"ka" L0 D @ADVL #14->17
 "<otsene>"
-	"otsene" L0 A pos sg nom @AN> #15->21
+	"otsene" L0 A pos sg nom @AN> #15->17
 "<detrusor'it>"
 	"detrusor" Lt S com sg part @OBJ #16->17
 "<lõõgastav>"
-	"lõõgasta=v" L0 A pos sg nom partic @AN> #17->21
+	"lõõgasta=v" L0 A pos sg nom partic @AN> #17->11
 "<ning>"
 	"ning" L0 J crd @J #18->20
 "<lokaalne>"
-	"lokaalne" L0 A pos sg nom @AN> #19->21
+	"lokaalne" L0 A pos sg nom @AN> #19->20
 "<anesteetiline>"
-	"anesteeti=line" L0 A pos sg nom @AN> #20->21
+	"anesteeti=line" L0 A pos sg nom @AN> #20->17
 "<toime>"
 	"toime" L0 S com sg nom @SUBJ #21->8
 "<.>"
@@ -28920,7 +28985,7 @@
 "<s>"
 
 "<2.>"
-	"2." L0 N ord @ADVL #1->0
+	"2." L0 N ord @ADVL #1->3
 "<Ureetrale>"
 	"ureetra" Lle S com sg all @ADVL #2->3
 "<toimivad>"
@@ -28974,7 +29039,7 @@
 "<retseptorid>"
 	"retseptor" Ld S com pl nom @SUBJ #27->28
 "<paiknevad>"
-	"paikne" Lvad V main indic pres ps3 pl ps af @FMV #28->7
+	"paikne" Lvad V main indic pres ps3 pl ps af @FMV #28->25
 "<põies>"
 	"põis" Ls S com sg in @ADVL #29->28
 "<,>"
@@ -29018,7 +29083,7 @@
 "<s>"
 
 "<3.>"
-	"3." L0 N ord @ADVL #1->0
+	"3." L0 N ord @ADVL #1->3
 "<Põieseinale>"
 	"põie_sein" Lle S com sg all @ADVL #2->3
 "<toimivad>"
@@ -29102,7 +29167,7 @@
 "<s>"
 
 "<4.>"
-	"4." L0 N ord @ADVL #1->0
+	"4." L0 N ord @ADVL #1->4
 "<Uriini>"
 	"uriin" L0 S com sg gen @NN> #2->3
 "<väljutustakistust>"
@@ -29604,7 +29669,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<3>"
-	"3" L0 N card sg nom @ADVL #17->0
+	"3" L0 N card sg nom @ADVL #17->5
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -29649,8 +29714,10 @@
 	"ka" L0 D @DN> #17->18
 "<selle>"
 	"see" L0 P dem sg gen @P> #18->19
-"<ajal.>"
+"<ajal>"
 	"ajal" L0 K post @ADVL #19->13
+"<.>"
+	"." Z Fst #20->20
 "</s>"
 
 "<s>"
@@ -30828,11 +30895,11 @@
 "<ja>"
 	"ja" L0 J crd @J #8->14
 "<meestel>"
-	"mees" Ltel S com pl ad @ADVL #9->13
+	"mees" Ltel S com pl ad @ADVL #9->14
 "<sagedasemaks>"
 	"sagedasem" Lks A comp sg tr @AN> #10->11
 "<probleemiks>"
-	"probleem" Lks S com sg tr @ADVL #11->2
+	"probleem" Lks S com sg tr @ADVL #11->14
 "<eesnäärmehaigustest>"
 	"ees_näärme_haigus" Ltest S com pl el @ADVL #12->13
 "<põhjustatud>"
@@ -31552,7 +31619,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<1-4>"
-	"1-4" L0 N card sg nom @ADVL #21->0
+	"1-4" L0 N card sg nom @ADVL #21->12
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -31660,7 +31727,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<4-7>"
-	"4-7" L0 N card sg nom @ADVL #20->0
+	"4-7" L0 N card sg nom @ADVL #20->12
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -31702,7 +31769,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<5>"
-	"5" L0 N card sg nom @ADVL #17->0
+	"5" L0 N card sg nom @ADVL #17->3
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -31866,7 +31933,7 @@
 "<(>"
 	"(" Z Opr #35->35
 "<2>"
-	"2" L0 N card sg nom @ADVL #36->0
+	"2" L0 N card sg nom @ADVL #36->3
 "<)>"
 	")" Z Cpr #37->37
 "<.>"
@@ -31920,7 +31987,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<1>"
-	"1" L0 N card sg nom @ADVL #11->0
+	"1" L0 N card sg nom @ADVL #11->3
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -32002,7 +32069,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<1>"
-	"1" L0 N card @ADVL #23->0
+	"1" L0 N card @ADVL #23->7
 "<,>"
 	"," Z Com #24->24
 "<8>"
@@ -32024,7 +32091,7 @@
 "<(>"
 	"(" Z Opr #4->4
 "<7>"
-	"7" L0 N card sg nom @ADVL #5->0
+	"7" L0 N card sg nom @ADVL #5->1
 "<)>"
 	")" Z Cpr #6->6
 "<kirjeldasid>"
@@ -32126,11 +32193,11 @@
 "<haaratusega>"
 	"haaratu=s" Lga S com sg kom @NN> #12->13
 "<haigus>"
-	"haigus" L0 S com sg nom @SUBJ #13->0
+	"haigus" L0 S com sg nom @SUBJ #13->4
 "<(>"
 	"(" Z Opr #14->14
 "<8>"
-	"8" L0 N card sg nom @ADVL #15->0
+	"8" L0 N card sg nom @ADVL #15->4
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -32170,7 +32237,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<6>"
-	"6" L0 N card @ADVL #16->0
+	"6" L0 N card @ADVL #16->12
 "<,>"
 	"," Z Com #17->17
 "<7>"
@@ -32186,7 +32253,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<1>"
-	"1" L0 N card @ADVL #24->0
+	"1" L0 N card @ADVL #24->22
 "<,>"
 	"," Z Com #25->25
 "<2>"
@@ -32238,7 +32305,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<9>"
-	"9" L0 N card @ADVL #14->0
+	"9" L0 N card @ADVL #14->2
 "<,>"
 	"," Z Com #15->15
 "<10>"
@@ -32274,7 +32341,7 @@
 "<,>"
 	"," Z Com #8->8
 "<kuid>"
-	"kuid" L0 J crd @J #9->14
+	"kuid" L0 J crd @J #9->19
 "<kuna>"
 	"kuna" L0 J sub @J #10->14
 "<eosinofiilset>"
@@ -32352,7 +32419,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<2>"
-	"2" L0 N card @ADVL #18->0
+	"2" L0 N card @ADVL #18->2
 "<,>"
 	"," Z Com #19->19
 "<10>"
@@ -32452,7 +32519,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<1>"
-	"1" L0 N card @ADVL #21->0
+	"1" L0 N card @ADVL #21->3
 "<,>"
 	"," Z Com #22->22
 "<8>"
@@ -32516,7 +32583,7 @@
 "<(>"
 	"(" Z Opr #9->9
 "<9>"
-	"9" L0 N card sg nom @ADVL #10->0
+	"9" L0 N card sg nom @ADVL #10->5
 "<)>"
 	")" Z Cpr #11->11
 "<.>"
@@ -32548,7 +32615,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<vt>"
-	"vt" L0 Y nominal @IMV #12->0
+	"vt" L0 Y nominal @IMV #12->4
 "<jn>"
 	"jn" L0 Y nominal @OBJ #13->12
 "<1>"
@@ -32672,13 +32739,13 @@
 "<->"
 	"-" Z Dsh #21->21
 "<granulocyte-macrophage>"
-	"granulocyte-macrophage" L0 S com sg gen @?? #22->0
+	"granulocyte-macrophage" L0 S com sg gen @NN> #22->23
 "<colony>"
-	"colony" L0 S com sg gen @?? #23->0
+	"colony" L0 S com sg gen @NN> #23->24
 "<stimulating>"
-	"stimulating" L0 S com sg nom @?? #24->0
+	"stimulating" L0 S com sg nom @NN> #24->25
 "<factor>"
-	"factor" L0 S com sg nom @?? #25->0
+	"factor" L0 S com sg nom @<NN #25->20
 "<)>"
 	")" Z Cpr #26->26
 "<,>"
@@ -32700,7 +32767,7 @@
 "<(>"
 	"(" Z Opr #35->35
 "<13>"
-	"13" L0 N card sg nom @ADVL #36->0
+	"13" L0 N card sg nom @ADVL #36->4c
 "<)>"
 	")" Z Cpr #37->37
 "<.>"
@@ -32746,7 +32813,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<14>"
-	"14" L0 N card sg nom @ADVL #19->0
+	"14" L0 N card sg nom @ADVL #19->2
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -32810,7 +32877,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<1>"
-	"1" L0 N card sg nom @ADVL #28->0
+	"1" L0 N card sg nom @ADVL #28->8
 "<)>"
 	")" Z Cpr #29->29
 "<.>"
@@ -32906,7 +32973,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<2>"
-	"2" L0 N card @ADVL #11->0
+	"2" L0 N card @ADVL #11->2
 "<,>"
 	"," Z Com #12->12
 "<13>"
@@ -32988,7 +33055,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<15>"
-	"15" L0 N card sg nom @ADVL #11->0
+	"15" L0 N card sg nom @ADVL #11->2
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -33078,11 +33145,11 @@
 "<,>"
 	"," Z Com #23->23
 "<eosinophil>"
-	"eosinoph" Ll S com sg ad @?? #24->0
+	"eosinoph" Ll S com sg ad @AN> #24->25
 "<cationic>"
-	"cationic" L0 S com sg nom @?? #25->0
+	"cationic" L0 S com sg nom @NN> #25->26
 "<protein>"
-	"protein" L0 S com sg nom @?? #26->0
+	"protein" L0 S com sg nom @<NN #26->22
 "<)>"
 	")" Z Cpr #27->27
 "<,>"
@@ -33094,15 +33161,15 @@
 "<(>"
 	"(" Z Opr #31->31
 "<MBP>"
-	"MBP" L0 Y nominal @<NN #32->20
+	"MBP" L0 Y nominal @<NN #32->30
 "<,>"
 	"," Z Com #33->33
 "<major>"
-	"major" L0 S com sg nom @?? #34->0
+	"major" L0 S com sg nom @NN> #34->35
 "<basic>"
-	"basic" L0 S com sg nom @?? #35->0
+	"basic" L0 S com sg nom @NN> #35->36
 "<protein>"
-	"protein" L0 S com sg nom @?? #36->0
+	"protein" L0 S com sg nom @<NN #36->32
 "<)>"
 	")" Z Cpr #37->37
 "<,>"
@@ -33114,9 +33181,9 @@
 "<(>"
 	"(" Z Opr #41->41
 "<eosinophil-derived>"
-	"eosinophil-derive" Ld S com pl nom @?? #42->0
+	"eosinophil-derive" Ld S com pl nom @AN> #42->43
 "<neurotoxin>"
-	"neurotoxin" L0 S com sg nom @?? #43->0
+	"neurotoxin" L0 S com sg nom @<NN #43->40
 "<)>"
 	")" Z Cpr #44->44
 "<,>"
@@ -33128,9 +33195,9 @@
 "<(>"
 	"(" Z Opr #48->48
 "<eosinophil>"
-	"eosinoph" Ll S com sg ad @?? #49->0
+	"eosinoph" Ll S com sg ad @NN> #49->50
 "<peroxidase>"
-	"peroxidas" L0 S com sg gen @?? #50->0
+	"peroxidas" L0 S com sg gen @<NN #50->47
 "<)>"
 	")" Z Cpr #51->51
 "<ja>"
@@ -33180,7 +33247,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<1>"
-	"1" L0 N card @ADVL #18->0
+	"1" L0 N card @ADVL #18->4
 "<,>"
 	"," Z Com #19->19
 "<15>"
@@ -33298,7 +33365,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<1>"
-	"1" L0 N card @ADVL #23->0
+	"1" L0 N card @ADVL #23->3
 "<,>"
 	"," Z Com #24->24
 "<15>"
@@ -33442,7 +33509,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<13>"
-	"13" L0 N card sg nom @ADVL #15->0
+	"13" L0 N card sg nom @ADVL #15->2
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -33546,7 +33613,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<1>"
-	"1" L0 N card @ADVL #21->0
+	"1" L0 N card @ADVL #21->7
 "<,>"
 	"," Z Com #22->22
 "<7>"
@@ -33662,7 +33729,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<6>"
-	"6" L0 N card @ADVL #15->13
+	"6" L0 N card @ADVL #15->1
 "<,>"
 	"," Z Com #16->16
 "<7>"
@@ -33736,7 +33803,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<12>"
-	"12" L0 N card sg nom @ADVL #17->0
+	"12" L0 N card sg nom @ADVL #17->8
 "<)>"
 	")" Z Cpr #18->18
 "<.>"
@@ -33782,7 +33849,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<1>"
-	"1" L0 N card @ADVL #19->0
+	"1" L0 N card @ADVL #19->4
 "<,>"
 	"," Z Com #20->20
 "<4>"
@@ -33862,7 +33929,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<17>"
-	"17" L0 N card sg nom @ADVL #11->0
+	"17" L0 N card sg nom @ADVL #11->6
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -33904,7 +33971,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<6>"
-	"6" L0 N card @ADVL #17->0
+	"6" L0 N card @ADVL #17->5
 "<,>"
 	"," Z Com #18->18
 "<10>"
@@ -34000,7 +34067,7 @@
 "<(>"
 	"(" Z Opr #34->34
 "<1>"
-	"1" L0 N card sg nom @ADVL #35->0
+	"1" L0 N card sg nom @ADVL #35->6
 "<)>"
 	")" Z Cpr #36->36
 "<.>"
@@ -34036,7 +34103,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<2-10>"
-	"2-10" L0 N card sg nom @ADVL #14->0
+	"2-10" L0 N card sg nom @ADVL #14->4
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -34088,7 +34155,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<3>"
-	"3" L0 N card @ADVL #22->0
+	"3" L0 N card @ADVL #22->6
 "<,>"
 	"," Z Com #23->23
 "<5>"
@@ -34196,7 +34263,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<2>"
-	"2" L0 N card @ADVL #13->0
+	"2" L0 N card @ADVL #13->7
 "<,>"
 	"," Z Com #14->14
 "<9>"
@@ -34274,7 +34341,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<8>"
-	"8" L0 N card sg nom @ADVL #18->0
+	"8" L0 N card sg nom @ADVL #18->7
 "<)>"
 	")" Z Cpr #19->19
 "<.>"
@@ -34306,7 +34373,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<4>"
-	"4" L0 N card sg nom @ADVL #12->0
+	"4" L0 N card sg nom @ADVL #12->6
 "<)>"
 	")" Z Cpr #13->13
 "<.>"
@@ -34354,7 +34421,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<1>"
-	"1" L0 N card sg nom @ADVL #20->0
+	"1" L0 N card sg nom @ADVL #20->5
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -34414,7 +34481,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<10>"
-	"10" L0 N card sg nom @ADVL #26->0
+	"10" L0 N card sg nom @ADVL #26->2
 "<)>"
 	")" Z Cpr #27->27
 "<.>"
@@ -34474,7 +34541,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<10>"
-	"10" L0 N card @ADVL #26->0
+	"10" L0 N card @ADVL #26->8
 "<,>"
 	"," Z Com #27->27
 "<16>"
@@ -34540,7 +34607,7 @@
 "<enama>"
 	"enam" L0 A comp sg gen @AN> #8->6
 "<eosinofiili>"
-	"eosinofiil" L0 S com sg gen @<Q #9->8
+	"eosinofiil" L0 S com sg gen @<Q #9->6
 "<esinemist>"
 	"esinemine" Lt S com sg part @OBJ #10->4
 "<suure>"
@@ -34562,7 +34629,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<~120>"
-	"~120" L0 Y nominal @SUBJ #20->0
+	"~120" L0 Y nominal @SUBJ #20->4
 "<eosinofiili>"
 	"eosinofiil" L0 S com sg part @<Q #21->20
 "<mm2>"
@@ -34572,7 +34639,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<1>"
-	"1" L0 N card @ADVL #25->0
+	"1" L0 N card @ADVL #25->4
 "<,>"
 	"," Z Com #26->26
 "<7>"
@@ -34622,7 +34689,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<4>"
-	"4" L0 N card @ADVL #17->0
+	"4" L0 N card @ADVL #17->4
 "<,>"
 	"," Z Com #18->18
 "<16>"
@@ -34738,7 +34805,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<1>"
-	"1" L0 N card @ADVL #14->0
+	"1" L0 N card @ADVL #14->3
 "<,>"
 	"," Z Com #15->15
 "<4>"
@@ -34844,7 +34911,7 @@
 "<(>"
 	"(" Z Opr #9->9
 "<1>"
-	"1" L0 N card @ADVL #10->0
+	"1" L0 N card @ADVL #10->3
 "<,>"
 	"," Z Com #11->11
 "<4>"
@@ -34906,7 +34973,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<3>"
-	"3" L0 N card @ADVL #23->0
+	"3" L0 N card @ADVL #23->2
 "<,>"
 	"," Z Com #24->24
 "<4>"
@@ -34916,7 +34983,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<vt>"
-	"vt" L0 Y nominal @IMV #28->0
+	"vt" L0 Y nominal @IMV #28->2
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #29->28
 "<1>"
@@ -35056,7 +35123,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<12>"
-	"12" L0 N card sg nom @ADVL #22->0
+	"12" L0 N card sg nom @ADVL #22->16
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -35120,7 +35187,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<1>"
-	"1" L0 N card @ADVL #11->0
+	"1" L0 N card @ADVL #11->6
 "<,>"
 	"," Z Com #12->12
 "<4>"
@@ -35180,35 +35247,33 @@
 "<välistada>"
 	"välista" Lda V main inf @SUBJ #8->4
 "<parasiitinfektsiooni>"
-	"parasiit_infektsioon" L0 S com sg gen @NN> #9->16
+	"parasiit_infektsioon" L0 S com sg gen @NN> #9->15
 "<,>"
 	"," Z Com #10->10
 "<eriti>"
-	"eriti" L0 D @DN> #11->15
+	"eriti" L0 D @DN> #11->14
 "<Strongyloides>"
 	"Strongyloides" L0 S prop sg nom @NN> #12->13
-"<sp>"
-	"sp" L0 Y nominal @NN> #13->15
-"<.>"
-	"." Z Fst #14->14
+"<sp.>"
+	"sp" L0 Y nominal @NN> #13->14
 "<infektsiooni>"
-	"infektsioon" L0 S com sg gen @NN> #15->9
+	"infektsioon" L0 S com sg gen @NN> #14->9
 "<olemasolu>"
-	"olemas_olu" L0 S com sg nom @OBJ #16->8
+	"olemas_olu" L0 S com sg nom @OBJ #15->8
 "<,>"
-	"," Z Com #17->17
+	"," Z Com #16->16
 "<et>"
-	"et" L0 J sub @J #18->20
+	"et" L0 J sub @J #17->19
 "<mitte>"
-	"mitte" L0 D @ADVL #19->20
+	"mitte" L0 D @ADVL #18->19
 "<soodustada>"
-	"soodusta" Lda V main inf @IMV #20->4
+	"soodusta" Lda V main inf @IMV #19->4
 "<parasiitide>"
-	"parasiit" Lde S com pl gen @NN> #21->22
+	"parasiit" Lde S com pl gen @NN> #20->21
 "<levikut>"
-	"levik" Lt S com sg part @OBJ #22->20
+	"levik" Lt S com sg part @OBJ #21->19
 "<.>"
-	"." Z Fst #23->23
+	"." Z Fst #22->22
 "</s>"
 
 "<s>"
@@ -35286,7 +35351,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<1>"
-	"1" L0 N card @ADVL #13->0
+	"1" L0 N card @ADVL #13->4
 "<,>"
 	"," Z Com #14->14
 "<4>"
@@ -35418,7 +35483,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<1>"
-	"1" L0 N card @ADVL #22->0
+	"1" L0 N card @ADVL #22->3
 "<,>"
 	"," Z Com #23->23
 "<4>"
@@ -35468,7 +35533,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<1>"
-	"1" L0 N card @ADVL #15->0
+	"1" L0 N card @ADVL #15->8
 "<,>"
 	"," Z Com #16->16
 "<4>"
@@ -35640,7 +35705,7 @@
 "<leukotrieenide>"
 	"leukotrieen" Lde S com pl gen @P> #10->16
 "<C4>"
-	"C4" L0 Y nominal @<NN #11->9
+	"C4" L0 Y nominal @<NN #11->10
 "<,>"
 	"," Z Com #12->12
 "<D4>"
@@ -35696,7 +35761,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<1>"
-	"1" L0 N card @ADVL #17->0
+	"1" L0 N card @ADVL #17->7
 "<,>"
 	"," Z Com #18->18
 "<4>"
@@ -35840,7 +35905,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<1>"
-	"1" L0 N card sg nom @ADVL #15->0
+	"1" L0 N card sg nom @ADVL #15->5
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -36010,7 +36075,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<3>"
-	"3" L0 N card @ADVL #12->0
+	"3" L0 N card @ADVL #12->10
 "<,>"
 	"," Z Com #13->13
 "<4>"
@@ -36171,8 +36236,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -36197,6 +36264,8 @@
 	"joonis" L0 S com sg nom @SUBJ #1->0
 "<1.>"
 	"1." L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -36214,7 +36283,7 @@
 "<(>"
 	"(" Z Opr #6->6
 "<IL-3>"
-	"IL-3" L0 N card sg nom @SUBJ #7->0
+	"IL-3" L0 N card sg nom @SUBJ #7->5
 "<->"
 	"-" Z Dsh #8->8
 "<interleukiin>"
@@ -36626,11 +36695,11 @@
 "<(>"
 	"(" Z Opr #5->5
 "<quality>"
-	"quality" L0 S com sg gen @?? #6->0
+	"quality" L0 S com sg gen @<NN #6->10
 "<of>"
-	"of" L0 Y nominal @?? #7->0
+	"of" L0 Y nominal @<NN #7->6
 "<life>"
-	"life" L0 S com sg nom @?? #8->0
+	"life" L0 S com sg nom @<NN #8->7
 "<,>"
 	"," Z Com #9->9
 "<Qol>"
@@ -36706,7 +36775,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<2>"
-	"2" L0 N card @ADVL #15->0
+	"2" L0 N card @ADVL #15->7
 "<,>"
 	"," Z Com #16->16
 "<3>"
@@ -36836,9 +36905,9 @@
 "<(>"
 	"(" Z Opr #2->2
 "<health>"
-	"health" L0 S com sg nom @?? #3->0
+	"health" L0 S com sg nom @NN> #3->4
 "<outcome>"
-	"outcome" L0 S com sg gen @?? #4->0
+	"outcome" L0 S com sg gen @<NN #4->1
 "<)>"
 	")" Z Cpr #5->5
 "<määratletakse>"
@@ -36896,7 +36965,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<4>"
-	"4" L0 N card sg nom @ADVL #14->0
+	"4" L0 N card sg nom @ADVL #14->3
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -36998,7 +37067,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<5>"
-	"5" L0 N card sg nom @ADVL #8->0
+	"5" L0 N card sg nom @ADVL #8->5
 "<)>"
 	")" Z Cpr #9->9
 "<.>"
@@ -37178,7 +37247,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<6>"
-	"6" L0 N card sg nom @ADVL #13->0
+	"6" L0 N card sg nom @ADVL #13->5
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -37346,7 +37415,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<7>"
-	"7" L0 N card sg nom @ADVL #9->0
+	"7" L0 N card sg nom @ADVL #9->3
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -37452,13 +37521,13 @@
 "<(>"
 	"(" Z Opr #11->11
 "<health-related>"
-	"health-related" L0 S com sg nom @?? #12->0
+	"health-related" L0 S com sg nom @NN> #12->13
 "<quality>"
-	"quality" L0 S com sg nom @?? #13->0
+	"quality" L0 S com sg nom @<NN #13->17
 "<of>"
-	"of" L0 Y nominal @?? #14->0
+	"of" L0 Y nominal @<NN #14->13
 "<life>"
-	"life" L0 S com sg nom @?? #15->0
+	"life" L0 S com sg nom @<NN #15->14
 "<,>"
 	"," Z Com #16->16
 "<HRQL>"
@@ -37476,13 +37545,13 @@
 "<(>"
 	"(" Z Opr #23->23
 "<needs-based>"
-	"needs-base" Ld S com pl nom @?? #24->0
+	"needs-base" Ld S com pl nom @NN> #24->25
 "<quality>"
-	"quality" L0 S com sg gen @?? #25->0
+	"quality" L0 S com sg gen @<NN #25->22
 "<of>"
-	"of" L0 Y nominal @?? #26->0
+	"of" L0 Y nominal @<NN #26->25
 "<life>"
-	"life" L0 S com sg nom @?? #27->0
+	"life" L0 S com sg nom @<NN #27->26
 "<)>"
 	")" Z Cpr #28->28
 "<,>"
@@ -37494,13 +37563,13 @@
 "<(>"
 	"(" Z Opr #32->32
 "<individualistic>"
-	"individualistic" L0 S com sg nom @?? #33->0
+	"individualistic" L0 S com sg nom @NN> #33->34
 "<quality>"
-	"quality" L0 S com sg nom @?? #34->0
+	"quality" L0 S com sg nom @<NN #34->31
 "<of>"
-	"of" L0 Y nominal @?? #35->0
+	"of" L0 Y nominal @<NN #35->34
 "<life>"
-	"life" L0 S com sg nom @?? #36->0
+	"life" L0 S com sg nom @<NN #36->35
 "<)>"
 	")" Z Cpr #37->37
 "<ja>"
@@ -37510,7 +37579,7 @@
 "<(>"
 	"(" Z Opr #40->40
 "<well-being>"
-	"well-being" L0 S com sg nom @?? #41->0
+	"well-being" L0 S com sg nom @<NN #41->39
 "<)>"
 	")" Z Cpr #42->42
 "<.>"
@@ -37544,7 +37613,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<1>"
-	"1" L0 N card sg nom @ADVL #13->0
+	"1" L0 N card sg nom @ADVL #13->2
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -37760,7 +37829,7 @@
 "<(>"
 	"(" Z Opr #31->31
 "<1>"
-	"1" L0 N card sg nom @ADVL #32->0
+	"1" L0 N card sg nom @ADVL #32->5
 "<)>"
 	")" Z Cpr #33->33
 "<.>"
@@ -37842,7 +37911,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<9>"
-	"9" L0 N card sg nom @ADVL #23->0
+	"9" L0 N card sg nom @ADVL #23->2
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -37942,7 +38011,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<8>"
-	"8" L0 N card sg nom @ADVL #21->0
+	"8" L0 N card sg nom @ADVL #21->3
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -38006,23 +38075,23 @@
 "<(>"
 	"(" Z Opr #16->16
 "<The>"
-	"The" L0 S prop sg nom @?? #17->0
+	"The" L0 S prop sg nom @NN> #17->18
 "<International>"
-	"International" L0 S prop sg nom @?? #18->0
+	"International" L0 S prop sg nom @NN> #18->19
 "<Classification>"
-	"Classification" L0 S prop sg nom @?? #19->0
+	"Classification" L0 S prop sg nom @NN> #19->20
 "<of>"
-	"of" L0 Y nominal @?? #20->0
+	"of" L0 Y nominal @NN> #20->21
 "<Functioning>"
-	"Functioning" L0 S prop sg nom @?? #21->0
+	"Functioning" L0 S prop sg nom @NN> #21->23
 "<,>"
 	"," Z Com #22->22
 "<Disability>"
-	"Disability" L0 S prop sg nom @?? #23->0
+	"Disability" L0 S prop sg nom @NN> #23->24
 "<and>"
-	"and" L0 S com sg nom @?? #24->0
+	"and" L0 S com sg nom @NN> #24->25
 "<Health>"
-	"Health" L0 S prop sg nom @?? #25->0
+	"Health" L0 S prop sg nom @NN> #25->27
 "<,>"
 	"," Z Com #26->26
 "<ICF>"
@@ -38030,7 +38099,7 @@
 "<,>"
 	"," Z Com #28->28
 "<WHO>"
-	"WHO" L0 Y nominal @ADVL #29->0
+	"WHO" L0 Y nominal @ADVL #29->27
 "<2001>"
 	"2001" L0 N card sg nom @ADVL #30->29
 "<)>"
@@ -38058,7 +38127,7 @@
 "<(>"
 	"(" Z Opr #42->42
 "<1>"
-	"1" L0 N card @ADVL #43->0
+	"1" L0 N card @ADVL #43->3
 "<,>"
 	"," Z Com #44->44
 "<9>"
@@ -38160,7 +38229,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<1>"
-	"1" L0 N card sg nom @ADVL #11->0
+	"1" L0 N card sg nom @ADVL #11->6
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -38284,7 +38353,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<1>"
-	"1" L0 N card sg nom @ADVL #21->0
+	"1" L0 N card sg nom @ADVL #21->5
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -38372,7 +38441,7 @@
 "<(>"
 	"(" Z Opr #39->39
 "<10>"
-	"10" L0 N card @ADVL #40->0
+	"10" L0 N card @ADVL #40->27
 "<,>"
 	"," Z Com #41->41
 "<11>"
@@ -38448,7 +38517,7 @@
 "<,>"
 	"," Z Com #14->14
 "<liikumis->"
-	"liikumis" S com <-> @<NN #15->13
+	"liikumis" L0 S com sg gen <-> @<NN #15->13
 "<,>"
 	"," Z Com #16->16
 "<toidu->"
@@ -38530,7 +38599,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<1>"
-	"1" L0 N card @ADVL #16->0
+	"1" L0 N card @ADVL #16->4
 "<,>"
 	"," Z Com #17->17
 "<13>"
@@ -38646,7 +38715,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<14>"
-	"14" L0 N card sg nom @ADVL #14->0
+	"14" L0 N card sg nom @ADVL #14->4
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -38710,7 +38779,7 @@
 "<(>"
 	"(" Z Opr #27->27
 "<1>"
-	"1" L0 N card sg nom @ADVL #28->0
+	"1" L0 N card sg nom @ADVL #28->3
 "<)>"
 	")" Z Cpr #29->29
 "<.>"
@@ -38790,7 +38859,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<13>"
-	"13" L0 N card sg nom @ADVL #22->0
+	"13" L0 N card sg nom @ADVL #22->2
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -38858,7 +38927,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<1>"
-	"1" L0 N card @ADVL #11->0
+	"1" L0 N card @ADVL #11->3
 "<,>"
 	"," Z Com #12->12
 "<8>"
@@ -39040,7 +39109,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<1>"
-	"1" L0 N card sg nom @ADVL #25->0
+	"1" L0 N card sg nom @ADVL #25->5
 "<)>"
 	")" Z Cpr #26->26
 "<.>"
@@ -39118,17 +39187,17 @@
 "<(>"
 	"(" Z Opr #12->12
 "<Rheumatoid>"
-	"Rheumatoi" Ld S prop pl nom @?? #13->0
+	"Rheumatoi" Ld S prop pl nom @NN> #13->14
 "<Arthritis-Specific>"
-	"Arthritis-Specific" L0 S prop sg nom @?? #14->0
+	"Arthritis-Specific" L0 S prop sg nom @NN> #14->15
 "<Quality>"
-	"Quality" L0 S prop sg gen @?? #15->0
+	"Quality" L0 S prop sg gen @NN> #15->16
 "<of>"
-	"of" L0 Y nominal @?? #16->0
+	"of" L0 Y nominal @NN> #16->17
 "<Life>"
-	"Life" L0 S prop sg nom @?? #17->0
+	"Life" L0 S prop sg nom @NN> #17->18
 "<Instrument>"
-	"instrument" L0 S com sg nom @?? #18->0
+	"instrument" L0 S com sg nom @NN> #18->20
 "<,>"
 	"," Z Com #19->19
 "<RAQol>"
@@ -39140,7 +39209,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<15>"
-	"15" L0 N card sg nom @ADVL #24->0
+	"15" L0 N card sg nom @ADVL #24->6
 "<)>"
 	")" Z Cpr #25->25
 "<.>"
@@ -39198,9 +39267,9 @@
 "<(>"
 	"(" Z Opr #10->10
 "<life-plan>"
-	"life-plan" L0 S com sg nom @?? #11->0
+	"life-plan" L0 S com sg nom @NN> #11->12
 "<approach>"
-	"approach" L0 S com sg nom @?? #12->0
+	"approach" L0 S com sg nom @<NN #12->7
 "<)>"
 	")" Z Cpr #13->13
 "<hindab>"
@@ -39256,7 +39325,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<16>"
-	"16" L0 N card sg nom @ADVL #14->0
+	"16" L0 N card sg nom @ADVL #14->2
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -39374,7 +39443,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<1>"
-	"1" L0 N card sg nom @ADVL #20->0
+	"1" L0 N card sg nom @ADVL #20->2
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -39584,7 +39653,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<8>"
-	"8" L0 N card @ADVL #17->0
+	"8" L0 N card @ADVL #17->4
 "<,>"
 	"," Z Com #18->18
 "<17>"
@@ -39624,7 +39693,7 @@
 "<teha>"
 	"tege" La V main inf @OBJ #10->9
 "<järeldusi>"
-	"järeldus" Li S com pl part @OBJ #11->9
+	"järeldus" Li S com pl part @OBJ #11->10
 "<tervishoiusüsteemi>"
 	"tervis_hoiu_süsteem" L0 S com sg gen @NN> #12->13
 "<struktuuri>"
@@ -39638,7 +39707,7 @@
 "<protsessi>"
 	"protsess" L0 S com sg gen @P> #17->13
 "<kohta>"
-	"kohta" L0 K post @ADVL #18->10
+	"kohta" L0 K post @ADVL #18->11
 "<.>"
 	"." Z Fst #19->19
 "</s>"
@@ -39808,7 +39877,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<1>"
-	"1" L0 N card sg nom @ADVL #12->0
+	"1" L0 N card sg nom @ADVL #12->6
 "<)>"
 	")" Z Cpr #13->13
 "<.>"
@@ -39962,7 +40031,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<2>"
-	"2" L0 N card sg nom @ADVL #24->0
+	"2" L0 N card sg nom @ADVL #24->3
 "<)>"
 	")" Z Cpr #25->25
 "<.>"
@@ -40136,7 +40205,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<2>"
-	"2" L0 N card sg nom @ADVL #9->0
+	"2" L0 N card sg nom @ADVL #9->5
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -40202,7 +40271,7 @@
 "<[>"
 	"[" Z Osq #4->4
 "<brain>"
-	"brain" L0 S com sg nom @?? #5->0
+	"brain" L0 S com sg nom @NN> #5->6
 "<'aju'>"
 	"aju" L0 S com sg nom @<NN #6->3
 "<]>"
@@ -40288,7 +40357,7 @@
 "<retseptor>"
 	"retseptor" L0 S com sg nom @NN> #25->26
 "<B-ga>"
-	"B" Lga Y nominal sg kom @ADVL #26->0
+	"B" Lga Y nominal sg kom @<NN #26->19
 "<sihtrakkudes>"
 	"siht_rakk" Ldes S com pl in @ADVL #27->26
 "<ja>"
@@ -40360,7 +40429,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<3>"
-	"3" L0 N card sg nom @ADVL #20->0
+	"3" L0 N card sg nom @ADVL #20->9
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -40430,7 +40499,7 @@
 "<vähe>"
 	"vähe" L0 D @ADVL #30->31
 "<uuritud>"
-	"uuri" Ltud V main partic past imps @IMV #31->8
+	"uuri" Ltud V main partic past imps @IMV #31->18
 "<)>"
 	")" Z Cpr #32->32
 "<,>"
@@ -40456,7 +40525,7 @@
 "<(>"
 	"(" Z Opr #43->43
 "<4>"
-	"4" L0 N card sg nom @ADVL #44->0
+	"4" L0 N card sg nom @ADVL #44->8
 "<)>"
 	")" Z Cpr #45->45
 "<.>"
@@ -40544,7 +40613,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<6>"
-	"6" L0 N card sg nom @ADVL #12->0
+	"6" L0 N card sg nom @ADVL #12->2
 "<)>"
 	")" Z Cpr #13->13
 "<.>"
@@ -40578,7 +40647,7 @@
 "<plasmas>"
 	"plasma" Ls S com sg in @<NN #12->11
 "<ning>"
-	"ning" J crd CLB L0 CLBC @J #13->14
+	"ning" L0 J crd CLB @J #13->14
 "<suurendab>"
 	"suurenda" Lb V main indic pres ps3 sg ps af @FMV #14->6
 "<südame>"
@@ -40718,7 +40787,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<7>"
-	"7" L0 N card @ADVL #25->0
+	"7" L0 N card @ADVL #25->4
 "<,>"
 	"," Z Com #26->26
 "<8>"
@@ -40804,23 +40873,23 @@
 "<(>"
 	"(" Z Opr #11->11
 "<vasodilation>"
-	"vasodilation" L0 S com sg nom @?? #12->0
+	"vasodilation" L0 S com sg nom @NN> #12->13
 "<in>"
-	"in" L0 Y nominal @?? #13->0
+	"in" L0 Y nominal @NN> #13->14
 "<the>"
-	"the" L0 S com sg gen @?? #14->0
+	"the" L0 S com sg gen @NN> #14->15
 "<management>"
-	"manage_ment" L0 S com sg nom @?? #15->0
+	"manage_ment" L0 S com sg nom @NN> #15->16
 "<of>"
-	"of" L0 Y nominal @?? #16->0
+	"of" L0 Y nominal @NN> #16->17
 "<acute>"
-	"acute" L0 S com sg gen @?? #17->0
+	"acute" L0 S com sg gen @NN> #17->18
 "<congestive>"
-	"congestive" L0 S com sg gen @?? #18->0
+	"congestive" L0 S com sg gen @NN> #18->19
 "<heart>"
-	"heart" L0 S com sg nom @?? #19->0
+	"heart" L0 S com sg nom @NN> #19->20
 "<failure>"
-	"failure" L0 S com sg gen @?? #20->0
+	"failure" L0 S com sg gen @<NN #20->10
 "<)>"
 	")" Z Cpr #21->21
 "<uurimuses>"
@@ -40976,7 +41045,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<9>"
-	"9" L0 N card sg nom @ADVL #25->0
+	"9" L0 N card sg nom @ADVL #25->4
 "<)>"
 	")" Z Cpr #26->26
 "<.>"
@@ -40996,7 +41065,7 @@
 "<(>"
 	"(" Z Opr #5->5
 "<10>"
-	"10" L0 N card sg nom @ADVL #6->0
+	"10" L0 N card sg nom @ADVL #6->2
 "<)>"
 	")" Z Cpr #7->7
 "<.>"
@@ -41034,7 +41103,7 @@
 "<(>"
 	"(" Z Opr #14->14
 "<11>"
-	"11" L0 N card sg nom @ADVL #15->0
+	"11" L0 N card sg nom @ADVL #15->2
 "<)>"
 	")" Z Cpr #16->16
 "<.>"
@@ -41108,7 +41177,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<1>"
-	"1" L0 N card sg nom @ADVL #20->0
+	"1" L0 N card sg nom @ADVL #20->8
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -41142,7 +41211,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<8>"
-	"8" L0 N card sg nom @ADVL #13->0
+	"8" L0 N card sg nom @ADVL #13->3
 "<)>"
 	")" Z Cpr #14->14
 "<.>"
@@ -41186,7 +41255,7 @@
 "<(>"
 	"(" Z Opr #17->17
 "<12>"
-	"12" L0 N card sg nom @ADVL #18->0
+	"12" L0 N card sg nom @ADVL #18->4
 "<)>"
 	")" Z Cpr #19->19
 "<.>"
@@ -41222,7 +41291,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<8>"
-	"8" L0 N card sg nom @ADVL #14->0
+	"8" L0 N card sg nom @ADVL #14->3
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -41468,7 +41537,7 @@
 "<püsiinfusioonina>"
 	"püsi_infusioon" Lna S com sg es @ADVL #11->12
 "<0,01>"
-	"0,01" L0 N card @ADVL #12->0
+	"0,01" L0 N card @ADVL #12->3
 "<g/kg/min>"
 	"g/kg/min" L0 S com sg nom @<Q #13->12
 "<.>"
@@ -41498,7 +41567,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<8>"
-	"8" L0 N card sg nom @ADVL #11->0
+	"8" L0 N card sg nom @ADVL #11->4
 "<)>"
 	")" Z Cpr #12->12
 "<.>"
@@ -41524,7 +41593,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<13>"
-	"13" L0 N card sg nom @ADVL #9->0
+	"13" L0 N card sg nom @ADVL #9->4
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -41644,7 +41713,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<14>"
-	"14" L0 N card sg nom @ADVL #22->0
+	"14" L0 N card sg nom @ADVL #22->5
 "<)>"
 	")" Z Cpr #23->23
 "<.>"
@@ -41676,7 +41745,7 @@
 "<,>"
 	"," Z Com #11->11
 "<vaid>"
-	"vaid" L0 J crd @J #12->13
+	"vaid" L0 J crd @J #12->19
 "<ka>"
 	"ka" L0 D @DN> #13->15
 "<variantse>"
@@ -41802,7 +41871,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<15>"
-	"15" L0 N card sg nom @ADVL #26->0
+	"15" L0 N card sg nom @ADVL #26->8
 "<)>"
 	")" Z Cpr #27->27
 "<.>"
@@ -41934,7 +42003,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<haiged>"
-	"haige" Ld S com pl nom @SUBJ #12->0
+	"haige" Ld S com pl nom @SUBJ #12->4
 "<oluliste>"
 	"oluline" Lte A pos pl gen @AN> #13->15
 "<valvulaarsete>"
@@ -42092,7 +42161,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<8>"
-	"8" L0 N card sg nom @ADVL #14->0
+	"8" L0 N card sg nom @ADVL #14->2
 "<)>"
 	")" Z Cpr #15->15
 "<.>"
@@ -42218,7 +42287,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<Gomes>"
-	"Gomes" L0 S prop sg nom @?? #24->0
+	"Gomes" L0 S prop sg nom @?? #24->2
 "<ja>"
 	"ja" L0 J crd @J #25->26
 "<Hobbs>"
@@ -42258,7 +42327,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<Lewicki>"
-	"Lewicki" L0 S prop sg nom @SUBJ #12->0
+	"Lewicki" L0 S prop sg nom @SUBJ #12->2
 "<ja>"
 	"ja" L0 J crd @J #13->14
 "<Potter>"
@@ -42300,7 +42369,7 @@
 "<plasmas>"
 	"plasma" Ls S com sg in @<NN #12->11
 "<ning>"
-	"ning" J crd CLB L0 CLBC @J #13->14
+	"ning" L0 J crd CLB @J #13->14
 "<suurendab>"
 	"suurenda" Lb V main indic pres ps3 sg ps af @FMV #14->6
 "<südame>"
@@ -42440,7 +42509,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<Colucci>"
-	"Colucci" L0 S prop sg nom @SUBJ #25->0
+	"Colucci" L0 S prop sg nom @SUBJ #25->4
 "<,>"
 	"," Z Com #26->26
 "<2001>"
@@ -42466,7 +42535,7 @@
 "<s>"
 
 "<I/v>"
-	"I/v" L0 Y nominal @ADVL #1->0
+	"I/v" L0 Y nominal @ADVL #1->3
 "<nesiritiidravi>"
 	"nesiritiid_ravi" L0 S com sg nom @SUBJ #2->3
 "<koosneb>"
@@ -42580,7 +42649,7 @@
 "<püsiinfusioonina>"
 	"püsi_infusioon" Lna S com sg es @ADVL #13->14
 "<0,01>"
-	"0,01" L0 N card @ADVL #14->0
+	"0,01" L0 N card @ADVL #14->5
 "<g/kg/min>"
 	"g/kg/min" L0 S com sg nom @<Q #15->14
 "<.>"
@@ -42610,7 +42679,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<Keating>"
-	"Keating" L0 S prop sg nom @SUBJ #11->0
+	"Keating" L0 S prop sg nom @SUBJ #11->4
 "<ja>"
 	"ja" L0 J crd @J #12->13
 "<Goa>"
@@ -42902,7 +42971,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<1>"
-	"1" L0 N card sg nom @ADVL #24->0
+	"1" L0 N card sg nom @ADVL #24->4
 "<)>"
 	")" Z Cpr #25->25
 "<.>"
@@ -42990,7 +43059,7 @@
 "<(>"
 	"(" Z Opr #29->29
 "<2>"
-	"2" L0 N card @ADVL #30->0
+	"2" L0 N card @ADVL #30->6
 "<,>"
 	"," Z Com #31->31
 "<3>"
@@ -43130,7 +43199,7 @@
 "<kr>"
 	"kr" L0 Y nominal @NN> #13->14
 "<stigma>"
-	"stigma" L0 S com sg nom @SUBJ #14->0
+	"stigma" L0 S com sg nom @<NN #14->10
 "<'arm>"
 	"arm" L0 S com sg nom @PRD #15->14
 "<,>"
@@ -43164,7 +43233,7 @@
 "<(>"
 	"(" Z Opr #30->30
 "<4>"
-	"4" L0 N card sg nom @ADVL #31->0
+	"4" L0 N card sg nom @ADVL #31->3
 "<)>"
 	")" Z Cpr #32->32
 "<.>"
@@ -43187,8 +43256,10 @@
 	"epileptiline" L0 A pos sg gen @AN> #6->7
 "<hoo>"
 	"hoog" L0 S com sg gen @P> #7->8
-"<ajal.>"
+"<ajal>"
 	"ajal" L0 K post @<KN #8->5
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -43224,15 +43295,15 @@
 "<ehk>"
 	"ehk" L0 J crd @J #15->16
 "<sudden>"
-	"sudden" L0 S com sg nom @?? #16->14
+	"sudden" L0 S com sg nom @NN> #16->17
 "<unexplained>"
-	"unexp_laine" Ld S com pl nom @?? #17->0
+	"unexp_laine" Ld S com pl nom @NN> #17->18
 "<death>"
-	"death" L0 S com sg nom @?? #18->0
+	"death" L0 S com sg nom @NN> #18->19
 "<in>"
-	"in" L0 Y nominal @?? #19->0
+	"in" L0 Y nominal @NN> #19->20
 "<epilepsy>"
-	"epilepsy" L0 S com sg gen @?? #20->0
+	"epilepsy" L0 S com sg gen @<NN #20->14
 "<)>"
 	")" Z Cpr #21->21
 "<.>"
@@ -43302,7 +43373,7 @@
 "<(>"
 	"(" Z Opr #20->20
 "<5>"
-	"5" L0 N card sg nom @ADVL #21->0
+	"5" L0 N card sg nom @ADVL #21->14
 "<)>"
 	")" Z Cpr #22->22
 "<.>"
@@ -43368,7 +43439,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<vt>"
-	"vt" L0 Y nominal @IMV #11->0
+	"vt" L0 Y nominal @IMV #11->3
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #12->11
 "<1>"
@@ -43383,8 +43454,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -43796,7 +43869,7 @@
 "<(>"
 	"(" Z Opr #26->26
 "<6>"
-	"6" L0 N card sg nom @ADVL #27->0
+	"6" L0 N card sg nom @ADVL #27->15
 "<)>"
 	")" Z Cpr #28->28
 "<.>"
@@ -43830,7 +43903,7 @@
 "<(>"
 	"(" Z Opr #12->12
 "<seda>"
-	"see" Lda P dem sg part @SUBJ #13->0
+	"see" Lda P dem sg part @SUBJ #13->8
 "<ka>"
 	"ka" L0 D @DN> #14->17
 "<sarnase>"
@@ -44012,7 +44085,7 @@
 "<(>"
 	"(" Z Opr #5->5
 "<5>"
-	"5" L0 N card sg nom @ADVL #6->0
+	"5" L0 N card sg nom @ADVL #6->2
 "<)>"
 	")" Z Cpr #7->7
 "</s>"
@@ -44020,7 +44093,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->4
 "<Hoogude>"
 	"hoog" Lde S com pl gen @NN> #2->4
 "<täpne>"
@@ -44037,14 +44110,12 @@
 	"konsultatsioon" L0 S com sg nom @SUBJ #8->4
 "<.>"
 	"." Z Fst #9->9
-"<e>"
-	"e" L0 Y nominal @ADVL #10->0
 "</s>"
 
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Vajadusel>"
 	"vajadus" Ll S com sg ad @ADVL #2->3
 "<uuringud>"
@@ -44068,7 +44139,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->3
 "<Ravimi>"
 	"ravim" L0 S com sg gen @NN> #2->3
 "<valik>"
@@ -44116,7 +44187,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->8
 "<Allergiliste>"
 	"allergiline" Lte A pos pl gen @AN> #2->6
 "<või>"
@@ -44144,7 +44215,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->13
 "<Uue>"
 	"uus" L0 A pos sg gen @AN> #2->3
 "<põlvkonna>"
@@ -44206,7 +44277,7 @@
 "<s>"
 
 "<·>"
-	"·" L0 Y nominal @ADVL #1->0
+	"·" L0 Y nominal @ADVL #1->6
 "<Epilepsia>"
 	"epilepsia" L0 S com sg gen @NN> #2->4
 "<operatiivne>"
@@ -44548,9 +44619,9 @@
 "<samas>"
 	"sama" Ls P dem sg in @NN> #4->5
 "<süstlas>"
-	"süstal" Ls S com sg in @ADVL #5->10
+	"süstal" Ls S com sg in @ADVL #5->2
 "<koos>"
-	"koos" L0 K pre @ADVL #6->10
+	"koos" L0 K pre @<KN #6->5
 "<teiste>"
 	"teine" Lte P dem pl gen @NN> #7->8
 "<ravimitega>"
@@ -44652,7 +44723,7 @@
 "<kombineeritult>"
 	"kombineeri=tult" L0 D @ADVL #22->21
 "<kiire->"
-	"kiire" L0 A pos sg gen @AN> #23->36
+	"kiire" L0 A pos sg gen @AN> #23->35
 "<(>"
 	"(" Z Opr #24->24
 "<Actrapid>"
@@ -44671,26 +44742,24 @@
 	"Rapid" L0 S prop sg nom @ADVL #31->28
 "<)>"
 	")" Z Cpr #32->32
-"<.>"
-	"." Z Fst #33->33
 "<või>"
-	"või" L0 J crd @J #34->35
+	"või" L0 J crd @J #33->34
 "<ülikiiretoimelise>"
-	"üli_kiire_toime=line" L0 A pos sg gen @AN> #35->23
+	"üli_kiire_toime=line" L0 A pos sg gen @AN> #34->23
 "<insuliinipreparaadiga>"
-	"insuliini_preparaat" Lga S com sg kom @ADVL #36->22
+	"insuliini_preparaat" Lga S com sg kom @ADVL #35->22
 "<(>"
-	"(" Z Opr #37->37
+	"(" Z Opr #36->36
 "<Humalog>"
-	"Humalog" L0 S prop sg nom @<NN #38->36
+	"Humalog" L0 S prop sg nom @<NN #37->35
 "<,>"
-	"," Z Com #39->39
+	"," Z Com #38->38
 "<NovoRapid>"
-	"Novorapid" L0 S com sg nom @<NN #40->38
+	"Novorapid" L0 S com sg nom @<NN #39->37
 "<)>"
-	")" Z Cpr #41->41
+	")" Z Cpr #40->40
 "<.>"
-	"." Z Fst #42->42
+	"." Z Fst #41->41
 "</s>"
 
 "<s>"
@@ -44814,7 +44883,7 @@
 "<ning>"
 	"ning" L0 J crd @J #12->13
 "<1/3>"
-	"1/3" L0 N card @OBJ #13->0
+	"1/3" L0 N card @OBJ #13->2
 "<->"
 	"-" Z Dsh #14->14
 "<1/2>"
@@ -45438,7 +45507,7 @@
 "<ta>"
 	"tema" L0 P pers ps3 sg nom @SUBJ #23->24
 "<saaks>"
-	"saa" Lks V main cond pres ps af @FMV #24->18
+	"saa" Lks V main cond pres ps af @FMV #24->20
 "<kiiremini>"
 	"kiiremini" L0 D @ADVL #25->24
 "<abi>"
@@ -45711,8 +45780,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -45808,15 +45879,15 @@
 "<(>"
 	"(" Z Opr #17->17
 "<eakad>"
-	"eakas" Ld S com pl nom @SUBJ #18->9
+	"eakas" Ld S com pl nom @<NN #18->13
 "<,>"
 	"," Z Com #19->19
 "<lapsed>"
-	"laps" Ld S com pl nom @SUBJ #20->18
+	"laps" Ld S com pl nom @<NN #20->18
 "<,>"
 	"," Z Com #21->21
 "<invaliidid>"
-	"invaliid" Ld S com pl nom @SUBJ #22->20
+	"invaliid" Ld S com pl nom @<NN #22->20
 "<,>"
 	"," Z Com #23->23
 "<telefonita>"
@@ -45832,7 +45903,7 @@
 "<puudega>"
 	"puue" Lga S com sg kom @NN> #29->27
 "<inimesed>"
-	"inimene" Ld S com pl nom @SUBJ #30->22
+	"inimene" Ld S com pl nom @<NN #30->22
 "<)>"
 	")" Z Cpr #31->31
 "<;>"
@@ -45846,7 +45917,7 @@
 "<patsient>"
 	"patsient" L0 S com sg nom @SUBJ #36->41
 "<ise>"
-	"ise" L0 D @ADVL #37->30
+	"ise" L0 D @ADVL #37->41
 "<eriarsti>"
 	"eri_arst" L0 S com sg gen @P> #38->39
 "<juurde>"
@@ -45875,8 +45946,10 @@
 	"juurde" L0 K post @ADVL #50->51
 "<pääseb>"
 	"pääse" Lb V main indic pres ps3 sg ps af @FMV #51->43
-"<jm.>"
+"<jm>"
 	"jm" L0 Y nominal @ADVL #52->51
+"<.>"
+	"." Z Fst #53->53
 "</s>"
 
 "<s>"
@@ -46302,7 +46375,7 @@
 "<perearstide>"
 	"pere_arst" Lde S com pl gen @P> #4->5
 "<jaoks>"
-	"jaoks" L0 K post @ADVL #5->2
+	"jaoks" L0 K post @ADVL #5->3
 "<täiendavaid>"
 	"täiendav" Lid A pos pl part @AN> #6->13
 "<(>"
@@ -46560,7 +46633,7 @@
 "<kui>"
 	"kui" L0 J crd @J #12->14
 "<kuu>"
-	"kuu" L0 S com sg gen @NN> #13->11
+	"kuu" L0 S com sg gen @NN> #13->14
 "<lõpuks>"
 	"lõpp" Lks S com sg tr @ADVL #14->11
 "<,>"
@@ -46658,7 +46731,7 @@
 "<registreerimist>"
 	"registreerimine" Lt S com sg part @OBJ #7->8
 "<piiravad>"
-	"piira" Lvad V main indic pres ps3 pl ps af @FMV #8->10
+	"piira" Lvad V main indic pres ps3 pl ps af @FMV #8->2
 "<,>"
 	"," Z Com #9->9
 "<on>"
@@ -46666,7 +46739,7 @@
 "<nende>"
 	"see" Lde P dem pl gen @NN> #11->12
 "<soov>"
-	"soov" L0 S com sg nom @SUBJ #12->10
+	"soov" L0 S com sg nom @PRD #12->10
 "<reguleerida>"
 	"reguleeri" Lda V main inf @<INFN #13->12
 "<järjekorra>"
@@ -46771,7 +46844,7 @@
 	"olev" Ld A pos pl nom @AN> #16->18
 "<delikaatsed>"
 	"delikaatne" Ld A pos pl nom @AN> #17->18
-"<isikuandmed2>"
+"<isikuandmed>"
 	"isiku_andmed" Ld S com pl nom @OBJ #18->14
 "<,>"
 	"," Z Com #19->19
@@ -46812,7 +46885,7 @@
 "<mõnes>"
 	"mõni" Ls P sg in @NN> #6->7
 "<raviasutuses>"
-	"ravi_asutus" Ls S com sg in @ADVL #7->0
+	"ravi_asutus" Ls S com sg in @ADVL #7->2
 "<harva>"
 	"harva" L0 D @ADVL #8->7
 "<ka>"
@@ -46828,7 +46901,7 @@
 "<s>"
 
 "<1>"
-	"1" L0 N card @ADVL #1->0
+	"1" L0 N card @ADVL #1->5
 "<Sotsiaalministri>"
 	"sotsiaal_minister" L0 S com sg gen @NN> #2->5
 "<21.12.2001.>"
@@ -46902,7 +46975,7 @@
 "<a>"
 	"a" L0 Y nominal @NN> #37->38
 "<määrus>"
-	"määrus" L0 S com sg nom @SUBJ #38->0
+	"määrus" L0 S com sg nom @SUBJ #38->5
 "<nr>"
 	"nr" L0 Y nominal @NN> #39->40
 "<149>"
@@ -47282,7 +47355,7 @@
 "<kuidas>"
 	"kuidas" L0 D @ADVL #22->23
 "<kontrollida>"
-	"kontrolli" Lda V main inf @IMV #23->2
+	"kontrolli" Lda V main inf @IMV #23->18
 "<saatekirja>"
 	"saate_kiri" L0 S com sg gen @NN> #24->25
 "<olemasolu>"
@@ -47430,7 +47503,7 @@
 "<jäänud>"
 	"jäänud" L0 A pos @AN> #11->12
 "<tulu>"
-	"tulu" L0 S com sg part @OBJ #12->0
+	"tulu" L0 S com sg part @OBJ #12->3
 "<ja>"
 	"ja" L0 J crd @J #13->15
 "<katteta>"
@@ -47450,7 +47523,7 @@
 "<kus>"
 	"kus" L0 D @ADVL #3->4
 "<kasutatakse>"
-	"kasuta" Ltakse V main indic pres imps af @FMV #4->18
+	"kasuta" Ltakse V main indic pres imps af @FMV #4->1
 "<tulemuspalga>"
 	"tulemus_palk" L0 S com sg gen @NN> #5->6
 "<süsteemi>"
@@ -47553,8 +47626,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -47975,8 +48050,8 @@
 	"kuigi" L0 J sub @J #19->23
 "<sotsiaalministri>"
 	"sotsiaal_minister" L0 S com sg gen @NN> #20->21
-"<määrus3>"
-	"määrus3" L0 S com sg nom @SUBJ #21->23
+"<määrus>"
+	"määrus" L0 S com sg nom @SUBJ #21->23
 "<seda>"
 	"see" Lda P dem sg part @OBJ #22->23
 "<nõuab>"
@@ -48100,7 +48175,7 @@
 "<s>"
 
 "<3>"
-	"3" L0 N card sg nom @ADVL #1->0
+	"3" L0 N card sg nom @ADVL #1->5
 "<Sotsiaalministri>"
 	"sotsiaal_minister" L0 S com sg gen @NN> #2->5
 "<21.12.2001.>"
@@ -48538,7 +48613,7 @@
 "<:>"
 	":" Z Col #10->10
 "<1>"
-	"1" L0 N card sg nom @ADVL #11->0
+	"1" L0 N card sg nom @ADVL #11->17
 "<)>"
 	")" Z Cpr #12->12
 "<meeste>"
@@ -48554,7 +48629,7 @@
 "<,>"
 	"," Z Com #18->18
 "<2>"
-	"2" L0 N card sg nom @ADVL #19->11
+	"2" L0 N card sg nom @ADVL #19->22
 "<)>"
 	")" Z Cpr #20->20
 "<sotsiaalkindlustusskeemide>"
@@ -48564,7 +48639,7 @@
 "<,>"
 	"," Z Com #23->23
 "<3>"
-	"3" L0 N card sg nom @ADVL #24->19
+	"3" L0 N card sg nom @ADVL #24->30
 "<)>"
 	")" Z Cpr #25->25
 "<ohutu>"
@@ -48580,7 +48655,7 @@
 "<,>"
 	"," Z Com #31->31
 "<4>"
-	"4" L0 N card sg nom @ADVL #32->24
+	"4" L0 N card sg nom @ADVL #32->36
 "<)>"
 	")" Z Cpr #33->33
 "<võrdsete>"
@@ -48772,7 +48847,7 @@
 "<s>"
 
 "<1>"
-	"1" L0 N card @ADVL #1->0
+	"1" L0 N card @ADVL #1->10
 "<Isikute>"
 	"isik" Lte S com pl gen @NN> #2->3
 "<ringi>"
@@ -48846,7 +48921,7 @@
 "<selle>"
 	"see" L0 P dem sg gen @NN> #21->22
 "<rakendusmäärus>"
-	"rakendus_määrus" L0 S com sg nom @OBJ #22->0
+	"rakendus_määrus" L0 S com sg nom @OBJ #22->16
 "<574/72>"
 	"574/72" L0 N card sg nom @<NN #23->22
 "<.>"
@@ -48964,7 +49039,7 @@
 "<haigus->"
 	"haigus" L0 S com sg nom @<NN #37->35
 "<ja>"
-	"ja" J crd @J #38->39
+	"ja" L0 J crd @J #38->39
 "<emadushüvitistele>"
 	"emadus_hüvitis" Ltele S com pl all @<NN #39->37
 "<.>"
@@ -48976,7 +49051,7 @@
 "<Haigus->"
 	"haigus" L0 S com sg nom @NN> #1->4
 "<ning>"
-	"ning" J crd @J #2->3
+	"ning" L0 J crd @J #2->3
 "<emadushüvitiste>"
 	"emadus_hüvitis" Lte S com pl gen @NN> #3->1
 "<koordineerimist>"
@@ -48993,8 +49068,10 @@
 	"1408/71" L0 N card sg nom @<NN #9->8
 "<artiklites>"
 	"artikkel" Ltes S com pl in @ADVL #10->7
-"<18-36.>"
-	"18-36." L0 N card @<NN #11->10
+"<18-36>"
+	"18-36" L0 N card @<NN #11->10
+"<.>"
+	"." Z Fst #12->12
 "</s>"
 
 "<s>"
@@ -49021,8 +49098,10 @@
 	"16-34" L0 N card sg nom @<NN #10->9
 "<ning>"
 	"ning" L0 J crd @J #11->12
-"<93-95.>"
-	"93-95." L0 N card @<NN #12->10
+"<93-95>"
+	"93-95" L0 N card @<NN #12->10
+"<.>"
+	"." Z Fst #13->13
 "</s>"
 
 "<s>"
@@ -49040,7 +49119,7 @@
 "<:>"
 	":" Z Col #6->6
 "<1>"
-	"1" L0 N card sg nom @ADVL #7->0
+	"1" L0 N card sg nom @ADVL #7->14
 "<)>"
 	")" Z Cpr #8->8
 "<väljaspool>"
@@ -49057,12 +49136,12 @@
 	"õigus" L0 S com sg nom @<NN #14->5
 "<rahalistele>"
 	"rahaline" Ltele A pos pl all @NN> #15->16
-"<hüvitistele3>"
+"<hüvitistele>"
 	"hüvitis" Ltele S com pl all @<NN #16->14
 "<;>"
 	";" Z Scl #17->17
 "<2>"
-	"2" L0 N card sg nom @ADVL #18->7
+	"2" L0 N card sg nom @ADVL #18->20
 "<)>"
 	")" Z Cpr #19->19
 "<õigus>"
@@ -49087,12 +49166,12 @@
 	"või" L0 J crd @J #29->30
 "<mitterahalisi>"
 	"mitte_rahaline" Li A pos pl part @AN> #30->28
-"<hüvitisi4>"
+"<hüvitisi>"
 	"hüvitis" Li S com pl part @OBJ #31->21
 "<;>"
 	";" Z Scl #32->32
 "<3>"
-	"3" L0 N card sg nom @ADVL #33->18
+	"3" L0 N card sg nom @ADVL #33->41
 "<)>"
 	")" Z Cpr #34->34
 "<haigus->"
@@ -49103,7 +49182,7 @@
 	"rasedus" L0 S com sg nom @NN> #37->35
 "<ja>"
 	"ja" L0 J crd @J #38->39
-"<sünnitushüvitiste5>"
+"<sünnitushüvitiste>"
 	"sünnitus_hüvitis" Lte S com pl gen @NN> #39->37
 "<riikidevaheline>"
 	"riikide_vaheline" L0 A pos sg nom @AN> #40->41
@@ -49133,8 +49212,10 @@
 	"1." L0 N ord sg el @AN> #8->9
 "<maist>"
 	"mai" Lst S com sg el @<P #9->7
-"<2004.>"
-	"2004." L0 N card @<NN #10->9
+"<2004>"
+	"2004" L0 N card @<NN #10->9
+"<.>"
+	"." Z Fst #11->11
 "</s>"
 
 "<s>"
@@ -49326,7 +49407,7 @@
 "<kusjuures>"
 	"kus_juures" L0 D @ADVL #26->27
 "<eristatakse>"
-	"erista" Ltakse V main indic pres imps af @FMV #27->10
+	"erista" Ltakse V main indic pres imps af @FMV #27->24
 "<veel>"
 	"veel" L0 D @ADVL #28->27
 "<osaliselt>"
@@ -49424,7 +49505,7 @@
 "<s>"
 
 "<2>"
-	"2" L0 N card @ADVL #1->0
+	"2" L0 N card @ADVL #1->4
 "<Vastavad>"
 	"vastav" Ld A pos pl nom @AN> #2->3
 "<õigusaktid>"
@@ -49433,14 +49514,16 @@
 	"leid" Lb V main indic pres ps3 sg ps af @FMV #4->0
 "<aadressilt>"
 	"aadress" Llt S com sg abl @ADVL #5->4
-"<europa.eu.int/eur-lex/en/index.html.>"
+"<europa.eu.int/eur-lex/en/index.html>"
 	"europa.eu.int/eur-lex/en/index.html" L0 Y nominal @<NN #6->5
+"<.>"
+	"." Z Fst #7->7
 "</s>"
 
 "<s>"
 
 "<3>"
-	"3" L0 N card @ADVL #1->0
+	"3" L0 N card @ADVL #1->5
 "<Rahaliste>"
 	"rahaline" Lte A pos pl gen @AN> #2->3
 "<hüvitiste>"
@@ -49480,7 +49563,7 @@
 "<s>"
 
 "<4>"
-	"4" L0 N card sg nom @ADVL #1->0
+	"4" L0 N card sg nom @ADVL #1->5
 "<Mitterahaliste>"
 	"mitte_rahaline" Lte A pos pl gen @AN> #2->3
 "<hüvitiste>"
@@ -49502,35 +49585,37 @@
 "<mitterahalise>"
 	"mitte_rahaline" L0 A pos sg gen @AN> #11->12
 "<hüvitise>"
-	"hüvitis" L0 S com sg gen @NN> #12->13
-"<allaka>"
-	"alla_ka" L0 K post @ADVL #13->10
+	"hüvitis" L0 S com sg gen @P> #12->13
+"<alla>"
+	"alla" L0 K post @ADVL #13->10
+"<ka>"
+	"ka" L0 D @ADVL #14->19
 "<rahas>"
-	"raha" Ls S com sg in @ADVL #14->16
+	"raha" Ls S com sg in @ADVL #15->17
 "<välja>"
-	"välja" L0 D @ADVL #15->16
+	"välja" L0 D @ADVL #16->17
 "<makstav>"
-	"makstav" L0 A pos sg nom @AN> #16->18
+	"makstav" L0 A pos sg nom @AN> #17->19
 "<hambaraviteenuse>"
-	"hamba_ravi_teenus" L0 S com sg gen @NN> #17->18
+	"hamba_ravi_teenus" L0 S com sg gen @NN> #18->19
 "<hüvitis>"
-	"hüvitis" L0 S com sg nom @SUBJ #18->10
+	"hüvitis" L0 S com sg nom @SUBJ #19->10
 "<ning>"
-	"ning" L0 J crd @J #19->21
+	"ning" L0 J crd @J #20->22
 "<täiendav>"
-	"täiendav" L0 A pos sg nom @AN> #20->21
+	"täiendav" L0 A pos sg nom @AN> #21->22
 "<ravimihüvitis>"
-	"ravimi_hüvitis" L0 S com sg nom @SUBJ #21->18
+	"ravimi_hüvitis" L0 S com sg nom @SUBJ #22->19
 "<)>"
-	")" Z Cpr #22->22
+	")" Z Cpr #23->23
 "<.>"
-	"." Z Fst #23->23
+	"." Z Fst #24->24
 "</s>"
 
 "<s>"
 
 "<5>"
-	"5" L0 N card @ADVL #1->0
+	"5" L0 N card @ADVL #1->7
 "<Määruses>"
 	"määrus" Ls S com sg in @ADVL #2->3
 "<kasutatavad>"
@@ -50217,8 +50302,10 @@
 	"tõend" L0 S com sg nom @SUBJ #15->12
 "<E>"
 	"E" L0 Y nominal @AN> #16->17
-"<111.>"
-	"111." L0 N card @<NN #17->15
+"<111>"
+	"111" L0 N card @<NN #17->15
+"<.>"
+	"." Z Fst #18->18
 "</s>"
 
 "<s>"
@@ -50297,7 +50384,7 @@
 	"ainult" L0 D @DN> #6->7
 "<mõnega>"
 	"mõni" Lga P sg kom @ADVL #7->4
-"<neist.6>"
+"<neist.>"
 	"see" Lst P dem pl el @<NN #8->7
 "</s>"
 
@@ -50751,24 +50838,20 @@
 	"elu_koha_riik" Lle S com sg all @ADVL #6->2
 "<selle>"
 	"see" L0 P dem sg gen @NN> #7->8
-"<pensionpensio-näriauml>"
-	"pensionär" L0 S com sg gen @P> #8->11
-"<;>"
-	";" Z Scl #9->9
-"<ri>"
-	"ri" L0 Y nominal @?? #10->0
+"<pensionäri>"
+	"pensionär" L0 S com sg gen @P> #8->9
 "<eest>"
-	"eest" L0 D @ADVL #11->2
+	"eest" L0 D @ADVL #9->2
 "<tema>"
-	"tema" L0 P pers ps3 sg gen @NN> #12->13
+	"tema" L0 P pers ps3 sg gen @NN> #10->11
 "<elukohariigi>"
-	"elu_koha_riik" L0 S com sg gen @NN> #13->15
+	"elu_koha_riik" L0 S com sg gen @NN> #11->13
 "<keskmist>"
-	"keskmine" Lt A pos sg part @AN> #14->15
-"<ravikulu7>"
-	"ravi_kulu" L0 S com sg part @OBJ #15->2
+	"keskmine" Lt A pos sg part @AN> #12->13
+"<ravikulu>"
+	"ravi_kulu" L0 S com sg part @OBJ #13->2
 "<.>"
-	"." Z Fst #16->16
+	"." Z Fst #14->14
 "</s>"
 
 "<s>"
@@ -50816,7 +50899,7 @@
 "<s>"
 
 "<6>"
-	"6" L0 N card @ADVL #1->0
+	"6" L0 N card @ADVL #1->6
 "<Raviasutuste>"
 	"ravi_asutus" Lte S com pl gen @NN> #2->3
 "<kohustus>"
@@ -50911,14 +50994,16 @@
 	"1." L0 N ord sg part @AN> #6->7
 "<maid>"
 	"mai" Ld S com sg part @<P #7->5
-"<2004.>"
-	"2004." L0 N card sg nom @<NN #8->7
+"<2004>"
+	"2004" L0 N card sg nom @<NN #8->7
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
 
 "<7>"
-	"7" L0 N card sg nom @ADVL #1->0
+	"7" L0 N card sg nom @ADVL #1->5
 "<Keskmise>"
 	"keskmine" L0 A pos sg gen @AN> #2->3
 "<ravikulu>"
@@ -51441,8 +51526,10 @@
 	"tõend" L0 S com sg gen @OBJ #8->4
 "<E>"
 	"E" L0 Y nominal @NN> #9->10
-"<112.>"
-	"112." L0 N card @<NN #10->8
+"<112>"
+	"112" L0 N card @<NN #10->8
+"<.>"
+	"." Z Fst #11->11
 "</s>"
 
 "<s>"
@@ -51980,7 +52067,7 @@
 "<s>"
 
 "<1.>"
-	"1." L0 N ord @ADVL #1->0
+	"1." L0 N ord @ADVL #1->4
 "<Emadushüvitiste>"
 	"emadus_hüvitis" Lte S com pl gen @P> #2->3
 "<kõrval>"
@@ -52000,7 +52087,7 @@
 "<s>"
 
 "<2.>"
-	"2." L0 N ord @ADVL #1->0
+	"2." L0 N ord @ADVL #1->4
 "<Välja>"
 	"välja" L0 D @Vpart #2->4
 "<on>"
@@ -52050,7 +52137,7 @@
 "<s>"
 
 "<3.>"
-	"3." L0 N ord @ADVL #1->0
+	"3." L0 N ord @ADVL #1->2
 "<Kaob>"
 	"kadu" Lb V main indic pres ps3 sg ps af @FMV #2->0
 "<erinevus>"
@@ -52180,7 +52267,7 @@
 "<s>"
 
 "<4.>"
-	"4." L0 N ord @ADVL #1->0
+	"4." L0 N ord @ADVL #1->18
 "<Riigid>"
 	"riik" Ld S com pl nom @SUBJ #2->18
 "<,>"
@@ -52190,7 +52277,7 @@
 "<ei>"
 	"ei" L0 V aux neg @NEG #5->6
 "<arvutata>"
-	"arvuta" Lta V main indic pres imps neg @FMV #6->18
+	"arvuta" Lta V main indic pres imps neg @FMV #6->2
 "<arstiabi>"
 	"arsti_abi" L0 S com sg gen @NN> #7->8
 "<maksumust>"
@@ -52382,7 +52469,7 @@
 "<s>"
 
 "<8>"
-	"8" L0 N card @ADVL #1->0
+	"8" L0 N card @ADVL #1->17
 "<Kui>"
 	"kui" L0 J sub @J #2->5
 "<teine>"
@@ -52537,8 +52624,10 @@
 	"august" Ll S com sg ad @ADVL #5->3
 "<1963.>"
 	"1963." L0 N ord @AN> #6->7
-"<a.>"
+"<a>"
 	"a" L0 Y nominal @ADVL #7->3
+"<.>"
+	"." Z Fst #8->8
 "</s>"
 
 "<s>"
@@ -52559,8 +52648,10 @@
 	"arsti_teaduskond" L0 S com sg gen @OBJ #7->2
 "<1988.>"
 	"1988." L0 N ord @AN> #8->9
-"<a.>"
+"<a>"
 	"a" L0 Y nominal @ADVL #9->2
+"<.>"
+	"." Z Fst #10->10
 "</s>"
 
 "<s>"
@@ -52616,7 +52707,7 @@
 "<osakonna>"
 	"osakond" L0 S com sg gen @NN> #12->13
 "<juhatajana>"
-	"juhataja" Lna S com sg es @ADVL #13->0
+	"juhataja" Lna S com sg es @ADVL #13->3
 "<.>"
 	"." Z Fst #14->14
 "</s>"
@@ -52691,8 +52782,10 @@
 	"üli_kool" Ls S com sg in @ADVL #6->3
 "<2000.>"
 	"2000." L0 N ord @AN> #7->8
-"<a.>"
+"<a>"
 	"a" L0 Y nominal @ADVL #8->3
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -52813,8 +52906,10 @@
 	"see" L0 P dem sg gen @NN> #21->22
 "<raviprobleemid>"
 	"ravi_probleem" Ld S com pl nom @<NN #22->18
-"<jt.>"
+"<jt>"
 	"jt" L0 Y nominal @<NN #23->22
+"<.>"
+	"." Z Fst #24->24
 "</s>"
 
 "<s>"
@@ -52913,8 +53008,10 @@
 	"1." L0 N ord sg el @AN> #11->12
 "<oktoobrist>"
 	"oktoober" Lst S com sg el @<P #12->10
-"<2003.>"
-	"2003." L0 N card @<NN #13->12
+"<2003>"
+	"2003" L0 N card @<NN #13->12
+"<.>"
+	"." Z Fst #14->14
 "</s>"
 
 "<s>"
@@ -53470,7 +53567,7 @@
 "<(>"
 	"(" Z Opr #16->16
 "<1>"
-	"1" L0 N card @ADVL #17->0
+	"1" L0 N card @ADVL #17->2
 "<,>"
 	"," Z Com #18->18
 "<2>"
@@ -53682,15 +53779,15 @@
 "<->"
 	"-" Z Dsh #17->17
 "<Lichen>"
-	"Lichen" L0 S prop sg nom @?? #18->0
+	"Lichen" L0 S prop sg nom @NN> #18->19
 "<simplex>"
-	"simplex" L0 S com sg nom @?? #19->0
+	"simplex" L0 S com sg nom @NN> #19->20
 "<chronicus>"
-	"chronicu" Ls S com sg in @?? #20->0
+	"chronicu" Ls S com sg in @<NN #20->24
 "<and>"
-	"and" L0 S com sg nom @?? #21->0
+	"and" L0 S com sg nom @NN> #21->22
 "<prurigo>"
-	"prurigo" L0 S com sg nom @?? #22->0
+	"prurigo" L0 S com sg nom @<NN #22->20
 "<,>"
 	"," Z Com #23->23
 "<L28>"
@@ -54448,9 +54545,9 @@
 "<retsepti>"
 	"retsept" L0 S com sg part @OBJ #6->5
 "<pro>"
-	"pro" L0 S com sg gen @?? #7->0
+	"pro" L0 S com sg gen @NN> #7->8
 "<auctore>"
-	"auc_tore" L0 A pos sg nom @?? #8->0
+	"auc_tore" L0 A pos sg nom @ADVL #8->5
 "<,>"
 	"," Z Com #9->9
 "<mida>"
@@ -55380,7 +55477,7 @@
 "<praegune>"
 	"praegune" L0 A pos sg nom @AN> #10->13
 "<Hugo>"
-	"Hugo" L0 S prop sg gen @NN> #11->12
+	"Hugo" L0 S prop sg nom @NN> #11->12
 "<Treffneri>"
 	"Treffner" L0 S prop sg gen @NN> #12->13
 "<Gümnaasium>"
@@ -55394,15 +55491,15 @@
 "<aastal>"
 	"aasta" Ll S com sg ad @ADVL #17->22
 "<cum>"
-	"cum" L0 S com sg nom @?? #18->0
+	"cum" L0 S com sg nom @NN> #18->22
 "<laude>"
-	"laude" L0 S com sg gen @?? #19->0
+	"laude" L0 S com sg gen @<NN #19->18
 "<Tartu>"
 	"Tartu" L0 S prop sg gen @NN> #20->21
 "<Ülikooli>"
 	"üli_kool" L0 S com sg gen @NN> #21->22
 "<arstiteaduskonna>"
-	"arsti_teaduskond" L0 S com sg gen @OBJ #22->0
+	"arsti_teaduskond" L0 S com sg gen @OBJ #22->8
 "<.>"
 	"." Z Fst #23->23
 "</s>"
@@ -55972,15 +56069,15 @@
 "<s>"
 
 "<In>"
-	"In" L0 Y nominal @?? #1->0
+	"In" L0 Y nominal @NN> #1->2
 "<memoriam>"
-	"memoriam" L0 S com sg nom @?? #2->0
+	"memoriam" L0 S com sg nom @ADVL #2->0
 "<Max>"
 	"Max" L0 S prop sg nom @NN> #3->4
 "<Siurala>"
-	"Siurala" L0 S prop sg nom @SUBJ #4->0
+	"Siurala" L0 S prop sg nom @SUBJ #4->2
 "<21.10.1913-06.09.2003>"
-	"21.10.1913-06.09.2003" L0 N card @ADVL #5->4
+	"21.10.1913-06.09.2003" L0 N card @ADVL #5->2
 "</s>"
 
 "<s>"
@@ -56233,8 +56330,10 @@
 	"Pertunmaa" Ll S prop sg ad @ADVL #6->2
 "<1945.>"
 	"1945." L0 N ord @AN> #7->8
-"<a.>"
+"<a>"
 	"a" L0 Y nominal @ADVL #8->2
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -56350,7 +56449,7 @@
 "<aastast>"
 	"aasta" Lst S com sg el @ADVL #13->14
 "<professorina>"
-	"professor" Lna S com sg es @ADVL #14->0
+	"professor" Lna S com sg es @ADVL #14->3
 "<.>"
 	"." Z Fst #15->15
 "</s>"
@@ -56367,8 +56466,10 @@
 	"pension" Lle S com sg all @ADVL #4->3
 "<1976.>"
 	"1976." L0 N ord @AN> #5->6
-"<a.>"
+"<a>"
 	"a" L0 Y nominal @ADVL #6->3
+"<.>"
+	"." Z Fst #7->7
 "</s>"
 
 "<s>"
@@ -56424,17 +56525,17 @@
 "<(>"
 	"(" Z Opr #14->14
 "<Fellow>"
-	"Fellow" L0 S prop sg nom @?? #15->0
+	"Fellow" L0 S prop sg nom @<NN #15->13
 "<of>"
-	"of" L0 Y nominal @?? #16->0
+	"of" L0 Y nominal @<NN #16->15
 "<Royal>"
-	"Royal" L0 S prop sg nom @?? #17->0
+	"Royal" L0 S prop sg nom @NN> #17->18
 "<Society>"
-	"Society" L0 S prop sg gen @?? #18->0
+	"Society" L0 S prop sg gen @NN> #18->19
 "<of>"
-	"of" L0 Y nominal @?? #19->0
+	"of" L0 Y nominal @NN> #19->20
 "<Medicine>"
-	"Medicine" L0 S prop sg nom @?? #20->0
+	"Medicine" L0 S prop sg nom @<NN #20->15
 "<)>"
 	")" Z Cpr #21->21
 "<,>"
@@ -56874,7 +56975,7 @@
 "<president>"
 	"president" L0 S com sg nom @NN> #10->12
 "<Mauno>"
-	"Mauno" L0 S prop sg gen @NN> #11->12
+	"Mauno" L0 S prop sg nom @NN> #11->12
 "<Koivisto>"
 	"Koivisto" L0 S prop sg gen @NN> #12->13
 "<aukirja>"
@@ -56990,7 +57091,7 @@
 "<s>"
 
 "<U.>"
-	"U." L0 Y nominal @NN> #1->5
+	"U." L0 Y nominal @NN> #1->2
 "<Ragun>"
 	"Ragun" L0 S prop sg nom @SUBJ #2->0
 "<,>"
@@ -57498,7 +57599,7 @@
 "<rahuldavaks>"
 	"rahuldav" Lks A pos sg tr @ADVL #16->17
 "<23,7%>"
-	"23,7%" L0 N card @SUBJ #17->0
+	"23,7%" L0 N card @SUBJ #17->11
 "<(>"
 	"(" Z Opr #18->18
 "<98>"
@@ -57632,7 +57733,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<1>"
-	"1" L0 N card @ADVL #14->0
+	"1" L0 N card @ADVL #14->3
 "<,>"
 	"," Z Com #15->15
 "<2>"
@@ -57720,7 +57821,7 @@
 "<(>"
 	"(" Z Opr #30->30
 "<3>"
-	"3" L0 N card sg nom @ADVL #31->0
+	"3" L0 N card sg nom @ADVL #31->16
 "<)>"
 	")" Z Cpr #32->32
 "<.>"
@@ -57776,7 +57877,7 @@
 "<(>"
 	"(" Z Opr #23->23
 "<4>"
-	"4" L0 N card sg nom @ADVL #24->0
+	"4" L0 N card sg nom @ADVL #24->8
 "<)>"
 	")" Z Cpr #25->25
 "<.>"
@@ -57800,7 +57901,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<5>"
-	"5" L0 N card sg nom @ADVL #8->0
+	"5" L0 N card sg nom @ADVL #8->3
 "<)>"
 	")" Z Cpr #9->9
 "<.>"
@@ -58044,7 +58145,7 @@
 "<(>"
 	"(" Z Opr #5->5
 "<77%>"
-	"77%" L0 N card sg nom @<Q #6->4
+	"77%" L0 N card sg nom @<NN #6->4
 "<)>"
 	")" Z Cpr #7->7
 "<naist>"
@@ -58056,7 +58157,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<23%>"
-	"23%" L0 N card sg nom @<Q #12->10
+	"23%" L0 N card sg nom @<NN #12->10
 "<)>"
 	")" Z Cpr #13->13
 "<meest>"
@@ -58072,7 +58173,7 @@
 "<keskmine>"
 	"keskmine" L0 A pos sg nom @AN> #19->20
 "<vanus>"
-	"vanus" L0 S com sg nom @SUBJ #20->0
+	"vanus" L0 S com sg nom @SUBJ #20->15
 "<21,3>"
 	"21,3" L0 N card @PRD #21->20
 "<->"
@@ -58128,7 +58229,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<3>"
-	"3" L0 N card sg nom @ADVL #12->0
+	"3" L0 N card sg nom @ADVL #12->10
 "<)>"
 	")" Z Cpr #13->13
 "<,>"
@@ -58144,7 +58245,7 @@
 "<(>"
 	"(" Z Opr #19->19
 "<5>"
-	"5" L0 N card sg nom @ADVL #20->12
+	"5" L0 N card sg nom @ADVL #20->18
 "<)>"
 	")" Z Cpr #21->21
 "<,>"
@@ -58156,7 +58257,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<6>"
-	"6" L0 N card sg nom @ADVL #26->20
+	"6" L0 N card sg nom @ADVL #26->24
 "<)>"
 	")" Z Cpr #27->27
 "<ning>"
@@ -58366,7 +58467,7 @@
 "<tavaliselt>"
 	"tavaliselt" L0 D @ADVL #14->15
 "<ei>"
-	"ei" L0 D @ADVL #15->7
+	"ei" L0 D @ADVL #15->12
 "<,>"
 	"," Z Com #16->16
 "<1-2>"
@@ -58412,7 +58513,7 @@
 "<tavaliselt>"
 	"tavaliselt" L0 D @ADVL #37->38
 "<ei>"
-	"ei" L0 D @ADVL #38->7
+	"ei" L0 D @ADVL #38->35
 "<,>"
 	"," Z Com #39->39
 "<1-2>"
@@ -58458,7 +58559,7 @@
 "<:>"
 	":" Z Col #5->5
 "<hea>"
-	"hea" L0 A pos sg nom @PRD #6->0
+	"hea" L0 A pos sg nom @PRD #6->3
 "<,>"
 	"," Z Com #7->7
 "<pigem>"
@@ -58618,7 +58719,7 @@
 "<rahuldavaks>"
 	"rahuldav" Lks A pos sg tr @ADVL #16->17
 "<23,7%>"
-	"23,7%" L0 N card @SUBJ #17->0
+	"23,7%" L0 N card @SUBJ #17->11
 "<(>"
 	"(" Z Opr #18->18
 "<98>"
@@ -58648,7 +58749,7 @@
 "<(>"
 	"(" Z Opr #31->31
 "<vt>"
-	"vt" L0 Y nominal @IMV #32->0
+	"vt" L0 Y nominal @IMV #32->3
 "<jn>"
 	"jn" L0 Y nominal @OBJ #33->32
 "<1>"
@@ -58663,8 +58764,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -58685,8 +58788,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N card @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -58754,7 +58859,7 @@
 "<(>"
 	"(" Z Opr #4->4
 "<vt>"
-	"vt" L0 Y nominal @IMV #5->0
+	"vt" L0 Y nominal @IMV #5->3
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #6->5
 "<1>"
@@ -58764,7 +58869,7 @@
 "<,>"
 	"," Z Com #9->9
 "<et>"
-	"et" L0 J sub @J #10->17
+	"et" L0 J sub @J #10->14
 "<une>"
 	"uni" L0 S com sg gen @NN> #11->13
 "<halvem>"
@@ -59105,8 +59210,10 @@
 	"too" Ldud V main partic past imps @IMV #7->0
 "<joonisel>"
 	"joonis" Ll S com sg ad @ADVL #8->7
-"<2.>"
-	"2." L0 N card @<NN #9->8
+"<2>"
+	"2" L0 N card @<NN #9->8
+"<.>"
+	"." Z Fst #10->10
 "</s>"
 
 "<s>"
@@ -59134,7 +59241,7 @@
 "<õhtust>"
 	"õhtune" Lt A pos sg part @AN> #11->12
 "<uinumisraskust>"
-	"uinumis_raskus" Lt S com sg part @SUBJ #12->0
+	"uinumis_raskus" Lt S com sg part @SUBJ #12->3
 "<ning>"
 	"ning" L0 J crd @J #13->16
 "<harva>"
@@ -59153,8 +59260,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N card @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -59207,8 +59316,10 @@
 	"too" Ldud V main partic past imps @IMV #8->0
 "<joonisel>"
 	"joonis" Ll S com sg ad @ADVL #9->8
-"<3.>"
-	"3." L0 N card @<NN #10->9
+"<3>"
+	"3" L0 N card @<NN #10->9
+"<.>"
+	"." Z Fst #11->11
 "</s>"
 
 "<s>"
@@ -59293,8 +59404,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<3.>"
-	"3." L0 N card @<NN #2->1
+"<3>"
+	"3" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -59387,36 +59500,32 @@
 	"esine" Ls V main indic impf ps3 sg ps af @FMV #11->4
 "<see>"
 	"see" L0 P dem sg nom @SUBJ #12->11
-"<12,1%>"
-	"12,1%" L0 N card @ADVL #13->11
-"<-l>"
-	"l" L0 N card nominal @?? #14->0
+"<12,1%-l>"
+	"12,1%" Ll N card sg ad @ADVL #13->11
 "<;>"
-	";" Z Scl #15->15
+	";" Z Scl #14->14
 "<3-5>"
-	"3-5" L0 N card sg nom @ADVL #16->19
+	"3-5" L0 N card sg nom @ADVL #15->18
 "<korda>"
-	"kord" L0 S com sg part @<Q #17->16
+	"kord" L0 S com sg part @<Q #16->15
 "<nädalas>"
-	"nädal" Ls S com sg in @<NN #18->17
-"<12,8%>"
-	"12,8%" L0 N card @ADVL #19->0
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #20->0
+	"nädal" Ls S com sg in @<NN #17->16
+"<12,8%-l>"
+	"12,8%" Ll N card sg ad @ADVL #18->13
 "<;>"
-	";" Z Scl #21->21
+	";" Z Scl #19->19
 "<igal>"
-	"iga" Ll P det sg ad @NN> #22->23
+	"iga" Ll P det sg ad @NN> #20->21
 "<päeval/ööl>"
-	"päeva+l/öö" Ll S com sg ad @NN> #23->24
+	"päeva+l/öö" Ll S com sg ad @NN> #21->22
 "<5%-l>"
-	"5%" Ll N card nominal sg ad @ADVL #24->19
+	"5%" Ll N card nominal sg ad @ADVL #22->18
 "<küsitletutest>"
-	"küsitletu" Ltest S com pl el @<NN #25->24
+	"küsitletu" Ltest S com pl el @<NN #23->22
 "<)>"
-	")" Z Cpr #26->26
+	")" Z Cpr #24->24
 "<.>"
-	"." Z Fst #27->27
+	"." Z Fst #25->25
 "</s>"
 
 "<s>"
@@ -59443,36 +59552,30 @@
 	"esine" Ls V main indic impf ps3 sg ps af @FMV #10->3
 "<see>"
 	"see" L0 P dem sg nom @SUBJ #11->10
-"<6,1%>"
-	"6,1%" L0 N card @ADVL #12->10
-"<-l>"
-	"l" L0 N card nominal @?? #13->0
+"<6,1%-l>"
+	"6,1%" Ll N card sg ad @ADVL #12->10
 "<;>"
-	";" Z Scl #14->14
+	";" Z Scl #13->13
 "<3-5>"
-	"3-5" L0 N card sg nom @ADVL #15->18
+	"3-5" L0 N card sg nom @ADVL #14->17
 "<korda>"
-	"kord" L0 S com sg part @<Q #16->15
+	"kord" L0 S com sg part @<Q #15->14
 "<nädalas>"
-	"nädal" Ls S com sg in @<NN #17->16
-"<1,4%>"
-	"1,4%" L0 N card @ADVL #18->0
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #19->0
+	"nädal" Ls S com sg in @<NN #16->15
+"<1,4%-l>"
+	"1,4%" Ll N card sg ad @ADVL #17->12
 "<;>"
-	";" Z Scl #20->20
+	";" Z Scl #18->18
 "<igal>"
-	"iga" Ll P det sg ad @NN> #21->22
+	"iga" Ll P det sg ad @NN> #19->20
 "<päeval/ööl>"
-	"päeva+l/öö" Ll S com sg ad @NN> #22->23
-"<0,2%>"
-	"0,2%" L0 N card @ADVL #23->18
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #24->0
+	"päeva+l/öö" Ll S com sg ad @NN> #20->21
+"<0,2%-l>"
+	"0,2%" Ll N card sg ad @ADVL #21->17
 "<)>"
-	")" Z Cpr #25->25
+	")" Z Cpr #22->22
 "<.>"
-	"." Z Fst #26->26
+	"." Z Fst #23->23
 "</s>"
 
 "<s>"
@@ -59505,36 +59608,30 @@
 	"kord" L0 S com sg part @<Q #13->12
 "<nädalas>"
 	"nädal" Ls S com sg in @<NN #14->13
-"<0,5%>"
-	"0,5%" L0 N card @ADVL #15->11
-"<-l>"
-	"l" L0 N card nominal @?? #16->0
+"<0,5%-l>"
+	"0,5%" Ll N card sg ad @ADVL #15->11
 "<;>"
-	";" Z Scl #17->17
+	";" Z Scl #16->16
 "<3-5>"
-	"3-5" L0 N card sg nom @ADVL #18->21
+	"3-5" L0 N card sg nom @ADVL #17->20
 "<korda>"
-	"kord" L0 S com sg part @<Q #19->18
+	"kord" L0 S com sg part @<Q #18->17
 "<nädalas>"
-	"nädal" Ls S com sg in @<NN #20->19
-"<1,0%>"
-	"1,0%" L0 N card @ADVL #21->0
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #22->0
+	"nädal" Ls S com sg in @<NN #19->18
+"<1,0%-l>"
+	"1,0%" Ll N card sg ad @ADVL #20->15
 "<;>"
-	";" Z Scl #23->23
+	";" Z Scl #21->21
 "<igal>"
-	"iga" Ll P det sg ad @NN> #24->25
+	"iga" Ll P det sg ad @NN> #22->23
 "<päeval/ööl>"
-	"päeva+l/öö" Ll S com sg ad @NN> #25->26
-"<0,2%>"
-	"0,2%" L0 N card @ADVL #26->21
-"<-l>"
-	"l" L0 N card nominal @?? #27->0
+	"päeva+l/öö" Ll S com sg ad @NN> #23->24
+"<0,2%-l>"
+	"0,2%" Ll N card sg ad @ADVL #24->20
 "<vastanutest>"
-	"vastanu" Ltest S com pl el @<NN #28->26
+	"vastanu" Ltest S com pl el @<NN #25->24
 "<.>"
-	"." Z Fst #29->29
+	"." Z Fst #26->26
 "</s>"
 
 "<s>"
@@ -59557,52 +59654,44 @@
 	"see" L0 P dem sg nom @SUBJ #8->9
 "<esines>"
 	"esine" Ls V main indic impf ps3 sg ps af @FMV #9->4
-"<10,0%>"
-	"10,0%" L0 N card @ADVL #10->9
-"<-l>"
-	"l" L0 N card nominal @?? #11->0
+"<10,0%-l>"
+	"10,0%" Ll N card sg ad @ADVL #10->9
 "<juhtudest>"
-	"juht" Ldest S com pl el @<NN #12->10
+	"juht" Ldest S com pl el @<NN #11->10
 "<(>"
-	"(" Z Opr #13->13
+	"(" Z Opr #12->12
 "<sagedusega>"
-	"sagedus" Lga S com sg kom @ADVL #14->18
+	"sagedus" Lga S com sg kom @ADVL #13->17
 "<1-2>"
-	"1-2" L0 N card sg nom @<NN #15->14
+	"1-2" L0 N card sg nom @<NN #14->13
 "<korda>"
-	"kord" L0 S com sg part @<Q #16->15
+	"kord" L0 S com sg part @<Q #15->14
 "<nädalas>"
-	"nädal" Ls S com sg in @<NN #17->16
-"<7,3%>"
-	"7,3%" L0 N card @ADVL #18->0
-"<-l>"
-	"l" L0 N card nominal @?? #19->0
+	"nädal" Ls S com sg in @<NN #16->15
+"<7,3%-l>"
+	"7,3%" Ll N card sg ad @ADVL #17->9
 "<;>"
-	";" Z Scl #20->20
+	";" Z Scl #18->18
 "<3-5>"
-	"3-5" L0 N card sg nom @ADVL #21->24
+	"3-5" L0 N card sg nom @ADVL #19->22
 "<korda>"
-	"kord" L0 S com sg part @<Q #22->21
+	"kord" L0 S com sg part @<Q #20->19
 "<nädalas>"
-	"nädal" Ls S com sg in @<NN #23->21
-"<1,9%>"
-	"1,9%" L0 N card @ADVL #24->18
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #25->0
+	"nädal" Ls S com sg in @<NN #21->19
+"<1,9%-l>"
+	"1,9%" Ll N card sg ad @ADVL #22->17
 "<;>"
-	";" Z Scl #26->26
+	";" Z Scl #23->23
 "<igal>"
-	"iga" Ll P det sg ad @NN> #27->28
+	"iga" Ll P det sg ad @NN> #24->25
 "<päeval/ööl>"
-	"päeva+l/öö" Ll S com sg ad @NN> #28->29
-"<0,8%>"
-	"0,8%" L0 N card @ADVL #29->24
-"<-l>"
-	"l" L0 N card sg nom nominal @?? #30->0
+	"päeva+l/öö" Ll S com sg ad @NN> #25->26
+"<0,8%-l>"
+	"0,8%" Ll N card sg ad @ADVL #26->22
 "<)>"
-	")" Z Cpr #31->31
+	")" Z Cpr #27->27
 "<.>"
-	"." Z Fst #32->32
+	"." Z Fst #28->28
 "</s>"
 
 "<s>"
@@ -59625,46 +59714,42 @@
 	"(" Z Opr #8->8
 "<esines>"
 	"esine" Ls V main indic impf ps3 sg ps af @FMV #9->3
-"<0,4%>"
-	"0,4%" L0 N card @ADVL #10->9
-"<-l>"
-	"l" L0 N card nominal @?? #11->0
+"<0,4%-l>"
+	"0,4%" Ll N card sg ad @ADVL #10->9
 "<juhtudest>"
-	"juht" Ldest S com pl el @<NN #12->10
+	"juht" Ldest S com pl el @<NN #11->10
 "<)>"
-	")" Z Cpr #13->13
+	")" Z Cpr #12->12
 "<,>"
-	"," Z Com #14->14
+	"," Z Com #13->13
 "<unes>"
-	"uni" Ls S com sg in @NN> #15->17
+	"uni" Ls S com sg in @NN> #14->16
 "<hammaste>"
-	"hammas" Lte S com pl gen @NN> #16->17
+	"hammas" Lte S com pl gen @NN> #15->16
 "<kiristamist>"
-	"kirista=mine" Lt S com sg part @OBJ #17->18
+	"kirista=mine" Lt S com sg part @OBJ #16->17
 "<märkis>"
-	"märki" Ls V main indic impf ps3 sg ps af @FMV #18->3
+	"märki" Ls V main indic impf ps3 sg ps af @FMV #17->3
 "<8,7%>"
-	"8,7%" L0 N card sg nom @SUBJ #19->18
+	"8,7%" L0 N card sg nom @SUBJ #18->17
 "<vastanutest>"
-	"vastanu" Ltest S com pl el @<NN #20->19
+	"vastanu" Ltest S com pl el @<NN #19->18
 "<,>"
-	"," Z Com #21->21
+	"," Z Com #20->20
 "<une>"
-	"uni" L0 S com sg gen @P> #22->23
+	"uni" L0 S com sg gen @P> #21->22
 "<ajal>"
-	"ajal" L0 K post @KN> #23->24
+	"ajal" L0 K post @KN> #22->23
 "<norskamist>"
-	"norskamine" Lt S com sg part @SUBJ #24->25
+	"norskamine" Lt S com sg part @SUBJ #23->24
 "<esines>"
-	"esine" Ls V main indic impf ps3 sg ps af @FMV #25->18
-"<9,1%>"
-	"9,1%" L0 N card @ADVL #26->25
-"<-l>"
-	"l" L0 N card nominal @?? #27->0
+	"esine" Ls V main indic impf ps3 sg ps af @FMV #24->17
+"<9,1%-l>"
+	"9,1%" Ll N card sg ad @ADVL #25->24
 "<küsitletutest>"
-	"küsitletu" Ltest S com pl el @<NN #28->26
+	"küsitletu" Ltest S com pl el @<NN #26->25
 "<.>"
-	"." Z Fst #29->29
+	"." Z Fst #27->27
 "</s>"
 
 "<s>"
@@ -59680,7 +59765,7 @@
 "<(>"
 	"(" Z Opr #5->5
 "<2,4%>"
-	"2,4%" L0 N card sg el @SUBJ #6->0
+	"2,4%" L0 N card sg el @SUBJ #6->2
 "<vastanuist>"
 	"vastanu" List S com pl el @<NN #7->6
 "<,>"
@@ -59694,7 +59779,7 @@
 "<nädalas>"
 	"nädal" Ls S com sg in @<NN #12->11
 "<1,2%>"
-	"1,2%" L0 N card @SUBJ #13->0
+	"1,2%" L0 N card @SUBJ #13->6
 "<;>"
 	";" Z Scl #14->14
 "<3-5>"
@@ -60392,7 +60477,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<1-3>"
-	"1-3" L0 N card sg nom @ADVL #9->0
+	"1-3" L0 N card sg nom @ADVL #9->3
 "<)>"
 	")" Z Cpr #10->10
 "<.>"
@@ -60448,7 +60533,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<4>"
-	"4" L0 N card sg nom @ADVL #9->0
+	"4" L0 N card sg nom @ADVL #9->7
 "<)>"
 	")" Z Cpr #10->10
 "<järgi>"
@@ -60528,7 +60613,7 @@
 "<kui>"
 	"kui" L0 J sub @J #27->30
 "<nihe>"
-	"nihe" L0 S com sg nom @SUBJ #28->30
+	"nihe" L0 S com sg nom @OBJ #28->30
 "<vastassuunas>"
 	"vastas_suund" Ls S com sg in @<NN #29->28
 "<allutaks>"
@@ -60544,7 +60629,7 @@
 "<(>"
 	"(" Z Opr #35->35
 "<1>"
-	"1" L0 N card sg nom @ADVL #36->0
+	"1" L0 N card sg nom @ADVL #36->15
 "<)>"
 	")" Z Cpr #37->37
 "<.>"
@@ -60690,9 +60775,9 @@
 "<(>"
 	"(" Z Opr #8->8
 "<cuff-inflation>"
-	"cuff-inflation" L0 S com sg nom @?? #9->0
+	"cuff-inflation" L0 S com sg nom @NN> #9->10
 "<hypertension>"
-	"hypertension" L0 S com sg nom @?? #10->0
+	"hypertension" L0 S com sg nom @<NN #10->7
 "<)>"
 	")" Z Cpr #11->11
 "<,>"
@@ -60710,7 +60795,7 @@
 "<(>"
 	"(" Z Opr #18->18
 "<5-6>"
-	"5-6" L0 N card sg nom @ADVL #19->0
+	"5-6" L0 N card sg nom @ADVL #19->5
 "<)>"
 	")" Z Cpr #20->20
 "<.>"
@@ -60780,7 +60865,7 @@
 "<(>"
 	"(" Z Opr #11->11
 "<7>"
-	"7" L0 N card sg nom @ADVL #12->0
+	"7" L0 N card sg nom @ADVL #12->2
 "<)>"
 	")" Z Cpr #13->13
 "<.>"
@@ -60888,7 +60973,7 @@
 "<(>"
 	"(" Z Opr #22->22
 "<8>"
-	"8" L0 N card sg nom @ADVL #23->0
+	"8" L0 N card sg nom @ADVL #23->7
 "<)>"
 	")" Z Cpr #24->24
 "<.>"
@@ -60928,7 +61013,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<9>"
-	"9" L0 N card sg nom @ADVL #16->0
+	"9" L0 N card sg nom @ADVL #16->11
 "<)>"
 	")" Z Cpr #17->17
 "<.>"
@@ -61022,7 +61107,7 @@
 "<(>"
 	"(" Z Opr #8->8
 "<vt>"
-	"vt" L0 Y nominal @IMV #9->0
+	"vt" L0 Y nominal @IMV #9->2
 "<tabel>"
 	"tabel" L0 S com sg nom @OBJ #10->9
 "<1>"
@@ -61050,7 +61135,7 @@
 "<(>"
 	"(" Z Opr #7->7
 "<11>"
-	"11" L0 N card sg nom @SUBJ #8->0
+	"11" L0 N card sg nom @SUBJ #8->6
 "<meest>"
 	"mees" Lt S com sg part @<Q #9->8
 "<ja>"
@@ -61078,7 +61163,7 @@
 "<(>"
 	"(" Z Opr #21->21
 "<9>"
-	"9" L0 N card sg nom @SUBJ #22->0
+	"9" L0 N card sg nom @SUBJ #22->20
 "<meest>"
 	"mees" Lt S com sg part @<Q #23->22
 "<ja>"
@@ -61290,17 +61375,17 @@
 "<inhibiitoreid>"
 	"inhibiitor" Lid S com pl part @OBJ #8->10
 "<1>"
-	"1" L0 N card sg nom @NN> #9->10
+	"1" L0 N card sg nom @SUBJ #9->4
 "<uuritav>"
-	"uuri=tav" L0 S com sg nom @SUBJ #10->0
+	"uuri=tav" L0 S com sg nom @<Q #10->9
 "<ja>"
 	"ja" L0 J crd @J #11->14
 "<-blokaatoreid>"
 	"blokaator" Lid S com sg part @OBJ #12->14
 "<1>"
-	"1" L0 N card @NN> #13->14
+	"1" L0 N card @SUBJ #13->9
 "<uuritav>"
-	"uuri=tav" L0 S com sg nom @SUBJ #14->10
+	"uuri=tav" L0 S com sg nom @<Q #14->13
 "<.>"
 	"." Z Fst #15->15
 "</s>"
@@ -61380,7 +61465,7 @@
 "<anamneesis>"
 	"anamnees" Ls S com sg in @ADVL #25->26
 "<müokardiit>"
-	"müokardiit" L0 S com sg nom @SUBJ #26->0
+	"müokardiit" L0 S com sg nom @SUBJ #26->19
 "<(>"
 	"(" Z Opr #27->27
 "<5>"
@@ -61550,19 +61635,19 @@
 "<(>"
 	"(" Z Opr #25->25
 "<Association>"
-	"Association" L0 S prop sg nom @?? #26->0
+	"Association" L0 S prop sg nom @<NN #26->24
 "<for>"
-	"for" L0 S com sg nom @?? #27->0
+	"for" L0 S com sg nom @<NN #27->26
 "<the>"
-	"the" L0 S com sg gen @?? #28->0
+	"the" L0 S com sg gen @NN> #28->29
 "<Advancement>"
-	"Advancement" L0 S prop sg nom @?? #29->0
+	"Advancement" L0 S prop sg nom @<NN #29->28
 "<of>"
-	"of" L0 Y nominal @?? #30->0
+	"of" L0 Y nominal @<NN #30->29
 "<Medical>"
-	"Medical" L0 S prop sg nom @?? #31->0
+	"Medical" L0 S prop sg nom @NN> #31->32
 "<Instrumentation>"
-	"Instrumentation" L0 S prop sg nom @?? #32->0
+	"Instrumentation" L0 S prop sg nom @<NN #32->30
 "<)>"
 	")" Z Cpr #33->33
 "<kvaliteedinõuetele>"
@@ -61584,17 +61669,17 @@
 "<(>"
 	"(" Z Opr #42->42
 "<British>"
-	"British" L0 S prop sg nom @?? #43->0
+	"British" L0 S prop sg nom @NN> #43->44
 "<Hypertension>"
-	"Hypertension" L0 S prop sg nom @?? #44->0
+	"Hypertension" L0 S prop sg nom @NN> #44->45
 "<Society>"
-	"Society" L0 S prop sg gen @?? #45->0
+	"Society" L0 S prop sg gen @<NN #45->41
 "<)>"
 	")" Z Cpr #46->46
 "<(>"
 	"(" Z Opr #47->47
 "<10>"
-	"10" L0 N card sg nom @ADVL #48->0
+	"10" L0 N card sg nom @ADVL #48->13
 "<)>"
 	")" Z Cpr #49->49
 "<.>"
@@ -61640,7 +61725,7 @@
 "<ja>"
 	"ja" L0 J crd @J #8->9
 "<langus>"
-	"langus" L0 S com sg nom @SUBJ #9->0
+	"langus" L0 S com sg nom @SUBJ #9->3
 "<30-50>"
 	"30-50" L0 N card sg nom @ADVL #10->9
 "<sekundit>"
@@ -61712,7 +61797,7 @@
 "<(>"
 	"(" Z Opr #15->15
 "<8>"
-	"8" L0 N card sg nom @ADVL #16->0
+	"8" L0 N card sg nom @ADVL #16->12
 "<)>"
 	")" Z Cpr #17->17
 "<.>"

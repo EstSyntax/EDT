@@ -234,8 +234,10 @@
 	"," Z Com #15->15
 "<rütmihäired>"
 	"rütmi_häire" Ld S com pl nom @<NN #16->14
-"<jm.>"
+"<jm>"
 	"jm" L0 Y nominal @<NN #17->16
+"<.>"
+	"." Z Fst #18->18
 "</s>"
 
 "<s>"
@@ -912,8 +914,10 @@
 
 "<s>"
 
-"<1.>"
-	"1." L0 N ord sg nom @ADVL #1->0
+"<1>"
+	"1" L0 N card sg nom @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -958,8 +962,10 @@
 
 "<s>"
 
-"<2.>"
-	"2." L0 N ord sg nom @ADVL #1->0
+"<2>"
+	"2" L0 N card sg nom @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1188,28 +1194,36 @@
 
 "<s>"
 
-"<1.1.>"
-	"1.1." L0 N ord @ADVL #1->4
-"<Tekstis>"
-	"tekst" Ls S com sg in @ADVL #2->3
-"<kasutatavad>"
-	"kasutatav" Ld A pos pl nom @AN> #3->4
-"<lühendid>"
-	"lühend" Ld S com pl nom @SUBJ #4->0
-"<ja>"
-	"ja" L0 J crd @J #5->8
-"<rasvhapete>"
-	"rasv_hape" Lte S com pl gen @NN> #6->8
-"<lihtsustatud>"
-	"lihtsusta=tud" L0 A pos partic @AN> #7->8
-"<tähistused>"
-	"tähistus" Ld S com pl nom @SUBJ #8->4
+"<1.1>"
+	"1.1" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
 
-"<1.2.>"
-	"1.2." L0 N card @ADVL #1->0
+"<Tekstis>"
+	"tekst" Ls S com sg in @ADVL #1->2
+"<kasutatavad>"
+	"kasutatav" Ld A pos pl nom @AN> #2->3
+"<lühendid>"
+	"lühend" Ld S com pl nom @SUBJ #3->0
+"<ja>"
+	"ja" L0 J crd @J #4->7
+"<rasvhapete>"
+	"rasv_hape" Lte S com pl gen @NN> #5->7
+"<lihtsustatud>"
+	"lihtsusta=tud" L0 A pos partic @AN> #6->7
+"<tähistused>"
+	"tähistus" Ld S com pl nom @SUBJ #7->3
+"</s>"
+
+"<s>"
+
+"<1.2>"
+	"1.2" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1287,7 +1301,7 @@
 "<arv>"
 	"arv" L0 S com sg nom @SUBJ #20->21
 "<näitab>"
-	"näita" Lb V main indic pres ps3 sg ps af @FMV #21->14
+	"näita" Lb V main indic pres ps3 sg ps af @FMV #21->16
 "<happe>"
 	"hape" L0 S com sg gen @NN> #22->23
 "<C-aatomite>"
@@ -1401,7 +1415,7 @@
 "<s>"
 
 "<Nii>"
-	"nii" L0 D @ADVL #1->17
+	"nii" L0 D @ADVL #1->14
 "<võib>"
 	"või" Lb V mod indic pres ps3 sg ps af @FCV #2->14
 "<näiteks>"
@@ -1692,8 +1706,10 @@
 
 "<s>"
 
-"<1.>"
-	"1." L0 N ord sg nom @ADVL #1->0
+"<1>"
+	"1" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1717,7 +1733,7 @@
 "<lihtsustatud>"
 	"lihtsusta=tud" L0 A pos partic @AN> #9->10
 "<struktuurivalemiga>"
-	"struktuuri_valem" Lga S com sg kom @ADVL #10->3
+	"struktuuri_valem" Lga S com sg kom @ADVL #10->1
 "<H3C(CH2-CH=CH)3-(CH2)7-COOH>"
 	"H3C(CH2-CH=CH)3-(CH2)7-COOH" L0 Y nominal @<NN #11->10
 "</s>"
@@ -1790,8 +1806,10 @@
 
 "<s>"
 
-"<2.>"
-	"2." L0 N ord @ADVL #1->0
+"<2>"
+	"2" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1828,8 +1846,10 @@
 
 "<s>"
 
-"<3.>"
-	"3." L0 N ord @ADVL #1->0
+"<3>"
+	"3" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1940,8 +1960,10 @@
 
 "<s>"
 
-"<1.>"
-	"1." L0 N ord sg nom @ADVL #1->0
+"<1>"
+	"1" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -1972,8 +1994,10 @@
 
 "<s>"
 
-"<2.>"
-	"2." L0 N ord @ADVL #1->0
+"<2>"
+	"2" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -2012,8 +2036,10 @@
 
 "<s>"
 
-"<3.>"
-	"3." L0 N ord @ADVL #1->0
+"<3>"
+	"3" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -2094,8 +2120,10 @@
 
 "<s>"
 
-"<1.2.1.>"
-	"1.2.1." L0 N card @ADVL #1->0
+"<1.2.1>"
+	"1.2.1" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -2852,18 +2880,20 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N ord @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
 
 "<ω-3->"
-	"ω-3" L0 N card @NN> #1->3
+	"ω-3" L0 N card @NN> #1->4
 "<ja>"
 	"ja" L0 J crd @J #2->3
 "<ω-6-rasvhapete>"
-	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->4
+	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->1
 "<metabolism>"
 	"metabolism" L0 S com sg nom @<NN #4->0
 "<(>"
@@ -2904,18 +2934,20 @@
 
 "<s>"
 
-"<1.2.2.>"
-	"1.2.2." L0 N card @ADVL #1->0
+"<1.2.2>"
+	"1.2.2" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
 
 "<ω-3->"
-	"ω-3" L0 N card @NN> #1->3
+	"ω-3" L0 N card @NN> #1->4
 "<ja>"
 	"ja" L0 J crd @J #2->3
 "<ω-6-rasvhapete>"
-	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->4
+	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->1
 "<võime>"
 	"võime" L0 S com sg nom @SUBJ #4->0
 "<muuta>"
@@ -3580,18 +3612,20 @@
 
 "<s>"
 
-"<1.2.3.>"
-	"1.2.3." L0 N card @ADVL #1->0
+"<1.2.3>"
+	"1.2.3" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
 
 "<ω-3->"
-	"ω-3" L0 N card @NN> #1->3
+	"ω-3" L0 N card @NN> #1->4
 "<ja>"
 	"ja" L0 J crd @J #2->3
 "<ω-6-rasvhapete>"
-	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->4
+	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->1
 "<seos>"
 	"seos" L0 S com sg nom @SUBJ #4->0
 "<vere>"
@@ -5063,7 +5097,7 @@
 "<s>"
 
 "<Nn.>"
-	"Nn." L0 Y nominal @ADVL #1->10
+	"Nn." L0 Y nominal @ADVL #1->11
 "<Zutpheni>"
 	"Zutphen" L0 S prop sg gen @NN> #2->3
 "<uuringutel>"
@@ -5115,7 +5149,7 @@
 "<g>"
 	"g" L0 Y nominal @<Q #26->25
 "<kala>"
-	"kala" L0 S com sg part @<Q #27->25
+	"kala" L0 S com sg part @<Q #27->26
 "<päevas>"
 	"päev" Ls S com sg in @ADVL #28->23
 "<,>"
@@ -5354,18 +5388,20 @@
 
 "<s>"
 
-"<1.2.4.>"
-	"1.2.4." L0 N card @ADVL #1->0
+"<1.2.4>"
+	"1.2.4" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
 
 "<ω-3->"
-	"ω-3" L0 N card @NN> #1->3
+	"ω-3" L0 N card @NN> #1->5
 "<ja>"
 	"ja" L0 J crd @J #2->3
 "<ω-6-rasvhapete>"
-	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->5
+	"ω-6-rasv_hape" Lte S com pl gen @NN> #3->1
 "<soovitatavad>"
 	"soovitatav" Ld A pos pl nom @AN> #4->5
 "<kogused>"
@@ -5383,7 +5419,7 @@
 "<tühistas>"
 	"tühista" Ls V main indic impf ps3 sg ps af @FMV #3->0
 "<Inglise>"
-	"Inglis" L0 S prop sg gen @NN> #4->5
+	"Inglise" L0 S prop sg gen @NN> #4->5
 "<Toitumise>"
 	"Toitumine" L0 S prop sg gen @NN> #5->6
 "<Sihtasutus>"
@@ -6515,7 +6551,7 @@
 "<sisaldus>"
 	"sisaldus" L0 S com sg nom @SUBJ #5->1
 "<tänu>"
-	"tänu" L0 K pre @ADVL #6->2
+	"tänu" L0 K pre @ADVL #6->1
 "<suuremale>"
 	"suurem" Lle A comp sg all @AN> #7->9
 "<sojaõli>"
@@ -6692,8 +6728,10 @@
 
 "<s>"
 
-"<1.3.>"
-	"1.3." L0 N card @ADVL #1->0
+"<1.3>"
+	"1.3" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -6934,8 +6972,10 @@
 
 "<s>"
 
-"<1.3.1.>"
-	"1.3.1." L0 N card @ADVL #1->0
+"<1.3.1>"
+	"1.3.1" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -7160,8 +7200,10 @@
 	"üle_vaade" L0 S com sg gen @OBJ #7->5
 "<tabel>"
 	"tabel" L0 S com sg nom @SUBJ #8->5
-"<1.>"
-	"1." L0 N ord @<NN #9->8
+"<1>"
+	"1" L0 N card @<NN #9->8
+"<.>"
+	"." Z Fst #10->10
 "</s>"
 
 "<s>"
@@ -7184,8 +7226,10 @@
 	"ise_loomusta" Lb V main indic pres ps3 sg ps af @FMV #8->0
 "<tabel>"
 	"tabel" L0 S com sg nom @SUBJ #9->8
-"<2.>"
-	"2." L0 N ord @<NN #10->9
+"<2>"
+	"2" L0 N card @<NN #10->9
+"<.>"
+	"." Z Fst #11->11
 "</s>"
 
 "<s>"
@@ -7498,8 +7542,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<1.>"
-	"1." L0 N ord @<NN #2->1
+"<1>"
+	"1" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -7528,8 +7574,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N ord @<NN #2->1
+"<2>"
+	"2" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -7646,16 +7694,20 @@
 	"esita" Ltud V main partic past imps @IMV #4->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #5->4
-"<4.>"
-	"4." L0 N ord @<NN #6->5
+"<4>"
+	"4" L0 N card @<NN #6->5
+"<.>"
+	"." Z Fst #7->7
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<3.>"
-	"3." L0 N card @<NN #2->1
+"<3>"
+	"3" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -7714,8 +7766,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<4.>"
-	"4." L0 N card @<NN #2->1
+"<4>"
+	"4" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -7836,8 +7890,10 @@
 	"too" Ldud V main partic past imps @IMV #4->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #5->4
-"<5.>"
-	"5." L0 N card @<NN #6->5
+"<5>"
+	"5" L0 N card @<NN #6->5
+"<.>"
+	"." Z Fst #7->7
 "</s>"
 
 "<s>"
@@ -7918,8 +7974,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<5.>"
-	"5." L0 N card @<NN #2->1
+"<5>"
+	"5" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -8057,13 +8115,13 @@
 "<ωωωω>"
 	"ωωωω" L0 S com sg nom @NONE #32->32
 "<???>"
-	"???" Z Int @NONE #33->33
+	"???" T @NONE #33->33
 "<,>"
 	"," Z Com #34->34
 "<C>"
 	"C" L0 Y nominal @NONE #35->35
 "<???????>"
-	"???????" Z Int @NONE #36->36
+	"???????" T @NONE #36->36
 "<,>"
 	"," Z Com #37->37
 "<1966>"
@@ -8071,7 +8129,7 @@
 "<;>"
 	";" Z Scl #39->39
 "<????????>"
-	"????????" Z Int @NONE #40->40
+	"????????" T @NONE #40->40
 "<,>"
 	"," Z Com #41->41
 "<1968>"
@@ -8079,11 +8137,11 @@
 "<;>"
 	";" Z Scl #43->43
 "<????????>"
-	"????????" Z Int @NONE #44->44
+	"????????" T @NONE #44->44
 "<,>"
 	"," Z Com #45->45
 "<?????????>"
-	"?????????" Z Int @NONE #46->46
+	"?????????" T @NONE #46->46
 "<,>"
 	"," Z Com #47->47
 "<1989>"
@@ -8318,8 +8376,10 @@
 	"too" Ldud V main partic past imps @IMV #6->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #7->6
-"<3.>"
-	"3." L0 N ord @<NN #8->7
+"<3>"
+	"3" L0 N card @<NN #8->7
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -8353,11 +8413,11 @@
 "<(>"
 	"(" Z Opr #14->14
 "<?????>"
-	"?????" Z Int @NONE #15->15
+	"?????" T @NONE #15->15
 "<,>"
 	"," Z Com #16->16
 "<?????>"
-	"?????" Z Int @NONE #17->17
+	"?????" T @NONE #17->17
 "<,>"
 	"," Z Com #18->18
 "<1993>"
@@ -8367,7 +8427,7 @@
 "<,>"
 	"," Z Com #21->21
 "<kuid>"
-	"kuid" L0 J crd @J #22->25
+	"kuid" L0 J crd @J #22->40
 "<kas>"
 	"kas" L0 D @ADVL #23->25
 "<raviefekti>"
@@ -8498,16 +8558,20 @@
 	"fosfo_lipiid" Ldes S com pl in @<NN #20->18
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #21->12
-"<7.>"
-	"7." L0 N ord @<NN #22->21
+"<7>"
+	"7" L0 N card @<NN #22->21
+"<.>"
+	"." Z Fst #23->23
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<6.>"
-	"6." L0 N ord @<NN #2->1
+"<6>"
+	"6" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -8544,8 +8608,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<7.>"
-	"7." L0 N ord @<NN #2->1
+"<7>"
+	"7" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -8643,9 +8709,9 @@
 "<olla>"
 	"ole" La V main inf @IMV #8->0
 "<kuni>"
-	"kuni" L0 J crd @J #9->10
+	"kuni" L0 K pre @ADVL #9->12
 "<viis>"
-	"viis" L0 N card sg nom l @ADVL #10->12
+	"viis" L0 N card sg nom l @<P #10->9
 "<korda>"
 	"kord" L0 S com sg part @<Q #11->10
 "<suurem>"
@@ -8670,8 +8736,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<8.>"
-	"8." L0 N ord @<NN #2->1
+"<8>"
+	"8" L0 N ord @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -8905,7 +8973,7 @@
 "<ω>"
 	"ω" L0 Y nominal @NONE #8->8
 "<????>"
-	"????" Z Int @NONE #9->9
+	"????" T @NONE #9->9
 "<,>"
 	"," Z Com #10->10
 "<1979>"
@@ -8918,8 +8986,10 @@
 
 "<s>"
 
-"<1.3.2.>"
-	"1.3.2." L0 N card @ADVL #1->0
+"<1.3.2>"
+	"1.3.2" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -9596,8 +9666,10 @@
 	"too" Ldud V main partic past imps @IMV #6->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #7->6
-"<9.>"
-	"9." L0 N ord @<NN #8->7
+"<9>"
+	"9" L0 N card @<NN #8->7
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
@@ -9788,8 +9860,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<9.>"
-	"9." L0 N ord @<NN #2->1
+"<9>"
+	"9" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -9886,8 +9960,10 @@
 
 "<Joonis>"
 	"joonis" L0 S com sg nom @SUBJ #1->0
-"<2.>"
-	"2." L0 N ord pl gen @<NN #2->1
+"<2>"
+	"2" L0 N card pl gen @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -9970,16 +10046,20 @@
 	"ise_loomusta" Lb V main indic pres ps3 sg ps af @FMV #5->0
 "<tabel>"
 	"tabel" L0 S com sg nom @SUBJ #6->5
-"<10.>"
-	"10." L0 N ord @<NN #7->6
+"<10>"
+	"10" L0 N card @<NN #7->6
+"<.>"
+	"." Z Fst #8->8
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<10.>"
-	"10." L0 N ord @<NN #2->1
+"<10>"
+	"10" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -10123,17 +10203,17 @@
 "<,>"
 	"," Z Com #7->7
 "<aga>"
-	"aga" L0 J crd @J #8->13
+	"aga" L0 J crd @J #8->11
 "<ka>"
 	"ka" L0 D @DN> #9->10
 "<sinihappe>"
 	"sini_hape" L0 S com sg gen @NN> #10->11
 "<glükosiidi>"
-	"glükosiid" L0 S com sg gen @NN> #11->13
+	"glükosiid" L0 S com sg gen @NN> #11->6
 "<->"
 	"-" Z Dsh #12->12
 "<linamariini>"
-	"linamariin" L0 S com sg gen @NN> #13->15
+	"linamariin" L0 S com sg gen @<NN #13->11
 "<->"
 	"-" Z Dsh #14->14
 "<sisaldus>"
@@ -10956,8 +11036,10 @@
 	"4000." L0 N ord @ADVL #16->10
 "<a.>"
 	"a" L0 Y nominal @<Q #17->16
-"<e.m.a.>"
+"<e.m.a>"
 	"e.m.a" L0 Y nominal @<NN #18->17
+"<.>"
+	"." Z Fst #19->19
 "</s>"
 
 "<s>"
@@ -11197,7 +11279,7 @@
 "<kibe>"
 	"kibe" L0 A pos sg nom @AN> #2->3
 "<maitse>"
-	"maitse" L0 S com sg nom @SUBJ #3->5
+	"maitse" L0 S com sg nom @OBJ #3->5
 "<on>"
 	"ole" L0 V aux indic pres ps3 sg ps af @FCV #4->5
 "<tingitud>"
@@ -11307,7 +11389,7 @@
 "<eruukhape>"
 	"eruuk_hape" L0 S com sg nom @SUBJ #15->17
 "<oli>"
-	"ole" Li V aux indic impf ps3 sg ps af @FMV #16->17
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #16->17
 "<asendunud>"
 	"asendu" Lnud V main partic past ps @IMV #17->11
 "<põhiliselt>"
@@ -11593,7 +11675,7 @@
 "<(>"
 	"(" Z Opr #25->25
 "<mooli>"
-	"mool" L0 S com sg part @<Q #26->24
+	"mool" L0 S com sg part @<NN #26->24
 "<)>"
 	")" Z cpr #27->27
 "<glükosinolaate>"
@@ -11664,16 +11746,20 @@
 	"too" Ldud V main partic past imps @IMV #14->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #15->14
-"<11.>"
-	"11." L0 N card @<NN #16->15
+"<11>"
+	"11" L0 N card @<NN #16->15
+"<.>"
+	"." Z Fst #17->17
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<11.>"
-	"11." L0 N card @<NN #2->1
+"<11>"
+	"11" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -12085,7 +12171,7 @@
 "<rikas>"
 	"rikas" L0 A pos sg nom @PRD #8->7
 "<rasvhappe>"
-	"rasv_hape" L0 S com sg gen @P> #9->13
+	"rasv_hape" L0 S com sg gen @P> #9->11
 "<C18:2n-6>"
 	"C18:2n-6" L0 Y nominal @<NN #10->9
 "<poolest>"
@@ -12122,16 +12208,20 @@
 	"too" Ldud V main partic past imps @IMV #5->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #6->5
-"<12.>"
-	"12." L0 N card @<NN #7->6
+"<12>"
+	"12" L0 N card @<NN #7->6
+"<.>"
+	"." Z Fst #8->8
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<12.>"
-	"12." L0 N card @<NN #2->1
+"<12>"
+	"12" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -12215,7 +12305,7 @@
 "<(>"
 	"(" Z Opr #13->13
 "<?????????????>"
-	"?????????????" Z Int @NONE #14->14
+	"?????????????" T @NONE #14->14
 "<…>"
 	"…" L0 Y nominal @NONE #15->15
 "<,>"
@@ -12301,7 +12391,7 @@
 "<(>"
 	"(" Z Opr #35->35
 "<??????????>"
-	"??????????" Z Int @NONE #36->36
+	"??????????" T @NONE #36->36
 "<,>"
 	"," Z Com #37->37
 "<1966>"
@@ -12348,8 +12438,10 @@
 	"13" L0 N card @<NN #16->15
 "<ja>"
 	"ja" L0 J crd @J #17->18
-"<14.>"
-	"14." L0 N card @<NN #18->16
+"<14>"
+	"14" L0 N card @<NN #18->16
+"<.>"
+	"." Z Fst #19->19
 "</s>"
 
 "<s>"
@@ -12459,7 +12551,7 @@
 "<kalade>"
 	"kala" Lde S com pl gen @NN> #18->19
 "<liik>"
-	"liik" L0 S com sg nom @SUBJ #19->21
+	"liik" L0 S com sg nom @OBJ #19->21
 "<pole>"
 	"ole" L0 V aux indic pres ps neg @FCV #20->21
 "<määratletud>"
@@ -12616,8 +12708,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<13.>"
-	"13." L0 N card @<NN #2->1
+"<13>"
+	"13" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -12658,8 +12752,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<14.>"
-	"14." L0 N card @<NN #2->1
+"<14>"
+	"14" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -12696,8 +12792,10 @@
 
 "<s>"
 
-"<1.3.3.>"
-	"1.3.3." L0 N card @ADVL #1->0
+"<1.3.3>"
+	"1.3.3" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
 "</s>"
 
 "<s>"
@@ -12792,16 +12890,20 @@
 	"too" Ldud V main partic past imps @IMV #9->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #10->9
-"<15.>"
-	"15." L0 N card @<NN #11->10
+"<15>"
+	"15" L0 N card @<NN #11->10
+"<.>"
+	"." Z Fst #12->12
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<15.>"
-	"15." L0 N card @<NN #2->1
+"<15>"
+	"15" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -12882,8 +12984,10 @@
 	"too" Ldud V main partic past imps @IMV #12->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #13->12
-"<16.>"
-	"16." L0 N card @<NN #14->13
+"<16>"
+	"16" L0 N card @<NN #14->13
+"<.>"
+	"." Z Fst #15->15
 "</s>"
 
 "<s>"
@@ -12906,8 +13010,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<16.>"
-	"16." L0 N ord @<NN #2->1
+"<16>"
+	"16" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -13388,8 +13494,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<17.>"
-	"17." L0 N card @<NN #2->1
+"<17>"
+	"17" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -13584,8 +13692,10 @@
 	"too" Ldud V main partic past imps @IMV #19->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #20->19
-"<18.>"
-	"18." L0 N card @<NN #21->20
+"<18>"
+	"18" L0 N card @<NN #21->20
+"<.>"
+	"." Z Fst #22->22
 "</s>"
 
 "<s>"
@@ -13597,7 +13707,7 @@
 "<C.S.>"
 	"C.S" L0 Y nominal @NN> #3->4
 "<Schwartz>"
-	"Schwartz" L0 S prop sg nom @SUBJ #4->14
+	"Schwartz" L0 S prop sg nom @SUBJ #4->13
 "<ja>"
 	"ja" L0 J crd @J #5->6
 "<H.S.Weiss>"
@@ -13608,44 +13718,42 @@
 	"United" L0 S prop sg nom @NONE #8->8
 "<…>"
 	"…" L0 Y nominal @NONE #9->9
-"<.>"
-	"." Z Fst #10->10
 "<,>"
-	"," Z Com #11->11
+	"," Z Com #10->10
 "<1987>"
-	"1987" L0 N card sg nom @NONE #12->12
+	"1987" L0 N card sg nom @NONE #11->11
 "<)>"
-	")" Z Cpr #13->13
+	")" Z Cpr #12->12
 "<uurisid>"
-	"uuri" Lsid V main indic impf ps3 pl ps af @FMV #14->0
+	"uuri" Lsid V main indic impf ps3 pl ps af @FMV #13->0
 "<kala->"
-	"kala" L0 S com sg gen @NN> #15->22
+	"kala" L0 S com sg gen @NN> #14->21
 "<,>"
-	"," Z Com #16->16
+	"," Z Com #15->15
 "<ameerika>"
-	"ameerika" L0 G @AN> #17->18
+	"ameerika" L0 G @AN> #16->17
 "<heeringa>"
-	"heeringas" L0 S com sg gen @NN> #18->19
+	"heeringas" L0 S com sg gen @NN> #17->18
 "<õli>"
-	"õli" L0 S com sg gen @NN> #19->15
+	"õli" L0 S com sg gen @NN> #18->14
 "<ja>"
-	"ja" L0 J crd @J #20->21
+	"ja" L0 J crd @J #19->20
 "<linaõli>"
-	"lina_õli" L0 S com sg gen @NN> #21->19
+	"lina_õli" L0 S com sg gen @NN> #20->18
 "<lisasöötmise>"
-	"lisa_söötmine" L0 S com sg gen @NN> #22->23
+	"lisa_söötmine" L0 S com sg gen @NN> #21->22
 "<mõju>"
-	"mõju" L0 S com sg part @OBJ #23->14
+	"mõju" L0 S com sg part @OBJ #22->13
 "<kanabroilerite>"
-	"kana_broiler" Lte S com pl gen @NN> #24->25
+	"kana_broiler" Lte S com pl gen @NN> #23->24
 "<liha>"
-	"liha" L0 S com sg gen @NN> #25->27
+	"liha" L0 S com sg gen @NN> #24->26
 "<ω-3-rasvhapete>"
-	"ω-3-rasv_hape" Lte S com pl gen @NN> #26->27
+	"ω-3-rasv_hape" Lte S com pl gen @NN> #25->26
 "<sisaldusele>"
-	"sisaldus" Lle S com sg all @<NN #27->23
+	"sisaldus" Lle S com sg all @<NN #26->22
 "<.>"
-	"." Z Fst #28->28
+	"." Z Fst #27->27
 "</s>"
 
 "<s>"
@@ -13700,8 +13808,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<18.>"
-	"18." L0 N card @<NN #2->1
+"<18>"
+	"18" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -14555,7 +14665,7 @@
 "<või>"
 	"või" L0 J crd @J #3->4
 "<maitset>"
-	"maitse" Lt S com sg part @OBJ #4->7
+	"maitse" Lt S com sg part @OBJ #4->2
 "<broilerilihas>"
 	"broileri_liha" Ls S com sg in @<NN #5->4
 "<on>"
@@ -15020,16 +15130,20 @@
 	"too" Ldud V main partic past imps @IMV #6->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #7->6
-"<19.>"
-	"19." L0 N card @<NN #8->7
+"<19>"
+	"19" L0 N card @<NN #8->7
+"<.>"
+	"." Z Fst #9->9
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<19.>"
-	"19." L0 N card @<NN #2->1
+"<19>"
+	"19" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -15618,16 +15732,20 @@
 	"too" Ldud V main partic past imps @IMV #7->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #8->7
-"<20.>"
-	"20." L0 N card @<NN #9->8
+"<20>"
+	"20" L0 N card @<NN #9->8
+"<.>"
+	"." Z Fst #10->10
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<20.>"
-	"20." L0 N card @<NN #2->1
+"<20>"
+	"20" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -15732,16 +15850,20 @@
 	"21" L0 N card @<NN #31->30
 "<ja>"
 	"ja" L0 J crd @J #32->33
-"<22.>"
-	"22." L0 N card @<NN #33->31
+"<22>"
+	"22" L0 N card @<NN #33->31
+"<.>"
+	"." Z Fst #34->34
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<21.>"
-	"21." L0 N card @<NN #2->1
+"<21>"
+	"21" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -15786,8 +15908,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<22.>"
-	"22." L0 N card @<NN #2->1
+"<22>"
+	"22" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -16112,8 +16236,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<23.>"
-	"23." L0 N card @<NN #2->1
+"<23>"
+	"23" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -16789,7 +16915,7 @@
 "<5,9>"
 	"5,9" L0 N card @NN> #19->17
 "<%>"
-	"%" L0 N card sg gen nominal @<Q #20->19
+	"%" L0 N card sg gen nominal @<Q #20->11
 "<linaõli>"
 	"lina_õli" L0 S com sg gen @<Q #21->20
 "<sisalduse>"
@@ -16850,16 +16976,20 @@
 	"too" Ldud V main partic past imps @IMV #13->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #14->13
-"<24.>"
-	"24." L0 N card @<NN #15->14
+"<24>"
+	"24" L0 N card @<NN #15->14
+"<.>"
+	"." Z Fst #16->16
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<24.>"
-	"24." L0 N card @<NN #2->1
+"<24>"
+	"24" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -17136,8 +17266,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<25.>"
-	"25." L0 N card @<NN #2->1
+"<25>"
+	"25" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -17662,8 +17794,10 @@
 	"kajasta" Lb V main indic pres ps3 sg ps af @FMV #10->0
 "<tabel>"
 	"tabel" L0 S com sg nom @SUBJ #11->10
-"<26.>"
-	"26." L0 N card @<NN #12->11
+"<26>"
+	"26" L0 N card @<NN #12->11
+"<.>"
+	"." Z Fst #13->13
 "</s>"
 
 "<s>"
@@ -17717,7 +17851,7 @@
 "<Samal>"
 	"sama" Ll P dem sg ad @NN> #1->2
 "<ajal>"
-	"aeg" Ll S com sg ad @ADVL #2->19
+	"aeg" Ll S com sg ad @ADVL #2->17
 "<broilerite>"
 	"broiler" Lte S com pl gen @NN> #3->4
 "<söödale>"
@@ -17725,49 +17859,47 @@
 "<lisatud>"
 	"lisa=tud" L0 A pos partic @AN> #5->6
 "<vaseühendid>"
-	"vase_ühend" Ld S com pl nom @SUBJ #6->19
+	"vase_ühend" Ld S com pl nom @SUBJ #6->17
 "<(>"
 	"(" Z Opr #7->7
 "<35-175>"
 	"35-175" L0 N card @<NN #8->6
 "<mg>"
 	"mg" L0 Y nominal @<Q #9->8
-"<CuSO4>"
-	"CuSO4" L0 Y nominal @NN> #10->12
-"<.>"
-	"." Z Fst #11->11
-"<5H2O>"
-	"5H2O" L0 Y nominal @<NN #12->9
+"<CuSO4.5H2O>"
+	"CuSO4.5H2O" L0 Y nominal @<Q #10->9
 "<kg>"
-	"kg" L0 Y nominal @P> #13->14
+	"kg" L0 Y nominal @P> #11->12
 "<kohta>"
-	"kohta" L0 K post @<KN #14->8
+	"kohta" L0 K post @<KN #12->8
 "<,>"
-	"," Z Com #15->15
+	"," Z Com #13->13
 "<kolesteroolitaseme>"
-	"kolesterooli_tase" L0 S com sg gen @NONE #16->17
+	"kolesterooli_tase" L0 S com sg gen @NONE #14->15
 "<alandamiseks>"
-	"alandamine" Lks S com sg tr @NONE #17->8
+	"alandamine" Lks S com sg tr @NONE #15->8
 "<)>"
-	")" Z Cpr #18->18
+	")" Z Cpr #16->16
 "<vähendasid>"
-	"vähenda" Lsid V main indic impf ps3 pl ps af @FMV #19->0
+	"vähenda" Lsid V main indic impf ps3 pl ps af @FMV #17->0
 "<ω-3-rasv-hapete>"
-	"ω-3-rasv-hape" Lte S com pl gen @NN> #20->21
+	"ω-3-rasv-hape" Lte S com pl gen @NN> #18->19
 "<omastatavust>"
-	"omasta=tavus" Lt S com sg part partic @OBJ #21->19
+	"omasta=tavus" Lt S com sg part partic @OBJ #19->17
 "<söödast>"
-	"sööt" Lst S com sg el @<NN #22->21
+	"sööt" Lst S com sg el @<NN #20->19
 "<.>"
-	"." Z Fst #23->23
+	"." Z Fst #21->21
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<26.>"
-	"26." L0 N card @<NN #2->1
+"<26>"
+	"26" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -17904,16 +18036,20 @@
 	"too" Ldud V main partic past imps @IMV #3->0
 "<tabelis>"
 	"tabel" Ls S com sg in @ADVL #4->3
-"<27.>"
-	"27." L0 N card @<NN #5->4
+"<27>"
+	"27" L0 N card @<NN #5->4
+"<.>"
+	"." Z Fst #6->6
 "</s>"
 
 "<s>"
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<27.>"
-	"27." L0 N card @<NN #2->1
+"<27>"
+	"27" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -18132,8 +18268,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<28.>"
-	"28." L0 N card @<NN #2->1
+"<28>"
+	"28" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -18207,7 +18345,7 @@
 "<(>"
 	"(" Z Opr #10->10
 "<tabel>"
-	"tabel" L0 S com sg nom @NONE #11->0
+	"tabel" L0 S com sg nom @NONE #11->14
 "<26>"
 	"26" L0 N card sg nom @<NN #12->11
 "<)>"
@@ -18504,8 +18642,10 @@
 
 "<Tabel>"
 	"tabel" L0 S com sg nom @SUBJ #1->0
-"<29.>"
-	"29." L0 N card @<NN #2->1
+"<29>"
+	"29" L0 N card @<NN #2->1
+"<.>"
+	"." Z Fst #3->3
 "</s>"
 
 "<s>"
@@ -18637,7 +18777,7 @@
 "<,>"
 	"," Z Com #10->10
 "<heledaid>"
-	"hele" Lid A pos pl part @AN> #11->15
+	"hele" Lid A pos pl part @AN> #11->12
 "<sassekseid>"
 	"sasseks" Lid S com pl part @OBJ #12->9
 "<,>"
@@ -18936,18 +19076,24 @@
 
 "<s>"
 
-"<1.4.>"
-	"1.4." L0 N card @ADVL #1->0
+"<1.4>"
+	"1.4" L0 N card @ADVL #1->0
+"<.>"
+	"." Z Fst #2->2
+"</s>"
+
+"<s>"
+
 "<ω-3-rasvhapete>"
-	"ω-3-rasv_hape" Lte S com pl gen @ADVL #2->3
+	"ω-3-rasv_hape" Lte S com pl gen @ADVL #1->2
 "<rikaste>"
-	"rikas" Lte A pos pl gen @AN> #3->4
+	"rikas" Lte A pos pl gen @AN> #2->3
 "<toiduainete>"
-	"toidu_aine" Lte S com pl gen @NN> #4->5
+	"toidu_aine" Lte S com pl gen @NN> #3->4
 "<mõju>"
-	"mõju" L0 S com sg nom @SUBJ #5->0
+	"mõju" L0 S com sg nom @SUBJ #4->0
 "<inimesele>"
-	"inimene" Lle S com sg all @<NN #6->5
+	"inimene" Lle S com sg all @<NN #5->4
 "</s>"
 
 "<s>"
@@ -19205,7 +19351,7 @@
 "<35>"
 	"35" L0 N card @<P #14->13
 "<g>"
-	"g" L0 Y nominal @<P #15->14
+	"g" L0 Y nominal @<Q #15->14
 "<kala>"
 	"kala" L0 S com sg part @<Q #16->15
 "<,>"
@@ -19225,7 +19371,7 @@
 "<(>"
 	"(" Z Opr #24->24
 "<The>"
-	"The" L0 S com sg gen @NONE> #25->26
+	"The" L0 S com sg gen @NONE> #25->0
 "<hearty>"
 	"hearty" L0 S com sg nom @NONE #26->0
 "<…>"
@@ -20165,7 +20311,7 @@
 "<ega>"
 	"ega" L0 J crd @J #21->22
 "<lipiid-hüdroperoksiidide>"
-	"lipiid-hüdro_peroksiid" Lde S com pl gen @NN> #22->23
+	"lipiid-hüdro_peroksiid" Lde S com pl gen @NN> #22->20
 "<tase>"
 	"tase" L0 S com sg nom @SUBJ #23->18
 "<.>"
