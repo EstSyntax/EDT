@@ -187,7 +187,7 @@
 "<Viigimaa>"
 	"Viigi_maa" L0 S prop sg nom @NONE #12->12
 "<et>"
-	"et" L0 J sub @NONE #13->13
+	"et" L0 Y nominal @NONE #13->13
 "<al.>"
 	"al" L0 Y nominal @NONE #14->14
 "<,>"
@@ -303,7 +303,7 @@
 "<Viigimaa>"
 	"Viigi_maa" L0 S prop sg nom @NONE #14->14
 "<et>"
-	"et" L0 J sub @NONE #15->15
+	"et" L0 Y nominal @NONE #15->15
 "<al.>"
 	"al" L0 Y nominal @NONE #16->16
 "<,>"
@@ -467,7 +467,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #7->5
 "<kui>"
-	"kui" L0 J crd @J #8->9
+	"kui" L0 J sub @J #8->9
 "<kolm>"
 	"kolm" L0 N card sg nom l @ADVL #9->7
 "<aastakümmet>"
@@ -561,7 +561,7 @@
 "<s>"
 
 "<Üheks>"
-	"üks" Lks P dem indef sg tr @NN> #1->2
+	"üks" Lks P indef sg tr @NN> #1->2
 "<olulisemaks>"
 	"olulisem" Lks A comp sg tr @ADVL #2->5
 "<neist>"
@@ -603,7 +603,7 @@
 "<eelkõige>"
 	"eel_kõige" L0 D @ADVL #12->4
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #13->14
+	"oma" L0 P pos sg gen @NN> #13->14
 "<võime>"
 	"võime" L0 S com sg gen @P> #14->15
 "<tõttu>"
@@ -721,7 +721,7 @@
 "<ka>"
 	"ka" L0 D @DN> #4->14
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #5->6
+	"mõni" Lde P indef pl gen @NN> #5->6
 "<õlitaimede>"
 	"õli_taim" Lde S com pl gen @NN> #6->14
 "<(>"
@@ -1753,7 +1753,7 @@
 "<püsiv>"
 	"püsiv" L0 A pos sg nom @PRD #6->2
 "<kui>"
-	"kui" L0 J crd @J #7->8
+	"kui" L0 J sub @J #7->8
 "<linoolhape>"
 	"linool_hape" L0 S com sg nom @ADVL #8->6
 "<,>"
@@ -2221,7 +2221,7 @@
 "<Kui>"
 	"kui" L0 J sub @J #1->6
 "<aga>"
-	"aga" L0 J crd @J #2->6
+	"aga" L0 D @ADVL #2->6
 "<kasvõi>"
 	"kas_või" L0 D @DN> #3->4
 "<ükski>"
@@ -2343,7 +2343,7 @@
 "<poolt>"
 	"poolt" L0 K post @<KN #24->22
 "<või>"
-	"või" L0 S com sg gen @NN> #25->27
+	"või" L0 J crd @J #25->27
 "<spetsiifilisel>"
 	"spetsiifiline" Ll A pos sg ad @AN> #26->27
 "<desatureerimisel>"
@@ -2407,7 +2407,7 @@
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #6->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->8
+	"oma" L0 P pos sg gen @NN> #7->8
 "<funktsioon>"
 	"funktsioon" L0 S com sg nom @SUBJ #8->6
 "<ka>"
@@ -2625,7 +2625,7 @@
 "<närvirakkude>"
 	"närvi_rakk" Lde S com pl gen @NN> #20->18
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #21->22
+	"üks" L0 P indef sg nom @NN> #21->22
 "<komponente>"
 	"komponent" Le S com pl part @PRD #22->14
 "<.>"
@@ -2727,7 +2727,7 @@
 "<,>"
 	"," Z Com #11->11
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #12->13
+	"mõni" Lde P indef pl gen @NN> #12->13
 "<taimede>"
 	"taim" Lde S com pl gen @NN> #13->14
 "<seemnetes>"
@@ -3193,7 +3193,7 @@
 "<Atkinson>"
 	"Atkinson" L0 S prop sg nom @NONE #13->13
 "<et>"
-	"et" L0 J sub @NONE #14->14
+	"et" L0 Y nominal @NONE #14->14
 "<al.>"
 	"al" L0 Y nominal @NONE #15->15
 "<,>"
@@ -3217,7 +3217,7 @@
 "<Weintraub>"
 	"Weintraub" L0 S prop sg nom @NONE #25->25
 "<et>"
-	"et" L0 J sub @NONE #26->26
+	"et" L0 Y nominal @NONE #26->26
 "<al.>"
 	"al" L0 Y nominal @NONE #27->27
 "<,>"
@@ -3229,7 +3229,7 @@
 "<Sanders>"
 	"Sanders" L0 S prop sg nom @NONE #31->31
 "<et>"
-	"et" L0 J sub @NONE #32->32
+	"et" L0 Y nominal @NONE #32->32
 "<al.>"
 	"al" L0 Y nominal @NONE #33->33
 "<,>"
@@ -3253,7 +3253,7 @@
 "<Molgaard>"
 	"Molgaard" L0 S prop sg nom @NONE #43->43
 "<et>"
-	"et" L0 J sub @NONE #44->44
+	"et" L0 Y nominal @NONE #44->44
 "<al.>"
 	"al" L0 Y nominal @NONE #45->45
 "<,>"
@@ -3417,7 +3417,7 @@
 "<Olubajo>"
 	"Olubajo" L0 S prop sg nom @NONE #17->17
 "<et>"
-	"et" L0 J sub @NONE #18->18
+	"et" L0 Y nominal @NONE #18->18
 "<al.>"
 	"al" L0 Y nominal @NONE #19->19
 "<,>"
@@ -3509,7 +3509,7 @@
 "<Lasserre>"
 	"Lasserre" L0 S prop sg nom @NONE #38->38
 "<et>"
-	"et" L0 J sub @NONE #39->39
+	"et" L0 Y nominal @NONE #39->39
 "<al.>"
 	"al" L0 Y nominal @NONE #40->40
 "<,>"
@@ -3521,7 +3521,7 @@
 "<Carlson>"
 	"Carlson" L0 S prop sg nom @NONE #44->44
 "<et>"
-	"et" L0 J sub @NONE #45->45
+	"et" L0 Y nominal @NONE #45->45
 "<al.>"
 	"al" L0 Y nominal @NONE #46->46
 "<,>"
@@ -3549,7 +3549,7 @@
 "<Boehm>"
 	"Boehm" L0 S prop sg nom @NONE #58->58
 "<et>"
-	"et" L0 J sub @NONE #59->59
+	"et" L0 Y nominal @NONE #59->59
 "<al.>"
 	"al" L0 Y nominal @NONE #60->60
 "<,>"
@@ -3581,7 +3581,7 @@
 "<Saynor>"
 	"Saynor" L0 S prop sg nom @NONE #8->8
 "<et>"
-	"et" L0 J sub @NONE #9->9
+	"et" L0 Y nominal @NONE #9->9
 "<al.>"
 	"al" L0 Y nominal @NONE #10->10
 "<,>"
@@ -4015,7 +4015,7 @@
 "<kahjulikumad>"
 	"kahju=likum" Ld A comp pl nom @PRD #14->12
 "<kui>"
-	"kui" L0 J crd @J #15->16
+	"kui" L0 J sub @J #15->16
 "<kolesterool>"
 	"kolesterool" L0 S com sg nom @ADVL #16->14
 "<(>"
@@ -4529,7 +4529,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #22->20
 "<kui>"
-	"kui" L0 J crd @J #23->24
+	"kui" L0 J sub @J #23->24
 "<poolte>"
 	"pool" Lte N card pl gen @ADVL #24->22
 "<inimeste>"
@@ -4899,7 +4899,7 @@
 "<ateroskleroosi>"
 	"atero_skleroos" L0 S com sg part @SUBJ #17->15
 "<kui>"
-	"kui" L0 J crd @J #18->19
+	"kui" L0 J sub @J #18->19
 "<ameeriklastel>"
 	"ameeriklane" Ltel S com pl ad @ADVL #19->14
 "<(>"
@@ -4915,7 +4915,7 @@
 "<Nash>"
 	"Nash" L0 S prop sg nom @NONE #25->25
 "<et>"
-	"et" L0 J sub @NONE #26->26
+	"et" L0 Y nominal @NONE #26->26
 "<al.>"
 	"al" L0 Y nominal @NONE #27->27
 "<,>"
@@ -4927,7 +4927,7 @@
 "<Parkinson>"
 	"Parkinson" L0 S prop sg nom @NONE #31->31
 "<et>"
-	"et" L0 J sub @NONE #32->32
+	"et" L0 Y nominal @NONE #32->32
 "<al.>"
 	"al" L0 Y nominal @NONE #33->33
 "<,>"
@@ -5005,7 +5005,7 @@
 "<söövad>"
 	"söö" Lvad V main indic pres ps3 pl ps af @FMV #2->0
 "<aga>"
-	"aga" L0 J crd @J #3->2
+	"aga" L0 D @ADVL #3->2
 "<palju>"
 	"palju" L0 D @ADVL #4->2
 "<ka>"
@@ -5081,7 +5081,7 @@
 "<Kagawa>"
 	"Kagawa" L0 S prop sg gen @NONE #27->27
 "<et>"
-	"et" L0 J sub @NONE #28->28
+	"et" L0 Y nominal @NONE #28->28
 "<al.>"
 	"al" L0 Y nominal @NONE #29->29
 "<,>"
@@ -5107,7 +5107,7 @@
 "<Kromhout>"
 	"Kromhout" L0 S prop sg nom @NONE #5->3
 "<et>"
-	"et" L0 J sub @NONE #6->7
+	"et" L0 Y nominal @NONE #6->7
 "<al.>"
 	"al" L0 Y nominal @NONE #7->5
 "<,>"
@@ -5425,7 +5425,7 @@
 "<Sihtasutus>"
 	"Siht_asutus" L0 S prop sg nom @SUBJ #6->3
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->10
+	"oma" L0 P pos sg gen @NN> #7->10
 "<seni>"
 	"seni" L0 D @ADVL #8->9
 "<kehtinud>"
@@ -5581,7 +5581,7 @@
 "<osa>"
 	"osa" L0 S com sg part @OBJ #4->3
 "<ühed>"
-	"üks" Ld P dem indef pl nom @NN> #5->8
+	"üks" Ld P indef pl nom @NN> #5->8
 "<ja>"
 	"ja" L0 J crd @J #6->7
 "<samad>"
@@ -5599,7 +5599,7 @@
 "<võib>"
 	"või" Lb V mod indic pres ps3 sg ps af @FCV #2->8
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #3->4
+	"üks" L0 P indef sg gen @NN> #3->4
 "<rasvhappe>"
 	"rasv_hape" L0 S com sg gen @NN> #4->5
 "<domineerimine>"
@@ -5815,7 +5815,7 @@
 "<ω-linoleenhapet>"
 	"ω-linoleen_hape" Lt S com sg part @SUBJ #19->16
 "<aga>"
-	"aga" L0 J crd @J #20->19
+	"aga" L0 D @ADVL #20->19
 "<95%>"
 	"95%" L0 N card sg nom @ADVL #21->19
 "<(>"
@@ -6131,7 +6131,7 @@
 "<Barlow>"
 	"Barlow" L0 S prop sg nom @NONE #14->14
 "<et>"
-	"et" L0 J sub @NONE #15->15
+	"et" L0 Y nominal @NONE #15->15
 "<al.>"
 	"al" L0 Y nominal @NONE #16->16
 "<,>"
@@ -6353,7 +6353,7 @@
 "<s>"
 
 "<Mõned>"
-	"mõni" Ld P pl nom @NN> #1->4
+	"mõni" Ld P indef pl nom @NN> #1->4
 "<ω-3-rasvhapete>"
 	"ω-3-rasv_hape" Lte S com pl gen @ADVL #2->3
 "<rikkad>"
@@ -6393,7 +6393,7 @@
 "<s>"
 
 "<Mõned>"
-	"mõni" Ld P pl nom @NN> #1->2
+	"mõni" Ld P indef pl nom @NN> #1->2
 "<kalaõlid>"
 	"kala_õli" Ld S com pl nom @SUBJ #2->3
 "<sisaldavad>"
@@ -6607,7 +6607,7 @@
 "<Rasmussen>"
 	"Rasmussen" L0 S prop sg nom @NONE #21->21
 "<et>"
-	"et" L0 J sub @NONE #22->23
+	"et" L0 Y nominal @NONE #22->23
 "<al.>"
 	"al" L0 Y nominal @NONE #23->23
 "<,>"
@@ -6655,7 +6655,7 @@
 "<Sturdevant>"
 	"Sturdevant" L0 S prop sg nom @NONE #45->45
 "<et>"
-	"et" L0 J sub @NONE #46->46
+	"et" L0 Y nominal @NONE #46->46
 "<al.>"
 	"al" L0 Y nominal @NONE #47->47
 "<,>"
@@ -6755,7 +6755,7 @@
 "<s>"
 
 "<Üheks>"
-	"üks" Lks P dem indef sg tr @NN> #1->2
+	"üks" Lks P indef sg tr @NN> #1->2
 "<võimaluseks>"
 	"võimalus" Lks S com sg tr @ADVL #2->11
 "<suurendada>"
@@ -7375,7 +7375,7 @@
 "<Andersson>"
 	"Andersson" L0 S prop sg nom @NONE #22->22
 "<et>"
-	"et" L0 J sub @NONE #23->23
+	"et" L0 Y nominal @NONE #23->23
 "<al.>"
 	"al" L0 Y nominal @NONE #24->24
 "<,>"
@@ -7431,7 +7431,7 @@
 "<Ostrander>"
 	"Ostrander" L0 S prop sg nom @NONE #16->16
 "<et>"
-	"et" L0 J sub @NONE #17->17
+	"et" L0 Y nominal @NONE #17->17
 "<al.>"
 	"al" L0 Y nominal @NONE #18->18
 "<,>"
@@ -7457,7 +7457,7 @@
 "<on>"
 	"ole" L0 V aux indic pres ps3 sg ps af @FCV #5->7
 "<aga>"
-	"aga" L0 J crd @J #6->7
+	"aga" L0 D @ADVL #6->7
 "<täheldatud>"
 	"tähelda" Ltud V main partic past imps @IMV #7->0
 "<erinevate>"
@@ -7479,7 +7479,7 @@
 "<Sell>"
 	"sell" L0 S com sg nom @NONE #16->16
 "<et>"
-	"et" L0 J sub @NONE #17->17
+	"et" L0 Y nominal @NONE #17->17
 "<al.>"
 	"al" L0 Y nominal @NONE #18->18
 "<,>"
@@ -7499,7 +7499,7 @@
 "<Ahn>"
 	"Ahn" L0 S prop sg nom @NONE #26->26
 "<et>"
-	"et" L0 J sub @NONE #27->27
+	"et" L0 Y nominal @NONE #27->27
 "<al.>"
 	"al" L0 Y nominal @NONE #28->28
 "<,>"
@@ -7525,7 +7525,7 @@
 "<Noble>"
 	"Noble" L0 S prop sg nom @NONE #39->39
 "<et>"
-	"et" L0 J sub @NONE #40->40
+	"et" L0 Y nominal @NONE #40->40
 "<al.>"
 	"al" L0 Y nominal @NONE #41->41
 "<,>"
@@ -7627,7 +7627,7 @@
 "<kõrgem>"
 	"kõrgem" L0 A comp sg nom @PRD #12->9
 "<kui>"
-	"kui" L0 J crd @J #13->17
+	"kui" L0 J sub @J #13->17
 "<kana->"
 	"kana" L0 S com sg gen @NN> #14->17
 "<ja>"
@@ -7795,7 +7795,7 @@
 "<Scheideler>"
 	"Scheideler" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -7963,7 +7963,7 @@
 "<suurem>"
 	"suurem" L0 A comp sg nom @PRD #32->31
 "<kui>"
-	"kui" L0 J crd @J #33->34
+	"kui" L0 J sub @J #33->34
 "<farmilindudel>"
 	"farmi_lind" Ldel S com pl ad @ADVL #34->32
 "<.>"
@@ -8167,7 +8167,7 @@
 "<kolesterooli>"
 	"kolesterool" L0 S com sg part @<Q #6->5
 "<kui>"
-	"kui" L0 J crd @J #7->10
+	"kui" L0 J sub @J #7->10
 "<teiste>"
 	"teine" Lte P dem pl gen @NN> #8->9
 "<linnuliikide>"
@@ -8593,7 +8593,7 @@
 "<Ratnayake>"
 	"Ratnayake" L0 S prop sg gen @NONE #8->8
 "<et>"
-	"et" L0 J sub @NONE #9->9
+	"et" L0 Y nominal @NONE #9->9
 "<al.>"
 	"al" L0 Y nominal @NONE #10->10
 "<,>"
@@ -8637,7 +8637,7 @@
 "<Ackman>"
 	"Ackman" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -8677,7 +8677,7 @@
 "<Koizumi>"
 	"Koizumi" L0 S prop sg nom @NONE #13->13
 "<et>"
-	"et" L0 J sub @NONE #14->14
+	"et" L0 Y nominal @NONE #14->14
 "<al.>"
 	"al" L0 Y nominal @NONE #15->15
 "<,>"
@@ -9065,7 +9065,7 @@
 "<Wheeler>"
 	"Wheeler" L0 S prop sg nom @NONE #25->25
 "<et>"
-	"et" L0 J sub @NONE #26->26
+	"et" L0 Y nominal @NONE #26->26
 "<al.>"
 	"al" L0 Y nominal @NONE #27->27
 "<,>"
@@ -9173,7 +9173,7 @@
 "<Summers>"
 	"Summers" L0 S prop sg nom @NONE #25->25
 "<et>"
-	"et" L0 J sub @NONE #26->26
+	"et" L0 Y nominal @NONE #26->26
 "<al.>"
 	"al" L0 Y nominal @NONE #27->27
 "<,>"
@@ -9203,7 +9203,7 @@
 "<Navarro>"
 	"Navarro" L0 S prop sg nom @NONE #40->40
 "<et>"
-	"et" L0 J sub @NONE #41->41
+	"et" L0 Y nominal @NONE #41->41
 "<al.>"
 	"al" L0 Y nominal @NONE #42->42
 "<,>"
@@ -9227,7 +9227,7 @@
 "<Adams>"
 	"Adams" L0 S prop sg nom @NONE #52->52
 "<et>"
-	"et" L0 J sub @NONE #53->53
+	"et" L0 Y nominal @NONE #53->53
 "<al.>"
 	"al" L0 Y nominal @NONE #54->54
 "<,>"
@@ -9273,7 +9273,7 @@
 "<Ackman>"
 	"Ackman" L0 S prop sg nom @NONE #15->15
 "<et>"
-	"et" L0 J sub @NONE #16->16
+	"et" L0 Y nominal @NONE #16->16
 "<al.>"
 	"al" L0 Y nominal @NONE #17->17
 "<,>"
@@ -9319,7 +9319,7 @@
 "<Yau>"
 	"Yau" L0 S prop sg nom @NONE #8->8
 "<et>"
-	"et" L0 J sub @NONE #9->9
+	"et" L0 Y nominal @NONE #9->9
 "<al.>"
 	"al" L0 Y nominal @NONE #10->10
 "<,>"
@@ -9423,7 +9423,7 @@
 "<Hulan>"
 	"Hulan" L0 S prop sg nom @NONE #17->17
 "<et>"
-	"et" L0 J sub @NONE #18->19
+	"et" L0 Y nominal @NONE #18->19
 "<al.>"
 	"al" L0 Y nominal @NONE #19->19
 "<,>"
@@ -9447,7 +9447,7 @@
 "<Nash>"
 	"Nash" L0 S prop sg nom @NONE #29->29
 "<et>"
-	"et" L0 J sub @NONE #30->30
+	"et" L0 Y nominal @NONE #30->30
 "<al.>"
 	"al" L0 Y nominal @NONE #31->31
 "<,>"
@@ -9653,7 +9653,7 @@
 "<s>"
 
 "<Mõnede>"
-	"mõni" Lde P pl gen @NN> #1->2
+	"mõni" Lde P indef pl gen @NN> #1->2
 "<kalaõlide>"
 	"kala_õli" Lde S com pl gen @NN> #2->4
 "<rasvhappeline>"
@@ -9869,7 +9869,7 @@
 "<s>"
 
 "<Mõnede>"
-	"mõni" Lde P pl gen @NN> #1->2
+	"mõni" Lde P indef pl gen @NN> #1->2
 "<kalaõlide>"
 	"kala_õli" Lde S com pl gen @NN> #2->4
 "<rasvhappeline>"
@@ -9943,7 +9943,7 @@
 "<Allen>"
 	"Allen" L0 S prop sg nom @NONE #18->18
 "<et>"
-	"et" L0 J sub @NONE #19->19
+	"et" L0 Y nominal @NONE #19->19
 "<al.>"
 	"al" L0 Y nominal @NONE #20->20
 "<,>"
@@ -10035,7 +10035,7 @@
 "<s>"
 
 "<Mõnede>"
-	"mõni" Lde P pl gen @NN> #1->2
+	"mõni" Lde P indef pl gen @NN> #1->2
 "<kalajahude>"
 	"kala_jahu" Lde S com pl gen @NN> #2->4
 "<rasvhappelist>"
@@ -10065,7 +10065,7 @@
 "<s>"
 
 "<Mõnede>"
-	"mõni" Lde P pl gen @NN> #1->2
+	"mõni" Lde P indef pl gen @NN> #1->2
 "<kalajahude>"
 	"kala_jahu" Lde S com pl gen @NN> #2->4
 "<rasvhappeline>"
@@ -10111,7 +10111,7 @@
 "<,>"
 	"," Z Com #7->7
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #8->10
+	"üks" L0 P indef sg nom @NN> #8->10
 "<vanemaid>"
 	"vanem" Lid A comp pl part @AN> #9->10
 "<kultuurtaimi>"
@@ -10231,7 +10231,7 @@
 "<Chadha>"
 	"Chadha" L0 S prop sg nom @NONE #21->21
 "<et>"
-	"et" L0 J sub @NONE #22->22
+	"et" L0 Y nominal @NONE #22->22
 "<al.>"
 	"al" L0 Y nominal @NONE #23->23
 "<,>"
@@ -10397,7 +10397,7 @@
 "<toidu>"
 	"toit" L0 S com sg gen @NN> #22->25
 "<üheks>"
-	"üks" Lks P dem indef sg tr @NN> #23->25
+	"üks" Lks P indef sg tr @NN> #23->25
 "<perspektiivseimaks>"
 	"perspektiivse=im" Lks A super sg tr @AN> #24->25
 "<koostisosaks>"
@@ -10431,7 +10431,7 @@
 "<Chen>"
 	"Chen" L0 S prop sg nom @NONE #11->11
 "<et>"
-	"et" L0 J sub @NONE #12->12
+	"et" L0 Y nominal @NONE #12->12
 "<al.>"
 	"al" L0 Y nominal @NONE #13->13
 "<,>"
@@ -10465,7 +10465,7 @@
 "<Cunnane>"
 	"Cunnane" L0 S prop sg nom @NONE #28->28
 "<et>"
-	"et" L0 J sub @NONE #29->29
+	"et" L0 Y nominal @NONE #29->29
 "<al.>"
 	"al" L0 Y nominal @NONE #30->30
 "<,>"
@@ -10635,7 +10635,7 @@
 "<muutusi>"
 	"muutus" Li S com pl part @<Q #10->9
 "<kui>"
-	"kui" L0 J crd @J #11->14
+	"kui" L0 J sub @J #11->14
 "<teiste>"
 	"teine" Lte P dem pl gen @NN> #12->13
 "<õlide>"
@@ -11669,7 +11669,7 @@
 "<vähem>"
 	"vähem" L0 D @ADVL #22->21
 "<kui>"
-	"kui" L0 J crd @J #23->24
+	"kui" L0 J sub @J #23->24
 "<30>"
 	"30" L0 N card sg nom @ADVL #24->22
 "<(>"
@@ -12087,7 +12087,7 @@
 "<Wiseman>"
 	"Wiseman" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -12105,7 +12105,7 @@
 "<Schipper>"
 	"Schipper" L0 S prop sg nom @NONE #19->19
 "<et>"
-	"et" L0 J sub @NONE #20->20
+	"et" L0 Y nominal @NONE #20->20
 "<al.>"
 	"al" L0 Y nominal @NONE #21->21
 "<,>"
@@ -12237,7 +12237,7 @@
 "<Hrdinka>"
 	"Hrdinka" L0 S prop sg nom @NONE #5->5
 "<et>"
-	"et" L0 J sub @NONE #6->6
+	"et" L0 Y nominal @NONE #6->6
 "<al.>"
 	"al" L0 Y nominal @NONE #7->7
 "<,>"
@@ -12475,7 +12475,7 @@
 "<suurem>"
 	"suurem" L0 A comp sg nom @PRD #14->11
 "<kui>"
-	"kui" L0 J crd @J #15->16
+	"kui" L0 J sub @J #15->16
 "<rapsiseemnejahus>"
 	"rapsi_seemne_jahu" Ls S com sg in @ADVL #16->14
 "<.>"
@@ -12621,7 +12621,7 @@
 "<milline>"
 	"milline" L0 P rel sg nom @SUBJ #13->18
 "<oma>"
-	"oma" L0 P pos det refl sg nom @NN> #14->16
+	"oma" L0 P pos sg nom @NN> #14->16
 "<kaneeli-mündi>"
 	"kaneeli-münt" L0 S com sg gen @NN> #15->16
 "<segalõhna>"
@@ -12665,7 +12665,7 @@
 "<ja>"
 	"ja" L0 J crd @J #7->12
 "<mõningal>"
-	"mõningas" Ll P sg ad @NN> #8->9
+	"mõningane" Ll P indef sg ad @NN> #8->9
 "<määral>"
 	"määr" Ll S com sg ad @ADVL #9->12
 "<ka>"
@@ -12681,7 +12681,7 @@
 "<s>"
 
 "<Oma>"
-	"oma" L0 P pos det refl sg gen @NN> #1->2
+	"oma" L0 P pos sg gen @NN> #1->2
 "<seemnete>"
 	"seeme" Lte S com pl gen @NN> #2->4
 "<rikkaliku>"
@@ -12719,7 +12719,7 @@
 "<Lindude>"
 	"lind" Lde S com pl gen @NN> #1->3
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #2->3
+	"mõni" Lde P indef pl gen @NN> #2->3
 "<söödakomponentide>"
 	"sööda_komponent" Lde S com pl gen @NN> #3->5
 "<rasvhappeline>"
@@ -12737,7 +12737,7 @@
 "<Jung>"
 	"Jung" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -12761,7 +12761,7 @@
 "<s>"
 
 "<Mõnede>"
-	"mõni" Lde P pl gen @NN> #1->2
+	"mõni" Lde P indef pl gen @NN> #1->2
 "<taimeõlide>"
 	"taime_õli" Lde S com pl gen @NN> #2->4
 "<rasvhappeline>"
@@ -12779,7 +12779,7 @@
 "<Jung>"
 	"Jung" L0 S prop sg nom @NONE #9->9
 "<et>"
-	"et" L0 J sub @NONE #10->10
+	"et" L0 Y nominal @NONE #10->10
 "<al.>"
 	"al" L0 Y nominal @NONE #11->11
 "<,>"
@@ -12841,7 +12841,7 @@
 "<kuulub>"
 	"kuulu" Lb V main indic pres ps3 sg ps af @FMV #4->0
 "<üks>"
-	"üks" L0 P dem sg nom @NN> #5->7
+	"üks" L0 P sg nom @NN> #5->7
 "<põhjalikumaid>"
 	"põhjalikum" Lid A comp pl part @AN> #6->7
 "<uurimusi>"
@@ -12945,7 +12945,7 @@
 "<Ackman>"
 	"Ackman" L0 S prop sg nom @NONE #18->18
 "<et>"
-	"et" L0 J sub @NONE #19->19
+	"et" L0 Y nominal @NONE #19->19
 "<al.>"
 	"al" L0 Y nominal @NONE #20->20
 "<,>"
@@ -13049,7 +13049,7 @@
 "<Ratnayake>"
 	"Ratnayake" L0 S prop sg nom @NONE #15->15
 "<et>"
-	"et" L0 J sub @NONE #16->16
+	"et" L0 Y nominal @NONE #16->16
 "<al.>"
 	"al" L0 Y nominal @NONE #17->17
 "<,>"
@@ -13235,7 +13235,7 @@
 "<tulemusi>"
 	"tulemus" Li S com pl part @OBJ #13->3
 "<kui>"
-	"kui" L0 J crd @J #14->15
+	"kui" L0 J sub @J #14->15
 "<kalaõli>"
 	"kala_õli" L0 S com sg part @ADVL #15->12
 "<.>"
@@ -13263,7 +13263,7 @@
 "<Miller>"
 	"Miller" L0 S prop sg nom @NONE #9->9
 "<et>"
-	"et" L0 J sub @NONE #10->10
+	"et" L0 Y nominal @NONE #10->10
 "<al.>"
 	"al" L0 Y nominal @NONE #11->11
 "<,>"
@@ -13311,7 +13311,7 @@
 "<Nash>"
 	"Nash" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -13361,7 +13361,7 @@
 "<van>"
 	"van" L0 Y nominal @NONE #17->17
 "<et>"
-	"et" L0 J sub @NONE #18->18
+	"et" L0 Y nominal @NONE #18->18
 "<al.>"
 	"al" L0 Y nominal @NONE #19->19
 "<,>"
@@ -13381,7 +13381,7 @@
 "<Hargis>"
 	"Hargis" L0 S prop sg nom @NONE #27->27
 "<et>"
-	"et" L0 J sub @NONE #28->28
+	"et" L0 Y nominal @NONE #28->28
 "<al.>"
 	"al" L0 Y nominal @NONE #29->29
 "<,>"
@@ -13527,7 +13527,7 @@
 "<Lopez-Ferrer>"
 	"Lopez-Ferrer" L0 S prop sg nom @NONE #12->12
 "<et>"
-	"et" L0 J sub @NONE #13->13
+	"et" L0 Y nominal @NONE #13->13
 "<al.>"
 	"al" L0 Y nominal @NONE #14->14
 "<,>"
@@ -13935,7 +13935,7 @@
 "<Hulan>"
 	"Hulan" L0 S prop sg nom @NONE #10->10
 "<et>"
-	"et" L0 J sub @NONE #11->11
+	"et" L0 Y nominal @NONE #11->11
 "<al.>"
 	"al" L0 Y nominal @NONE #12->12
 "<,>"
@@ -13977,7 +13977,7 @@
 "<Hardin>"
 	"Hardin" L0 S prop sg nom @NONE #31->31
 "<et>"
-	"et" L0 J sub @NONE #32->32
+	"et" L0 Y nominal @NONE #32->32
 "<al.>"
 	"al" L0 Y nominal @NONE #33->33
 "<,>"
@@ -13989,7 +13989,7 @@
 "<Waldroup>"
 	"Waldroup" L0 S prop sg nom @NONE #37->37
 "<et>"
-	"et" L0 J sub @NONE #38->38
+	"et" L0 Y nominal @NONE #38->38
 "<al.>"
 	"al" L0 Y nominal @NONE #39->39
 "<,>"
@@ -14041,7 +14041,7 @@
 "<Hargis>"
 	"Hargis" L0 S prop sg nom @NONE #12->12
 "<et>"
-	"et" L0 J sub @NONE #13->13
+	"et" L0 Y nominal @NONE #13->13
 "<al.>"
 	"al" L0 Y nominal @NONE #14->14
 "<,>"
@@ -14071,7 +14071,7 @@
 "<van>"
 	"van" L0 Y nominal @NONE #27->27
 "<et>"
-	"et" L0 J sub @NONE #28->28
+	"et" L0 Y nominal @NONE #28->28
 "<al.>"
 	"al" L0 Y nominal @NONE #29->29
 "<,>"
@@ -14121,7 +14121,7 @@
 "<Nash>"
 	"Nash" L0 S prop sg nom @NONE #17->17
 "<et>"
-	"et" L0 J sub @NONE #18->18
+	"et" L0 Y nominal @NONE #18->18
 "<al.>"
 	"al" L0 Y nominal @NONE #19->19
 "<,>"
@@ -14173,7 +14173,7 @@
 "<Edwards>"
 	"Edwards" L0 S prop sg nom @NONE #18->18
 "<et>"
-	"et" L0 J sub @NONE #19->19
+	"et" L0 Y nominal @NONE #19->19
 "<al.>"
 	"al" L0 Y nominal @NONE #20->20
 "<,>"
@@ -14335,7 +14335,7 @@
 "<Hulan>"
 	"Hulan" L0 S prop sg nom @NONE #19->19
 "<et>"
-	"et" L0 J sub @NONE #20->20
+	"et" L0 Y nominal @NONE #20->20
 "<al.>"
 	"al" L0 Y nominal @NONE #21->21
 "<1988>"
@@ -14409,7 +14409,7 @@
 "<Allen>"
 	"Allen" L0 S prop sg nom @NONE #11->11
 "<et>"
-	"et" L0 J sub @NONE #12->12
+	"et" L0 Y nominal @NONE #12->12
 "<al.>"
 	"al" L0 Y nominal @NONE #13->13
 "<,>"
@@ -14693,7 +14693,7 @@
 "<Dean>"
 	"Dean" L0 S prop sg nom @NONE #17->17
 "<et>"
-	"et" L0 J sub @NONE #18->18
+	"et" L0 Y nominal @NONE #18->18
 "<al.>"
 	"al" L0 Y nominal @NONE #19->19
 "<,>"
@@ -14705,7 +14705,7 @@
 "<Hulan>"
 	"Hulan" L0 S prop sg nom @NONE #23->23
 "<et>"
-	"et" L0 J sub @NONE #24->24
+	"et" L0 Y nominal @NONE #24->24
 "<al.>"
 	"al" L0 Y nominal @NONE #25->25
 "<,>"
@@ -14789,7 +14789,7 @@
 "<Hardin>"
 	"Hardin" L0 S prop sg nom @NONE #65->65
 "<et>"
-	"et" L0 J sub @NONE #66->66
+	"et" L0 Y nominal @NONE #66->66
 "<al.>"
 	"al" L0 Y nominal @NONE #67->67
 "<,>"
@@ -14833,7 +14833,7 @@
 "<Fry>"
 	"Fry" L0 S prop sg nom @NONE #14->14
 "<et>"
-	"et" L0 J sub @NONE #15->15
+	"et" L0 Y nominal @NONE #15->15
 "<al.>"
 	"al" L0 Y nominal @NONE #16->16
 "<,>"
@@ -14931,7 +14931,7 @@
 "<Miller>"
 	"Miller" L0 S prop sg nom @NONE #11->11
 "<et>"
-	"et" L0 J sub @NONE #12->12
+	"et" L0 Y nominal @NONE #12->12
 "<al.>"
 	"al" L0 Y nominal @NONE #13->13
 "<,>"
@@ -15291,7 +15291,7 @@
 "<Jiang>"
 	"Jiang" L0 S prop sg nom @NONE #25->25
 "<et>"
-	"et" L0 J sub @NONE #26->26
+	"et" L0 Y nominal @NONE #26->26
 "<al.>"
 	"al" L0 Y nominal @NONE #27->27
 "<,>"
@@ -15489,7 +15489,7 @@
 "<Jiang>"
 	"Jiang" L0 S prop sg nom @NONE #12->0
 "<et>"
-	"et" L0 J @NONE #13->14
+	"et" L0 Y nominal @NONE #13->14
 "<al.>"
 	"al" L0 Y nominal @NONE #14->12
 "<,>"
@@ -15561,7 +15561,7 @@
 "<Ahn>"
 	"Ahn" L0 S prop sg nom @NONE #14->0
 "<et>"
-	"et" L0 J @NONE #15->16
+	"et" L0 Y nominal @NONE #15->16
 "<al.>"
 	"al" L0 Y nominal @NONE #16->14
 "<,>"
@@ -15645,7 +15645,7 @@
 "<ω-linoleenhapet>"
 	"ω-linoleen_hape" Lt S com sg part @<Q #34->33
 "<kui>"
-	"kui" L0 J crd @J #35->39
+	"kui" L0 J sub @J #35->39
 "<teiste>"
 	"teine" Lte P dem pl gen @NN> #36->37
 "<tõugude>"
@@ -16013,7 +16013,7 @@
 "<parem>"
 	"parem" L0 A comp sg nom @PRD #7->6
 "<kui>"
-	"kui" L0 J crd @J #8->13
+	"kui" L0 J sub @J #8->13
 "<sama>"
 	"sama" L0 P dem sg nom @NN> #9->10
 "<koguse>"
@@ -16157,7 +16157,7 @@
 "<Leeson>"
 	"Leeson" L0 S prop sg nom @NONE #15->0
 "<et>"
-	"et" L0 J @NONE #16->17
+	"et" L0 Y nominal @NONE #16->17
 "<al.>"
 	"al" L0 Y nominal @NONE #17->15
 "<,>"
@@ -16261,7 +16261,7 @@
 "<Ahn>"
 	"Ahn" L0 S prop sg nom @NONE #8->0
 "<et>"
-	"et" L0 J @NONE #9->10
+	"et" L0 Y nominal @NONE #9->10
 "<al.>"
 	"al" L0 Y nominal @NONE #10->8
 "<,>"
@@ -16343,7 +16343,7 @@
 "<leidsid>"
 	"leid" Lsid V main indic impf ps3 pl ps af @FMV #3->0
 "<aga>"
-	"aga" L0 J crd @J #4->3
+	"aga" L0 D @ADVL #4->3
 "<ka>"
 	"ka" L0 D @ADVL #5->3
 "<,>"
@@ -16763,7 +16763,7 @@
 "<Suzuki>"
 	"Suzuki" L0 S prop sg nom @NONE #13->0
 "<et>"
-	"et" L0 J @NONE #14->15
+	"et" L0 Y nominal @NONE #14->15
 "<al.>"
 	"al" L0 Y nominal @NONE #15->13
 "<,>"
@@ -16799,7 +16799,7 @@
 "<väheneb>"
 	"vähene" Lb V main indic pres ps3 sg ps af @FMV #10->2
 "<aga>"
-	"aga" L0 J crd @J #11->10
+	"aga" L0 D @ADVL #11->10
 "<oleiinhappe>"
 	"oleiin_hape" L0 S com sg gen @NN> #12->15
 "<ja>"
@@ -16847,7 +16847,7 @@
 "<linoolhapet>"
 	"linool_hape" Lt S com sg part @<Q #15->14
 "<kui>"
-	"kui" L0 J crd @J #16->17
+	"kui" L0 J sub @J #16->17
 "<munarebud>"
 	"muna_rebu" Ld S com pl nom @ADVL #17->9
 "<linaõli>"
@@ -16861,7 +16861,7 @@
 "<Suzuki>"
 	"Suzuki" L0 S prop sg nom @NONE #22->0
 "<et>"
-	"et" L0 J @J #23->24
+	"et" L0 Y nominal @NONE #23->24
 "<al.>"
 	"al" L0 Y nominal @NONE #24->22
 "<,>"
@@ -17193,7 +17193,7 @@
 "<tibude>"
 	"tibu" Lde S com pl gen @NN> #18->19
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #19->20
+	"mõni" Lde P indef pl gen @NN> #19->20
 "<kudede>"
 	"kude" Lde S com pl gen @NN> #20->22
 "<rasvhapete>"
@@ -17375,7 +17375,7 @@
 "<Allen>"
 	"Allen" L0 S prop sg nom @NONE #26->0
 "<et>"
-	"et" L0 J @J #27->28
+	"et" L0 Y nominal @NONE #27->28
 "<al.>"
 	"al" L0 Y nominal @NONE #28->26
 "<,>"
@@ -17921,7 +17921,7 @@
 "<broilerite>"
 	"broiler" Lte S com pl gen @NN> #8->10
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #9->10
+	"mõni" Lde P indef pl gen @NN> #9->10
 "<kudede>"
 	"kude" Lde S com pl gen @NN> #10->12
 "<rasvhappelisele>"
@@ -17939,7 +17939,7 @@
 "<Hrdinka>"
 	"Hrdinka" L0 S prop sg nom @NONE #17->0
 "<et>"
-	"et" L0 J @NONE #18->19
+	"et" L0 Y nominal @NONE #18->19
 "<al.>"
 	"al" L0 Y nominal @NONE #19->17
 "<,>"
@@ -18079,7 +18079,7 @@
 "<Kim>"
 	"Kim" L0 S prop sg nom @NONE #12->0
 "<et>"
-	"et" L0 J @NONE #13->14
+	"et" L0 Y nominal @NONE #13->14
 "<al.>"
 	"al" L0 Y nominal @NONE #14->12
 "<,>"
@@ -18293,7 +18293,7 @@
 "<broilerite>"
 	"broiler" Lte S com pl gen @NN> #8->10
 "<mõnede>"
-	"mõni" Lde P pl gen @NN> #9->10
+	"mõni" Lde P indef pl gen @NN> #9->10
 "<kudede>"
 	"kude" Lde S com pl gen @NN> #10->12
 "<rasvhappelisele>"
@@ -18311,7 +18311,7 @@
 "<Hrdinka>"
 	"Hrdinka" L0 S prop sg nom @NONE #17->0
 "<et>"
-	"et" L0 J @NONE #18->19
+	"et" L0 Y nominal @NONE #18->19
 "<al.>"
 	"al" L0 Y nominal @NONE #19->17
 "<,>"
@@ -18559,7 +18559,7 @@
 "<Yau>"
 	"Yau" L0 S prop sg nom @NONE #24->0
 "<et>"
-	"et" L0 J @NONE #25->26
+	"et" L0 Y nominal @NONE #25->26
 "<al.>"
 	"al" L0 Y nominal @NONE #26->24
 "<,>"
@@ -18625,7 +18625,7 @@
 "<Li>"
 	"Li" L0 Y nominal @NONE #25->0
 "<et>"
-	"et" L0 J @NONE #26->27
+	"et" L0 Y nominal @NONE #26->27
 "<al.>"
 	"al" L0 Y nominal @NONE #27->25
 "<,>"
@@ -18741,7 +18741,7 @@
 "<Cherian>"
 	"Cherian" L0 S prop sg nom @NONE #13->0
 "<et>"
-	"et" L0 J @NONE #14->15
+	"et" L0 Y nominal @NONE #14->15
 "<al.>"
 	"al" L0 Y nominal @NONE #15->13
 "<,>"
@@ -19009,7 +19009,7 @@
 "<ja>"
 	"ja" L0 J crd @J #3->7
 "<mõnedel>"
-	"mõni" Ldel P pl ad @NN> #4->5
+	"mõni" Ldel P indef pl ad @NN> #4->5
 "<andmetel>"
 	"andmed" Ltel S com pl ad @ADVL #5->7
 "<ka>"
@@ -19165,7 +19165,7 @@
 "<Dyerberg>"
 	"Dyerberg" L0 S prop sg nom @NONE #33->29
 "<et>"
-	"et" L0 J @NONE #34->35
+	"et" L0 Y nominal @NONE #34->35
 "<al.>"
 	"al" L0 Y nominal @NONE #35->33
 "<,>"
@@ -19259,7 +19259,7 @@
 "<Keli>"
 	"Keli" L0 S prop sg nom @NONE #15->0
 "<et>"
-	"et" L0 J @NONE #16->17
+	"et" L0 Y nominal @NONE #16->17
 "<al.>"
 	"al" L0 Y nominal @NONE #17->15
 "<,>"
@@ -19879,7 +19879,7 @@
 "<Mantzioris>"
 	"Mantzioris" L0 S prop sg nom @NONE #20->0
 "<et>"
-	"et" L0 J @NONE #21->22
+	"et" L0 Y nominal @NONE #21->22
 "<al.>"
 	"al" L0 Y nominal @NONE #22->20
 "<,>"
@@ -20113,7 +20113,7 @@
 "<Phipps>"
 	"Phipps" L0 S prop sg nom @NONE #8->0
 "<et>"
-	"et" L0 J @NONE #9->10
+	"et" L0 Y nominal @NONE #9->10
 "<al.>"
 	"al" L0 Y nominal @NONE #10->8
 "<,>"
@@ -20207,7 +20207,7 @@
 "<Cunnane>"
 	"Cunnane" L0 S prop sg nom @NONE #16->0
 "<et>"
-	"et" L0 J @NONE #17->18
+	"et" L0 Y nominal @NONE #17->18
 "<al.>"
 	"al" L0 Y nominal @NONE #18->16
 "<,>"
@@ -20401,7 +20401,7 @@
 "<lisand>"
 	"lisand" L0 S com sg nom @SUBJ #10->12
 "<aga>"
-	"aga" L0 J crd @J #11->12
+	"aga" L0 D @ADVL #11->12
 "<vähendas>"
 	"vähenda" Ls V main indic impf ps3 sg ps af @FMV #12->4
 "<selle>"
@@ -20535,7 +20535,7 @@
 "<Shahar>"
 	"Shahar" L0 S prop sg nom @NONE #25->0
 "<et>"
-	"et" L0 J @NONE #26->27
+	"et" L0 Y nominal @NONE #26->27
 "<al.>"
 	"al" L0 Y nominal @NONE #27->25
 "<,>"
@@ -20627,7 +20627,7 @@
 "<Garwin>"
 	"Garwin" L0 S prop sg nom @NONE #19->0
 "<et>"
-	"et" L0 J @NONE #20->21
+	"et" L0 Y nominal @NONE #20->21
 "<al.>"
 	"al" L0 Y nominal @NONE #21->19
 "<,>"
@@ -20639,7 +20639,7 @@
 "<Morgan>"
 	"Morgan" L0 S prop sg nom @NONE #25->21
 "<et>"
-	"et" L0 J @NONE #26->27
+	"et" L0 Y nominal @NONE #26->27
 "<al.>"
 	"al" L0 Y nominal @NONE #27->25
 "<,>"
@@ -20695,7 +20695,7 @@
 "<küll>"
 	"küll" L0 D @ADVL #20->24
 "<aga>"
-	"aga" L0 J crd @J #21->24
+	"aga" L0 D @ADVL #21->24
 "<rasvhapete>"
 	"rasv_hape" Lte S com pl gen @NN> #22->24
 "<omavahelist>"
@@ -20811,7 +20811,7 @@
 "<tulid>"
 	"tule" Lid V main indic impf ps3 pl ps af @FMV #9->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #10->11
+	"oma" L0 P pos sg gen @NN> #10->11
 "<katsete>"
 	"katse" Lte S com pl gen @P> #11->12
 "<põhjal>"

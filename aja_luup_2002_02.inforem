@@ -61,7 +61,7 @@
 "<päeval>"
 	"päev" Ll S com sg ad @ADVL #5->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #6->7
+	"oma" L0 P pos sg gen @NN> #6->7
 "<töö>"
 	"töö" L0 S com sg gen @OBJ #7->2
 "<haiglate>"
@@ -253,7 +253,7 @@
 "<Eesti>"
 	"Eesti" L0 S prop sg gen @NN> #5->8
 "<üht>"
-	"üks" L0 P dem indef sg part @NN> #6->8
+	"üks" L0 indef sg part @NN> #6->8
 "<legendaarsemat>"
 	"legendaarse=m" Lt A comp sg part @AN> #7->8
 "<peaarsti>"
@@ -303,7 +303,7 @@
 "<s>"
 
 "<Mõne>"
-	"mõni" L0 P sg gen @NN> #1->2
+	"mõni" L0 P indef sg gen @NN> #1->2
 "<aja>"
 	"aeg" L0 S com sg gen @P> #2->3
 "<eest>"
@@ -377,7 +377,7 @@
 "<s>"
 
 "<Üks>"
-	"üks" L0 P dem indef sg nom @NN> #1->2
+	"üks" L0 P indef sg nom @NN> #1->2
 "<järeldus>"
 	"järeldus" L0 S com sg nom @SUBJ #2->3
 "<on>"
@@ -449,7 +449,7 @@
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #10->4
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #11->14
+	"üks" L0 P indef sg nom @NN> #11->14
 "<või>"
 	"või" L0 J crd @J #12->13
 "<teine>"
@@ -739,7 +739,7 @@
 "<,>"
 	"," Z Com #5->5
 "<üks>"
-	"üks" L0 P dem indef sg nom @SUBJ #6->7
+	"üks" L0 P indef sg nom @SUBJ #6->7
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #7->1
 "<selge>"
@@ -851,7 +851,7 @@
 "<ta>"
 	"tema" L0 P pers ps3 sg nom @SUBJ #4->3
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->7
+	"oma" L0 P pos sg gen @NN> #5->7
 "<leebel>"
 	"leebe" Ll A pos sg ad @AN> #6->7
 "<moel>"
@@ -963,7 +963,7 @@
 "<pole>"
 	"ole" L0 V aux indic pres ps neg @FCV #4->8
 "<ühtegi>"
-	"üks" Lki P dem indef sg part @NN> #5->7
+	"üks" Lki P indef sg part @NN> #5->7
 "<kirjalikku>"
 	"kirjalik" L0 A pos sg part @AN> #6->7
 "<dokumenti>"
@@ -1053,7 +1053,7 @@
 "<,>"
 	"," Z Com #4->4
 "<kui>"
-	"kui" L0 D @ADVL #5->7
+	"kui" L0 J sub @J #5->7
 "<seal>"
 	"seal" L0 D @ADVL #6->7
 "<seisaks>"
@@ -1283,7 +1283,7 @@
 "<kavatse>"
 	"kavatse" L0 V main indic pres ps neg @FMV #12->10
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #13->14
+	"oma" L0 P pos sg gen @NN> #13->14
 "<sõna>"
 	"sõna" L0 S com sg part @OBJ #14->15
 "<murda>"
@@ -1337,7 +1337,7 @@
 "<Eesti>"
 	"Eesti" L0 S prop sg gen @NN> #8->6
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #9->13
+	"üks" L0 P indef sg nom @NN> #9->13
 "<suuremaid>"
 	"suurem" Lid A comp pl part @AN> #10->13
 "<ning>"
@@ -1385,7 +1385,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->3
+	"aga" L0 D @ADVL #1->3
 "<Ilmoja>"
 	"Ilm_oja" L0 S prop sg nom @SUBJ #2->3
 "<pole>"
@@ -1457,7 +1457,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->4
+	"aga" L0 D @ADVL #1->4
 "<ka>"
 	"ka" L0 D @DN> #2->3
 "<see>"
@@ -1815,7 +1815,7 @@
 "<olema>"
 	"ole" Lma V main sup ps ill @IMV #11->0
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #12->15
+	"üks" L0 P indef sg nom @NN> #12->15
 "<ja>"
 	"ja" L0 J crd @J #13->14
 "<kindel>"
@@ -2155,7 +2155,7 @@
 "<kui>"
 	"kui" L0 J sub @J #21->23
 "<mõned>"
-	"mõni" Ld P pl nom @SUBJ #22->23
+	"mõni" Ld P indef pl nom @SUBJ #22->23
 "<püüdsid>"
 	"püüd" Lsid V main indic impf ps3 pl ps af @FMV #23->15
 "<seda>"
@@ -2303,7 +2303,7 @@
 "<riivamata>"
 	"riiva" Lmata V main sup ps abes @ADVL #30->33
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #31->32
+	"oma" L0 P pos sg gen @NN> #31->32
 "<seisukohti>"
 	"seisu_koht" Li S com pl part @OBJ #32->33
 "<selgitada>"
@@ -2427,7 +2427,7 @@
 "<peaarst>"
 	"pea_arst" L0 S com sg nom @SUBJ #7->6
 "<mõlemad>"
-	"mõlema" Ld P pl nom @NN> #8->9
+	"mõlema" Ld P indef pl nom @NN> #8->9
 "<osapooled>"
 	"osa_pool" Ld S com pl nom @OBJ #9->6
 "<välja>"
@@ -2543,7 +2543,7 @@
 "<sõnaga>"
 	"sõna" Lga S com sg kom @ADVL #4->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->6
+	"oma" L0 P pos sg gen @NN> #5->6
 "<asetäitjat>"
 	"ase_täitja" Lt S com sg part @NN> #6->8
 "<dr>"
@@ -2617,7 +2617,7 @@
 "<->"
 	"-" Z Dsh #13->13
 "<kui>"
-	"kui" L0 J crd @J #14->18
+	"kui" L0 J sub @J #14->18
 "<ühine>"
 	"ühine" L0 A pos sg nom @AN> #15->16
 "<seisukoht>"
@@ -2805,7 +2805,7 @@
 "<suutnud>"
 	"suut" Lnud V main partic past ps @IMV #15->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #16->17
+	"oma" L0 P pos sg gen @NN> #16->17
 "<kuningriigis>"
 	"kuning_riik" Ls S com sg in @ADVL #17->15
 "<teha>"
@@ -2881,7 +2881,7 @@
 "<pole>"
 	"ole" L0 V main indic pres ps neg @FMV #30->21
 "<ühtegi>"
-	"üks" Lki P dem indef sg part @NN> #31->32
+	"üks" Lki P indef sg part @NN> #31->32
 "<senti>"
 	"sent" L0 S com sg part @SUBJ #32->30
 "<võlgu>"
@@ -2891,13 +2891,13 @@
 "<ei>"
 	"ei" L0 D @DN> #35->36
 "<ühtegi>"
-	"üks" Lki P dem indef sg part @NN> #36->37
+	"üks" Lki P indef sg part @NN> #36->37
 "<laenu>"
 	"laen" L0 S com sg part @SUBJ #37->32
 "<ega>"
 	"ega" L0 J crd @J #38->41
 "<ühtegi>"
-	"üks" Lgi P dem indef sg part @NN> #39->41
+	"üks" Lgi P indef sg part @NN> #39->41
 "<pikaajalist>"
 	"pika_ajaline" Lt A pos sg part @AN> #40->41
 "<kohustust>"
@@ -2987,7 +2987,7 @@
 "<vähem>"
 	"vähem" L0 D @ADVL #32->28
 "<kui>"
-	"kui" L0 J crd @J #33->34
+	"kui" L0 J sub @J #33->34
 "<enamikus>"
 	"enamik" Ls S com sg in @ADVL #34->32
 "<haiglates>"
@@ -3019,7 +3019,7 @@
 "<haiglale>"
 	"haigla" Lle S com sg all @ADVL #9->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #10->11
+	"oma" L0 P pos sg gen @NN> #10->11
 "<pesumaja>"
 	"pesu_maja" L0 S com sg gen @OBJ #11->12
 "<ehitama>"
@@ -3201,7 +3201,7 @@
 "<vähem>"
 	"vähem" L0 D @SUBJ #5->9
 "<kui>"
-	"kui" L0 J crd @J #6->7
+	"kui" L0 J sub @J #6->7
 "<5%>"
 	"5%" L0 N card sg all @ADVL #7->5
 "<kommunaalkuludele>"
@@ -3229,7 +3229,7 @@
 "<moodi>"
 	"moodi" L0 K post @ADVL #2->7
 "<kui>"
-	"kui" L0 J crd @J #3->7
+	"kui" L0 J sub @J #3->7
 "<keskmine>"
 	"keskmine" L0 A pos sg nom @AN> #4->7
 "<aktiivravi>"
@@ -3439,7 +3439,7 @@
 "<Arsti>"
 	"arst" L0 S com sg gen @NN> #1->2
 "<oma>"
-	"oma" L0 P pos det refl sg nom @SUBJ #2->0
+	"oma" L0 P pos sg nom @SUBJ #2->0
 "<aga>"
 	"aga" L0 D @ADVL #3->2
 "<õe>"
@@ -3899,7 +3899,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->3
+	"aga" L0 D @ADVL #1->3
 "<see>"
 	"see" L0 P dem sg nom @SUBJ #2->3
 "<pole>"
@@ -4157,13 +4157,13 @@
 "<“>"
 	"“" Z Oqu #1->1
 "<Aga>"
-	"aga" L0 J crd @J #2->4
+	"aga" L0 D @ADVL #2->4
 "<siis>"
 	"siis" L0 D @ADVL #3->4
 "<oli>"
 	"ole" Li V main indic impf ps3 sg ps af @FMV #4->0
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #5->7
+	"üks" L0 P indef sg nom @NN> #5->7
 "<väike>"
 	"väike" L0 A pos sg nom @AN> #6->7
 "<tingimus>"
@@ -5093,7 +5093,7 @@
 "<Ja>"
 	"ja" L0 J crd @J #1->5
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #2->3
+	"oma" L0 P pos sg gen @NN> #2->3
 "<mudel>"
 	"mudel" L0 S com sg nom @OBJ #3->5
 "<välja>"
@@ -5259,7 +5259,7 @@
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #13->6
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #14->17
+	"üks" L0 P indef sg nom @NN> #14->17
 "<või>"
 	"või" L0 J crd @J #15->16
 "<teine>"
@@ -5313,7 +5313,7 @@
 "<“>"
 	"“" Z Oqu #1->1
 "<Aga>"
-	"aga" L0 J crd @J #2->8
+	"aga" L0 D @ADVL #2->8
 "<ka>"
 	"ka" L0 D @DN> #3->6
 "<lollide>"
@@ -5527,7 +5527,7 @@
 "<saame>"
 	"saa" Lme V mod indic pres ps1 pl ps af @FCV #7->13
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #8->9
+	"oma" L0 P pos sg gen @NN> #8->9
 "<ühiskonda>"
 	"ühiskond" L0 S com sg part @OBJ #9->13
 "<esmakordselt>"
@@ -6079,7 +6079,7 @@
 "<selles>"
 	"see" Ls P dem sg in @ADVL #19->18
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #20->22
+	"oma" L0 P pos sg gen @NN> #20->22
 "<priske>"
 	"priske" L0 A pos sg gen @AN> #21->22
 "<osa>"
@@ -7367,7 +7367,7 @@
 "<erakondadel>"
 	"erakond" Ldel S com pl ad @ADVL #13->11
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<tegevus>"
 	"tegevus" L0 S com sg nom @OBJ #15->18
 "<niimoodi>"
@@ -7389,7 +7389,7 @@
 "<kaaluda>"
 	"kaalu" Lda V main inf @IMV #24->11
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #25->26
+	"oma" L0 P pos sg gen @NN> #25->26
 "<kuulumist>"
 	"kuulumine" Lt S com sg part @OBJ #26->24
 "<mingisse>"
@@ -7557,11 +7557,11 @@
 "<saaks>"
 	"saa" Lks V mod cond pres ps af @FCV #2->4
 "<igaüks>"
-	"iga_üks" L0 P dem indef sg nom @SUBJ #3->4
+	"iga_üks" L0 P indef sg nom @SUBJ #3->4
 "<hääletada>"
 	"hääleta" Lda V main inf @IMV #4->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->7
+	"oma" L0 P pos sg gen @NN> #5->7
 "<“>"
 	"“" Z Oqu #6->6
 "<lemmiku>"
@@ -7969,7 +7969,7 @@
 "<s>"
 
 "<Ühtesid>"
-	"üks" Lsid P dem indef pl part @OBJ #1->2
+	"üks" Lsid P indef pl part @OBJ #1->2
 "<takistab>"
 	"takista" Lb V main indic pres ps3 sg ps af @FMV #2->0
 "<halb>"
@@ -8097,7 +8097,7 @@
 "<s>"
 
 "<Mõlemast>"
-	"mõlema" Lst P sg el @NN> #1->2
+	"mõlema" Lst P indef sg el @NN> #1->2
 "<poolest>"
 	"pool" Lst S com sg el @ADVL #2->7
 "<on>"
@@ -8143,7 +8143,7 @@
 "<siiski>"
 	"siiski" L0 D @ADVL #9->8
 "<mõned>"
-	"mõni" Ld P pl nom @NN> #10->11
+	"mõni" Ld P indef pl nom @NN> #10->11
 "<erinevused>"
 	"erinevus" Ld S com pl nom @OBJ #11->8
 "<.>"
@@ -8393,7 +8393,7 @@
 "<protestirühmi>"
 	"protesti_rühm" Li S com pl part @<Q #4->3
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->6
+	"oma" L0 P pos sg gen @NN> #5->6
 "<peaeesmärgi>"
 	"pea_ees_märk" L0 S com sg gen @OBJ #6->2
 "<ning>"
@@ -8479,7 +8479,7 @@
 "<tabu>"
 	"tabu" L0 S com sg nom @PRD #15->11
 "<kui>"
-	"kui" L0 J crd @J #16->19
+	"kui" L0 J sub @J #16->19
 "<1990.>"
 	"1990." L0 N ord pl gen @AN> #17->18
 "<aastate>"
@@ -8533,7 +8533,7 @@
 "<Vaid>"
 	"vaid" L0 D @DN> #1->2
 "<mõni>"
-	"mõni" L0 P sg nom @SUBJ #2->5
+	"mõni" L0 P indef sg nom @SUBJ #2->5
 "<üksik>"
 	"üksik" L0 A pos sg nom @<AN #3->2
 "<neist>"
@@ -8555,7 +8555,7 @@
 "<meeleavaldajaid>"
 	"meele_avaldaja" Lid S com pl part @SUBJ #12->11
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #13->15
+	"oma" L0 P pos sg gen @NN> #13->15
 "<väikese>"
 	"väike" L0 A pos sg gen @AN> #14->15
 "<huvirühma>"
@@ -8637,7 +8637,7 @@
 "<oska>"
 	"oska" L0 V main indic pres ps neg @FMV #10->3
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->12
+	"oma" L0 P pos sg gen @NN> #11->12
 "<nõudmisi>"
 	"nõudmine" Li S com pl part @OBJ #12->14
 "<täpselt>"
@@ -8825,7 +8825,7 @@
 "<võideldes>"
 	"võitle" Ldes V main ger @ADVL #8->13
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #9->10
+	"oma" L0 P pos sg gen @NN> #9->10
 "<huvide>"
 	"huvi" Lde S com pl gen @P> #10->11
 "<eest>"
@@ -8885,7 +8885,7 @@
 "<tugevamini>"
 	"tugevamini" L0 D @ADVL #18->16
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #19->20
+	"oma" L0 P pos sg gen @NN> #19->20
 "<liikmete>"
 	"liige" Lte S com pl gen @NN> #20->21
 "<huve>"
@@ -8953,7 +8953,7 @@
 "<üritusi>"
 	"üritus" Li S com pl part @OBJ #6->5
 "<kui>"
-	"kui" L0 J crd @J #7->8
+	"kui" L0 J sub @J #7->8
 "<eelmisel>"
 	"eelmine" Ll A pos sg ad @ADVL #8->5
 "<.>"
@@ -9195,7 +9195,7 @@
 "<või>"
 	"või" L0 J crd @J #2->4
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #3->4
+	"oma" L0 P pos sg gen @NN> #3->4
 "<linnas>"
 	"linn" Ls S com sg in @ADVL #4->1
 "<on>"
@@ -9363,7 +9363,7 @@
 "<s>"
 
 "<Üks>"
-	"üks" L0 P dem indef sg nom @NN> #1->2
+	"üks" L0 P indef sg nom @NN> #1->2
 "<seltskond>"
 	"seltskond" L0 S com sg nom @SUBJ #2->11
 "<,>"
@@ -9469,7 +9469,7 @@
 "<annavad>"
 	"and" Lvad V main indic pres ps3 pl ps af @FMV #7->4
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #8->9
+	"oma" L0 P pos sg gen @NN> #8->9
 "<huvide>"
 	"huvi" Lde S com pl gen @P> #9->10
 "<eest>"
@@ -9535,7 +9535,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #12->11
 "<kui>"
-	"kui" L0 J crd @J #13->14
+	"kui" L0 J sub @J #13->14
 "<500>"
 	"500" L0 N card sg nom @SUBJ #14->12
 "<inimest>"
@@ -9601,7 +9601,7 @@
 "<olid>"
 	"ole" Lid V aux indic impf ps3 pl ps af @FCV #14->17
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->16
+	"oma" L0 P pos sg gen @NN> #15->16
 "<tahtmise>"
 	"tahtmine" L0 S com sg gen @OBJ #16->17
 "<saavutanud>"
@@ -9705,7 +9705,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #7->6
 "<kui>"
-	"kui" L0 J crd @J #8->9
+	"kui" L0 J sub @J #8->9
 "<sada>"
 	"sada" L0 N card sg nom l @ADVL #9->7
 "<,>"
@@ -10081,7 +10081,7 @@
 "<korraldajatel>"
 	"korraldaja" Ltel S com pl ad @ADVL #8->7
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #9->10
+	"oma" L0 P pos sg gen @NN> #9->10
 "<murele>"
 	"mure" Lle S com sg all @ADVL #10->7
 "<laia>"
@@ -10109,7 +10109,7 @@
 "<õnnestunud>"
 	"õnnestu" Lnud V main partic past ps @IMV #6->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->8
+	"oma" L0 P pos sg gen @NN> #7->8
 "<nõudmisi>"
 	"nõudmine" Li S com pl part @OBJ #8->10
 "<maksma>"
@@ -10635,7 +10635,7 @@
 "<,>"
 	"," Z Com #8->8
 "<kui>"
-	"kui" L0 D @ADVL #9->11
+	"kui" L0 J sub @J #9->11
 "<seal>"
 	"seal" L0 D @ADVL #10->11
 "<oli>"
@@ -10663,7 +10663,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->5
+	"aga" L0 D @ADVL #1->5
 "<meil>"
 	"mina" Ll P pers ps1 pl ad @ADVL #2->5
 "<pole>"
@@ -10679,9 +10679,9 @@
 "<aktiivne>"
 	"aktiivne" L0 A pos sg nom @PRD #8->5
 "<kui>"
-	"kui" L0 J crd @J #9->12
+	"kui" L0 J sub @J #9->12
 "<omal>"
-	"oma" Ll P pos det refl sg ad @NN> #10->11
+	"oma" Ll P pos sg ad @NN> #10->11
 "<ajal>"
 	"aeg" Ll S com sg ad @ADVL #11->5
 "<Läänes>"
@@ -10865,11 +10865,11 @@
 "<tööandjale>"
 	"töö_andja" Lle S com sg all @ADVL #7->3
 "<kui>"
-	"kui" L0 J crd @J #8->9
+	"kui" L0 J sub @J #8->9
 "<tööandja>"
 	"töö_andja" L0 S com sg nom @SUBJ #9->3
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #10->11
+	"oma" L0 P pos sg gen @NN> #10->11
 "<töötajale>"
 	"töötaja" Lle S com sg all @ADVL #11->9
 "<.>"
@@ -10969,7 +10969,7 @@
 "<võimalust>"
 	"võimalus" Lt S com sg part @ADVL #14->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->16
+	"oma" L0 P pos sg gen @NN> #15->16
 "<pingeid>"
 	"pinge" Lid S com pl part @OBJ #16->19
 "<lihtsalt>"
@@ -11017,7 +11017,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #16->7
 "<kui>"
-	"kui" L0 J crd @J #17->18
+	"kui" L0 J sub @J #17->18
 "<Eestis>"
 	"Eesti" Ls S prop sg in @ADVL #18->16
 "<.>"
@@ -11295,7 +11295,7 @@
 "<aastat>"
 	"aasta" Lt S com sg part @<Q #3->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #4->5
+	"oma" L0 P pos sg gen @NN> #4->5
 "<riiki>"
 	"riik" L0 S com sg part @<Q #5->3
 "<ja>"
@@ -11391,7 +11391,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->8
+	"aga" L0 D @ADVL #1->8
 "<ilma>"
 	"ilma" L0 K pre @ADVL #2->8
 "<teadlike>"
@@ -11619,7 +11619,7 @@
 "<toetuseks>"
 	"toetus" Lks S com sg tr @ADVL #5->4
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #6->7
+	"oma" L0 P pos sg gen @NN> #6->7
 "<reserv>"
 	"reserv" L0 S com sg nom @SUBJ #7->4
 "<.>"
@@ -11687,7 +11687,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->3
+	"aga" L0 D @ADVL #1->3
 "<kui>"
 	"kui" L0 J sub @J #2->3
 "<rääkida>"
@@ -11765,7 +11765,7 @@
 "<müü>"
 	"müü" L0 V main indic pres ps neg @FMV #4->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->6
+	"oma" L0 P pos sg gen @NN> #5->6
 "<tippjuhi>"
 	"tipp_juht" L0 S com sg gen @NN> #6->7
 "<sõnul>"
@@ -11931,7 +11931,7 @@
 "<paremini>"
 	"paremini" L0 D @ADVL #9->8
 "<kui>"
-	"kui" L0 J crd @J #10->11
+	"kui" L0 J sub @J #10->11
 "<teadmised>"
 	"teadmine" Ld S com pl nom @ADVL #11->9
 "<.>"
@@ -12199,7 +12199,7 @@
 "<ultimatiivne>"
 	"ultimatiivne" L0 A pos sg nom @PRD #4->2
 "<kui>"
-	"kui" L0 J crd @J #5->6
+	"kui" L0 J sub @J #5->6
 "<erasektoris>"
 	"era_sektor" Ls S com sg in @ADVL #6->4
 "<.>"
@@ -12593,7 +12593,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #8->6
 "<kui>"
-	"kui" L0 J crd @J #9->13
+	"kui" L0 J sub @J #9->13
 "<kaupade>"
 	"kaup" Lde S com pl gen @P> #10->13
 "<ja>"
@@ -12693,7 +12693,7 @@
 "<elamusi>"
 	"elamus" Li S com pl part @OBJ #4->3
 "<ehk>"
-	"ehk" L0 J sub @J #5->7
+	"ehk" L0 J crd @J #5->7
 "<“>"
 	"“" Z Oqu #6->6
 "<midagi>"
@@ -13287,7 +13287,7 @@
 "<järelikult>"
 	"järelikult" L0 D @ADVL #11->9
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #12->13
+	"oma" L0 P pos sg gen @NN> #12->13
 "<loominguga>"
 	"looming" Lga S com sg kom @ADVL #13->9
 "<uusi>"
@@ -13301,7 +13301,7 @@
 "<agressiivsemalt>"
 	"agressiivsemalt" L0 D @ADVL #18->9
 "<kui>"
-	"kui" L0 J crd @J #19->23
+	"kui" L0 J sub @J #19->23
 "<materiaalseid>"
 	"materiaalne" Lid A pos pl part @AN> #20->21
 "<väärtusi>"
@@ -13481,7 +13481,7 @@
 "<ise>"
 	"ise" L0 P pos det refl pl nom @<NN #8->7
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #9->10
+	"oma" L0 P pos sg gen @NN> #9->10
 "<raha>"
 	"raha" L0 S com sg gen @OBJ #10->6
 "<galeriisse>"
@@ -13527,7 +13527,7 @@
 "<on>"
 	"ole" L0 V aux indic pres ps3 sg ps af @FCV #6->9
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->8
+	"oma" L0 P pos sg gen @NN> #7->8
 "<loominguga>"
 	"looming" Lga S com sg kom @ADVL #8->9
 "<teeninud>"
@@ -13617,7 +13617,7 @@
 "<välismaale>"
 	"välis_maa" Lle S com sg all @ADVL #24->22
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #25->26
+	"oma" L0 P pos sg gen @NN> #25->26
 "<raha>"
 	"raha" L0 S com sg gen @P> #26->33
 "<,>"
@@ -13647,7 +13647,7 @@
 "<hääletaksid>"
 	"hääleta" Lksid V main cond pres ps3 pl ps af @FMV #3->9
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #4->5
+	"oma" L0 P pos sg gen @NN> #4->5
 "<rahaga>"
 	"raha" Lga S com sg kom @ADVL #5->3
 "<,>"
@@ -13753,13 +13753,13 @@
 "<ta>"
 	"tema" L0 P pers ps3 sg nom @SUBJ #3->2
 "<igaühele>"
-	"iga_üks" Lle P dem indef sg all @ADVL #4->2
+	"iga_üks" Lle P indef sg all @ADVL #4->2
 "<väljakutse>"
 	"välja_kutse" L0 S com sg gen @OBJ #5->2
 "<tunda>"
 	"tund" La V main inf @<INFN #6->5
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->8
+	"oma" L0 P pos sg gen @NN> #7->8
 "<individuaalsusest>"
 	"individuaalsus" Lst S com sg el @ADVL #8->6
 "<rõõmu>"
@@ -13825,7 +13825,7 @@
 "<palju>"
 	"palju" L0 D @ADVL #6->4
 "<kui>"
-	"kui" L0 J crd @J #7->9
+	"kui" L0 J sub @J #7->9
 "<süda>"
 	"süda" L0 S com sg nom @SUBJ #8->9
 "<kutsub>"
@@ -14361,7 +14361,7 @@
 "<riigi>"
 	"riik" L0 S com sg gen @OBJ #10->9
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->13
+	"oma" L0 P pos sg gen @NN> #11->13
 "<raudsesse>"
 	"raudne" Lsse A pos sg ill @AN> #12->13
 "<haardesse>"
@@ -14419,7 +14419,7 @@
 "<põhjust>"
 	"põhjus" Lt S com sg part @SUBJ #13->11
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<saatuse>"
 	"saatus" L0 S com sg gen @P> #15->16
 "<pärast>"
@@ -14615,7 +14615,7 @@
 "<teda>"
 	"tema" Lda P pers ps3 sg part @OBJ #3->2
 "<üheks>"
-	"üks" Lks P dem indef sg tr @NN> #4->7
+	"üks" Lks P indef sg tr @NN> #4->7
 "<maailma>"
 	"maa_ilm" L0 S com sg gen @ADVL #5->6
 "<rikkaimaks>"
@@ -14827,7 +14827,7 @@
 "<selle>"
 	"see" L0 P dem sg gen @NN> #5->6
 "<oma>"
-	"oma" L0 P pos det refl sg nom @PRD #6->3
+	"oma" L0 P pos sg nom @PRD #6->3
 "<,>"
 	"," Z Com #7->7
 "<kellele>"
@@ -15113,7 +15113,7 @@
 "<nii>"
 	"nii" L0 D @DN> #5->7
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #6->7
+	"oma" L0 P pos sg gen @NN> #6->7
 "<võimu>"
 	"võim" L0 S com sg part @OBJ #7->4
 "<kui>"
@@ -15273,7 +15273,7 @@
 "<pikendada>"
 	"pikenda" Lda V main inf @IMV #22->13
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #23->24
+	"oma" L0 P pos sg gen @NN> #23->24
 "<ametiaega>"
 	"ameti_aeg" L0 S com sg part @OBJ #24->22
 "<valimisteta>"
@@ -15301,7 +15301,7 @@
 "<s>"
 
 "<Oma>"
-	"oma" L0 P pos det refl sg gen @NN> #1->2
+	"oma" L0 P pos sg gen @NN> #1->2
 "<võimu>"
 	"võim" L0 S com sg part @OBJ #2->3
 "<kindlustas>"
@@ -15369,7 +15369,7 @@
 "<Nazarbajevi>"
 	"Nazarbajev" L0 S prop sg gen @NN> #1->3
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #2->3
+	"üks" L0 P indef sg gen @NN> #2->3
 "<tütre>"
 	"tütar" L0 S com sg gen @NN> #3->4
 "<mees>"
@@ -15821,7 +15821,7 @@
 "<vaid>"
 	"vaid" L0 D @DN> #40->41
 "<mõned>"
-	"mõni" Ld P pl nom @NN> #41->42
+	"mõni" Ld P indef pl nom @NN> #41->42
 "<näited>"
 	"näide" Ld S com pl nom @PRD #42->39
 "<.>"
@@ -16161,7 +16161,7 @@
 "<et>"
 	"et" L0 J sub @J #6->13
 "<ühest>"
-	"üks" Lst P dem indef sg el @NN> #7->8
+	"üks" Lst P indef sg el @NN> #7->8
 "<klannist>"
 	"klann" Lst S com sg el @ADVL #8->11
 "<või>"
@@ -16175,7 +16175,7 @@
 "<tulevad>"
 	"tule" Lvad V main indic pres ps3 pl ps af @FMV #13->4
 "<üksteisele>"
-	"üks_teise" Lle P dem indef pos det refl sg all @ADVL #14->13
+	"üks_teise" Lle P rec sg all @ADVL #14->13
 "<kriisihetkedel>"
 	"kriisi_hetk" Ldel S com pl ad @ADVL #15->13
 "<appi>"
@@ -16429,7 +16429,7 @@
 "<tulnud>"
 	"tul=nud" L0 A pos partic @AN> #4->5
 "<välisinvesteeringuid>"
-	"välis_investeering" Lid S com pl part @<NN #5->2
+	"välis_investeering" Lid S com pl part @<Q #5->2
 "<on>"
 	"ole" L0 V aux indic pres ps3 sg ps af @FCV #6->7
 "<seotud>"
@@ -17477,7 +17477,7 @@
 "<juba>"
 	"juba" L0 D @DN> #4->5
 "<mõnda>"
-	"mõni" Lda P sg part @NN> #5->6
+	"mõni" Lda P indef sg part @NN> #5->6
 "<aega>"
 	"aeg" L0 S com sg part @ADVL #6->3
 "<globaalne>"
@@ -17627,7 +17627,7 @@
 "<tuli>"
 	"tule" Li V main indic impf ps3 sg ps af @FMV #9->0
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #10->11
+	"oma" L0 P pos sg gen @NN> #10->11
 "<toetusprogrammidega>"
 	"toetus_programm" Ldega S com pl kom @ADVL #11->9
 "<appi>"
@@ -17777,7 +17777,7 @@
 "<s>"
 
 "<Üks>"
-	"üks" L0 P dem indef sg nom @NN> #1->3
+	"üks" L0 P indef sg nom @NN> #1->3
 "<IMFi>"
 	"IMF" Li Y nominal sg gen @NN> #2->3
 "<vanemametnik>"
@@ -18551,7 +18551,7 @@
 "<kaitsta>"
 	"kaits" Lta V main inf @<INFN #9->8
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #10->11
+	"oma" L0 P pos sg gen @NN> #10->11
 "<kodanike>"
 	"kodanik" Le S com pl gen @NN> #11->12
 "<tervist>"
@@ -18599,7 +18599,7 @@
 "<rikuvad>"
 	"rikku" Lvad V main indic pres ps3 pl ps af @FMV #10->7
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->12
+	"oma" L0 P pos sg gen @NN> #11->12
 "<rahva>"
 	"rahvas" L0 S com sg gen @NN> #12->13
 "<tervise>"
@@ -18895,7 +18895,7 @@
 "<troonist>"
 	"troon" Lst S com sg el @ADVL #15->14
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #16->17
+	"oma" L0 P pos sg gen @NN> #16->17
 "<poja>"
 	"poeg" L0 S com sg gen @NN> #17->18
 "<kasuks>"
@@ -18935,7 +18935,7 @@
 "<väsinud>"
 	"väsinud" L0 A pos @PRD #14->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->17
+	"oma" L0 P pos sg gen @NN> #15->17
 "<rangest>"
 	"range" Lst A pos sg el @AN> #16->17
 "<kuningannast>"
@@ -19291,7 +19291,7 @@
 "<nende>"
 	"see" Lde P dem pl gen @NN> #14->16
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->16
+	"oma" L0 P pos sg gen @NN> #15->16
 "<printsessilt>"
 	"printsess" Llt S com sg abl @ADVL #16->10
 "<,>"
@@ -19331,7 +19331,7 @@
 "<printsess>"
 	"printsess" L0 S com sg nom @SUBJ #34->38
 "<omalt>"
-	"oma" Llt P pos det refl sg abl @ADVL #35->36
+	"oma" Llt P pos sg abl @ADVL #35->36
 "<poolt>"
 	"poolt" L0 D @ADVL #36->37
 "<pidi>"
@@ -19359,7 +19359,7 @@
 "<Hollandit>"
 	"Holland" Lt S prop sg part @OBJ #48->46
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #49->50
+	"oma" L0 P pos sg gen @NN> #49->50
 "<elupaigaks>"
 	"elu_paik" Lks S com sg tr @ADVL #50->46
 "<.>"
@@ -19423,7 +19423,7 @@
 "<->"
 	"-" Z Dsh #6->6
 "<kui>"
-	"kui" L0 J crd @J #7->11
+	"kui" L0 J sub @J #7->11
 "<Amsterdami>"
 	"Amsterdam" L0 S prop sg gen @NN> #8->10
 "<uues>"
@@ -19545,7 +19545,7 @@
 "<ühiskonna>"
 	"ühiskond" L0 S com sg gen @OBJ #13->11
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<arusaamadelt>"
 	"aru_saam" Ldelt S com pl abl @ADVL #15->11
 "<soolise>"
@@ -19619,7 +19619,7 @@
 "<usuküsimus>"
 	"usu_küsimus" L0 S com sg nom @SUBJ #25->24
 "<üheks>"
-	"üks" Lks P dem indef sg tr @NN> #26->29
+	"üks" Lks P indef sg tr @NN> #26->29
 "<väga>"
 	"väga" L0 D @ADVL #27->28
 "<oluliseks>"
@@ -19789,7 +19789,7 @@
 "<õigust>"
 	"õigus" Lt S com sg part @OBJ #30->26
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #31->32
+	"oma" L0 P pos sg gen @NN> #31->32
 "<lastele>"
 	"laps" Ltele S com pl all @<NN #32->30
 "<,>"
@@ -19845,7 +19845,7 @@
 "<et>"
 	"et" L0 J sub @J #14->20
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->16
+	"oma" L0 P pos sg gen @NN> #15->16
 "<abikaasa>"
 	"abi_kaasa" L0 S com sg gen @NN> #16->17
 "<surma>"
@@ -19871,7 +19871,7 @@
 "<asu>"
 	"asu" L0 V main indic pres ps neg @FMV #27->20
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #28->29
+	"oma" L0 P pos sg gen @NN> #28->29
 "<laste>"
 	"laps" Lte S com pl gen @NN> #29->30
 "<alaealisuse>"
@@ -19891,7 +19891,7 @@
 "<õiguse>"
 	"õigus" L0 S com sg gen @OBJ #37->35
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #38->41
+	"oma" L0 P pos sg gen @NN> #38->41
 "<kalvinistideks>"
 	"kalvin=ist" Ldeks S com pl tr @ADVL #39->40
 "<kasvatatud>"
@@ -19939,7 +19939,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #17->22
 "<kui>"
-	"kui" L0 J crd @J #18->19
+	"kui" L0 J sub @J #18->19
 "<kolmest>"
 	"kolm" Lst N card sg el l @ADVL #19->17
 "<miljonist>"
@@ -19985,7 +19985,7 @@
 "<nagu>"
 	"nagu" L0 J sub @J #2->7
 "<omal>"
-	"oma" Ll P pos det refl sg ad @NN> #3->4
+	"oma" Ll P pos sg ad @NN> #3->4
 "<ajal>"
 	"aeg" Ll S com sg ad @NN> #4->7
 "<Rootsi>"
@@ -20027,7 +20027,7 @@
 "<hollandlasi>"
 	"hollandlane" Li S com pl part @OBJ #4->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #5->7
+	"oma" L0 P pos sg gen @NN> #5->7
 "<lõunamaise>"
 	"lõuna_maine" L0 A pos sg gen @AN> #6->7
 "<temperamendiga>"
@@ -20201,7 +20201,7 @@
 "<olulisem>"
 	"olulisem" L0 A comp sg nom @PRD #17->15
 "<kui>"
-	"kui" L0 J crd @J #18->21
+	"kui" L0 J sub @J #18->21
 "<aastasadadega>"
 	"aasta_sada" Ldega S com pl kom @ADVL #19->20
 "<väljakujunenud>"
@@ -20681,7 +20681,7 @@
 "<nimetada>"
 	"nimeta" Lda V main inf @IMV #4->0
 "<üheski>"
-	"üks" Lski P dem indef sg in @NN> #5->6
+	"üks" Lski P indef sg in @NN> #5->6
 "<õigusaktis>"
 	"õigus_akt" Ls S com sg in @ADVL #6->4
 "<,>"
@@ -20745,7 +20745,7 @@
 "<vaid>"
 	"vaid" L0 D @DN> #6->7
 "<üks>"
-	"üks" L0 P dem indef sg nom @PRD #7->4
+	"üks" L0 P indef sg nom @PRD #7->4
 "<paljudest>"
 	"palju" Ldest P indef pl el @NN> #8->12
 "<rahva>"
@@ -20977,7 +20977,7 @@
 "<->"
 	"-" Z Dsh #13->13
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #14->17
+	"üks" L0 P indef sg gen @NN> #14->17
 "<ja>"
 	"ja" L0 J crd @J #15->16
 "<sama>"
@@ -21111,7 +21111,7 @@
 "<viivad>"
 	"vii" Lvad V main indic pres ps3 pl ps af @FMV #10->4
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #11->14
+	"üks" L0 P indef sg gen @NN> #11->14
 "<või>"
 	"või" L0 J crd @J #12->13
 "<teise>"
@@ -21413,9 +21413,9 @@
 "<sagedamini>"
 	"sagedamini" L0 D @ADVL #4->3
 "<kui>"
-	"kui" L0 J crd @J #5->9
+	"kui" L0 J sub @J #5->9
 "<nende>"
-	"tema" Lde P dem pl gen @NN> #6->9
+	"tema" Lde P pers ps3 pl gen @NN> #6->9
 "<sama>"
 	"sama" L0 D @ADVL #7->8
 "<vanad>"
@@ -21525,7 +21525,7 @@
 "<meeste>"
 	"mees" Lte S com pl gen @NN> #15->16
 "<omast>"
-	"oma" Lst P pos det refl sg el @ADVL #16->13
+	"oma" Lst P pos sg el @ADVL #16->13
 "<.>"
 	"." Z Fst #17->17
 "</s>"
@@ -22657,7 +22657,7 @@
 "<kahelnud>"
 	"kahtle" Lnud V main indic impf ps neg @FMV #5->0
 "<ükski>"
-	"üks" Lki P dem indef sg nom @SUBJ #6->5
+	"üks" Lki P indef sg nom @SUBJ #6->5
 "<kommunistliku>"
 	"kommunistlik" L0 A pos sg gen @AN> #7->8
 "<võimu>"
@@ -22803,7 +22803,7 @@
 "<õnnestus>"
 	"õnnestu" Ls V main indic impf ps3 sg ps af @FMV #13->10
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<firmaga>"
 	"firma" Lga S com sg kom @ADVL #15->13
 "<turule>"
@@ -23051,7 +23051,7 @@
 "<neist>"
 	"tema" Lst P pers ps3 pl el @ADVL #10->8
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->12
+	"oma" L0 P pos sg gen @NN> #11->12
 "<võime>"
 	"võime" L0 S com sg gen @P> #12->13
 "<poolest>"
@@ -23059,7 +23059,7 @@
 "<luua>"
 	"loo" La V main inf @<INFN #14->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #15->16
+	"oma" L0 P pos sg gen @NN> #15->16
 "<firma>"
 	"firma" L0 S com sg nom @OBJ #16->14
 "<ja>"
@@ -23231,7 +23231,7 @@
 "<üle>"
 	"üle" L0 K post @<KN #15->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #16->17
+	"oma" L0 P pos sg gen @NN> #16->17
 "<tuluks>"
 	"tulu" Lks S com sg tr @ADVL #17->11
 "<ning>"
@@ -23305,7 +23305,7 @@
 "<ka>"
 	"ka" L0 D @ADVL #10->12
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->12
+	"oma" L0 P pos sg gen @NN> #11->12
 "<mõju>"
 	"mõju" L0 S com sg part @OBJ #12->2
 "<riigi>"
@@ -23435,7 +23435,7 @@
 "<erastamise>"
 	"erastamine" L0 S com sg gen @NN> #2->4
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #3->4
+	"üks" L0 P indef sg nom @NN> #3->4
 "<eesmärke>"
 	"ees_märk" Le S com pl part @SUBJ #4->5
 "<oli>"
@@ -23605,7 +23605,7 @@
 "<sai>"
 	"saa" Li V main indic impf ps3 sg ps af @FMV #12->8
 "<mõni>"
-	"mõni" L0 P sg nom @NN> #13->14
+	"mõni" L0 P indef sg nom @NN> #13->14
 "<fond>"
 	"fond" L0 S com sg nom @SUBJ #14->12
 "<,>"
@@ -23859,7 +23859,7 @@
 "<s>"
 
 "<Oma>"
-	"oma" L0 P pos det refl sg gen @NN> #1->2
+	"oma" L0 P pos sg gen @NN> #1->2
 "<osa>"
 	"osa" L0 S com sg part @OBJ #2->3
 "<mängis>"
@@ -23917,7 +23917,7 @@
 "<,>"
 	"," Z Com #15->15
 "<mõnel>"
-	"mõni" Ll P sg ad @ADVL #16->17
+	"mõni" Ll P indef sg ad @ADVL #16->17
 "<pool>"
 	"pool" L0 D @ADVL #17->19
 "<aga>"
@@ -24309,7 +24309,7 @@
 "<suutnud>"
 	"suut" Lnud V main indic impf ps neg @FMV #3->0
 "<ühelt>"
-	"üks" Llt P dem indef sg abl @ADVL #4->5
+	"üks" Llt P indef sg abl @ADVL #4->5
 "<poolt>"
 	"poolt" L0 D @ADVL #5->3
 "<ümberkorraldusi>"
@@ -24375,7 +24375,7 @@
 "<tööstuse>"
 	"tööstus" L0 S com sg gen @NN> #3->5
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #4->5
+	"üks" L0 P indef sg gen @NN> #4->5
 "<lipulaeva>"
 	"lipu_laev" L0 S com sg gen @NN> #5->6
 "<Shkoda>"
@@ -24447,7 +24447,7 @@
 "<ongi>"
 	"ole" Lgi V main indic pres ps3 sg ps af @FMV #2->0
 "<üks>"
-	"üks" L0 P dem indef sg nom @NN> #3->7
+	"üks" L0 P indef sg nom @NN> #3->7
 "<peamisi>"
 	"peamine" Li A pos pl part @AN> #4->7
 "<riigi>"
@@ -24625,7 +24625,7 @@
 "<,>"
 	"," Z Com #13->13
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<osa>"
 	"osa" L0 S com sg part @OBJ #15->16
 "<said>"
@@ -24907,7 +24907,7 @@
 "<jätab>"
 	"jät" Lb V main indic pres ps3 sg ps af @FMV #6->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #7->8
+	"oma" L0 P pos sg gen @NN> #7->8
 "<osaluse>"
 	"osalus" L0 S com sg gen @OBJ #8->6
 "<,>"
@@ -25283,7 +25283,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->4
+	"aga" L0 D @ADVL #1->4
 "<töölisomavalitsused>"
 	"töölis_oma_valitsus" Ld S com pl nom @SUBJ #2->4
 "<juba>"
@@ -25343,7 +25343,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->3
+	"aga" L0 D @ADVL #1->3
 "<seal>"
 	"seal" L0 D @ADVL #2->3
 "<on>"
@@ -25443,7 +25443,7 @@
 "<saanud>"
 	"saa" Lnud V main partic past ps @IMV #11->20
 "<omal>"
-	"oma" Ll P pos det refl sg ad @NN> #12->13
+	"oma" Ll P pos sg ad @NN> #12->13
 "<ajal>"
 	"aeg" Ll S com sg ad @ADVL #13->11
 "<meie>"
@@ -25599,7 +25599,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->3
+	"aga" L0 D @ADVL #1->3
 "<siis>"
 	"siis" L0 D @ADVL #2->3
 "<oli>"
@@ -25813,7 +25813,7 @@
 "<s>"
 
 "<Aga>"
-	"aga" L0 J crd @J #1->5
+	"aga" L0 D @ADVL #1->5
 "<juba>"
 	"juba" L0 D @ADVL #2->3
 "<1995.-1996.>"
@@ -26115,7 +26115,7 @@
 "<madalam>"
 	"madalam" L0 A comp sg nom @PRD #11->10
 "<kui>"
-	"kui" L0 J crd @J #12->14
+	"kui" L0 J sub @J #12->14
 "<välisomanike>"
 	"välis_omanik" Le S com pl gen @P> #13->14
 "<puhul>"
@@ -26273,7 +26273,7 @@
 "<raha>"
 	"raha" L0 S com sg part @<Q #9->8
 "<kui>"
-	"kui" L0 J crd @J #10->13
+	"kui" L0 J sub @J #10->13
 "<arenenud>"
 	"arenenud" L0 A pos @AN> #11->13
 "<Lääne-Euroopa>"
@@ -26467,7 +26467,7 @@
 "<käi>"
 	"käi" L0 V main indic pres ps neg @FMV #7->15
 "<ühte>"
-	"üks" L0 P dem indef sg part @NN> #8->9
+	"üks" L0 P indef sg part @NN> #8->9
 "<sammu>"
 	"samm" L0 S com sg part @OBJ #9->7
 "<hinnatõusuga>"
@@ -27037,7 +27037,7 @@
 "<tule>"
 	"tule" L0 V main indic pres ps neg @FMV #13->9
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #14->15
+	"oma" L0 P pos sg gen @NN> #14->15
 "<eluga>"
 	"elu" Lga S com sg kom @ADVL #15->13
 "<üksi>"
@@ -27231,7 +27231,7 @@
 "<Liigne>"
 	"liigne" L0 A pos sg nom @AN> #1->4
 "<toetuste>"
-	"toetus" Lte S com pl gen @NN> #2->6
+	"toetus" Lte S com pl gen @NN> #2->4
 "<ja>"
 	"ja" L0 J crd @J #3->4
 "<abirahasüsteem>"
@@ -27571,7 +27571,7 @@
 "<s>"
 
 "<Mõnes>"
-	"mõni" Ls P sg in @NN> #1->2
+	"mõni" Ls P indef sg in @NN> #1->2
 "<riigis>"
 	"riik" Ls S com sg in @ADVL #2->3
 "<maksavad>"
@@ -27693,7 +27693,7 @@
 "<kõrgharidusse>"
 	"kõrg_haridus" Lse S com sg adit @ADVL #9->8
 "<kui>"
-	"kui" L0 J crd @J #10->11
+	"kui" L0 J sub @J #10->11
 "<keskharidusse>"
 	"kesk_haridus" Lse S com sg adit @ADVL #11->7
 "<.>"
@@ -27875,7 +27875,7 @@
 "<,>"
 	"," Z Com #7->7
 "<kui>"
-	"kui" L0 D @ADVL #8->12
+	"kui" L0 J sub @J #8->12
 "<vanade>"
 	"vana" Lde A pos pl gen @AN> #9->10
 "<koolimajade>"
@@ -28069,7 +28069,7 @@
 "<müüma>"
 	"müü" Lma V main sup ps ill @IMV #17->15
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #18->19
+	"oma" L0 P pos sg gen @NN> #18->19
 "<vara>"
 	"vara" L0 S com sg part @OBJ #19->17
 "<või>"
@@ -29091,7 +29091,7 @@
 "<vähem>"
 	"vähem" L0 D @SUBJ #21->25
 "<kui>"
-	"kui" L0 J crd @J #22->23
+	"kui" L0 J sub @J #22->23
 "<kümnendik>"
 	"kümnendik" L0 N card sg nom l @SUBJ #23->25
 "<ettevõtteid>"
@@ -30055,7 +30055,7 @@
 "<konkurentsil>"
 	"konkurents" Ll S com sg ad @ADVL #28->24
 "<teineteist>"
-	"teine_teise" Lt P rec pos det refl sg part @OBJ #29->30
+	"teine_teise" Lt P rec sg part @OBJ #29->30
 "<tugevdada>"
 	"tugevda" Lda V main inf @OBJ #30->24
 "<.>"
@@ -30259,7 +30259,7 @@
 "<ka>"
 	"ka" L0 D @DN> #5->8
 "<ükski>"
-	"üks" Lki P dem indef sg nom @NN> #6->8
+	"üks" Lki P indef sg nom @NN> #6->8
 "<edukam>"
 	"edukam" L0 A comp sg nom @AN> #7->8
 "<üleminekuriik>"
@@ -30947,7 +30947,7 @@
 "<hästi>"
 	"hästi" L0 D @ADVL #32->33
 "<kui>"
-	"kui" L0 J crd @J #33->34
+	"kui" L0 J sub @J #33->34
 "<nähtamatuks>"
 	"nähtamatu" Lks A pos sg tr @ADVL #34->27
 "<->"
@@ -31191,7 +31191,7 @@
 "<maksimaalselt>"
 	"maksimaalselt" L0 D @DN> #13->15
 "<aga>"
-	"aga" L0 J crd @J #14->15
+	"aga" L0 D @ADVL #14->15
 "<7600>"
 	"7600" L0 N card sg gen @NN> #15->11
 "<meetri>"
@@ -31907,7 +31907,7 @@
 "<näha>"
 	"näge" La V main inf @IMV #16->13
 "<kui>"
-	"kui" L0 J crd @J #17->18
+	"kui" L0 J sub @J #17->18
 "<õhus>"
 	"õhk" Ls S com sg in @ADVL #18->14
 "<,>"
@@ -32071,7 +32071,7 @@
 "<intelligentne>"
 	"intelligentne" L0 A pos sg nom @PRD #8->5
 "<kui>"
-	"kui" L0 J crd @J #9->10
+	"kui" L0 J sub @J #9->10
 "<inimene>"
 	"inimene" L0 S com sg nom @ADVL #10->8
 "<,>"
@@ -32167,7 +32167,7 @@
 "<eelkõige>"
 	"eel_kõige" L0 D @DN> #12->14
 "<ühe>"
-	"üks" L0 P dem indef sg gen @NN> #13->14
+	"üks" L0 P indef sg gen @NN> #13->14
 "<leiutise>"
 	"leiutis" L0 S com sg gen @P> #14->15
 "<järgi>"
@@ -32187,7 +32187,7 @@
 "<rohkem>"
 	"rohkem" L0 D @ADVL #22->18
 "<kui>"
-	"kui" L0 J crd @J #23->24
+	"kui" L0 J sub @J #23->24
 "<30>"
 	"30" L0 N card sg gen @P> #24->26
 "<aasta>"
@@ -32233,7 +32233,7 @@
 "<esitas>"
 	"esita" Ls V main indic impf ps3 sg ps af @FMV #10->2
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #11->12
+	"oma" L0 P pos sg gen @NN> #11->12
 "<bossidele>"
 	"boss" Ldele S com pl all @ADVL #12->10
 "<interneti>"
@@ -32309,7 +32309,7 @@
 "<säilitada>"
 	"säilita" Lda V main inf @IMV #12->8
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #13->14
+	"oma" L0 P pos sg gen @NN> #13->14
 "<funktsionaalsust>"
 	"funktsionaal=sus" Lt S com sg part @OBJ #14->12
 "<ka>"
@@ -32399,7 +32399,7 @@
 "<saatmisel>"
 	"saatmine" Ll S com sg ad @ADVL #7->11
 "<ühest>"
-	"üks" Lst P dem indef sg el @NN> #8->9
+	"üks" Lst P indef sg el @NN> #8->9
 "<sõlmest>"
 	"sõlm" Lst S com sg el @<NN #9->7
 "<teise>"
@@ -32415,7 +32415,7 @@
 "<millest>"
 	"mis" Lst P inter rel pl el @ADVL #15->17
 "<igaühel>"
-	"iga_üks" Ll P dem indef sg ad @ADVL #16->17
+	"iga_üks" Ll P indef sg ad @ADVL #16->17
 "<on>"
 	"ole" L0 V main indic pres ps3 sg ps af @FMV #17->13
 "<allika>"
@@ -32611,7 +32611,7 @@
 "<kindlustada>"
 	"kindlusta" Lda V main inf @<INFN #18->17
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #19->20
+	"oma" L0 P pos sg gen @NN> #19->20
 "<ülekaalu>"
 	"üle_kaal" L0 S com sg part @OBJ #20->18
 "<loodi>"
@@ -32697,7 +32697,7 @@
 "<meelsasti>"
 	"meelsasti" L0 D @ADVL #15->13
 "<oma>"
-	"oma" L0 P pos det refl sg gen @NN> #16->17
+	"oma" L0 P pos sg gen @NN> #16->17
 "<teeneid>"
 	"teene" Lid S com pl part @OBJ #17->13
 "<.>"
@@ -32877,7 +32877,7 @@
 "<ja>"
 	"ja" L0 J crd @J #10->14
 "<mõni>"
-	"mõni" L0 P sg nom @NN> #11->12
+	"mõni" L0 P indef sg nom @NN> #11->12
 "<muu>"
 	"muu" L0 P indef sg nom @NN> #12->13
 "<firma>"
