@@ -1,0 +1,2139 @@
+"<s>"
+
+"<Tipptennis>"
+	"tipp_tennis" L0 S com sg nom @SUBJ #1->0
+"</s>"
+
+"<s>"
+
+"<Uudised>"
+	"uudis" Ld S com pl nom @SUBJ #1->0
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #2->3
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<Petange’is>"
+	"Petange" Ls S prop sg in @ADVL #4->3
+"<64000>"
+	"64000" L0 N card ? digit @ADVL #5->7
+"<euro>"
+	"euro" L0 S com sg gen @<Q #6->5
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #7->8
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #8->9
+"<Challenger-turniiri>"
+	"Challenger-turniir" L0 S com sg gen @NN> #9->10
+"<poolfinaalis>"
+	"pool_finaal" Ls S com sg in @ADVL #10->3
+"<prantslasele>"
+	"prantslane" Lle S com sg all @NN #11->13
+"<Paul-Henri>"
+	"Paul-Henri" L0 S prop sg nom @NN> #12->13
+"<Mathieu’le>"
+	"Mathieu" Lle S prop sg all @ADVL #13->3
+"<6:7>"
+	"6:7" L0 N card ? digit @ADVL #14->3
+"<,>"
+	"," Z Com #15->15
+"<2:6>"
+	"2:6" L0 N card sg nom ? digit @ADVL #16->14
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Mäng>"
+	"mäng" L0 S com sg nom @SUBJ #1->2
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<analoogiline>"
+	"analoogiline" L0 A pos sg nom @PRD #3->2
+"<eilse>"
+	"eilne" L0 A pos sg gen @AN> #4->5
+"<veerandfinaaliga>"
+	"veerand_finaal" Lga S com sg kom @ADVL #5->2
+"<,>"
+	"," Z Com #6->6
+"<kuid>"
+	"kuid" L0 J crd @J #7->10
+"<Zoppi>"
+	"Zopp" L0 S prop sg gen @P> #8->9
+"<poolt>"
+	"poolt" L0 K post @ADVL #9->10
+"<vaadatuna>"
+	"vaadatud" Lna A pos sg es @ADVL #10->2
+"<vastupidi>"
+	"vastu_pidi" L0 D @ADVL #11->10
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Eile>"
+	"eile" L0 D @ADVL #1->3
+"<ei>"
+	"ei" L0 V aux neg @NEG #2->3
+"<loovutanud>"
+	"loovuta" Lnud V main indic impf ps neg @FMV #3->0
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #4->3
+"<ühtki>"
+	"üks" Lki P dem indef sg part @NN> #5->7
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #6->7
+"<pallingugeimi>"
+	"pallingu_geim" L0 S com sg part @OBJ #7->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<ja>"
+	"ja" L0 J crd CLB @J #9->10
+"<võitis>"
+	"võit" Lis V main indic impf ps3 sg ps af @FMV #10->3
+"<avaseti>"
+	"ava_sett" L0 S com sg gen @NN> #11->12
+"<tie-break’i>"
+	"tie-break" L0 S com sg gen @OBJ #12->10
+"<7:2>"
+	"7:2" L0 N card sg nom ? digit @ADVL #13->10
+"<,>"
+	"," Z Com CLB #14->14
+"<kindel_piir/>"
+	"####" L0 Z CLB #15->15
+"<täna>"
+	"täna" L0 D @ADVL #16->18
+"<ei>"
+	"ei" L0 V aux neg @NEG #17->18
+"<saanud>"
+	"saa" Lnud V main indic impf ps neg @FMV #18->3
+"<eestlane>"
+	"eestlane" L0 S com sg nom @SUBJ #19->18
+"<ise>"
+	"ise" L0 P pos refl sg nom @<NN #20->19
+"<kätte>"
+	"käsi" Ltte S com sg ill @ADVL #21->18
+"<ühtki>"
+	"üks" Lki P dem indef sg part @NN> #22->24
+"<vastase>"
+	"vastane" L0 S com sg gen @NN> #23->24
+"<servigeimi>"
+	"servi_geim" L0 S com sg part @OBJ #24->18
+"<kindel_piir/>"
+	"####" L0 Z CLB #25->25
+"<ja>"
+	"ja" L0 J crd CLB @J #26->27
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #27->18
+"<tie-break’i>"
+	"tie-break" L0 S com sg gen @OBJ #28->27
+"<2:7>"
+	"2:7" L0 N card sg nom ? digit @ADVL #29->27
+"<.>"
+	"." Z Fst #30->30
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<servis>"
+	"servi" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<ka>"
+	"ka" L0 D @ADVL #3->4
+"<täna>"
+	"täna" L0 D @ADVL #4->2
+"<[>"
+	"[" Z Osq #5->5
+"<...>"
+	"..." Z #6->6
+"<]>"
+	"]" Z Csq #7->7
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #2->3
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<64000>"
+	"64000" L0 N card ? digit @ADVL #4->6
+"<euro>"
+	"euro" L0 S com sg gen @<Q #5->4
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #6->7
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #7->8
+"<Challenger-turniiril>"
+	"Challenger-turniir" Ll S com sg ad @ADVL #8->3
+"<Petange’is>"
+	"Petange" Ls S prop sg in @ADVL #9->3
+"<kiil>"
+	"####" L0 Z CLB #10->10
+"<(>"
+	"(" Z Opr #11->11
+"<Luksemburg>"
+	"Luksemburg" L0 S prop sg nom @<NN #12->9
+"<)>"
+	")" Z Cpr CLB #13->13
+"</kiil>"
+	"####" L0 Z CLB #14->14
+"<veerandfinaalis>"
+	"veerand_finaal" Ls S com sg in @ADVL #15->3
+"<argentiinlase>"
+	"argentiinlane" L0 S com sg gen @NN> #16->18
+"<Horacio>"
+	"Horacio" L0 S prop sg nom @NN> #17->18
+"<Zeballose>"
+	"Zeballos" L0 S prop sg gen @OBJ #18->3
+"<kiil>"
+	"####" L0 Z CLB #19->19
+"<(>"
+	"(" Z Opr #20->20
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #21->18
+"<107.>"
+	"107." L0 N ord ? digit @<AN #22->21
+"<)>"
+	")" Z Cpr CLB #23->23
+"</kiil>"
+	"####" L0 Z CLB #24->24
+"<7:6>"
+	"7:6" L0 N card ? digit @ADVL #25->3
+"<,>"
+	"," Z Com #26->26
+"<6:3>"
+	"6:3" L0 N card sg nom ? digit @ADVL #27->25
+"<kindel_piir/>"
+	"####" L0 Z CLB #28->28
+"<ja>"
+	"ja" L0 J crd CLB @J #29->30
+"<jõudis>"
+	"jõud" Lis V main indic impf ps3 sg ps af @FMV #30->3
+"<esimesena>"
+	"esimene" Lna N ord sg es @ADVL #31->30
+"<nelja>"
+	"neli" L0 N card sg gen @P> #32->34
+"<parema>"
+	"parem" L0 A comp sg gen @<Q #33->32
+"<hulka>"
+	"hulka" L0 K post @ADVL #34->30
+"<.>"
+	"." Z Fst #35->35
+"</s>"
+
+"<s>"
+
+"<Zoppile>"
+	"Zopp" Lle S prop sg all @ADVL #1->2
+"<tõi>"
+	"too" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<edu>"
+	"edu" L0 S com sg gen @OBJ #3->2
+"<eelkõige>"
+	"eel_kõige" L0 D @ADVL #4->2
+"<hea>"
+	"hea" L0 A pos sg nom @AN> #5->6
+"<serv>"
+	"serv" L0 S com sg nom @SUBJ #6->2
+"<.>"
+	"." Z Fst #7->7
+"</s>"
+
+"<s>"
+
+"<Ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #1->3
+"<ei>"
+	"ei" L0 V aux neg @NEG #2->3
+"<kaotanud>"
+	"kaota" Lnud V main indic impf ps neg @FMV #3->0
+"<mängu>"
+	"mäng" L0 S com sg gen @P> #4->5
+"<jooksul>"
+	"jooksul" L0 K post @ADVL #5->3
+"<ühtki>"
+	"üks" Lki P dem indef sg part @NN> #6->7
+"<pallingugeimi>"
+	"pallingu_geim" L0 S com sg part @OBJ #7->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<ning>"
+	"ning" L0 J crd CLB @J #9->11
+"<seetõttu>"
+	"see_tõttu" L0 D @ADVL #10->11
+"<piisas>"
+	"piisa" Ls V main indic impf ps3 sg ps af @FMV #11->3
+"<Eesti>"
+	"Eesti" L0 S prop sg gen @NN> #12->13
+"<esireketile>"
+	"esi_reket" Lle S com sg all @ADVL #13->11
+"<tie-break’i>"
+	"tie-break" L0 S com sg gen @NN> #14->16
+"<7:2>"
+	"7:2" L0 N card ? digit @NN> #15->16
+"<võidust>"
+	"võit" Lst S com sg el @ADVL #16->11
+"<ja>"
+	"ja" L0 J crd @J #17->21
+"<teise>"
+	"teine" L0 N ord sg gen @AN> #18->19
+"<seti>"
+	"sett" L0 S com sg gen @NN> #19->21
+"<ühest>"
+	"üks" Lst N card sg el @NN> #20->21
+"<servimurdest>"
+	"servi_murre" Lst S com sg el @ADVL #21->16
+"<.>"
+	"." Z Fst #22->22
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<lõi>"
+	"löö" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<12>"
+	"12" L0 N card sg nom ? digit @OBJ #3->2
+"<ässa>"
+	"äss" L0 S com sg part @<Q #4->3
+"<[>"
+	"[" Z Osq #5->5
+"<...>"
+	"..." Z #6->6
+"<]>"
+	"]" Z Csq #7->7
+"</s>"
+
+"<s>"
+
+"<Kotkas>"
+	"Kotka" Ls S prop sg in @ADVL #1->2
+"<lõppenud>"
+	"lõppenud" L0 A pos @AN> #2->8
+"<10000>"
+	"10000" L0 N card ? digit @ADVL #3->5
+"<dollari>"
+	"dollar" L0 S com sg gen @<Q #4->3
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #5->6
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #6->8
+"<ITF-i>"
+	"ITF" L0 Y nominal sg gen @NN> #7->8
+"<turniiril>"
+	"turniir" Ll S com sg ad @ADVL #8->9
+"<jõudis>"
+	"jõud" Lis V main indic impf ps3 sg ps af @FMV #9->0
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #10->11
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #11->9
+"<finaali>"
+	"finaal" L0 S com sg ill @ADVL #12->9
+"<.>"
+	"." Z Fst #13->13
+"</s>"
+
+"<s>"
+
+"<Kui>"
+	"kui" L0 J sub @J #1->8
+"<eelmise>"
+	"eelmine" L0 A pos sg gen @AN> #2->3
+"<turniiri>"
+	"turniir" L0 S com sg gen @OBJ #3->8
+"<Vierumäkil>"
+	"Vierumäki" Ll S prop sg ad @<NN #4->3
+"<oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #5->8
+"<Eesti>"
+	"Eesti" L0 S prop sg gen @NN> #6->7
+"<meister>"
+	"meister" L0 S com sg nom @SUBJ #7->8
+"<võitnud>"
+	"võit" Lnud V main partic past ps @IMV #8->13
+"<,>"
+	"," Z Com CLB #9->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<siis>"
+	"siis" L0 J sub @J #11->13
+"<seekord>"
+	"see_kord" L0 D @ADVL #12->13
+"<jäi>"
+	"jää" Li V main indic impf ps3 sg ps af @FMV #13->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #14->13
+"<alla>"
+	"alla" L0 D @Vpart #15->13
+"<hispaanlasele>"
+	"hispaanlane" Lle S com sg all @NN> #16->18
+"<Juan>"
+	"Juan" L0 S prop sg nom @NN> #17->18
+"<Lizariturryle>"
+	"Lizariturry" Lle S prop sg all @ADVL #18->13
+"<kiil>"
+	"####" L0 Z CLB #19->19
+"<(>"
+	"(" Z Opr #20->20
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #21->18
+"<1541.>"
+	"1541." L0 N ord ? digit @<AN #22->21
+"<)>"
+	")" Z Cpr #23->23
+"</kiil>"
+	"####" L0 Z CLB #24->24
+"<1:6>"
+	"1:6" L0 N card ? digit @ADVL #25->13
+"<,>"
+	"," Z Com #26->26
+"<6:7>"
+	"6:7" L0 N card sg nom ? digit @ADVL #27->25
+"<.>"
+	"." Z Fst #28->28
+"</s>"
+
+"<s>"
+
+"<Poolfinaalis>"
+	"pool_finaal" Ls S com sg in @ADVL #1->6
+"<oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #2->6
+"<neljandana>"
+	"neljas" Lna N ord sg es @ADVL #3->4
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #4->5
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #5->6
+"<alistanud>"
+	"alista" Lnud V main partic past ps @IMV #6->0
+"<soomlaste>"
+	"soomlane" Lte S com pl gen @NN> #7->9
+"<peamise>"
+	"peamine" L0 A pos sg gen @AN> #8->9
+"<lootuse>"
+	"lootus" L0 S com sg gen @OBJ #9->6
+"<,>"
+	"," Z Com #10->10
+"<teisena>"
+	"teine" Lna N ord sg es @ADVL #11->12
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #12->14
+"<Timo>"
+	"Timo" L0 S prop sg nom @NN> #13->14
+"<Niemineni>"
+	"Nieminen" L0 S prop sg gen @<NN #14->9
+"<kiil>"
+	"####" L0 Z CLB #15->15
+"<(>"
+	"(" Z Opr #16->16
+"<319.>"
+	"319." L0 N ord ? digit @<NN #17->14
+"<)>"
+	")" Z Cpr #18->18
+"</kiil>"
+	"####" L0 Z CLB #19->19
+"<6:4>"
+	"6:4" L0 N card ? digit @ADVL #20->6
+"<,>"
+	"," Z Com #21->21
+"<6:4>"
+	"6:4" L0 N card sg nom ? digit @ADVL #22->20
+"<.>"
+	"." Z Fst #23->23
+"</s>"
+
+"<s>"
+
+"<Taas>"
+	"taas" L0 D @ADVL #1->2
+"<teenis>"
+	"teeni" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<ATP>"
+	"ATP" L0 Y nominal ? @NN> #3->4
+"<punkti>"
+	"punkt" L0 S com sg gen @OBJ #4->2
+"<Markus>"
+	"Markus" L0 S prop sg nom @NN> #5->6
+"<Kerner>"
+	"Kerner" L0 S prop sg nom @SUBJ #6->2
+"<,>"
+	"," Z Com #7->7
+"<[>"
+	"[" Z Osq #8->8
+"<...>"
+	"..." Z #9->9
+"<]>"
+	"]" Z Csq #10->10
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #2->3
+"<tõusis>"
+	"tõus" Lis V main indic impf ps3 sg ps af @FMV #3->0
+"<sel>"
+	"see" Ll P dem sg ad @NN> #4->5
+"<nädalal>"
+	"nädal" Ll S com sg ad @ADVL #5->3
+"<maailma>"
+	"maa_ilm" L0 S com sg gen @NN> #6->7
+"<edetabelis>"
+	"ede_tabel" Ls S com sg in @ADVL #7->3
+"<seitse>"
+	"seitse" L0 N card sg nom @ADVL #8->3
+"<kohta>"
+	"koht" L0 S com sg part @<Q #9->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<ja>"
+	"ja" L0 J crd CLB @J #11->12
+"<asub>"
+	"asu" Lb V main indic pres ps3 sg ps af @FMV #12->3
+"<nüüd>"
+	"nüüd" L0 D @ADVL #13->12
+"<75.>"
+	"75." L0 N ord sg ad ? digit @AN> #14->15
+"<positsioonil>"
+	"positsioon" Ll S com sg ad @ADVL #15->12
+"<,>"
+	"," Z Com CLB #16->16
+"<kindel_piir/>"
+	"####" L0 Z CLB #17->17
+"<mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #18->19
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #19->15
+"<tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #20->23
+"<senisest>"
+	"senine" Lst A pos sg el @AN> #21->23
+"<parimast>"
+	"parim" Lst A super sg el @AN> #22->23
+"<kohast>"
+	"koht" Lst S com sg el @ADVL #23->31
+"<kiil>"
+	"####" L0 Z CLB #24->24
+"<(>"
+	"(" Z Opr #25->25
+"<80.>"
+	"80." L0 N ord sg gen ? digit @<NN #26->23
+"<)>"
+	")" Z Cpr #27->27
+"</kiil>"
+	"####" L0 Z CLB #28->28
+"<viie>"
+	"viis" L0 N card sg gen @P> #29->30
+"<võrra>"
+	"võrra" L0 K post @ADVL #30->31
+"<kõrgemal>"
+	"kõrgem" Ll A comp sg ad @ADVL #31->19
+"<.>"
+	"." Z Fst #32->32
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<teenis>"
+	"teeni" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<35>"
+	"35" L0 N card sg nom ? digit @OBJ #3->2
+"<punkti>"
+	"punkt" L0 S com sg part @<Q #4->3
+"<Toronto>"
+	"Toronto" L0 S prop sg gen @NN> #5->6
+"<turniiri>"
+	"turniir" L0 S com sg gen @NN> #6->7
+"<kvalifikatsioonis>"
+	"kvalifikatsioon" Ls S com sg in @ADVL #7->8
+"<saadud>"
+	"saadud" L0 A pos @AN> #8->9
+"<kahe>"
+	"kaks" L0 N card sg gen @P> #9->11
+"<võidu>"
+	"võit" L0 S com sg gen @<Q #10->9
+"<eest>"
+	"eest" L0 K post @ADVL #11->2
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Nii>"
+	"nii" L0 D @ADVL #1->2
+"<andis>"
+	"and" Lis V main indic impf ps3 sg ps af @FMV #2->0
+"<tippturniiri>"
+	"tipp_turniir" L0 S com sg gen @NN> #3->4
+"<kvalifikatsioon>"
+	"kvalifikatsioon" L0 S com sg nom @SUBJ #4->2
+"<talle>"
+	"tema" Llle P pers ps3 sg all @ADVL #5->2
+"<rohkem>"
+	"rohkem" L0 D @OBJ #6->2
+"<punkte>"
+	"punkt" Le S com pl part @<Q #7->6
+"<kui>"
+	"kui" L0 J sub @J #8->11
+"<näiteks>"
+	"näiteks" L0 D @DN> #9->11
+"<mullune>"
+	"mullune" L0 A pos sg nom @AN> #10->11
+"<võit>"
+	"võit" L0 S com sg nom @ADVL #11->6
+"<Tallinnas>"
+	"Tallinn" Ls S prop sg in @<NN #12->11
+"<Merko>"
+	"Merko" L0 S prop sg nom @NN> #13->14
+"<Openil>"
+	"Open" Ll S prop sg ad @<NN #14->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #15->15
+"<(>"
+	"(" Z Opr #16->16
+"<27>"
+	"27" L0 N card sg nom ? digit @ADVL #17->2
+"<)>"
+	")" Z Cpr #18->18
+"<.>"
+	"." Z Fst #19->19
+"</s>"
+
+"<s>"
+
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #1->2
+"<Ivanovile>"
+	"Ivanov" Lle S prop sg all @ADVL #2->3
+"<pannakse>"
+	"pane" Lakse V main indic pres imps af @FMV #3->0
+"<Vierumäki>"
+	"Vierumäki" L0 S prop sg gen @NN> #4->5
+"<turniiri>"
+	"turniir" L0 S com sg gen @ADVL #5->3
+"<[>"
+	"[" Z Osq #6->6
+"<...>"
+	"..." Z #7->7
+"<]>"
+	"]" Z Csq #8->8
+"</s>"
+
+"<s>"
+
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #1->2
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #2->3
+"<sai>"
+	"saa" Li V main indic impf ps3 sg ps af @FMV #3->0
+"<Vierumäkis>"
+	"Vierumäki" Ls S prop sg in @ADVL #4->10
+"<kiil>"
+	"####" L0 Z CLB #5->5
+"<(>"
+	"(" Z Opr #6->6
+"<Soome>"
+	"Soome" L0 S prop sg nom @<NN #7->4
+"<)>"
+	")" Z Cpr #8->8
+"</kiil>"
+	"####" L0 Z CLB #9->9
+"<peetud>"
+	"peetud" L0 A pos @AN> #10->15
+"<10000>"
+	"10000" L0 N card ? digit @ADVL #11->13
+"<dollari>"
+	"dollar" L0 S com sg gen @<Q #12->11
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #13->14
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #14->15
+"<võistlusel>"
+	"võistlus" Ll S com sg ad @ADVL #15->3
+"<karjääri>"
+	"karjäär" L0 S com sg gen @ADVL #16->17
+"<teise>"
+	"teine" L0 N ord sg gen @AN> #17->18
+"<esikoha>"
+	"esi_koht" L0 S com sg gen @OBJ #18->3
+"<ITF-i>"
+	"ITF" L0 Y nominal sg gen @NN> #19->20
+"<turniiril>"
+	"turniir" Ll S com sg ad @<NN #20->18
+"<.>"
+	"." Z Fst #21->21
+"</s>"
+
+"<s>"
+
+"<Teisena>"
+	"teine" Lna N ord sg es @ADVL #1->2
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #2->3
+"<Ivanovil>"
+	"Ivanov" Ll S prop sg ad @ADVL #3->4
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #4->0
+"<pisut>"
+	"pisut" L0 D @SUBJ #5->4
+"<raskusi>"
+	"raskus" Li S com pl part @<Q #6->5
+"<vaid>"
+	"vaid" L0 D @ADVL #7->8
+"<teises>"
+	"teine" Ls N ord sg in @AN> #8->9
+"<ringis>"
+	"ring" Ls S com sg in @ADVL #9->4
+"<,>"
+	"," Z Com CLB #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<kui>"
+	"kui" L0 J sub @J #12->14
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #13->14
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #14->4
+"<soomlase>"
+	"soomlane" L0 S com sg gen @NN> #15->17
+"<Micke>"
+	"Micke" L0 S prop sg nom @NN> #16->17
+"<Kontineni>"
+	"Kontinen" L0 S prop sg gen @OBJ #17->14
+"<kiil>"
+	"####" L0 Z CLB #18->18
+"<(>"
+	"(" Z Opr #19->19
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #20->17
+"<887.>"
+	"887." L0 N ord ? digit @<AN #21->20
+"<)>"
+	")" Z Cpr #22->22
+"</kiil>"
+	"####" L0 Z CLB #23->23
+"<6:7>"
+	"6:7" L0 N card ? digit @ADVL #24->14
+"<,>"
+	"," Z Com #25->25
+"<6:3>"
+	"6:3" L0 N card ? digit @ADVL #26->24
+"<,>"
+	"," Z Com #27->27
+"<6:2>"
+	"6:2" L0 N card sg nom ? digit @ADVL #28->26
+"<.>"
+	"." Z Fst #29->29
+"</s>"
+
+"<s>"
+
+"<Edasi>"
+	"edasi" L0 D @Vpart #1->2
+"<sai>"
+	"saa" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #3->2
+"<jagu>"
+	"jagu" L0 S com sg part @OBJ #4->2
+"<Henrik>"
+	"Henrik" L0 S prop sg nom @NN> #5->6
+"<Sillanpääst>"
+	"Sillanpää" Lst S prop sg el @ADVL #6->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<(>"
+	"(" Z Opr #8->8
+"<Soome>"
+	"Soome" L0 S prop sg nom @<NN #9->6
+"<,>"
+	"," Z Com #10->10
+"<1183.>"
+	"1183." L0 N ord sg in ? digit @<AN #11->9
+"<)>"
+	")" Z Cpr CLB #12->12
+"<,>"
+	"," Z Com #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<poolfinaalis>"
+	"pool_finaal" Ls S com sg in @ADVL #15->16
+"<sai>"
+	"saa" Li V main indic impf ps3 sg ps af @FMV #16->2
+"<eduseisul>"
+	"edu_seis" Ll S com sg ad @ADVL #17->16
+"<6:0>"
+	"6:0" L0 N card ? digit @<NN #18->17
+"<,>"
+	"," Z Com #19->19
+"<1:1>"
+	"1:1" L0 N card ? digit @<NN #20->18
+"<loobumisvõidu>"
+	"loobumis_võit" L0 S com sg gen @OBJ #21->16
+"<kolmandana>"
+	"kolmas" Lna N ord sg es @ADVL #22->23
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #23->25
+"<Andre>"
+	"Andre" L0 S prop sg nom @NN> #24->25
+"<Artunedo>"
+	"Artunedo" L0 S prop sg nom @SUBJ #25->16
+"<[>"
+	"[" Z Osq #26->26
+"<...>"
+	"..." Z #27->27
+"<]>"
+	"]" Z Csq #28->28
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zoppil>"
+	"Zopp" Ll S prop sg ad @ADVL #2->4
+"<ei>"
+	"ei" L0 V aux neg @NEG #3->4
+"<õnnestunud>"
+	"õnnestu" Lnud V main indic impf ps neg @FMV #4->0
+"<Toronto>"
+	"Toronto" L0 S prop sg gen @NN> #5->6
+"<turniiri>"
+	"turniir" L0 S com sg gen @NN> #6->8
+"<teises>"
+	"teine" Ls N ord sg in @AN> #7->8
+"<ringis>"
+	"ring" Ls S com sg in @ADVL #8->9
+"<kohtuda>"
+	"kohtu" Lda V main inf @SUBJ #9->4
+"<olümpiavõitja>"
+	"olümpia_võitja" L0 S com sg gen @NN> #10->12
+"<Andy>"
+	"Andy" L0 S prop sg nom @NN> #11->12
+"<Murrayga>"
+	"Murray" Lga S prop sg kom @ADVL #12->9
+"<,>"
+	"," Z Com CLB #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<sest>"
+	"sest" L0 J sub @J #15->17
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #16->17
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #17->4
+"<avaringis>"
+	"ava_ring" Ls S com sg in @ADVL #18->17
+"<itaallasele>"
+	"itaallane" Lle S com sg all @NN> #19->21
+"<Flavio>"
+	"Flavio" L0 S prop sg nom @NN> #20->21
+"<Cipollale>"
+	"Cipolla" Lle S prop sg all @ADVL #21->17
+"<kiil>"
+	"####" L0 Z CLB #22->22
+"<(>"
+	"(" Z Opr #23->23
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #24->21
+"<97.>"
+	"97." L0 N ord ? digit @<AN #25->24
+"<)>"
+	")" Z Cpr #26->26
+"</kiil>"
+	"####" L0 Z CLB #27->27
+"<1:6>"
+	"1:6" L0 N card ? digit @ADVL #28->17
+"<,>"
+	"," Z Com #29->29
+"<2:6>"
+	"2:6" L0 N card sg nom ? digit @ADVL #30->28
+"<.>"
+	"." Z Fst #31->31
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->3
+"<ei>"
+	"ei" L0 V aux neg @NEG #2->3
+"<löönud>"
+	"löö" Lnud V main indic impf ps neg @FMV #3->0
+"<ühtki>"
+	"üks" Lki P dem indef sg part @NN> #4->5
+"<ässa>"
+	"äss" L0 S com sg part @OBJ #5->3
+"<,>"
+	"," Z Com #6->6
+"<kuid>"
+	"kuid" L0 J crd @J #7->9
+"<ka>"
+	"ka" L0 D @ADVL #8->9
+"<vastane>"
+	"vastane" L0 S com sg nom @SUBJ #9->3
+"<vaid>"
+	"vaid" L0 D @DN> #10->11
+"<ühe>"
+	"üks" L0 N card sg gen @OBJ #11->9
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Oluliselt>"
+	"oluliselt" L0 D @ADVL #1->2
+"<parem>"
+	"parem" L0 A comp sg nom @PRD #2->3
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #3->0
+"<aga>"
+	"aga" L0 D @ADVL #4->3
+"<Cipolla>"
+	"Cipolla" L0 S prop sg gen @NN> #5->7
+"<esimese>"
+	"esimene" L0 N ord sg gen @AN> #6->7
+"<servi>"
+	"serv" L0 S com sg gen @NN> #7->8
+"<õnnestumisprotsent>"
+	"õnnestumis_protsent" L0 S com sg nom @SUBJ #8->3
+"<–>"
+	"-" Z Dsh #9->9
+"<86>"
+	"86" L0 N card ? digit @<NN #10->8
+"<%>"
+	"%" L0 nominal card @<Q #11->10
+"<Zoppi>"
+	"Zopp" L0 S prop sg gen @NN> #12->13
+"<58>"
+	"58" L0 N card ? digit @P> #13->15
+"<%>"
+	"%" L0 nominal card @<Q #14->13
+"<vastu>"
+	"vastu" L0 K post @<KN #15->10
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Cipolla>"
+	"Cipolla" L0 S prop sg nom @SUBJ #1->2
+"<murdis>"
+	"murd" Lis V main indic impf ps3 sg ps af @FMV #2->0
+"<mõlemas>"
+	"mõlema" Ls P det sg in @NN> #3->4
+"<setis>"
+	"sett" Ls S com sg in @ADVL #4->2
+"<kahel>"
+	"kaks" Ll N card sg ad @ADVL #5->2
+"<korral>"
+	"kord" Ll S com sg ad @<Q #6->5
+"<Zoppi>"
+	"Zopp" L0 S prop sg gen @NN> #7->8
+"<pallingu>"
+	"palling" L0 S com sg gen @OBJ #8->2
+"<.>"
+	"." Z Fst #9->9
+"</s>"
+
+"<s>"
+
+"<Võimalusi>"
+	"võimalus" Li S com pl part @SUBJ #1->0
+"<[>"
+	"[" Z Osq #2->2
+"<...>"
+	"..." Z #3->3
+"<]>"
+	"]" Z Csq #4->4
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #2->3
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<Torontos>"
+	"Toronto" Ls S prop sg in @ADVL #4->3
+"<2,65>"
+	"2,65" L0 N card ? digit @ADVL #5->8
+"<miljoni>"
+	"miljon" L0 N card sg gen @<Q #6->5
+"<dollari>"
+	"dollar" L0 S com sg gen @<Q #7->6
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #8->9
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #9->10
+"<turniiri>"
+	"turniir" L0 S com sg gen @NN> #10->11
+"<kvalifikatsiooni>"
+	"kvalifikatsioon" L0 S com sg gen @NN> #11->13
+"<teises>"
+	"teine" Ls N ord sg in @AN> #12->13
+"<ringis>"
+	"ring" Ls S com sg in @ADVL #13->3
+"<šveitslase>"
+	"šveitslane" L0 S com sg gen @NN> #14->16
+"<Marco>"
+	"Marco" L0 S prop sg nom @NN> #15->16
+"<Chiudinelli>"
+	"Chiudinelli" L0 S prop sg gen @OBJ #16->3
+"<kiil>"
+	"####" L0 Z CLB #17->17
+"<(>"
+	"(" Z Opr #18->18
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #19->16
+"<149.>"
+	"149." L0 N ord sg nom ? digit @<AN #20->19
+"<)>"
+	")" Z Cpr #21->21
+"</kiil>"
+	"####" L0 Z CLB #22->22
+"<kaks>"
+	"kaks" L0 N card sg nom @ADVL #23->28
+"<tundi>"
+	"tund" L0 S com sg part @<Q #24->23
+"<ja>"
+	"ja" L0 J crd @J #25->26
+"<21>"
+	"21" L0 N card sg nom ? digit @ADVL #26->23
+"<minutit>"
+	"minut" Lt S com sg part @<Q #27->26
+"<kestnud>"
+	"kest=nud" L0 A pos partic @AN> #28->29
+"<heitluse>"
+	"heitlus" L0 S com sg gen @P> #29->30
+"<järel>"
+	"järel" L0 K post @ADVL #30->3
+"<6:4>"
+	"6:4" L0 N card ? digit @ADVL #31->3
+"<,>"
+	"," Z Com #32->32
+"<4:6>"
+	"4:6" L0 N card ? digit @ADVL #33->31
+"<,>"
+	"," Z Com #34->34
+"<6:2>"
+	"6:2" L0 N card sg nom ? digit @ADVL #35->33
+"<.>"
+	"." Z Fst #36->36
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<lõi>"
+	"löö" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<6>"
+	"6" L0 N card sg nom ? digit @OBJ #3->2
+"<ässa>"
+	"äss" L0 S com sg part @<Q #4->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<ja>"
+	"ja" L0 J crd CLB @J #6->7
+"<tegi>"
+	"tege" Li V main indic impf ps3 sg ps af @FMV #7->2
+"<4>"
+	"4" L0 N card sg nom ? digit @OBJ #8->7
+"<topeltviga>"
+	"topelt_viga" L0 S com sg part @<Q #9->8
+"<,>"
+	"," Z Com CLB #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<esimene>"
+	"esimene" L0 N ord sg nom @AN> #12->13
+"<serv>"
+	"serv" L0 S com sg nom @SUBJ #13->14
+"<õnnestus>"
+	"õnnestu" Ls V main indic impf ps3 sg ps af @FMV #14->2
+"<58-protsendiliselt>"
+	"58_protsendilise=lt" L0 D @ADVL #15->14
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Eesti>"
+	"Eesti" L0 S prop sg gen @NN> #1->2
+"<esireket>"
+	"esi_reket" L0 S com sg nom @SUBJ #2->3
+"<murdis>"
+	"murd" Lis V main indic impf ps3 sg ps af @FMV #3->0
+"<vastase>"
+	"vastane" L0 S com sg gen @NN> #4->5
+"<pallingu>"
+	"palling" L0 S com sg gen @OBJ #5->3
+"<kokku>"
+	"kokku" L0 D @DN> #6->7
+"<neljal>"
+	"neli" Ll N card sg ad @ADVL #7->3
+"<korral>"
+	"kord" Ll S com sg ad @<Q #8->7
+"<,>"
+	"," Z Com CLB #9->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<ise>"
+	"ise" L0 P pos refl sg nom @ADVL #11->12
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #12->3
+"<kaks>"
+	"kaks" L0 N card sg nom @OBJ #13->12
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #14->15
+"<servi>"
+	"serv" L0 S com sg part @<Q #15->13
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Veel>"
+	"veel" L0 D @ADVL #1->0
+"<[>"
+	"[" Z Osq #2->2
+"<...>"
+	"..." Z #3->3
+"<]>"
+	"]" Z Csq #4->4
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #2->3
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<Torontos>"
+	"Toronto" Ls S prop sg in @ADVL #4->5
+"<alanud>"
+	"ala=nud" L0 A pos partic @AN> #5->12
+"<2,65>"
+	"2,65" L0 N card ? digit @ADVL #6->9
+"<miljoni>"
+	"miljon" L0 N card sg gen @<Q #7->6
+"<dollari>"
+	"dollar" L0 S com sg gen @<Q #8->7
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #9->10
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #10->12
+"<ATP>"
+	"ATP" L0 Y nominal ? @NN> #11->12
+"<turniiril>"
+	"turniir" Ll S com sg ad @ADVL #12->3
+"<kvalifikatsiooni>"
+	"kvalifikatsioon" L0 S com sg gen @NN> #13->17
+"<6:2>"
+	"6:2" L0 N card ? digit @NN> #14->17
+"<,>"
+	"," Z Com #15->15
+"<6:1>"
+	"6:1" L0 N card ? digit @NN> #16->14
+"<võiduga>"
+	"võit" Lga S com sg kom @ADVL #17->3
+"<kanadalase>"
+	"kanadalane" L0 S com sg gen @NN> #18->20
+"<Milan>"
+	"Milan" L0 S prop sg nom @NN> #19->20
+"<Pokrajaci>"
+	"Pokrajac" L0 S prop sg gen @P> #20->27
+"<kiil>"
+	"####" L0 Z CLB #21->21
+"<(>"
+	"(" Z Opr #22->22
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #23->20
+"<625.>"
+	"625." L0 N ord ? digit @<AN #24->23
+"<)>"
+	")" Z Cpr #25->25
+"</kiil>"
+	"####" L0 Z CLB #26->26
+"<üle>"
+	"üle" L0 K pre @<KN #27->17
+"<.>"
+	"." Z Fst #28->28
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<vajab>"
+	"vaja" Lb V main indic pres ps3 sg ps af @FMV #2->0
+"<veel>"
+	"veel" L0 D @DN> #3->4
+"<üht>"
+	"üks" L0 N card sg part @NN> #4->5
+"<võitu>"
+	"võit" L0 S com sg part @OBJ #5->2
+"<,>"
+	"," Z Com #6->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<et>"
+	"et" L0 J sub @J #8->9
+"<jõuda>"
+	"jõud" La V main inf @IMV #9->2
+"<põhiturniirile>"
+	"põhi_turniir" Lle S com sg all @ADVL #10->9
+"<.>"
+	"." Z Fst #11->11
+"</s>"
+
+"<s>"
+
+"<Tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #1->2
+"<vastane>"
+	"vastane" L0 S com sg nom @PRD #2->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+"<šveitslane>"
+	"šveitslane" L0 S com sg nom @NN> #4->6
+"<Marco>"
+	"Marco" L0 S prop sg nom @NN> #5->6
+"<Chiudinelli>"
+	"Chiudinelli" L0 S prop sg nom @SUBJ #6->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<(>"
+	"(" Z Opr #8->8
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #9->6
+"<149.>"
+	"149." L0 N ord sg nom ? digit @<AN #10->9
+"<)>"
+	")" Z Cpr CLB #11->11
+"<,>"
+	"," Z Com #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<kes>"
+	"kes" L0 P inter rel sg nom @SUBJ #14->17
+"<mõneti>"
+	"mõneti" L0 D @ADVL #15->16
+"<üllatuslikult>"
+	"üllatuslikult" L0 D @ADVL #16->17
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #17->6
+"<valikturniiril>"
+	"valik_turniir" Ll S com sg ad @ADVL #18->17
+"<esimesena>"
+	"esimene" Lna N ord sg es @ADVL #19->20
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #20->22
+"<Grigor>"
+	"Grigor" L0 S prop sg nom @NN> #21->22
+"<Dimitrovi>"
+	"Dimitrov" L0 S prop sg gen @OBJ #22->17
+"<kiil>"
+	"####" L0 Z CLB #23->23
+"<(>"
+	"(" Z Opr #24->24
+"<Bulgaaria>"
+	"Bulgaaria" L0 S prop sg nom @<NN #25->22
+"<,>"
+	"," Z Com #26->26
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #27->25
+"<53.>"
+	"53." L0 N ord ? digit @<AN #28->27
+"<)>"
+	")" Z Cpr #29->29
+"</kiil>"
+	"####" L0 Z CLB #30->30
+"<6:2>"
+	"6:2" L0 N card ? digit @ADVL #31->17
+"<,>"
+	"," Z Com #32->32
+"<5:7>"
+	"5:7" L0 N card ? digit @ADVL #33->31
+"<,>"
+	"," Z Com #34->34
+"<6:4>"
+	"6:4" L0 N card sg nom ? digit @ADVL #35->33
+"<.>"
+	"." Z Fst #36->36
+"</s>"
+
+"<s>"
+
+"<Augusti>"
+	"august" L0 S com sg gen @P> #1->2
+"<algul>"
+	"algul" L0 K post @ADVL #2->3
+"<ilmus>"
+	"ilmu" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<Apollo>"
+	"Apollo" L0 S prop sg gen @NN> #4->8
+"<ja>"
+	"ja" L0 J crd @J #5->7
+"<Rahva>"
+	"Rahvas" L0 S prop sg gen @NN> #6->7
+"<Raamatu>"
+	"Raamat" L0 S prop sg gen @NN> #7->4
+"<raamatupoodides>"
+	"raamatu_pood" Ldes S com pl in @ADVL #8->3
+"<,>"
+	"," Z Com #9->9
+"<aga>"
+	"aga" L0 J crd @J #10->13
+"<ka>"
+	"ka" L0 D @DN> #11->13
+"<Tere>"
+	"Tere" L0 S prop sg gen @NN> #12->13
+"<Tennisekeskuses>"
+	"Tennise_keskus" Ls S prop sg in @ADVL #13->8
+"<ja>"
+	"ja" L0 J crd @J #14->16
+"<RAM>"
+	"RAM" L0 Y nominal ? @NN> #15->16
+"<Tennisekeskuses>"
+	"Tennise_keskus" Ls S prop sg in @ADVL #16->13
+"<müüki>"
+	"müük" L0 S com sg ill @ADVL #17->3
+"<ühe>"
+	"üks" L0 P dem indef sg gen @NN> #18->21
+"<maailma>"
+	"maa_ilm" L0 S com sg gen @ADVL #19->20
+"<tuntuima>"
+	"tuntuim" L0 A super sg gen @AN> #20->21
+"<tennisisti>"
+	"tennisist" L0 S com sg gen @NN> #21->23
+"<Rafael>"
+	"Rafael" L0 S prop sg nom @NN> #22->23
+"<Nadali>"
+	"Nadal" L0 S prop sg gen @NN> #23->25
+"<elulooline>"
+	"elu_looline" L0 A pos sg nom @AN> #24->25
+"<raamat>"
+	"raamat" L0 S com sg nom @SUBJ #25->3
+"<„>"
+	"„" Z #26->26
+"<Rafa>"
+	"Rafa" L0 S prop sg nom @<NN #27->25
+"<–>"
+	"-" Z Dsh #28->28
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #29->30
+"<lugu>"
+	"lugu" L0 S com sg nom @<NN #30->27
+"<.>"
+	"." Z Fst #31->31
+"<“>"
+	"“" Z #32->32
+"</s>"
+
+"<s>"
+
+"<Tõlkeraamatu>"
+	"tõlke_raamat" L0 S @OBJ #1->15
+"<kiil>"
+	"####" L0 Z CLB #2->2
+"<,>"
+	"," Z Com CLB #3->3
+"<mille>"
+	"mis" L0 P inter rel sg gen @NN> #4->5
+"<autorid>"
+	"autor" Ld S com pl nom @PRD #5->6
+"<on>"
+	"ole" L0 V main indic pres ps3 pl ps af @FMV #6->1
+"<Rafael>"
+	"Rafael" L0 S prop sg nom @NN> #7->8
+"<Nadal>"
+	"Nadal" L0 S prop sg nom @SUBJ #8->6
+"<ise>"
+	"ise" L0 P pos refl sg nom @<NN #9->8
+"<ja>"
+	"ja" L0 J crd @J #10->12
+"<John>"
+	"John" L0 S prop sg nom @NN> #11->12
+"<Carlin>"
+	"Carlin" L0 S prop sg nom @SUBJ #12->8
+"<,>"
+	"," Z Com #13->13
+"</kiil>"
+	"####" L0 Z CLB #14->14
+"<andis>"
+	"and" Lis V main indic impf ps3 sg ps af @FMV #15->0
+"<välja>"
+	"välja" L0 D @Vpart #16->15
+"<kirjastus>"
+	"kirjastus" L0 S com sg nom @NN> #17->18
+"<Oceanic>"
+	"Oceanic" L0 S prop sg nom @SUBJ #18->15
+"<.>"
+	"." Z Fst #19->19
+"</s>"
+
+"<s>"
+
+"<Erinevus>"
+	"erinevus" L0 S com sg nom @ADVL #1->9
+"<Best>"
+	"Best" L0 S prop sg nom @NN> #2->3
+"<Pressi>"
+	"Press" L0 S prop sg gen @ADVL #3->5
+"<välja>"
+	"välja" L0 D @Vpart #4->5
+"<antud>"
+	"antud" L0 A pos @AN> #5->7
+"<Roger>"
+	"Roger" L0 S prop sg nom @NN> #6->7
+"<Federeri>"
+	"Federer" L0 S prop sg gen @NN> #7->8
+"<elulooraamatust>"
+	"elu_loo_raamat" Lst S com sg el @<NN #8->1
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #9->0
+"<selles>"
+	"see" Ls P dem sg in @ADVL #10->9
+"<,>"
+	"," Z Com CLB #11->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<et>"
+	"et" L0 J sub @J #13->15
+"<Nadal>"
+	"Nadal" L0 S prop sg nom @SUBJ #14->15
+"<osales>"
+	"osale" Ls V main indic impf ps3 sg ps af @FMV #15->10
+"<[>"
+	"[" Z Osq #16->16
+"<...>"
+	"..." Z #17->17
+"<]>"
+	"]" Z Csq #18->18
+"</s>"
+
+"<s>"
+
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #1->2
+"<Zoppil>"
+	"Zopp" Ll S prop sg ad @ADVL #2->3
+"<polnud>"
+	"ole" Lnud V main indic impf ps neg @FMV #3->0
+"<enam>"
+	"enam" L0 D @ADVL #4->8
+"<kui>"
+	"kui" L0 J sub @J #5->6
+"<miljoni>"
+	"miljon" L0 N card sg gen @ADVL #6->8
+"<dollari>"
+	"dollar" L0 S com sg gen @<Q #7->6
+"<suuruse>"
+	"suurune" L0 A pos sg gen @AN> #8->9
+"<auhinnafondiga>"
+	"au_hinna_fond" Lga S com sg kom @NN> #9->11
+"<Washingtoni>"
+	"Washington" L0 S prop sg gen @NN> #10->11
+"<tenniseturniiril>"
+	"tennise_turniir" Ll S com sg ad @ADVL #11->3
+"<loosiõnne>"
+	"loosi_õnn" L0 S com sg part @SUBJ #12->3
+"<,>"
+	"," Z Com CLB #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<kui>"
+	"kui" L0 J sub @J #15->17
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #16->17
+"<kohtus>"
+	"kohtu" Ls V main indic impf ps3 sg ps af @FMV #17->3
+"<avaringis>"
+	"ava_ring" Ls S com sg in @ADVL #18->17
+"<kolmandana>"
+	"kolmas" Lna N ord sg es @ADVL #19->20
+"<asetatud>"
+	"aseta=tud" L0 A pos @AN> #20->22
+"<Kevin>"
+	"Kevin" L0 S prop sg nom @NN> #21->22
+"<Andersoniga>"
+	"Anderson" Lga S prop sg kom @ADVL #22->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #23->23
+"<(>"
+	"(" Z Opr #24->24
+"<LAV>"
+	"LAV" L0 Y nominal ? @<NN #25->22
+"<,>"
+	"," Z Com #26->26
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #27->25
+"<34.>"
+	"34." L0 N ord ? digit @<AN #28->27
+"<)>"
+	")" Z Cpr #29->29
+"<.>"
+	"." Z Fst #30->30
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<3:6>"
+	"3:6" L0 N card ? digit @ADVL #3->2
+"<,>"
+	"," Z Com #4->4
+"<2:6>"
+	"2:6" L0 N card sg nom ? digit @ADVL #5->3
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<Saaremaa>"
+	"Saare_maa" L0 S prop sg nom @NN> #1->2
+"<Openi>"
+	"Open" L0 S prop sg gen @NN> #2->3
+"<tenniseturniiril>"
+	"tennise_turniir" Ll S com sg ad @ADVL #3->5
+"<esimesena>"
+	"esimene" Lna N ord sg es @ADVL #4->5
+"<paigutatud>"
+	"paiguta=tud" L0 A pos @AN> #5->6
+"<prantslane>"
+	"prantslane" L0 S com sg nom @NN> #6->8
+"<Laurent>"
+	"Laurent" L0 S prop sg nom @NN> #7->8
+"<Recourderc>"
+	"Recourderc" L0 S prop sg nom @SUBJ #8->19
+"<kiil>"
+	"####" L0 Z CLB #9->9
+"<(>"
+	"(" Z Opr #10->10
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #11->8
+"<446>"
+	"446" L0 N card sg nom ? digit @<NN #12->11
+"<,>"
+	"," Z Com #13->13
+"<kõrgeim>"
+	"kõrgeim" L0 A super sg nom @AN> #14->15
+"<edetabelikoht>"
+	"ede_tabeli_koht" L0 S com sg nom @SUBJ #15->11
+"<124.>"
+	"124." L0 N ord ? digit @PRD #16->15
+"<)>"
+	")" Z Cpr CLB #17->17
+"</kiil>"
+	"####" L0 Z CLB #18->18
+"<alistas>"
+	"alista" Ls V main indic impf ps3 sg ps af @FMV #19->0
+"<täna>"
+	"täna" L0 D @ADVL #20->19
+"<kaks>"
+	"kaks" L0 N card sg nom @ADVL #21->26
+"<tundi>"
+	"tund" L0 S com sg part @<Q #22->21
+"<ja>"
+	"ja" L0 J crd @J #23->24
+"<11>"
+	"11" L0 N card sg nom ? digit @ADVL #24->21
+"<minutit>"
+	"minut" Lt S com sg part @<Q #25->24
+"<kestnud>"
+	"kest=nud" L0 A pos partic @AN> #26->27
+"<finaalkohtumises>"
+	"finaal_kohtumine" Ls S com sg in @ADVL #27->19
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #28->29
+"<Ivanovi>"
+	"Ivanov" L0 S prop sg gen @OBJ #29->19
+"<7:5>"
+	"7:5" L0 N card ? digit @ADVL #30->19
+"<,>"
+	"," Z Com #31->31
+"<7:6>"
+	"7:6" L0 N card sg nom ? digit @ADVL #32->30
+"<.>"
+	"." Z Fst #33->33
+"</s>"
+
+"<s>"
+
+"<Esimeses>"
+	"esimene" Ls N ord sg in @AN> #1->2
+"<setis>"
+	"sett" Ls S com sg in @ADVL #2->3
+"<tegi>"
+	"tege" Li V main indic impf ps3 sg ps af @FMV #3->0
+"<Recouderc>"
+	"Recouderc" L0 S prop sg nom @SUBJ #4->3
+"<ainsa>"
+	"ainus" L0 A pos sg gen @AN> #5->6
+"<pallingumurde>"
+	"pallingu_murre" L0 S com sg gen @OBJ #6->3
+"<seisul>"
+	"seis" Ll S com sg ad @ADVL #7->3
+"<6:5>"
+	"6:5" L0 N card sg nom ? digit @<NN #8->7
+"<.>"
+	"." Z Fst #9->9
+"</s>"
+
+"<s>"
+
+"<Kuid>"
+	"kuid" L0 J crd @J #1->4
+"<teises>"
+	"teine" Ls N ord sg in @AN> #2->3
+"<setis>"
+	"sett" Ls S com sg in @ADVL #3->4
+"<sai>"
+	"saa" Li V main indic impf ps3 sg ps af @FMV #4->0
+"<prantslane>"
+	"prantslane" L0 S com sg nom @SUBJ #5->4
+"<eduseisu>"
+	"edu_seis" L0 S com sg gen @OBJ #6->4
+"<5:1>"
+	"5:1" L0 N card sg nom ? digit @<NN #7->6
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<kusjuures>"
+	"kus_juures" L0 D @ADVL #10->12
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #11->12
+"<kasutas>"
+	"kasuta" Ls V main indic impf ps3 sg ps af @FMV #12->4
+"<enne>"
+	"enne" L0 K pre @ADVL #13->12
+"<seda>"
+	"see" Lda P dem sg part @<P #14->13
+"<ka>"
+	"ka" L0 D @DN> #15->16
+"<arstipausi>"
+	"arsti_paus" L0 S com sg part @OBJ #16->12
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Ometi>"
+	"ometi" L0 D @ADVL #1->2
+"<suutis>"
+	"suut" Lis V main indic impf ps3 sg ps af @FMV #2->0
+"<eestlane>"
+	"eestlane" L0 S com sg nom @SUBJ #3->2
+"<tuua>"
+	"too" La V main inf @OBJ #4->2
+"<mängu>"
+	"mäng" L0 S com sg ill @ADVL #5->4
+"<murrangu>"
+	"murrang" L0 S com sg gen @OBJ #6->4
+"<–>"
+	"-" Z Dsh #7->7
+"<[>"
+	"[" Z Osq #8->8
+"<...>"
+	"..." Z #9->9
+"<]>"
+	"]" Z Csq #10->10
+"</s>"
+
+"<s>"
+
+"<Reedel>"
+	"reede" Ll S com sg ad @ADVL #1->4
+"<Kuressaares>"
+	"Kures_saare" Ls S prop sg in @ADVL #2->4
+"<aset>"
+	"ase" Lt S com sg part @OBJ #3->4
+"<leidnud>"
+	"leid=nud" L0 A pos partic @AN> #4->6
+"<Saaremaa>"
+	"Saare_maa" L0 S prop sg nom @NN> #5->6
+"<Openi>"
+	"Open" L0 S prop sg gen @NN> #6->7
+"<poolfinaalkohtumine>"
+	"pool_finaal_kohtumine" L0 S com sg nom @SUBJ #7->17
+"<prantslase>"
+	"prantslane" L0 S com sg gen @NN> #8->10
+"<Laurent>"
+	"Laurent" L0 S prop sg nom @NN> #9->10
+"<Malouli’ga>"
+	"Malouli" Lga S prop sg kom @<NN #10->7
+"<kiil>"
+	"####" L0 Z CLB #11->11
+"<(>"
+	"(" Z Opr #12->12
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #13->10
+"<1032>"
+	"1032" L0 N card sg nom ? digit @<NN #14->13
+"<)>"
+	")" Z Cpr CLB #15->15
+"</kiil>"
+	"####" L0 Z CLB #16->16
+"<lõppes>"
+	"lõppe" Ls V main indic impf ps3 sg ps af @FMV #17->0
+"<seekord>"
+	"see_kord" L0 D @ADVL #18->17
+"<positiivselt>"
+	"positiivselt" L0 D @ADVL #19->17
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #20->21
+"<Ivanovile>"
+	"Ivanov" Lle S prop sg all @ADVL #21->17
+"<.>"
+	"." Z Fst #22->22
+"</s>"
+
+"<s>"
+
+"<Möödunud>"
+	"möödunud" L0 A pos @AN> #1->2
+"<nädalal>"
+	"nädal" Ll S com sg ad @ADVL #2->3
+"<kohtus>"
+	"kohtu" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #4->3
+"<Malouliga>"
+	"Malouli" Lga S prop sg kom @ADVL #5->3
+"<Nordecon>"
+	"Nordecon" L0 S prop sg nom @NN> #6->7
+"<Openi>"
+	"Open" L0 S prop sg gen @NN> #7->8
+"<poolfinaalis>"
+	"pool_finaal" Ls S com sg in @ADVL #8->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<ja>"
+	"ja" L0 J crd CLB @J #10->11
+"<kaotas>"
+	"kaota" Ls V main indic impf ps3 sg ps af @FMV #11->3
+"<kolmes>"
+	"kolm" Ls N card sg in @ADVL #12->11
+"<setis>"
+	"sett" Ls S com sg in @<Q #13->12
+"<.>"
+	"." Z Fst #14->14
+"</s>"
+
+"<s>"
+
+"<Täna>"
+	"täna" L0 D @ADVL #1->2
+"<algas>"
+	"alga" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<mäng>"
+	"mäng" L0 S com sg nom @SUBJ #3->2
+"<sarnaselt>"
+	"sarnaselt" L0 D @ADVL #4->2
+"<–>"
+	"-" Z Dsh CLB #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<esimeses>"
+	"esimene" Ls N ord sg in @AN> #7->8
+"<setis>"
+	"sett" Ls S com sg in @ADVL #8->9
+"<suutis>"
+	"suut" Lis V main indic impf ps3 sg ps af @FMV #9->2
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #10->9
+"<initsiatiivi>"
+	"initsiatiiv" L0 S com sg gen @OBJ #11->12
+"<haarata>"
+	"haara" Lta V main inf @OBJ #12->9
+"<ja>"
+	"ja" L0 J crd @J #13->14
+"<võita>"
+	"võit" La V main inf @OBJ #14->12
+"<6:2>"
+	"6:2" L0 N card sg nom ? digit @ADVL #15->14
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Teises>"
+	"teine" Ls N ord sg in @AN> #1->2
+"<setis>"
+	"sett" Ls S com sg in @ADVL #2->5
+"<hakkas>"
+	"hakka" Ls V main indic impf ps3 sg ps af @FMV #3->5
+"<prantslane>"
+	"prantslane" L0 S com sg nom @SUBJ #4->5
+"<näitama>"
+	"näita" Lma V main sup ps ill @IMV #5->0
+"<aktiivsemat>"
+	"aktiivsem" Lt A comp sg part @AN> #6->7
+"<tennist>"
+	"tennis" Lt S com sg part @OBJ #7->5
+"<,>"
+	"," Z Com #8->8
+"<suruma>"
+	"suru" Lma V main sup ps ill @IMV #9->5
+"<Ivanovi>"
+	"Ivanov" L0 S prop sg part @OBJ #10->9
+"<rohkem>"
+	"rohkem" L0 D @ADVL #11->9
+"<agressiivse>"
+	"agressiivne" L0 A pos sg gen @AN> #12->13
+"<eestkäemänguga>"
+	"eestkäe_mäng" Lga S com sg kom @ADVL #13->9
+"<[>"
+	"[" Z Osq #14->14
+"<...>"
+	"..." Z #15->15
+"<]>"
+	"]" Z Csq #16->16
+"</s>"
+
+"<s>"
+
+"<Vihmapausi>"
+	"vihma_paus" L0 S com sg gen @P> #1->2
+"<tõttu>"
+	"tõttu" L0 K post @ADVL #2->5
+"<eile>"
+	"eile" L0 D @DN> #3->4
+"<pärastlõunal>"
+	"pärast_lõuna" Ll S com sg ad @ADVL #4->5
+"<katkestatud>"
+	"katkesta=tud" L0 A pos @AN> #5->9
+"<ja>"
+	"ja" L0 J crd @J #6->8
+"<täna>"
+	"täna" L0 D @ADVL #7->8
+"<lõppenud>"
+	"lõppenud" L0 A pos @AN> #8->5
+"<mängus>"
+	"mäng" Ls S com sg in @ADVL #9->10
+"<jäi>"
+	"jää" Li V main indic impf ps3 sg ps af @FMV #10->0
+"<Eesti>"
+	"Eesti" L0 S prop sg gen @NN> #11->12
+"<esireket>"
+	"esi_reket" L0 S com sg nom @NN> #12->14
+"<Jürgen>"
+	"Jürgen" L0 S prop sg nom @NN> #13->14
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #14->10
+"<Kitzbüheli>"
+	"Kitzbühel" L0 S prop sg gen @NN> #15->16
+"<turniiri>"
+	"turniir" L0 S com sg gen @NN> #16->18
+"<teises>"
+	"teine" Ls N ord sg in @AN> #17->18
+"<ringis>"
+	"ring" Ls S com sg in @ADVL #18->10
+"<alla>"
+	"alla" L0 D @Vpart #19->10
+"<ameeriklasele>"
+	"ameeriklane" Lle S com sg all @NN> #20->22
+"<Wayne>"
+	"Wayne" L0 S prop sg nom @NN> #21->22
+"<Odesnikile>"
+	"Odesnik" Lle S prop sg all @ADVL #22->10
+"<kiil>"
+	"####" L0 Z CLB #23->23
+"<(>"
+	"(" Z Opr #24->24
+"<ATP>"
+	"ATP" L0 Y nominal ? @<NN #25->22
+"<148.>"
+	"148." L0 N ord ? digit @<AN #26->25
+"<)>"
+	")" Z Cpr #27->27
+"</kiil>"
+	"####" L0 Z CLB #28->28
+"<7:5>"
+	"7:5" L0 N card ? digit @ADVL #29->10
+"<,>"
+	"," Z Com #30->30
+"<5:7>"
+	"5:7" L0 N card ? digit @ADVL #31->29
+"<,>"
+	"," Z Com #32->32
+"<3:6>"
+	"3:6" L0 N card sg nom ? digit @ADVL #33->31
+"<.>"
+	"." Z Fst #34->34
+"</s>"
+
+"<s>"
+
+"<Kohtumine>"
+	"kohtumine" L0 S com sg nom @SUBJ #1->2
+"<kestis>"
+	"kest" Lis V main indic impf ps3 sg ps af @FMV #2->0
+"<2>"
+	"2" L0 N card sg nom ? digit @ADVL #3->2
+"<tundi>"
+	"tund" L0 S com sg part @<Q #4->3
+"<ja>"
+	"ja" L0 J crd @J #5->6
+"<27>"
+	"27" L0 N card sg nom ? digit @ADVL #6->3
+"<minutit>"
+	"minut" Lt S com sg part @<Q #7->6
+"<,>"
+	"," Z Com #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<sisuliselt>"
+	"sisuliselt" L0 D @ADVL #10->11
+"<kulus>"
+	"kulu" Ls V main indic impf ps3 sg ps af @FMV #11->2
+"<aga>"
+	"aga" L0 D @ADVL #12->11
+"<algusest>"
+	"algus" Lst S com sg el @ADVL #13->11
+"<lõpuni>"
+	"lõpp" Lni S com sg term @ADVL #14->11
+"<terve>"
+	"terve" L0 A pos sg nom @AN> #15->16
+"<ööpäev>"
+	"öö_päev" L0 S com sg nom @SUBJ #16->11
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Zopp>"
+	"Zopp" L0 S prop sg nom @SUBJ #1->2
+"<jäi>"
+	"jää" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<esimeses>"
+	"esimene" Ls N ord sg in @AN> #3->4
+"<setis>"
+	"sett" Ls S com sg in @ADVL #4->2
+"<1:3>"
+	"1:3" L0 N card ? digit @ADVL #5->2
+"<taga>"
+	"taga" L0 D @ADVL #6->2
+"<,>"
+	"," Z Com CLB #7->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<kuid>"
+	"kuid" L0 J crd @J #9->10
+"<murdis>"
+	"murd" Lis V main indic impf ps3 sg ps af @FMV #10->2
+"<seejärel>"
+	"see_järel" L0 D @ADVL #11->10
+"<kahel>"
+	"kaks" Ll N card sg ad @ADVL #12->10
+"<korral>"
+	"kord" Ll S com sg ad @<Q #13->12
+"<Odesniki>"
+	"Odesnik" L0 S prop sg gen @NN> #14->15
+"<pallingu>"
+	"palling" L0 S com sg gen @OBJ #15->10
+"<ja>"
+	"ja" L0 J crd @J #16->10
+"<[>"
+	"[" Z Osq #17->15
+"<...>"
+	"..." Z #18->18
+"<]>"
+	"]" Z Csq #19->19
+"</s>"
+	"/s" #20->15
+
+"<s>"
+
+"<Vladimir>"
+	"Vladimir" L0 S prop sg nom @NN> #1->2
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #2->3
+"<jõudis>"
+	"jõud" Lis V main indic impf ps3 sg ps af @FMV #3->0
+"<Saaremaa>"
+	"Saare_maa" L0 S prop sg nom @NN> #4->5
+"<Openil>"
+	"Open" Ll S prop sg ad @ADVL #5->3
+"<veerandfinaali>"
+	"veerand_finaal" L0 S com sg ill @ADVL #6->3
+"<,>"
+	"," Z Com #7->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<alistades>"
+	"alista" Ldes V main ger @ADVL #9->3
+"<kindlalt>"
+	"kindlalt" L0 D @ADVL #10->9
+"<noore>"
+	"noor" L0 A pos sg gen @AN> #11->12
+"<venelase>"
+	"venelane" L0 S com sg gen @NN> #12->14
+"<Ivan>"
+	"Ivan" L0 S prop sg nom @NN> #13->14
+"<Poljakovi>"
+	"Poljakov" L0 S prop sg gen @OBJ #14->9
+"<6:3>"
+	"6:3" L0 N card ? digit @ADVL #15->9
+"<,>"
+	"," Z Com #16->16
+"<6:4>"
+	"6:4" L0 N card sg nom ? digit @ADVL #17->15
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+
+"<s>"
+
+"<Markus>"
+	"Markus" L0 S prop sg nom @NN> #1->2
+"<Kerneril>"
+	"Kerner" Ll S prop sg ad @ADVL #2->4
+"<aga>"
+	"aga" L0 D @ADVL #3->4
+"<tuli>"
+	"tule" Li V main indic impf ps3 sg ps af @FMV #4->0
+"<maha>"
+	"maha" L0 D @Vpart #5->6
+"<pidada>"
+	"pida" Lda V main inf @SUBJ #6->4
+"<tõsine>"
+	"tõsine" L0 A pos sg nom @AN> #7->8
+"<lahing>"
+	"lahing" L0 S com sg nom @OBJ #8->6
+"<Nordecon>"
+	"Nordecon" L0 S prop sg nom @NN> #9->10
+"<Openi>"
+	"Open" L0 S prop sg gen @NN> #10->11
+"<finalisti>"
+	"finalist" L0 S com sg gen @NN> #11->13
+"<Laurent>"
+	"Laurent" L0 S prop sg nom @NN> #12->13
+"<Malouliga>"
+	"Malouli" Lga S prop sg kom @ADVL #13->6
+"<.>"
+	"." Z Fst #14->14
+"</s>"
+
+"<s>"
+
+"<Kerner>"
+	"Kerner" L0 S prop sg nom @SUBJ #1->2
+"<näitas>"
+	"näita" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<head>"
+	"hea" Ld A pos sg part @AN> #3->4
+"<mängu>"
+	"mäng" L0 S com sg part @OBJ #4->2
+"<,>"
+	"," Z Com CLB #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<kuid>"
+	"kuid" L0 J crd @J #7->10
+"<oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #8->10
+"<siiski>"
+	"siiski" L0 D @ADVL #9->10
+"<sunnitud>"
+	"sundi" Ltud V main partic past imps @IMV #10->2
+"<otsustava>"
+	"otsustav" L0 A pos sg gen @AN> #11->12
+"<seti>"
+	"sett" L0 S com sg gen @P> #12->13
+"<järel>"
+	"järel" L0 K post @ADVL #13->10
+"<alistuma>"
+	"alistu" Lma V main sup ps ill @ADVL #14->10
+"<2:6>"
+	"2:6" L0 N card ? digit @ADVL #15->14
+"<,>"
+	"," Z Com #16->16
+"<6:4>"
+	"6:4" L0 N card ? digit @ADVL #17->15
+"<,>"
+	"," Z Com #18->18
+"<0:6>"
+	"0:6" L0 N card sg nom ? digit @ADVL #19->17
+"<.>"
+	"." Z Fst #20->20
+"</s>"
+
+"<s>"
+
+"<Paarismängus>"
+	"paaris_mäng" Ls S com sg in @ADVL #1->4
+"<on>"
+	"ole" L0 V aux indic pres ps3 sg ps af @FCV #2->4
+"<Ivanov>"
+	"Ivanov" L0 S prop sg nom @SUBJ #3->4
+"<jõudnud>"
+	"jõud" Lnud V main partic past ps @IMV #4->0
+"<poolfinaali>"
+	"pool_finaal" L0 S com sg ill @ADVL #5->4
+"<koos>"
+	"koos" L0 K pre @ADVL #6->4
+"<venelase>"
+	"venelane" L0 S com sg gen @NN> #7->9
+"<Ivan>"
+	"Ivan" L0 S prop sg nom @NN> #8->9
+"<Nedelkoga>"
+	"Nedelko" Lga S prop sg kom @<P #9->6
+"<,>"
+	"," Z Com #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<alistades>"
+	"alista" Ldes V main ger @ADVL #12->4
+"<vene-prantsuse>"
+	"vene-prantsuse" L0 S com sg gen @NN> #13->14
+"<paari>"
+	"paar" L0 S com sg gen @OBJ #14->12
+"<Igor>"
+	"Igor" L0 S prop sg nom @<NN #15->14
+"<[>"
+	"[" Z Osq #16->16
+"<...>"
+	"..." Z #17->17
+"<]>"
+	"]" Z Csq #18->18
+"</s>"
+

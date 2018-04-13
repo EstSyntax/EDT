@@ -1,0 +1,90 @@
+"<s>"
+
+"<Laupäeval>"
+	"lau_päev" Ll S com sg ad @ADVL #1->5
+"<,>"
+	"," Z Com #2->2
+"<29.>"
+	"29." L0 N ord sg ad ? digit @AN> #3->4
+"<oktoobril>"
+	"oktoober" Ll S com sg ad @<NN #4->1
+"<toimus>"
+	"toimu" Ls V main indic impf ps3 sg ps af @FMV #5->0
+"<Põlvamaal>"
+	"Põlva_maa" Ll S prop sg ad @ADVL #6->5
+"<Moostes>"
+	"Mooste" Ls S prop sg in @ADVL #7->5
+"<Folgikojas>"
+	"Folgi_koda" Ls S prop sg in @ADVL #8->5
+"<noortekonverents>"
+	"noor" Lte_konverents S com sg nom @SUBJ #9->5
+"<ja>"
+	"ja" L0 J crd @J #10->11
+"<infomess>"
+	"info_mess" L0 S com sg nom @SUBJ #11->9
+"<,>"
+	"," Z Com #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<kus>"
+	"kus" L0 D @ADVL #14->18
+"<olid>"
+	"ole" Lid V aux indic impf ps3 pl ps af @FCV #15->17
+"<ennast>"
+	"ise" Lt P pos refl sg part @OBJ #16->17
+"<tutvustama>"
+	"tutvusta" Lma V main sup ps ill @ADVL #17->18
+"<tulnud>"
+	"tule" Lnud V main partic past ps @IMV #18->11
+"<mitmed>"
+	"mitu" Ld P indef pl nom @NN> #19->20
+"<kõrgkoolid>"
+	"kõrg_kool" Ld S com pl nom @SUBJ #20->18
+"<ja>"
+	"ja" L0 J crd @J #21->22
+"<kutsekoolid>"
+	"kutse_kool" Ld S com pl nom @SUBJ #22->20
+"<.>"
+	"." Z Fst #23->23
+"</s>"
+
+"<s>"
+
+"<Näitena>"
+	"näide" Lna S com sg es @ADVL #1->4
+"<võib>"
+	"või" Lb V mod indic pres ps3 sg ps af @FCV #2->4
+"<välja>"
+	"välja" L0 D @Vpart #3->4
+"<tuua>"
+	"too" La V main inf @IMV #4->0
+"<Võru>"
+	"Võru" L0 S prop sg gen @NN> #5->6
+"<Kutsehariduskeskuse>"
+	"Kutse_haridus_keskus" L0 S prop sg gen @OBJ #6->4
+"<,>"
+	"," Z Com #7->7
+"<Tallinna>"
+	"Tallinn" L0 S prop sg gen @NN> #8->9
+"<Tehnikakõrgkooli>"
+	"Tehnika_kõrg_kool" L0 S prop sg gen @OBJ #9->6
+"<,>"
+	"," Z Com #10->10
+"<Maaülikooli>"
+	"Maa_üli_kool" L0 S prop sg gen @OBJ #11->9
+"<,>"
+	"," Z Com #12->12
+"<IT-kolledži>"
+	"IT-kolledž" L0 S com sg gen @OBJ #13->11
+"<ja>"
+	"ja" L0 J crd @J #14->17
+"<muidugi>"
+	"muidugi" L0 D @ADVL #15->17
+"<ka>"
+	"ka" L0 D @ADVL #16->17
+"<Lennuakadeemia>"
+	"Lennu_akadeemia" L0 S prop sg gen @OBJ #17->13
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+

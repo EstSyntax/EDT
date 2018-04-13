@@ -1,0 +1,2978 @@
+"<s>"
+
+"<Tere>"
+	"tere" L0 B @B #1->0
+"<!>"
+	"!" Z Exc #2->2
+"</s>"
+
+"<s>"
+
+"<Jagaksin>"
+	"jaga" Lksin V main cond pres ps1 sg ps af @FMV #1->0
+"<kogemust>"
+	"kogemus" Lt S com sg part @OBJ #2->1
+"<,>"
+	"," Z Com CLB #3->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<mille>"
+	"mis" L0 P inter rel sg gen @OBJ #5->9
+"<just>"
+	"just" L0 D @ADVL #6->7
+"<täna>"
+	"täna" L0 D @ADVL #7->9
+"<värskelt>"
+	"värskelt" L0 D @ADVL #8->9
+"<sain>"
+	"saa" Lin V main indic impf ps1 sg ps af @FMV #9->2
+"<.>"
+	"." Z Fst #10->10
+"</s>"
+
+"<s>"
+
+"<Bussiga>"
+	"buss" Lga S com sg kom @ADVL #1->3
+"<koju>"
+	"kodu" L0 S com sg ill @ADVL #2->3
+"<sõites>"
+	"sõit" Les V main ger @ADVL #3->5
+"<,>"
+	"," Z Com CLB #4->4
+"<istus>"
+	"istu" Ls V main indic impf ps3 sg ps af @FMV #5->0
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @P> #6->7
+"<kõrval>"
+	"kõrval" L0 K post @ADVL #7->5
+"<üks>"
+	"üks" L0 P dem indef sg nom @NN> #8->10
+"<võõras>"
+	"võõras" L0 A pos sg nom @AN> #9->10
+"<naisterahvas>"
+	"naiste_rahvas" L0 S com sg nom @SUBJ #10->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<ja>"
+	"ja" L0 J crd CLB @J #12->13
+"<alustas>"
+	"alusta" Ls V main indic impf ps3 sg ps af @FMV #13->5
+"<minuga>"
+	"mina" Lga P pers ps1 sg kom @ADVL #14->13
+"<vestlust>"
+	"vestlus" Lt S com sg part @OBJ #15->13
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #1->2
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<väga>"
+	"väga" L0 D @ADVL #3->4
+"<heatujuline>"
+	"hea_tujuline" L0 A pos sg nom @PRD #4->2
+"<ja>"
+	"ja" L0 J crd CLB @J #5->6
+"<sõbralik>"
+	"sõbralik" L0 A pos sg nom @PRD #6->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<aga>"
+	"aga" L0 J crd @J #8->12
+"<tundus>"
+	"tundu" Ls V mod indic impf ps3 sg ps af @FCV #9->12
+"<selline>"
+	"selline" L0 P dem sg nom @ADVL #10->11
+"<omamoodi>"
+	"oma_moodi" L0 A pos @PRD #11->12
+"<olevat>"
+	"ole" Lvat V main quot pres ps af @ADVL #12->2
+"<.>"
+	"." Z Fst #13->13
+"</s>"
+
+"<s>"
+
+"<Ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #1->6
+"<hakkas>"
+	"hakka" Ls V main indic impf ps3 sg ps af @FMV #2->6
+"<üsna>"
+	"üsna" L0 D @ADVL #3->4
+"<avameelselt>"
+	"ava_meelselt" L0 D @ADVL #4->6
+"<minuga>"
+	"mina" Lga P pers ps1 sg kom @ADVL #5->6
+"<rääkima>"
+	"rääki" Lma V main sup ps ill @IMV #6->0
+"<ja>"
+	"ja" L0 J crd @J #7->8
+"<uurima>"
+	"uuri" Lma V main sup ps ill @IMV #8->6
+"<mu>"
+	"mina" L0 P pers ps1 sg gen @NN> #9->10
+"<elu>"
+	"elu" L0 S com sg gen @P> #10->11
+"<kohta>"
+	"kohta" L0 K post @ADVL #11->8
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #1->2
+"<vastasin>"
+	"vasta" Lsin V main indic impf ps1 sg ps af @FMV #2->0
+"<ta>"
+	"tema" L0 P pers ps3 sg gen @NN> #3->4
+"<küsimustele>"
+	"küsimus" Ltele S com pl all @ADVL #4->2
+"<napisõnaliselt>"
+	"napi_sõnaliselt" L0 D @ADVL #5->2
+"<,>"
+	"," Z Com #6->6
+"<kuid>"
+	"kuid" L0 J crd @J #7->8
+"<viisakalt>"
+	"viisakalt" L0 D @ADVL #8->5
+"<.>"
+	"." Z Fst #9->9
+"</s>"
+
+"<s>"
+
+"<Siis>"
+	"siis" L0 D @ADVL #1->4
+"<hakkas>"
+	"hakka" Ls V main indic impf ps3 sg ps af @FMV #2->4
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #3->4
+"<pakkuma>"
+	"pakku" Lma V main sup ps ill @IMV #4->0
+"<omaltpoolt>"
+	"omalt_poolt" L0 D @ADVL #5->4
+"<asju>"
+	"asi" Lu S com pl part @OBJ #6->4
+"<välja>"
+	"välja" L0 D @Vpart #7->4
+"<:>"
+	":" Z Col CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<kus>"
+	"kus" L0 D @ADVL #10->13
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #11->13
+"<maha>"
+	"maha" L0 D @Vpart #12->13
+"<lähen>"
+	"mine" Ln V main indic pres ps1 sg ps af @FMV #13->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<ja>"
+	"ja" L0 J crd CLB @J #15->18
+"<kus>"
+	"kus" L0 D @ADVL #16->18
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #17->18
+"<elan>"
+	"ela" Ln V main indic pres ps1 sg ps af @FMV #18->13
+"<.>"
+	"." Z Fst #19->19
+"</s>"
+
+"<s>"
+
+"<Midagi>"
+	"miski" Ldagi P indef sg part @SUBJ #1->3
+"<nagu>"
+	"nagu" L0 D @ADVL #2->3
+"<läks>"
+	"mine" Ls V main indic impf ps3 sg ps af @FMV #3->0
+"<täppi>"
+	"täpp" L0 S com sg ill @ADVL #4->3
+"<aga>"
+	"aga" L0 J crd @J #5->7
+"<mitte>"
+	"mitte" L0 D @ADVL #6->7
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #7->3
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Vestlus>"
+	"vestlus" L0 S com sg nom @SUBJ #1->2
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<kummaline>"
+	"kummaline" L0 A pos sg nom @PRD #3->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<ja>"
+	"ja" L0 J crd CLB @J #5->6
+"<mõtlesin>"
+	"mõtle" Lsin V main indic impf ps1 sg ps af @FMV #6->2
+"<endamisi>"
+	"endamisi" L0 D @ADVL #7->6
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<et>"
+	"et" L0 J sub @J #10->11
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #11->6
+"<ikka>"
+	"ikka" L0 D @ADVL #12->13
+"<veider>"
+	"veider" L0 A pos sg nom @AN> #13->14
+"<naine>"
+	"naine" L0 S com sg nom @SUBJ #14->11
+"<.>"
+	"." Z Fst #15->15
+"</s>"
+
+"<s>"
+
+"<Oleks>"
+	"ole" Lks V aux cond pres ps af @FCV #1->2
+"<tahtnud>"
+	"taht" Lnud V main partic past ps @IMV #2->0
+"<ära>"
+	"ära" L0 D @Vpart #3->4
+"<minna>"
+	"mine" La V main inf @OBJ #4->2
+"<ta>"
+	"tema" L0 P pers ps3 sg gen @P> #5->6
+"<kõrvalt>"
+	"kõrvalt" L0 K post @ADVL #6->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<aga>"
+	"aga" L0 J crd @J #8->12
+"<ei>"
+	"ei" L0 V aux neg @NEG #9->10
+"<hakanud>"
+	"hakka" Lnud V main indic impf ps neg @FMV #10->12
+"<siiski>"
+	"siiski" L0 D @ADVL #11->12
+"<minema>"
+	"mine" Lma V main sup ps ill @IMV #12->2
+"<,>"
+	"," Z Com CLB #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<vaid>"
+	"vaid" L0 D @DN> #15->16
+"<paar>"
+	"paar" L0 N card sg nom @ADVL #16->19
+"<peatust>"
+	"peatus" Lt S com sg part @<Q #17->16
+"<oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #18->20
+"<sõita>"
+	"sõit" La V main inf @SUBJ #19->20
+"<jäänud>"
+	"jää" Lnud V main partic past ps @IMV #20->2
+"<.>"
+	"." Z Fst #21->21
+"</s>"
+
+"<s>"
+
+"<Lõpuks>"
+	"lõpuks" L0 D @ADVL #1->2
+"<tundis>"
+	"tund" Lis V main indic impf ps3 sg ps af @FMV #2->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #3->2
+"<muret>"
+	"mure" Lt S com sg part @OBJ #4->2
+"<,>"
+	"," Z Com CLB #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<et>"
+	"et" L0 J sub CLB @J #7->9
+"<miks>"
+	"miks" L0 D @ADVL #8->9
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #9->2
+"<mul>"
+	"mina" Ll P pers ps1 sg ad @ADVL #10->9
+"<nii>"
+	"nii" L0 D @ADVL #11->12
+"<nukker>"
+	"nukker" L0 A pos sg nom @AN> #12->13
+"<pilk>"
+	"pilk" L0 S com sg nom @SUBJ #13->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<ja>"
+	"ja" L0 J crd CLB @J #15->20
+"<mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #16->20
+"<mu>"
+	"mina" L0 P pers ps1 sg gen @NN> #17->18
+"<hinge>"
+	"hing" L0 S com sg part @OBJ #18->20
+"<küll>"
+	"küll" L0 D @ADVL #19->20
+"<vaevab>"
+	"vaeva" Lb V main indic pres ps3 sg ps af @FMV #20->2
+"<?>"
+	"?" Z Int #21->21
+"</s>"
+
+"<s>"
+
+"<Vastasin>"
+	"vasta" Lsin V main indic impf ps1 sg ps af @FMV #1->0
+"<,>"
+	"," Z Com CLB #2->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #3->3
+"<et>"
+	"et" L0 J sub @J #4->5
+"<pole>"
+	"ole" L0 V main indic pres ps neg @FMV #5->1
+"<mul>"
+	"mina" Ll P pers ps1 sg ad @ADVL #6->5
+"<mingit>"
+	"mingi" Lt P indef sg part @NN> #7->8
+"<muret>"
+	"mure" Lt S com sg part @SUBJ #8->5
+"<,>"
+	"," Z Com CLB #9->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #11->12
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #12->1
+"<hästi>"
+	"hästi" L0 D @ADVL #13->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<(>"
+	"(" Z Opr CLB #15->15
+"<ja>"
+	"ja" L0 J crd @J #16->18
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #17->18
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #18->1
+"<tõsi>"
+	"tõsi" L0 S com sg nom @PRD #19->18
+"<,>"
+	"," Z Com CLB #20->20
+"<kindel_piir/>"
+	"####" L0 Z CLB #21->21
+"<mul>"
+	"mina" Ll P pers ps1 sg ad @ADVL #22->23
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #23->1
+"<elus>"
+	"elu" Ls S com sg in @ADVL #24->23
+"<praegu>"
+	"praegu" L0 D @ADVL #25->23
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #26->23
+"<kenasti>"
+	"kenasti" L0 D @ADVL #27->23
+"<kindel_piir/>"
+	"####" L0 Z CLB #28->28
+"<ja>"
+	"ja" L0 J crd @J #29->31
+"<hinges>"
+	"hing" Ls S com sg in @ADVL #30->31
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #31->23
+"<rahu>"
+	"rahu" L0 S com sg nom @SUBJ #32->31
+"<,>"
+	"," Z Com CLB #33->33
+"<kindel_piir/>"
+	"####" L0 Z CLB #34->34
+"<kõik>"
+	"kõik" L0 P det pl nom @NN> #35->37
+"<suuremad>"
+	"suurem" Ld A comp pl nom @AN> #36->37
+"<mured>"
+	"mure" Ld S com pl nom @SUBJ #37->38
+"<on>"
+	"ole" L0 V main indic pres ps3 pl ps af @FMV #38->1
+"<selja>"
+	"selg" L0 S com sg gen @P> #39->40
+"<taga>"
+	"taga" L0 K post @ADVL #40->38
+"<)>"
+	")" Z Cpr CLB #41->41
+"<.>"
+	"." Z Fst #42->42
+"</s>"
+
+"<s>"
+
+"<Ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #1->2
+"<mõtles>"
+	"mõtle" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<natuke>"
+	"natuke" L0 D @ADVL #3->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<ja>"
+	"ja" L0 J crd CLB @J #5->7
+"<siis>"
+	"siis" L0 D @ADVL #6->7
+"<teatas>"
+	"teata" Ls V main indic impf ps3 sg ps af @FMV #7->2
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<et>"
+	"et" L0 J sub @J #10->12
+"<praegu>"
+	"praegu" L0 D @ADVL #11->12
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #12->7
+"<jah>"
+	"jah" L0 B @B #13->12
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #14->12
+"<hästi>"
+	"hästi" L0 D @ADVL #15->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #16->16
+"<aga>"
+	"aga" L0 J crd CLB @J #17->23
+"<et>"
+	"et" L0 J sub @J #18->23
+"<umbes>"
+	"umbes" L0 D @DN> #19->20
+"<5-6>"
+	"5-6" L0 N card ? digit @ADVL #20->22
+"<aasta>"
+	"aasta" L0 S com sg gen @<Q #21->20
+"<pärast>"
+	"pärast" L0 K post @ADVL #22->23
+"<juhtub>"
+	"juhtu" Lb V main indic pres ps3 sg ps af @FMV #23->12
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #24->25
+"<elus>"
+	"elu" Ls S com sg in @ADVL #25->23
+"<midagi>"
+	"miski" Ldagi P indef sg part @SUBJ #26->23
+"<.>"
+	"." Z Fst #27->27
+"</s>"
+
+"<s>"
+
+"<Et>"
+	"et" L0 J sub @J #1->4
+"<ärgu>"
+	"ära" Lgu V aux imper pres ps3 pl ps neg @FCV #2->4
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #3->4
+"<solvugu>"
+	"solvu" Lgu V main imper pres sg ps af @FMV #4->0
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<aga>"
+	"aga" L0 J crd @J #6->8
+"<nii>"
+	"nii" L0 D @ADVL #7->8
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #8->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<ja>"
+	"ja" L0 J crd @J #10->13
+"<küll>"
+	"küll" L0 D @ADVL #11->13
+"<siis>"
+	"siis" L0 D @ADVL #12->13
+"<saab>"
+	"saa" Lb V main indic pres ps3 sg ps af @FMV #13->4
+"<jälle>"
+	"jälle" L0 D @ADVL #14->13
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #15->13
+"<korda>"
+	"kord" L0 S com sg ill @ADVL #16->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #17->17
+"<ja>"
+	"ja" L0 J crd @J #18->20
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #19->20
+"<saan>"
+	"saa" Ln V main indic pres ps1 sg ps af @FMV #20->4
+"<hakkama>"
+	"hakka" Lma V main sup ps ill @ADVL #21->20
+"<.>"
+	"." Z Fst #22->22
+"</s>"
+
+"<s>"
+
+"<Ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #1->2
+"<naeratasin>"
+	"naerata" Lsin V main indic impf ps1 sg ps af @FMV #2->0
+"<,>"
+	"," Z Com CLB #3->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<tänasin>"
+	"täna" Lsin V main indic impf ps1 sg ps af @FMV #5->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<ja>"
+	"ja" L0 J crd CLB @J #7->8
+"<väljusin>"
+	"välju" Lsin V main indic impf ps1 sg ps af @FMV #8->5
+"<bussist>"
+	"buss" Lst S com sg el @ADVL #9->8
+"<.>"
+	"." Z Fst #10->10
+"</s>"
+
+"<s>"
+
+"<Tuju>"
+	"tuju" L0 S com sg nom @SUBJ #1->2
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #2->0
+"<hea>"
+	"hea" L0 A pos sg nom @PRD #3->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<aga>"
+	"aga" L0 J crd @J #5->7
+"<natuke>"
+	"natuke" L0 D @ADVL #6->7
+"<kripeldama>"
+	"kripelda" Lma V main sup ps ill @IMV #7->2
+"<jäi>"
+	"jää" Li V main indic impf ps3 sg ps af @FMV #8->7
+"<ikka>"
+	"ikka" L0 D @ADVL #9->7
+"<see>"
+	"see" L0 P dem sg nom @NN> #10->11
+"<lugu>"
+	"lugu" L0 S com sg nom @SUBJ #11->7
+"<nüüd>"
+	"nüüd" L0 D @ADVL #12->7
+"<.>"
+	"." Z Fst #13->13
+"</s>"
+
+"<s>"
+
+"<Kas>"
+	"kas" L0 D @ADVL #1->12
+"<inimesed>"
+	"inimene" Ld S com pl nom @SUBJ #2->12
+"<kiil>"
+	"####" L0 Z CLB #3->3
+"<,>"
+	"," Z Com CLB CLO #4->4
+"<kellel>"
+	"kes" Ll P inter rel sg ad @ADVL #5->6
+"<on>"
+	"ole" L0 V main indic pres ps3 pl ps af @FMV #6->2
+"<sellised>"
+	"selline" Ld P dem pl nom @NN> #7->8
+"<ettenägemisvõimed>"
+	"ette_nägemis_võime" Ld S com pl nom @SUBJ #8->6
+"<,>"
+	"," Z Com CLB CLC #9->9
+"</kiil>"
+	"####" L0 Z CLB #10->10
+"<üldjuhul>"
+	"üld_juht" Ll S com sg ad @ADVL #11->12
+"<pakuvad>"
+	"pakku" Lvad V main indic pres ps3 pl ps af @FMV #12->0
+"<sellist>"
+	"selline" Lt P dem sg part @NN> #13->14
+"<informatsiooni>"
+	"informatsioon" L0 S com sg part @OBJ #14->12
+"<võhivõõrale>"
+	"võhi_võõras" Lle S com sg all @ADVL #15->12
+"<tänaval>"
+	"tänav" Ll S com sg ad @ADVL #16->12
+"<,>"
+	"," Z Com #17->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<ja>"
+	"ja" L0 J crd @J #19->24
+"<veel>"
+	"veel" L0 D @ADVL #20->24
+"<juhul>"
+	"juht" Ll S com sg ad @ADVL #21->24
+"<kui>"
+	"kui" L0 J sub @J #22->24
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #23->24
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #24->12
+"<selline>"
+	"selline" L0 P dem sg nom @NN> #25->28
+"<negatiivse>"
+	"negatiivne" L0 A pos sg gen @AN> #26->27
+"<alatooniga>"
+	"ala_toon" Lga S com sg kom @NN> #27->28
+"<informatsioon>"
+	"informatsioon" L0 S com sg nom @PRD #28->24
+"<?>"
+	"?" Z Int #29->29
+"</s>"
+
+"<s>"
+
+"<Mis>"
+	"mis" L0 P inter rel sg nom @OBJ #1->3
+"<Teie>"
+	"sina" L0 P pers ps2 pl nom @SUBJ #2->3
+"<arvate>"
+	"arva" Lte V main indic pres ps2 pl ps af @FMV #3->0
+"<?>"
+	"?" Z Int #4->4
+"</s>"
+
+"<s>"
+
+"<Kas>"
+	"kas" L0 D @ADVL #1->4
+"<kellelgi>"
+	"keegi" Llgi P indef sg ad @ADVL #2->4
+"<on>"
+	"ole" L0 V aux indic pres ps3 sg ps af @FCV #3->4
+"<olnud>"
+	"ole" Lnud V main partic past ps @IMV #4->0
+"<veel>"
+	"veel" L0 D @ADVL #5->4
+"<sarnast>"
+	"sarnane" Lt A pos sg part @AN> #6->7
+"<kogemust>"
+	"kogemus" Lt S com sg part @SUBJ #7->4
+"<?>"
+	"?" Z Int #8->8
+"</s>"
+
+"<s>"
+
+"<Aitähh>"
+	"aitäh" L0 B @B #1->0
+"<,>"
+	"," Z Com CLB CLB #2->2
+"<aitähh>"
+	"aitäh" L0 B @B #3->1
+"<,>"
+	"," Z Com CLB CLB #4->4
+"<aitähh>"
+	"aitäh" L0 B @B #5->3
+"<!>"
+	"!" Z Exc #6->6
+"</s>"
+
+"<s>"
+
+"<Mina>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #1->2
+"<arvan>"
+	"arva" Ln V main indic pres ps1 sg ps af @FMV #2->0
+"<,>"
+	"," Z Com CLB #3->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<et>"
+	"et" L0 J sub @J #5->8
+"<muretseda>"
+	"muretse" Lda V main inf @SUBJ #6->8
+"<ei>"
+	"ei" L0 V aux neg @NEG #7->8
+"<ole>"
+	"ole" L0 V main indic pres ps neg @FMV #8->2
+"<küll>"
+	"küll" L0 D @ADVL #9->8
+"<mõtet>"
+	"mõte" Lt S com sg part @PRD #10->8
+"<,>"
+	"," Z Com CLB #11->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<sellega>"
+	"see" Lga P dem sg kom @ADVL #13->14
+"<tõmbad>"
+	"tõmba" Ld V main indic pres ps2 sg ps af @FMV #14->2
+"<ainult>"
+	"ainult" L0 D @ADVL #15->16
+"<negatiivset>"
+	"negatiivne" Lt A pos sg part @OBJ #16->14
+"<ligi>"
+	"ligi" L0 D @Vpart #17->14
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+
+"<s>"
+
+"<Pealegi>"
+	"pealegi" L0 D @ADVL #1->5
+"<,>"
+	"," Z Com CLB #2->2
+"<mis>"
+	"mis" L0 P inter rel sg nom @NN> #3->4
+"<mõtet>"
+	"mõte" Lt S com sg part @PRD #4->5
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #5->0
+"<teisele>"
+	"teine" Lle P dem sg all @ADVL #6->9
+"<niimoodi>"
+	"nii_moodi" L0 D @ADVL #7->9
+"<ette>"
+	"ette" L0 D @Vpart #8->9
+"<ennustada>"
+	"ennusta" Lda V main inf @SUBJ #9->5
+"<,>"
+	"," Z Com #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<seda>"
+	"see" Lda P dem sg part @OBJ #12->14
+"<veel>"
+	"veel" L0 D @ADVL #13->14
+"<palumata>"
+	"palu" Lmata V main sup ps abes @ADVL #14->5
+"<.>"
+	"." Z Fst #15->15
+"</s>"
+
+"<s>"
+
+"<Me>"
+	"mina" L0 P pers ps1 pl nom @SUBJ #1->3
+"<kõik>"
+	"kõik" L0 P det pl nom @<NN #2->1
+"<loome>"
+	"loo" Lme V main indic pres ps1 pl ps af @FMV #3->0
+"<ise>"
+	"ise" L0 D @ADVL #4->3
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #5->6
+"<elu>"
+	"elu" L0 S com sg gen @OBJ #6->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<ja>"
+	"ja" L0 J crd @J #8->9
+"<seda>"
+	"see" Lda P dem sg part @SUBJ #9->3
+"<iga>"
+	"iga" L0 P det sg nom @NN> #10->11
+"<päev>"
+	"päev" L0 S com sg nom @ADVL #11->9
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Iga>"
+	"iga" L0 P det sg nom @NN> #1->2
+"<päev>"
+	"päev" L0 S com sg nom @SUBJ #2->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+"<võimalus>"
+	"võimalus" L0 S com sg nom @PRD #4->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<ja>"
+	"ja" L0 J crd @J #6->9
+"<iga>"
+	"iga" L0 P det sg nom @NN> #7->8
+"<päev>"
+	"päev" L0 S com sg nom @SUBJ #8->9
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #9->3
+"<uutmoodi>"
+	"uut_moodi" L0 D @DN> #10->11
+"<ime>"
+	"ime" L0 S com sg nom @PRD #11->9
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Huvitav>"
+	"huvitav" L0 A pos sg nom @AN> #1->2
+"<kogemus>"
+	"kogemus" L0 S com sg nom @SUBJ #2->0
+"<.>"
+	"." Z Fst #3->3
+"</s>"
+
+"<s>"
+
+"<Seda>"
+	"see" Lda P dem sg part @NN> #1->2
+"<lugu>"
+	"lugu" L0 S com sg part @OBJ #2->3
+"<lugedes>"
+	"luge" Ldes V main ger @ADVL #3->6
+"<esimeseks>"
+	"esimene" Lks N ord sg tr @AN> #4->5
+"<mõtteks>"
+	"mõte" Lks S com sg tr @ADVL #5->6
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #6->0
+"<mustlased>"
+	"mustlane" Ld S com pl nom @SUBJ #7->6
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Õige>"
+	"õige" L0 A pos sg nom @AN> #1->2
+"<sensitiiv>"
+	"sensitiiv" L0 S com sg nom @SUBJ #2->4
+"<ei>"
+	"ei" L0 V aux neg @NEG #3->4
+"<ütle>"
+	"ütle" L0 V main indic pres ps neg @FMV #4->0
+"<kunagi>"
+	"kunagi" L0 D @ADVL #5->4
+"<kliendile>"
+	"klient" Lle S com sg all @ADVL #6->4
+"<välja>"
+	"välja" L0 D @Vpart #7->4
+"<sündmusi>"
+	"sündmus" Li S com pl part @OBJ #8->4
+"<,>"
+	"," Z Com CLB #9->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<mis>"
+	"mis" L0 P inter rel pl nom @SUBJ #11->12
+"<on>"
+	"ole" L0 V main indic pres ps3 pl ps af @FMV #12->8
+"<negatiivsed>"
+	"negatiivne" Ld A pos pl nom @PRD #13->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<(>"
+	"(" Z Opr CLB #15->15
+"<veel>"
+	"veel" L0 D @ADVL #16->17
+"<vähem>"
+	"vähem" L0 D @ADVL #17->25
+"<,>"
+	"," Z Com CLB #18->18
+"<kui>"
+	"kui" L0 J sub @J #19->25
+"<klient>"
+	"klient" L0 S com sg nom @SUBJ #20->25
+"<ise>"
+	"ise" L0 P pos refl sg nom @<NN #21->20
+"<ei>"
+	"ei" L0 V aux neg @NEG #22->23
+"<ole>"
+	"ole" L0 V aux indic pres ps neg @FCV #23->25
+"<seda>"
+	"see" Lda P dem sg part @OBJ #24->25
+"<soovinud>"
+	"soovi" Lnud V main partic past ps @IMV #25->4
+"<)>"
+	")" Z Cpr CLB #26->26
+"<.>"
+	"." Z Fst #27->27
+"</s>"
+
+"<s>"
+
+"<Öeldes>"
+	"ütle" Ldes V main ger @ADVL #1->24
+"<välja>"
+	"välja" L0 D @Vpart #2->1
+"<sõnu>"
+	"sõna" Lu S com pl part @OBJ #3->1
+"<ebakindla>"
+	"eba_kindel" L0 A pos sg gen @AN> #4->5
+"<tuleviku>"
+	"tulevik" L0 S com sg gen @P> #5->6
+"<kohta>"
+	"kohta" L0 K post @<KN #6->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<(>"
+	"(" Z Opr CLB #8->8
+"<mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #9->10
+"<sõltub>"
+	"sõltu" Lb V main indic pres ps3 sg ps af @FMV #10->5
+"<väga>"
+	"väga" L0 D @ADVL #11->12
+"<palju>"
+	"palju" L0 D @ADVL #12->10
+"<meie>"
+	"mina" L0 P pers ps1 pl gen @NN> #13->15
+"<endi>"
+	"ise" L0 P pos refl pl gen @<NN #14->13
+"<otsustest>"
+	"otsus" Ltest S com pl el @ADVL #15->10
+"<jne>"
+	"jne" L0 Y adverbial @ADVL #16->10
+"<)>"
+	")" Z Cpr CLB #17->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<hakkab>"
+	"hakka" Lb V main indic pres ps3 sg ps af @FMV #19->24
+"<inimene>"
+	"inimene" L0 S com sg nom @SUBJ #20->24
+"<sellele>"
+	"see" Lle P dem sg all @ADVL #21->24
+"<aina>"
+	"aina" L0 D @ADVL #22->23
+"<rohkem>"
+	"rohkem" L0 D @ADVL #23->24
+"<mõtlema>"
+	"mõtle" Lma V main sup ps ill @IMV #24->0
+"<ja>"
+	"ja" L0 J crd @J #25->27
+"<ellu>"
+	"elu" L0 S com sg ill @ADVL #26->27
+"<kutsuma>"
+	"kutsu" Lma V main sup ps ill @IMV #27->24
+"<.>"
+	"." Z Fst #28->28
+"</s>"
+
+"<s>"
+
+"<Teadmatu>"
+	"teadmatu" L0 A pos sg gen @AN> #1->2
+"<käitumisega>"
+	"käitumine" Lga S com sg kom @ADVL #2->6
+"<seda>"
+	"see" Lda P dem sg part @OBJ #3->6
+"<enda>"
+	"ise" L0 P pos refl sg gen @NN> #4->5
+"<ellu>"
+	"elu" L0 S com sg ill @ADVL #5->6
+"<kutsuma>"
+	"kutsu" Lma V main sup ps ill @IMV #6->0
+"<tahtmatult>"
+	"tahtmatult" L0 D @ADVL #7->6
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Soovitan>"
+	"soovita" Ln V main indic pres ps1 sg ps af @FMV #1->0
+"<tühistada>"
+	"tühista" Lda V main inf @OBJ #2->1
+"<ettekuulutuse>"
+	"ette_kuulutus" L0 S com sg gen @NN> #3->4
+"<vastuvõtmise>"
+	"vastu_võtmine" L0 S com sg gen @OBJ #4->2
+"<.>"
+	"." Z Fst #5->5
+"</s>"
+
+"<s>"
+
+"<Nt>"
+	"nt" L0 Y nominal ? CLB @ADVL #1->4
+"<:>"
+	":" Z Col CLB #2->2
+"<Ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #3->4
+"<tühistan>"
+	"tühista" Ln V main indic pres ps1 sg ps af @FMV #4->0
+"<bussis>"
+	"buss" Ls S com sg in @ADVL #5->6
+"<kuuldud>"
+	"kuuldud" L0 A pos @NN> #6->18
+"<kiil>"
+	"####" L0 Z CLB #7->7
+"<(>"
+	"(" Z Opr CLB #8->8
+"<võid>"
+	"või" Ld V mod indic pres ps2 sg ps af @FCV #9->11
+"<kuupäeva>"
+	"kuu_päev" L0 S com sg gen @OBJ #10->11
+"<lisada>"
+	"lisa" Lda V main inf @IMV #11->4
+"<,>"
+	"," Z Com CLB #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<kui>"
+	"kui" L0 J sub @J #14->15
+"<soovid>"
+	"soovi" Ld V main indic pres ps2 sg ps af @FMV #15->11
+"<)>"
+	")" Z Cpr CLB #16->16
+"</kiil>"
+	"####" L0 Z CLB #17->17
+"<ennustust>"
+	"ennustus" Lt S com sg part @OBJ #18->4
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #19->20
+"<elu>"
+	"elu" L0 S com sg gen @P> #20->21
+"<kohta>"
+	"kohta" L0 K post @<KN #21->18
+"<5-6>"
+	"5-6" L0 N card ? digit @P> #22->24
+"<a>"
+	"a" L0 Y nominal ? @<Q #23->22
+"<pärast>"
+	"pärast" L0 K post @<KN #24->20
+"<,>"
+	"," Z Com #25->25
+"<kindel_piir/>"
+	"####" L0 Z CLB #26->26
+"<mil>"
+	"mil" L0 D @ADVL #27->31
+"<peaks>"
+	"pida" Lks V mod cond pres ps af @FCV #28->31
+"<midagi>"
+	"miski" Ldagi P indef sg part @SUBJ #29->31
+"<negatiivset>"
+	"negatiivne" Lt A pos sg part @<AN #30->29
+"<juhtuma>"
+	"juhtu" Lma V main sup ps ill @IMV #31->4
+"<.>"
+	"." Z Fst #32->32
+"</s>"
+
+"<s>"
+
+"<Täitan>"
+	"täit" Ln V main indic pres ps1 sg ps af @FMV #1->0
+"<selle>"
+	"see" L0 P dem sg gen @NN> #2->3
+"<olukorra>"
+	"olu_kord" L0 S com sg gen @OBJ #3->1
+"<armastuse>"
+	"armastus" L0 S com sg gen @ADVL #4->1
+"<ja>"
+	"ja" L0 J crd @J #5->6
+"<valgusega>"
+	"valgus" Lga S com sg kom @ADVL #6->4
+"<.>"
+	"." Z Fst #7->7
+"</s>"
+
+"<s>"
+
+"<Aitäh>"
+	"aitäh" L0 B @B #1->0
+"<.>"
+	"." Z Fst #2->2
+"</s>"
+
+"<s>"
+
+"<Võid>"
+	"või" Ld V mod indic pres ps2 sg ps af @FCV #1->4
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #2->3
+"<sõnadega>"
+	"sõna" Ldega S com pl kom @ADVL #3->4
+"<täiendada>"
+	"täienda" Lda V main inf @IMV #4->0
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<öelda>"
+	"ütle" Lda V main inf @IMV #6->4
+"<,>"
+	"," Z Com CLB #7->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<kuidas>"
+	"kuidas" L0 D @ADVL #9->11
+"<mugavam>"
+	"mugavam" L0 A comp sg nom @PRD #10->11
+"<tundub>"
+	"tundu" Lb V main indic pres ps3 sg ps af @FMV #11->4
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Täida>"
+	"täit" L0 V main imper pres ps2 sg ps af @FMV #1->0
+"<see>"
+	"see" L0 P dem sg nom @NN> #2->3
+"<olukord>"
+	"olu_kord" L0 S com sg nom @OBJ #3->1
+"<alati>"
+	"alati" L0 D @ADVL #4->1
+"<armastuse>"
+	"armastus" L0 S com sg gen @ADVL #5->1
+"<ja>"
+	"ja" L0 J crd @J #6->7
+"<valgusega>"
+	"valgus" Lga S com sg kom @ADVL #7->5
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Ehk>"
+	"ehk" L0 D @ADVL #1->2
+"<aitab>"
+	"aita" Lb V main indic pres ps3 sg ps af @FMV #2->0
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #3->2
+"<päeva>"
+	"päev" L0 S com sg gen @OBJ #4->5
+"<unustada>"
+	"unusta" Lda V main inf @OBJ #5->2
+"<ja>"
+	"ja" L0 J crd @J #6->11
+"<emotsionaalselt>"
+	"emotsionaalselt" L0 D @ADVL #7->11
+"<selle>"
+	"see" L0 P dem sg gen @P> #8->9
+"<külge>"
+	"külge" L0 K post @ADVL #9->11
+"<mitte>"
+	"mitte" L0 D @ADVL #10->11
+"<jääda>"
+	"jää" Lda V main inf @OBJ #11->5
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Nõustun>"
+	"nõustu" Ln V main indic pres ps1 sg ps af @FMV #1->0
+"<Päikesekiirega>"
+	"Päikese_kiir" Lga S prop sg kom @ADVL #2->1
+"<.>"
+	"." Z Fst #3->3
+"</s>"
+
+"<s>"
+
+"<Teatud>"
+	"teatud" L0 A pos @AN> #1->3
+"<">"
+	""" Z Quo CLO #2->2
+"<ennustajad>"
+	"ennustaja" Ld S com pl nom @SUBJ #3->7
+"<">"
+	""" Z Quo CLC #4->4
+"<mitte>"
+	"mitte" L0 D @ADVL #5->7
+"<ei>"
+	"ei" L0 V aux neg @NEG #6->7
+"<ennusta>"
+	"ennusta" L0 V main indic pres ps neg @FMV #7->0
+"<tulevikku>"
+	"tulevik" L0 S com sg part @OBJ #8->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<vaid>"
+	"vaid" L0 J crd CLB @J #10->11
+"<loovad>"
+	"loo" Lvad V main indic pres ps3 pl ps af @FMV #11->7
+"<selle>"
+	"see" L0 P dem sg gen @OBJ #12->11
+"<Sinu>"
+	"sina" L0 P pers ps2 sg gen @NN> #13->15
+"<enda>"
+	"ise" L0 P pos refl sg gen @<NN #14->13
+"<mõtete>"
+	"mõte" Lte S com pl gen @NN> #15->16
+"<abiga>"
+	"abi" Lga S com sg kom @ADVL #16->11
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Seega>"
+	"seega" L0 D @ADVL #1->3
+"<kui>"
+	"kui" L0 J sub @J #2->3
+"<mõtled>"
+	"mõtle" Ld V main indic pres ps2 sg ps af @FMV #3->15
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<ja>"
+	"ja" L0 J crd CLB @J #5->6
+"<usud>"
+	"usku" Ld V main indic pres ps2 sg ps af @FMV #6->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<et>"
+	"et" L0 J sub @J #8->9
+"<tuleb>"
+	"tule" Lb V main indic pres ps3 sg ps af @FMV #9->6
+"<kurb>"
+	"kurb" L0 A pos sg nom @AN> #10->11
+"<tulevik>"
+	"tulevik" L0 S com sg nom @SUBJ #11->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<siis>"
+	"siis" L0 J sub @J #13->15
+"<nii>"
+	"nii" L0 D @ADVL #14->15
+"<lähebki>"
+	"mine" Lbki V main indic pres ps3 sg ps af @FMV #15->0
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Vastukaaluks>"
+	"vastu_kaal" Lks S com sg tr @ADVL #1->2
+"<mõtle>"
+	"mõtle" L0 V main imper pres ps2 sg ps af @FMV #2->0
+"<positiivne>"
+	"positiivne" L0 A pos sg nom @AN> #3->4
+"<tulevik>"
+	"tulevik" L0 S com sg nom @OBJ #4->2
+"<välja>"
+	"välja" L0 D @Vpart #5->2
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<Kindlasti>"
+	"kindlasti" L0 D @ADVL #1->3
+"<ei>"
+	"ei" L0 V aux neg @NEG #2->3
+"<tasu>"
+	"tasu" L0 V main indic pres ps neg @FMV #3->0
+"<võõrast>"
+	"võõras" Lt A pos sg part @AN> #4->5
+"<inimest>"
+	"inimene" Lt S com sg part @OBJ #5->6
+"<uskuma>"
+	"usku" Lma V main sup ps ill @ADVL #6->7
+"<hakata>"
+	"hakka" Lta V main inf @SUBJ #7->3
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Paljudel>"
+	"palju" Ldel P indef pl ad @NN> #1->2
+"<juhtudel>"
+	"juht" Ldel S com pl ad @ADVL #2->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #4->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #5->3
+"<lihtsalt>"
+	"lihtsalt" L0 D @ADVL #6->5
+"<psüholoogiline>"
+	"psühholoogi=line" L0 A pos sg nom @AN> #7->8
+"<mõjutamine>"
+	"mõjutamine" L0 S com sg nom @PRD #8->5
+"<.>"
+	"." Z Fst #9->9
+"</s>"
+
+"<s>"
+
+"<Antud>"
+	"antud" L0 A pos @AN> #1->2
+"<juhul>"
+	"juht" Ll S com sg ad @ADVL #2->5
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #3->5
+"<ei>"
+	"ei" L0 V aux neg @NEG #4->5
+"<usu>"
+	"usku" L0 V main indic pres ps neg @FMV #5->0
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<et>"
+	"et" L0 J sub @J #7->9
+"<tegu>"
+	"tegu" L0 S com sg part @SUBJ #8->9
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #9->5
+"<kurja>"
+	"kuri" L0 A pos sg gen @AN> #10->11
+"<ennustajaga>"
+	"ennustaja" Lga S com sg kom @ADVL #11->9
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<kuna>"
+	"kuna" L0 J sub @J #13->14
+"<kirjeldad>"
+	"kirjelda" Ld V main indic pres ps2 sg ps af @FMV #14->5
+"<teda>"
+	"tema" Lda P pers ps3 sg part @OBJ #15->14
+"<kui>"
+	"kui" L0 J sub @J #16->17
+"<rõõmsameelset>"
+	"rõõmsa_meelne" Lt A pos sg part @ADVL #17->14
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<ja>"
+	"ja" L0 J crd CLB @J #19->21
+"<lõpus>"
+	"lõpp" Ls S com sg in @ADVL #20->21
+"<soovis>"
+	"soovi" Ls V main indic impf ps3 sg ps af @FMV #21->14
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #22->21
+"<Sinule>"
+	"sina" Lle P pers ps2 sg all @ADVL #23->21
+"<siiski>"
+	"siiski" L0 D @ADVL #24->21
+"<head>"
+	"hea" Ld S com sg part @OBJ #25->21
+"<.>"
+	"." Z Fst #26->26
+"</s>"
+
+"<s>"
+
+"<Ehk>"
+	"ehk" L0 D @ADVL #1->2
+"<üritas>"
+	"ürita" Ls V main indic impf ps3 sg ps af @FMV #2->0
+"<lihtsalt>"
+	"lihtsalt" L0 D @ADVL #3->2
+"<nõu>"
+	"nõu" L0 S com sg part @OBJ #4->5
+"<anda>"
+	"and" La V main inf @OBJ #5->2
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<Pealetükkivus>"
+	"peale_tükki=vus" L0 S com sg nom @SUBJ #1->4
+"<muidugi>"
+	"muidugi" L0 D @ADVL #2->4
+"<ei>"
+	"ei" L0 V aux neg @NEG #3->4
+"<oleks>"
+	"ole" Lks V main cond pres ps af @FMV #4->0
+"<hea>"
+	"hea" L0 A pos sg nom @PRD #5->4
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<Ja>"
+	"ja" L0 J crd @J #1->13
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #2->13
+"<kiil>"
+	"####" L0 Z CLB #3->3
+"<et>"
+	"et" L0 J sub @J #4->9
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #5->9
+"<">"
+	""" Z Quo CLO #6->6
+"<äraarvamismängu>"
+	"ära_arvamis_mäng" L0 S com sg part @OBJ #7->9
+"<">"
+	""" Z Quo CLC #8->8
+"<mängis>"
+	"mängi" Ls V main indic impf ps3 sg ps af @FMV #9->2
+"<algul>"
+	"algul" L0 D @ADVL #10->9
+"<,>"
+	"," Z Com CLB #11->11
+"</kiil>"
+	"####" L0 Z CLB #12->12
+"<näitab>"
+	"näita" Lb V main indic pres ps3 sg ps af @FMV #13->0
+"<pigem>"
+	"pigem" L0 D @ADVL #14->13
+"<tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #15->16
+"<võimete>"
+	"võime" Lte S com pl gen @NN> #16->17
+"<tagasihoidlikust>"
+	"tagasi_hoidlikkus" Lt S com sg part @OBJ #17->13
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+
+"<s>"
+
+"<Igal>"
+	"iga" Ll P det sg ad @NN> #1->2
+"<juhul>"
+	"juht" Ll S com sg ad @ADVL #2->3
+"<pööra>"
+	"pööra" L0 V main imper pres ps2 sg ps af @FMV #3->0
+"<tähelepanu>"
+	"tähele_panu" L0 S com sg part @OBJ #4->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<mis>"
+	"mis" L0 P inter rel sg nom @NN> #6->7
+"<tunde>"
+	"tunne" L0 S com sg gen @OBJ #7->10
+"<inimesed>"
+	"inimene" Ld S com pl nom @SUBJ #8->10
+"<Sinus>"
+	"sina" Ls P pers ps2 sg in @ADVL #9->10
+"<tekitavad>"
+	"tekita" Lvad V main indic pres ps3 pl ps af @FMV #10->3
+"<->"
+	"-" Z Dsh CLB #11->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<kui>"
+	"kui" L0 J sub @J #13->16
+"<esimene>"
+	"esimene" L0 N ord sg nom @AN> #14->15
+"<mulje>"
+	"mulje" L0 S com sg nom @SUBJ #15->16
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #16->20
+"<ebameeldiv>"
+	"eba_meeldiv" L0 A pos sg nom @PRD #17->16
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<siis>"
+	"siis" L0 J sub @J #19->20
+"<hoia>"
+	"hoid" L0 V main imper pres ps2 sg ps af @FMV #20->3
+"<eemale>"
+	"eemale" L0 D @ADVL #21->20
+"<kindel_piir/>"
+	"####" L0 Z CLB #22->22
+"<ja>"
+	"ja" L0 J crd CLB @J #23->24
+"<suhtu>"
+	"suhtu" L0 V main imper pres ps2 sg ps af @FMV #24->20
+"<skeptiliselt>"
+	"skeptiliselt" L0 D @ADVL #25->24
+"<.>"
+	"." Z Fst #26->26
+"</s>"
+
+"<s>"
+
+"<Endal>"
+	"ise" Ll P pos refl sg ad @ADVL #1->7
+"<on>"
+	"ole" L0 V aux indic pres ps3 sg ps af @FCV #2->7
+"<paaril>"
+	"paar" Ll N card sg ad @ADVL #3->7
+"<korral>"
+	"kord" Ll S com sg ad @<Q #4->3
+"<ka>"
+	"ka" L0 D @ADVL #5->7
+"<tänaval>"
+	"tänav" Ll S com sg ad @ADVL #6->7
+"<pakutud>"
+	"pakku" Ltud V main partic past imps @IMV #7->0
+"<ennustada>"
+	"ennusta" Lda V main inf @OBJ #8->7
+"<jms>"
+	"jms" L0 Y nominal ? @ADVL #9->8
+"<.>"
+	"." Z Fst #10->10
+"</s>"
+
+"<s>"
+
+"<Olen>"
+	"ole" Ln V aux indic pres ps1 sg ps af @FCV #1->2
+"<ignoreerinud>"
+	"ignoreeri" Lnud V main partic past ps @IMV #2->0
+"<täiesti>"
+	"täiesti" L0 D @ADVL #3->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<ja>"
+	"ja" L0 J crd @J #5->7
+"<edasi>"
+	"edasi" L0 D @Vpart #6->7
+"<kõndinud>"
+	"kõndi" Lnud V main partic past ps @IMV #7->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<kuna>"
+	"kuna" L0 J sub @J #9->10
+"<tajusin>"
+	"taju" Lsin V main indic impf ps1 sg ps af @FMV #10->7
+"<negatiivsust>"
+	"negatiivsus" Lt S com sg part @OBJ #11->10
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Mingi>"
+	"mingi" L0 P indef sg nom @NN> #1->2
+"<kontingent>"
+	"kontingent" L0 S com sg nom @SUBJ #2->4
+"<ennustajaid>"
+	"ennustaja" Lid S com pl part @<Q #3->2
+"<meelitab>"
+	"meelita" Lb V main indic pres ps3 sg ps af @FMV #4->0
+"<inimesi>"
+	"inimene" Li S com pl part @OBJ #5->4
+"<lihtsalt>"
+	"lihtsalt" L0 D @DN> #6->7
+"<uudishimuga>"
+	"uudis_himu" Lga S com sg kom @ADVL #7->4
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Et>"
+	"et" L0 J sub @J #1->4
+"<">"
+	""" Z Quo CLB CLO #2->2
+"<siin>"
+	"siin" L0 D @ADVL #3->4
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #4->0
+"<keegi>"
+	"keegi" L0 P indef sg nom @SUBJ #5->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<kes>"
+	"kes" L0 P inter rel sg nom @SUBJ #7->8
+"<teab>"
+	"tead" Lb V main indic pres ps3 sg ps af @FMV #8->5
+"<midagi>"
+	"miski" Ldagi P indef sg part @OBJ #9->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<mida>"
+	"mis" Lda P inter rel sg part @OBJ #11->14
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #12->14
+"<ei>"
+	"ei" L0 V aux neg @NEG #13->14
+"<tea>"
+	"tead" L0 V main indic pres ps neg @FMV #14->9
+"<,>"
+	"," Z Com #15->15
+"<kindel_piir/>"
+	"####" L0 Z CLB #16->16
+"<oi>"
+	"oi" L0 B #17->20
+"<kui>"
+	"kui" L0 D @ADVL #18->19
+"<suurepärane>"
+	"suure_pärane" L0 A pos sg nom @AN> #19->20
+"<võimalus>"
+	"võimalus" L0 S com sg nom @SUBJ #20->4
+"<">"
+	""" Z Quo CLC #21->21
+"<,>"
+	"," Z Com #22->22
+"<kindel_piir/>"
+	"####" L0 Z CLB #23->23
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #24->25
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #25->4
+"<kõik>"
+	"kõik" L0 P det sg nom @ADVL #26->25
+"<jama>"
+	"jama" L0 S com sg nom @PRD #27->25
+"<.>"
+	"." Z Fst #28->28
+"</s>"
+
+"<s>"
+
+"<Järgmine>"
+	"järgmine" L0 A pos sg nom @AN> #1->2
+"<samm>"
+	"samm" L0 S com sg nom @PRD #2->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+"<psüholooginine>"
+	"psühholoogi=line" L0 A pos sg nom @AN> #4->5
+"<mõjutamine>"
+	"mõjutamine" L0 S com sg nom @SUBJ #5->3
+"<ja>"
+	"ja" L0 J crd @J #6->9
+"<mõtete>"
+	"mõte" Lte S com pl gen @NN> #7->9
+"<pähe>"
+	"pea" L0 S com sg ill @NN> #8->9
+"<panemine>"
+	"panemine" L0 S com sg nom @SUBJ #9->5
+"<.>"
+	"." Z Fst #10->10
+"</s>"
+
+"<s>"
+
+"<Ela>"
+	"ela" L0 V main imper pres ps2 sg ps af @FMV #1->0
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #2->3
+"<elu>"
+	"elu" L0 S com sg part @OBJ #3->1
+"<silmad>"
+	"silm" Ld S com pl nom @SUBJ #4->1
+"<lahti>"
+	"lahti" L0 D @ADVL #5->4
+"<!>"
+	"!" Z Exc #6->6
+"</s>"
+
+"<s>"
+
+"<Mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #1->2
+"<puutub>"
+	"puutu" Lb V main indic pres ps3 sg ps af @FMV #2->0
+"<eetikasse>"
+	"eetika" Lsse S com sg ill @ADVL #3->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<siis>"
+	"siis" L0 D @ADVL #5->8
+"<mis>"
+	"mis" L0 P inter rel sg nom @NN> #6->7
+"<asi>"
+	"asi" L0 S com sg nom @SUBJ #7->8
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #8->2
+"<eetika>"
+	"eetika" L0 S com sg nom @PRD #9->8
+"<->"
+	"-" Z Dsh #10->10
+"<käitumisreegel>"
+	"käitumis_reegel" L0 S com sg nom @PRD #11->8
+"<praeguses>"
+	"praegune" Ls A pos sg in @AN> #12->13
+"<ühiskonnas>"
+	"ühiskond" Ls S com sg in @ADVL #13->11
+"<.>"
+	"." Z Fst #14->14
+"</s>"
+
+"<s>"
+
+"<Miks>"
+	"miks" L0 D @ADVL #1->3
+"<ei>"
+	"ei" L0 V aux neg @NEG #2->3
+"<ole>"
+	"ole" L0 V main indic pres ps neg @FMV #3->0
+"<eetiline>"
+	"eetiline" L0 A pos sg nom @PRD #4->3
+"<välja>"
+	"välja" L0 D @Vpart #5->6
+"<öelda>"
+	"ütle" Lda V main inf @SUBJ #6->3
+"<tõde>"
+	"tõde" L0 S com sg part @OBJ #7->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<kui>"
+	"kui" L0 J sub @J #9->11
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #10->11
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #11->3
+"<ebamugav>"
+	"eba_mugav" L0 A pos sg nom @PRD #12->11
+"<ja>"
+	"ja" L0 J crd @J #13->15
+"<negatiivse>"
+	"negatiivne" L0 A pos sg gen @AN> #14->15
+"<alatooniga>"
+	"ala_toon" Lga S com sg kom @ADVL #15->12
+"<?>"
+	"?" Z Int #16->16
+"</s>"
+
+"<s>"
+
+"<Te>"
+	"sina" L0 P pers ps2 pl nom @SUBJ #1->2
+"<mõistate>"
+	"mõist" Lte V main indic pres ps2 pl ps af @FMV #2->0
+"<hukka>"
+	"hukka" L0 D @Vpart #3->2
+"<naisterahvast>"
+	"naiste_rahvas" Lt S com sg part @OBJ #4->2
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<keda>"
+	"kes" Lda P inter rel sg part @OBJ #6->10
+"<te>"
+	"sina" L0 P pers ps2 pl nom @SUBJ #7->10
+"<ise>"
+	"ise" L0 P pos refl pl nom @<NN #8->7
+"<ei>"
+	"ei" L0 V aux neg @NEG #9->10
+"<tunnegi>"
+	"tund" Lgi V main indic pres ps neg @FMV #10->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<ja>"
+	"ja" L0 J crd CLB @J #12->14
+"<ei>"
+	"ei" L0 V aux neg @NEG #13->14
+"<teagi>"
+	"tead" Lgi V main indic pres ps neg @FMV #14->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #15->15
+"<mis>"
+	"mis" L0 P inter rel pl nom @SUBJ #16->17
+"<olid>"
+	"ole" Lid V main indic impf ps3 pl ps af @FMV #17->14
+"<tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #18->19
+"<kavatsused>"
+	"kavatsus" Ld S com pl nom @PRD #19->17
+"<.>"
+	"." Z Fst #20->20
+"</s>"
+
+"<s>"
+
+"<See>"
+	"see" L0 P dem sg nom @SUBJ #1->2
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #2->0
+"<hoopis>"
+	"hoopis" L0 D @ADVL #3->2
+"<eetika>"
+	"eetika" L0 S com sg gen @ADVL #4->5
+"<vastane>"
+	"vastane" L0 A pos sg nom @PRD #5->2
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<See>"
+	"see" L0 P dem sg nom @SUBJ #1->3
+"<võis>"
+	"või" Ls V mod indic impf ps3 sg ps af @FCV #2->3
+"<olla>"
+	"ole" La V main inf @IMV #3->0
+"<hoiatus>"
+	"hoiatus" L0 S com sg nom @PRD #4->3
+"<,>"
+	"," Z Com CLB #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<võis>"
+	"või" Ls V mod indic impf ps3 sg ps af @FCV #7->8
+"<olla>"
+	"ole" La V main inf @IMV #8->3
+"<ka>"
+	"ka" L0 D @ADVL #9->8
+"<täiesti>"
+	"täiesti" L0 D @ADVL #10->11
+"<jama>"
+	"jama" L0 A pos sg nom @AN> #11->12
+"<jutt>"
+	"jutt" L0 S com sg nom @PRD #12->8
+"<mis>"
+	"mis" L0 P inter rel sg nom @ADVL #13->14
+"<iganes>"
+	"iganes" L0 D @ADVL #14->8
+"<.>"
+	"." Z Fst #15->15
+"</s>"
+
+"<s>"
+
+"<Tänan>"
+	"täna" Ln V main indic pres ps1 sg ps af @FMV #1->0
+"<,>"
+	"," Z Com #2->2
+"<Heakuulaja>"
+	"Hea_kuulaja" L0 S prop sg nom @SUBJ #3->1
+"<.>"
+	"." Z Fst #4->4
+"</s>"
+
+"<s>"
+
+"<Võibolla>"
+	"võib_olla" L0 D @ADVL #1->3
+"<tõesti>"
+	"tõesti" L0 D @ADVL #2->3
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #3->0
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #4->5
+"<arvamus>"
+	"arvamus" L0 S com sg nom @SUBJ #5->3
+"<vanast>"
+	"vana" Lst A pos sg el @AN> #6->7
+"<energiast>"
+	"energia" Lst S com sg el @<NN #7->5
+"<...>"
+	"..." Z #8->8
+"</s>"
+
+"<s>"
+
+"<Kuid>"
+	"kuid" L0 J crd @J #1->3
+"<mina>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #2->3
+"<näen>"
+	"näge" Ln V main indic pres ps1 sg ps af @FMV #3->0
+"<uut>"
+	"uus" Lt A pos sg part @AN> #4->5
+"<energiat>"
+	"energia" Lt S com sg part @OBJ #5->3
+"<niimoodi>"
+	"nii_moodi" L0 D @ADVL #6->3
+"<,>"
+	"," Z Com CLB #7->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<et>"
+	"et" L0 J sub @J #9->12
+"<näiteks>"
+	"näiteks" L0 D @ADVL #10->12
+"<naine>"
+	"naine" L0 S com sg nom @SUBJ #11->12
+"<nägi>"
+	"näge" Li V main indic impf ps3 sg ps af @FMV #12->3
+"<,>"
+	"," Z Com CLB #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<et>"
+	"et" L0 J sub @J #15->17
+"<inimesel>"
+	"inimene" Ll S com sg ad @ADVL #16->17
+"<juhtub>"
+	"juhtu" Lb V main indic pres ps3 sg ps af @FMV #17->12
+"<midagi>"
+	"miski" Ldagi P indef sg part @SUBJ #18->17
+"<5>"
+	"5" L0 N card ? digit @P> #19->21
+"<aasta>"
+	"aasta" L0 S com sg gen @<Q #20->19
+"<pärast>"
+	"pärast" L0 K post @ADVL #21->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #22->22
+"<ja>"
+	"ja" L0 J crd @J #23->25
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #24->25
+"<soovib>"
+	"soovi" Lb V main indic pres ps3 sg ps af @FMV #25->17
+"<,>"
+	"," Z Com CLB #26->26
+"<kindel_piir/>"
+	"####" L0 Z CLB #27->27
+"<et>"
+	"et" L0 J sub @J #28->30
+"<inimesel>"
+	"inimene" Ll S com sg ad @ADVL #29->30
+"<möödub>"
+	"möödu" Lb V main indic pres ps3 sg ps af @FMV #30->25
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #31->30
+"<kergemalt>"
+	"kergemalt" L0 D @ADVL #32->30
+"<.>"
+	"." Z Fst #33->33
+"</s>"
+
+"<s>"
+
+"<Siis>"
+	"siis" L0 D @ADVL #1->5
+"<see>"
+	"see" L0 P dem sg nom @NN> #2->3
+"<naine>"
+	"naine" L0 S com sg nom @SUBJ #3->5
+"<hakkaks>"
+	"hakka" Lks V main cond pres ps af @FMV #4->5
+"<rääkima>"
+	"rääki" Lma V main sup ps ill @IMV #5->0
+"<selle>"
+	"see" L0 P dem sg gen @NN> #6->7
+"<inimesega>"
+	"inimene" Lga S com sg kom @ADVL #7->5
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<räägiks>"
+	"rääki" Lks V main cond pres ps af @FMV #10->5
+"<elust>"
+	"elu" Lst S com sg el @ADVL #11->10
+"<ja>"
+	"ja" L0 J crd @J #12->13
+"<Universumist>"
+	"Universum" Lst S prop sg el @ADVL #13->11
+"<,>"
+	"," Z Com #14->14
+"<Kaitseinglitest>"
+	"Kaitse_ingel" Ltest S prop pl el @ADVL #15->13
+"<ja>"
+	"ja" L0 J crd @J #16->17
+"<eneseusaldusest>"
+	"enese_usaldus" Lst S com sg el @ADVL #17->15
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+
+"<s>"
+
+"<Ning>"
+	"ning" L0 J crd @J #1->3
+"<lõpuks>"
+	"lõpuks" L0 D @ADVL #2->3
+"<ütleks>"
+	"ütle" Lks V main cond pres ps af @FMV #3->0
+"<,>"
+	"," Z Com CLB #4->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<et>"
+	"et" L0 J sub CLB @J #6->13
+"<mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #7->13
+"<iganes>"
+	"iganes" L0 D @<DN #8->7
+"<ka>"
+	"ka" L0 D @ADVL #9->13
+"<sinu>"
+	"sina" L0 P pers ps2 sg gen @NN> #10->11
+"<elus>"
+	"elu" Ls S com sg in @ADVL #11->13
+"<ei>"
+	"ei" L0 V aux neg @NEG #12->13
+"<juhtuks>"
+	"juhtu" Lks V main cond pres ps af @FMV #13->16
+"<,>"
+	"," Z Com CLB #14->14
+"<kindel_piir/>"
+	"####" L0 Z CLB #15->15
+"<saad>"
+	"saa" Ld V main indic pres ps2 sg ps af @FMV #16->3
+"<sa>"
+	"sina" L0 P pers ps2 sg nom @SUBJ #17->16
+"<alati>"
+	"alati" L0 D @ADVL #18->16
+"<hakkama>"
+	"hakka" Lma V main sup ps ill @ADVL #19->16
+"<kindel_piir/>"
+	"####" L0 Z CLB #20->20
+"<ja>"
+	"ja" L0 J crd @J #21->23
+"<sa>"
+	"sina" L0 P pers ps2 sg nom @SUBJ #22->23
+"<oled>"
+	"ole" Ld V main indic pres ps2 sg ps af @FMV #23->16
+"<alati>"
+	"alati" L0 D @ADVL #24->23
+"<kaitstud>"
+	"kaitstud" L0 A pos @PRD #25->23
+"<.>"
+	"." Z Fst #26->26
+"</s>"
+
+"<s>"
+
+"<Aga>"
+	"aga" L0 J crd @J #1->2
+"<öelda>"
+	"ütle" Lda V main inf @IMV #2->0
+"<,>"
+	"," Z Com #3->3
+"<kindel_piir/>"
+	"####" L0 Z CLB #4->4
+"<et>"
+	"et" L0 J sub @J #5->9
+"<viie>"
+	"viis" L0 N card sg gen @P> #6->8
+"<aasta>"
+	"aasta" L0 S com sg gen @<Q #7->6
+"<pärast>"
+	"pärast" L0 K post @ADVL #8->9
+"<juhtub>"
+	"juhtu" Lb V main indic pres ps3 sg ps af @FMV #9->2
+"<midagi>"
+	"miski" Ldagi P indef sg part @SUBJ #10->9
+"<,>"
+	"," Z Com CLB #11->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<aga>"
+	"aga" L0 J crd @J #13->15
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #14->15
+"<saab>"
+	"saa" Lb V main indic pres ps3 sg ps af @FMV #15->2
+"<korda>"
+	"kord" L0 S com sg ill @ADVL #16->15
+"<...>"
+	"..." Z #17->17
+"</s>"
+
+"<s>"
+
+"<Järsku>"
+	"järsku" L0 D @ADVL #1->3
+"<inimene>"
+	"inimene" L0 S com sg nom @SUBJ #2->3
+"<muretseb>"
+	"muretse" Lb V main indic pres ps3 sg ps af @FMV #3->0
+"<viis>"
+	"viis" L0 N card sg nom @ADVL #4->3
+"<aastat>"
+	"aasta" Lt S com sg part @<Q #5->4
+"<,>"
+	"," Z Com CLB #6->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<et>"
+	"et" L0 J sub CLB @J #8->10
+"<mis>"
+	"mis" L0 P inter rel sg nom @SUBJ #9->10
+"<juhtuda>"
+	"juhtu" Lda V main inf @IMV #10->3
+"<võib>"
+	"või" Lb V mod indic pres ps3 sg ps af @FCV #11->10
+"<,>"
+	"," Z Com CLB #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #14->17
+"<jääb>"
+	"jää" Lb V main indic pres ps3 sg ps af @FMV #15->17
+"<teda>"
+	"tema" Lda P pers ps3 sg part @OBJ #16->17
+"<painama>"
+	"paina" Lma V main sup ps ill @IMV #17->3
+"<,>"
+	"," Z Com CLB #18->18
+"<kindel_piir/>"
+	"####" L0 Z CLB #19->19
+"<võtab>"
+	"võt" Lb V main indic pres ps3 sg ps af @FMV #20->3
+"<temalt>"
+	"tema" Llt P pers ps3 sg abl @ADVL #21->20
+"<elurõõmu>"
+	"elu_rõõm" L0 S com sg gen @OBJ #22->20
+"<.>"
+	"." Z Fst #23->23
+"</s>"
+
+"<s>"
+
+"<Ja>"
+	"ja" L0 J crd @J #1->3
+"<kui>"
+	"kui" L0 J sub @J #2->3
+"<häda>"
+	"häda" L0 S com sg nom @SUBJ #3->9
+"<käes>"
+	"käsi" Ls S com sg in @ADVL #4->3
+"<,>"
+	"," Z Com #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<siis>"
+	"siis" L0 J sub @J #7->9
+"<ei>"
+	"ei" L0 V aux neg @NEG #8->9
+"<ole>"
+	"ole" L0 V main indic pres ps neg @FMV #9->0
+"<seda>"
+	"see" Lda P dem sg part @NN> #10->11
+"<naist>"
+	"naine" Lt S com sg part @SUBJ #11->9
+"<,>"
+	"," Z Com CLB #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<kes>"
+	"kes" L0 P inter rel sg nom @SUBJ #14->17
+"<talle>"
+	"tema" Llle P pers ps3 sg all @ADVL #15->17
+"<nõu>"
+	"nõu" L0 S com sg part @OBJ #16->17
+"<annaks>"
+	"and" Lks V main cond pres ps af @FMV #17->11
+"<.>"
+	"." Z Fst #18->18
+"</s>"
+
+"<s>"
+
+"<Mures>"
+	"mure" Ls S com sg in @NN> #1->2
+"<inimesel>"
+	"inimene" Ll S com sg ad @ADVL #2->5
+"<võibolla>"
+	"võib_olla" L0 D @ADVL #3->5
+"<ei>"
+	"ei" L0 V aux neg @NEG #4->5
+"<ole>"
+	"ole" L0 V main indic pres ps neg @FMV #5->0
+"<meeles>"
+	"meel" Ls S com sg in @ADVL #6->5
+"<,>"
+	"," Z Com CLB #7->7
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<et>"
+	"et" L0 J sub @J #9->11
+"<ennustuses>"
+	"ennustus" Ls S com sg in @ADVL #10->11
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #11->5
+"<->"
+	"-" Z Dsh #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<">"
+	""" Z Quo CLB CLO #14->14
+"<ja>"
+	"ja" L0 J crd @J #15->17
+"<kõik>"
+	"kõik" L0 P det sg nom @SUBJ #16->17
+"<saab>"
+	"saa" Lb V main indic pres ps3 sg ps af @FMV #17->11
+"<korda>"
+	"kord" L0 S com sg ill @ADVL #18->17
+"<.>"
+	"." Z Fst #19->19
+"<">"
+	""" Z Quo CLB CLC #20->20
+"</s>"
+
+"<s>"
+
+"<Tooksin>"
+	"too" Lksin V main cond pres ps1 sg ps af @FMV #1->0
+"<siia>"
+	"siia" L0 D @ADVL #2->1
+"<eraldiseisva>"
+	"eraldi_seisev" L0 A pos sg gen @AN> #3->4
+"<näite>"
+	"näide" L0 S com sg gen @OBJ #4->1
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #5->6
+"<elust>"
+	"elu" Lst S com sg el @ADVL #6->1
+"<.>"
+	"." Z Fst #7->7
+"</s>"
+
+"<s>"
+
+"<Minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #1->2
+"<pere>"
+	"pere" L0 S com sg gen @NN> #2->4
+"<hea>"
+	"hea" L0 A pos sg nom @AN> #3->4
+"<sõber>"
+	"sõber" L0 S com sg nom @SUBJ #4->5
+"<sai>"
+	"saa" Li V main indic impf ps3 sg ps af @FMV #5->0
+"<kunagi>"
+	"kunagi" L0 D @ADVL #6->5
+"<ennustuse>"
+	"ennustus" L0 S com sg gen @OBJ #7->5
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<mille>"
+	"mis" L0 P inter rel sg gen @P> #10->11
+"<kohaselt>"
+	"kohaselt" L0 K post @ADVL #11->16
+"<pidi>"
+	"pida" Li V mod indic impf ps3 sg ps af @FCV #12->16
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #13->16
+"<30-aastaselt>"
+	"30_aastase=lt" L0 D @ADVL #14->16
+"<ära>"
+	"ära" L0 D @Vpart #15->16
+"<surema>"
+	"sure" Lma V main sup ps ill @IMV #16->7
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Ja>"
+	"ja" L0 J crd @J #1->4
+"<vaene>"
+	"vaene" L0 A pos sg nom @AN> #2->3
+"<noormees>"
+	"noor_mees" L0 S com sg nom @SUBJ #3->4
+"<elas>"
+	"ela" Ls V main indic impf ps3 sg ps af @FMV #4->0
+"<mitmeid>"
+	"mitu" Lid P indef pl part @NN> #5->6
+"<aastaid>"
+	"aasta" Lid S com pl part @ADVL #6->4
+"<hirmus>"
+	"hirm" Ls S com sg in @ADVL #7->4
+"<,>"
+	"," Z Com CLB #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<hakkas>"
+	"hakka" Ls V main indic impf ps3 sg ps af @FMV #10->11
+"<jooma>"
+	"joo" Lma V main sup ps ill @IMV #11->4
+"<,>"
+	"," Z Com CLB #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<proovis>"
+	"proovi" Ls V main indic impf ps3 sg ps af @FMV #14->4
+"<end>"
+	"ise" L0 P pos refl sg part @OBJ #15->18
+"<korduvalt>"
+	"korduvalt" L0 D @ADVL #16->18
+"<ära>"
+	"ära" L0 D @Vpart #17->18
+"<tappa>"
+	"tap" La V main inf @OBJ #18->14
+"<kindel_piir/>"
+	"####" L0 Z CLB #19->19
+"<(>"
+	"(" Z Opr CLB #20->20
+"<kuna>"
+	"kuna" L0 J sub @J #21->24
+"<tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #22->23
+"<hirmuks>"
+	"hirm" Lks S com sg tr @ADVL #23->24
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #24->4
+"<,>"
+	"," Z Com CLB #25->25
+"<kindel_piir/>"
+	"####" L0 Z CLB #26->26
+"<et>"
+	"et" L0 J sub @J #27->29
+"<teda>"
+	"tema" Lda P pers ps3 sg part @OBJ #28->29
+"<tapetakse>"
+	"tap" Ltakse V main indic pres imps af @FMV #29->24
+"<)>"
+	")" Z Cpr CLB #30->30
+"<.>"
+	"." Z Fst #31->31
+"</s>"
+
+"<s>"
+
+"<Sellega>"
+	"see" Lga P dem sg kom @ADVL #1->2
+"<pani>"
+	"pane" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #3->2
+"<raskesse>"
+	"raske" Lsse A pos sg ill @AN> #4->5
+"<olukorda>"
+	"olu_kord" L0 S com sg ill @ADVL #5->2
+"<kogu>"
+	"kogu" L0 A pos @AN> #6->8
+"<enda>"
+	"ise" L0 P pos refl sg gen @NN> #7->8
+"<pere>"
+	"pere" L0 S com sg gen @OBJ #8->2
+"<ja>"
+	"ja" L0 J crd @J #9->11
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #10->11
+"<sõbrad>"
+	"sõber" Ld S com pl nom @OBJ #11->8
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #1->2
+"<koduski>"
+	"kodu" Lski S com sg in @ADVL #2->3
+"<tahtis>"
+	"taht" Lis V main indic impf ps3 sg ps af @FMV #3->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #4->3
+"<enesetappu>"
+	"enese_tapp" L0 S com sg part @OBJ #5->6
+"<sooritada>"
+	"soorita" Lda V main inf @OBJ #6->3
+"<...>"
+	"..." Z #7->7
+"</s>"
+
+"<s>"
+
+"<Ja>"
+	"ja" L0 J crd CLB @J #1->8
+"<siis>"
+	"siis" L0 D @ADVL #2->8
+"<paar>"
+	"paar" L0 N card sg nom @ADVL #3->8
+"<päeva>"
+	"päev" L0 S com sg part @<Q #4->3
+"<enne>"
+	"enne" L0 K pre @<KN #5->4
+"<30.>"
+	"30." L0 N ord sg part ? digit @AN> #6->7
+"<sünnipäeva>"
+	"sünni_päev" L0 S com sg part @<P #7->5
+"<leiti>"
+	"leid" Lti V main indic impf imps af @FMV #8->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @OBJ #9->8
+"<maantee>"
+	"maan_tee" L0 S com sg gen @P> #10->11
+"<äärest>"
+	"äärest" L0 K post @ADVL #11->8
+"<surnuna>"
+	"surnud" Lna A pos sg es @ADVL #12->8
+"<.>"
+	"." Z Fst #13->13
+"</s>"
+
+"<s>"
+
+"<Oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #1->2
+"<tahtnud>"
+	"taht" Lnud V main partic past ps @IMV #2->0
+"<end>"
+	"ise" L0 P pos refl sg part @OBJ #3->5
+"<taas>"
+	"taas" L0 D @ADVL #4->5
+"<tappa>"
+	"tap" La V main inf @OBJ #5->2
+"<,>"
+	"," Z Com CLB #6->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<viimasel>"
+	"viimane" Ll A pos sg ad @AN> #8->9
+"<hetkel>"
+	"hetk" Ll S com sg ad @ADVL #9->10
+"<mõtles>"
+	"mõtle" Ls V main indic impf ps3 sg ps af @FMV #10->2
+"<veel>"
+	"veel" L0 D @ADVL #11->10
+"<ümber>"
+	"ümber" L0 D @Vpart #12->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<ja>"
+	"ja" L0 J crd CLB @J #14->15
+"<roomas>"
+	"rooma" Ls V main indic impf ps3 sg ps af @FMV #15->2
+"<maantee>"
+	"maan_tee" L0 S com sg gen @P> #16->17
+"<äärde>"
+	"äärde" L0 K post @ADVL #17->15
+"<,>"
+	"," Z Com #18->18
+"<kindel_piir/>"
+	"####" L0 Z CLB #19->19
+"<et>"
+	"et" L0 J sub @J #20->22
+"<abi>"
+	"abi" L0 S com sg part @OBJ #21->22
+"<saada>"
+	"saa" Lda V main inf @IMV #22->15
+"<,>"
+	"," Z Com #23->23
+"<kindel_piir/>"
+	"####" L0 Z CLB #24->24
+"<kuid>"
+	"kuid" L0 J crd @J #25->27
+"<juba>"
+	"juba" L0 D @ADVL #26->27
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #27->2
+"<hilja>"
+	"hilja" L0 D @ADVL #28->27
+"<.>"
+	"." Z Fst #29->29
+"</s>"
+
+"<s>"
+
+"<Jah>"
+	"jah" L0 D @ADVL #1->4
+"<,>"
+	"," Z Com #2->2
+"<ennustus>"
+	"ennustus" L0 S com sg nom @SUBJ #3->4
+"<läks>"
+	"mine" Ls V main indic impf ps3 sg ps af @FMV #4->0
+"<täide>"
+	"täis" Lde S com sg ill @ADVL #5->4
+"<.>"
+	"." Z Fst #6->6
+"</s>"
+
+"<s>"
+
+"<Aga>"
+	"aga" L0 J crd CLB @J #1->7
+"<kas>"
+	"kas" L0 D @ADVL #2->7
+"<see>"
+	"see" L0 P dem sg nom @SUBJ #3->7
+"<oleks>"
+	"ole" Lks V aux cond pres ps af @FCV #4->5
+"<pidanud>"
+	"pida" Lnud V mod partic past ps @FCV #5->7
+"<niimoodi>"
+	"nii_moodi" L0 D @ADVL #6->7
+"<minema>"
+	"mine" Lma V main sup ps ill @IMV #7->0
+"<?>"
+	"?" Z Int #8->8
+"<...>"
+	"..." Z #9->9
+"</s>"
+
+"<s>"
+
+"<Kallis>"
+	"kallis" L0 A pos sg nom @AN> #1->2
+"<Minni>"
+	"Minni" L0 S prop sg nom @SUBJ #2->4 üte??
+"<,>"
+	"," Z Com #3->3
+"<ela>"
+	"ela" L0 V main imper pres ps2 sg ps af @FMV #4->0
+"<rahus>"
+	"rahu" Ls S com sg in @ADVL #5->4
+"<ja>"
+	"ja" L0 J crd @J #6->7
+"<õnnes>"
+	"õnn" Ls S com sg in @ADVL #7->5
+"<.>"
+	"." Z Fst #8->8
+"</s>"
+
+"<s>"
+
+"<Sa>"
+	"sina" L0 P pers ps2 sg nom @SUBJ #1->2
+"<lood>"
+	"loo" Ld V main indic pres ps2 sg ps af @FMV #2->0
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #3->5
+"<iga>"
+	"iga" L0 P det sg gen @NN> #4->5
+"<päeva>"
+	"päev" L0 S com sg gen @OBJ #5->2
+"<ise>"
+	"ise" L0 D @ADVL #6->2
+"<ning>"
+	"ning" L0 J crd @J #7->9
+"<Universumiga>"
+	"Universum" Lga S prop sg kom @NN> #8->9
+"<kooskõlas>"
+	"koos_kõla" Ls S com sg in @ADVL #9->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #10->10
+"<ning>"
+	"ning" L0 J crd @J #11->14
+"<Sinu>"
+	"sina" L0 P pers ps2 sg gen @P> #12->13
+"<kõrval>"
+	"kõrval" L0 K post @ADVL #13->14
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #14->2
+"<palju>"
+	"palju" L0 D @SUBJ #15->14
+"<Kaitsjaid>"
+	"Kaitsja" Lid S prop pl part @<Q #16->15
+"<.>"
+	"." Z Fst #17->17
+"</s>"
+
+"<s>"
+
+"<Sisselogitud>"
+	"sisse_logi=tud" L0 A pos @ADVL #1->0
+"</s>"
+
+"<s>"
+
+"<Minul>"
+	"mina" Ll P pers ps1 sg ad @ADVL #1->2
+"<oli>"
+	"ole" Li V main indic impf ps3 sg ps af @FMV #2->0
+"<kogemus>"
+	"kogemus" L0 S com sg nom @SUBJ #3->2
+"<Teadjanaisega>"
+	"Teadja_naine" Lga S prop sg kom @ADVL #4->2
+"<mõne>"
+	"mõni" L0 P indef sg gen @P> #5->7
+"<aastakese>"
+	"aasta=ke" L0 S com sg gen @<Q #6->5
+"<eest>"
+	"eest" L0 K post @ADVL #7->2
+"<Koidu>"
+	"Koidu" L0 S prop sg gen @NN> #8->9
+"<bussipeatuses>"
+	"bussi_peatus" Ls S com sg in @ADVL #9->2
+"<,>"
+	"," Z Com CLB #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<kus>"
+	"kus" L0 D @ADVL #12->13
+"<ootasime>"
+	"oota" Lsime V main indic impf ps1 pl ps af @FMV #13->9
+"<perega>"
+	"pere" Lga S com sg kom @ADVL #14->13
+"<bussi>"
+	"buss" L0 S com sg part @OBJ #15->13
+"<.>"
+	"." Z Fst #16->16
+"</s>"
+
+"<s>"
+
+"<Ootasime>"
+	"oota" Lsime V main indic impf ps1 pl ps af @FMV #1->0
+"<ehk>"
+	"ehk" L0 D @ADVL #2->1
+"<viis>"
+	"viis" L0 N card sg nom @ADVL #3->1
+"<minutit>"
+	"minut" Lt S com sg part @<Q #4->3
+"<->"
+	"-" Z Dsh #5->5
+"<kindel_piir/>"
+	"####" L0 Z CLB #6->6
+"<meiega>"
+	"mina" Lga P pers ps1 pl kom @P> #7->8
+"<koos>"
+	"koos" L0 K @ADVL #8->9
+"<seisis>"
+	"seis" Lis V main indic impf ps3 sg ps af @FMV #9->1
+"<seal>"
+	"seal" L0 D @ADVL #10->9
+"<üks>"
+	"üks" L0 P dem indef sg nom @NN> #11->15
+"<täiesti>"
+	"täiesti" L0 D @ADVL #12->13
+"<tavaline>"
+	"tavaline" L0 A pos sg nom @AN> #13->15
+"<">"
+	""" Z Quo CLO #14->14
+"<eideke>"
+	"eideke" L0 S com sg nom @SUBJ #15->9
+"<">"
+	""" Z Quo CLC #16->16
+"<,>"
+	"," Z Com #17->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<kes>"
+	"kes" L0 P inter rel sg nom @SUBJ #19->23
+"<isegi>"
+	"isegi" L0 D @ADVL #20->21
+"<mitte>"
+	"mitte" L0 D @ADVL #21->23
+"<ei>"
+	"ei" L0 V aux neg @NEG #22->23
+"<jälginud>"
+	"jälgi" Lnud V main indic impf ps neg @FMV #23->15
+"<meid>"
+	"mina" Ld P pers ps1 pl part @OBJ #24->23
+"<,>"
+	"," Z Com CLB #25->25
+"<kindel_piir/>"
+	"####" L0 Z CLB #26->26
+"<vaid>"
+	"vaid" L0 J crd @J #27->28
+"<mõtles>"
+	"mõtle" Ls V main indic impf ps3 sg ps af @FMV #28->23
+"<oma>"
+	"oma" L0 P pos det refl sg gen @NN> #29->30
+"<mõtteid>"
+	"mõte" Lid S com pl part @OBJ #30->28
+"<.>"
+	"." Z Fst #31->31
+"</s>"
+
+"<s>"
+
+"<Tema>"
+	"tema" L0 P pers ps3 sg gen @NN> #1->2
+"<trolli>"
+	"troll" L0 S com sg gen @ADVL #2->3
+"<saabudes>"
+	"saabu" Ldes V main ger @ADVL #3->4
+"<pöördus>"
+	"pöördu" Ls V main indic impf ps3 sg ps af @FMV #4->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #5->4
+"<hetkeks>"
+	"hetk" Lks S com sg tr @ADVL #6->4
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @P> #7->8
+"<poole>"
+	"poole" L0 K post @ADVL #8->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<ja>"
+	"ja" L0 J crd CLB @J #10->11
+"<ütles>"
+	"ütle" Ls V main indic impf ps3 sg ps af @FMV #11->4
+"<mulle>"
+	"mina" Llle P pers ps1 sg all @ADVL #12->11
+"<,>"
+	"," Z Com CLB #13->13
+"<kindel_piir/>"
+	"####" L0 Z CLB #14->14
+"<et>"
+	"et" L0 J sub @J #15->18
+"<mind>"
+	"mina" Ld P pers ps1 sg part @OBJ #16->18
+"<saab>"
+	"saa" Lb V mod indic pres ps3 sg ps af @FCV #17->18
+"<aidata>"
+	"aita" Lta V main inf @IMV #18->11
+"<vaid>"
+	"vaid" L0 D @DN> #19->20
+"<rosmariin>"
+	"rosmariin" L0 S com sg nom @SUBJ #20->18
+"<.>"
+	"." Z Fst #21->21
+"</s>"
+
+"<s>"
+
+"<Jooksujalu>"
+	"jooksu_jalu" L0 D @ADVL #1->3
+"<trollile>"
+	"troll" Lle S com sg all @ADVL #2->3
+"<tõtates>"
+	"tõtta" Ltes V main ger @ADVL #3->4
+"<vaatas>"
+	"vaata" Ls V main indic impf ps3 sg ps af @FMV #4->0
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #5->4
+"<veel>"
+	"veel" L0 D @ADVL #6->4
+"<tagasi>"
+	"tagasi" L0 D @Vpart #7->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #8->8
+"<ja>"
+	"ja" L0 J crd CLB @J #9->10
+"<palus>"
+	"palu" Ls V main indic impf ps3 sg ps af @FMV #10->4
+"<mind>"
+	"mina" Ld P pers ps1 sg part @OBJ #11->10
+"<,>"
+	"," Z Com CLB #12->12
+"<kindel_piir/>"
+	"####" L0 Z CLB #13->13
+"<et>"
+	"et" L0 J sub @J #14->17
+"<ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #15->17
+"<ei>"
+	"ei" L0 V aux neg @NEG #16->17
+"<unustaks>"
+	"unusta" Lks V main cond pres ps af @FMV #17->10
+"<rosmariini>"
+	"rosmariin" L0 S com sg part @OBJ #18->17
+"<!>"
+	"!" Z Exc #19->19
+"</s>"
+
+"<s>"
+
+"<No>"
+	"no" L0 B @B #1->6
+"<nii>"
+	"nii" L0 B #2->6
+"<->"
+	"-" Z Dsh CLB #3->3
+"<ja>"
+	"ja" L0 J crd @J #4->6
+"<mina>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #5->6
+"<sain>"
+	"saa" Lin V main indic impf ps1 sg ps af @FMV #6->0
+"<sekundilise>"
+	"sekundi=line" L0 A pos sg gen @AN> #7->8
+"<täpsusega>"
+	"täpsus" Lga S com sg kom @ADVL #8->6
+"<aru>"
+	"aru" L0 S com sg part @OBJ #9->6
+"<,>"
+	"," Z Com CLB #10->10
+"<kindel_piir/>"
+	"####" L0 Z CLB #11->11
+"<et>"
+	"et" L0 J sub @J #12->15
+"<ta>"
+	"tema" L0 P pers ps3 sg nom @SUBJ #13->15
+"<oli>"
+	"ole" Li V aux indic impf ps3 sg ps af @FCV #14->15
+"<näinud>"
+	"näge" Lnud V main partic past ps @IMV #15->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #16->16
+"<ja>"
+	"ja" L0 J crd @J #17->18
+"<mõistnud>"
+	"mõist" Lnud V main partic past ps @IMV #18->15
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #19->20
+"<hetke>"
+	"hetk" L0 S com sg part @OBJ #20->18
+"<,>"
+	"," Z Com #21->21
+"<minu>"
+	"mina" L0 P pers ps1 sg gen @NN> #22->23
+"<rolli>"
+	"roll" L0 S com sg part @OBJ #23->20
+"<peres>"
+	"pere" Ls S com sg in @<NN #24->23
+"<,>"
+	"," Z Com #25->25
+"<meie>"
+	"mina" L0 P pers ps1 pl gen @NN> #26->27
+"<suhteid>"
+	"suhe" Lid S com pl part @OBJ #27->23
+"<ja>"
+	"ja" L0 J crd @J #28->29
+"<probleeme>"
+	"probleem" Le S com pl part @OBJ #29->27
+"<,>"
+	"," Z Com #30->30
+"<kindel_piir/>"
+	"####" L0 Z CLB #31->31
+"<Ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #32->34
+"<lihtsalt>"
+	"lihtsalt" L0 D @ADVL #33->34
+"<teadsin>"
+	"tead" Lsin V main indic impf ps1 sg ps af @FMV #34->6
+"<seda>"
+	"see" Lda P dem sg part @OBJ #35->34
+"<.>"
+	"." Z Fst #36->36
+"</s>"
+
+"<s>"
+
+"<Ja>"
+	"ja" L0 J crd @J #1->3
+"<nii>"
+	"nii" L0 D @ADVL #2->3
+"<ongi>"
+	"ole" Lgi V main indic pres ps3 sg ps af @FMV #3->0
+"<->"
+	"-" Z Dsh CLB #4->4
+"<kindel_piir/>"
+	"####" L0 Z CLB #5->5
+"<rosmariinioksake>"
+	"rosmariini_oksake" L0 S com sg nom @SUBJ #6->7
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #7->3
+"<tänaseni>"
+	"tänaseni" L0 D @ADVL #8->7
+"<mu>"
+	"mina" L0 P pers ps1 sg gen @NN> #9->11
+"<hea>"
+	"hea" L0 A pos sg nom @AN> #10->11
+"<sõber>"
+	"sõber" L0 S com sg nom @PRD #11->7
+"<.>"
+	"." Z Fst #12->12
+"</s>"
+
+"<s>"
+
+"<Ma>"
+	"mina" L0 P pers ps1 sg nom @SUBJ #1->2
+"<mäletan>"
+	"mäleta" Ln V main indic pres ps1 sg ps af @FMV #2->0
+"<tänutundes>"
+	"tänu_tunne" Ls S com sg in @ADVL #3->2
+"<seda>"
+	"see" Lda P dem sg part @NN> #4->5
+"<kergust>"
+	"kergus" Lt S com sg part @OBJ #5->2
+"<ja>"
+	"ja" L0 J crd @J #6->7
+"<usaldust>"
+	"usaldus" Lt S com sg part @OBJ #7->5
+"<,>"
+	"," Z Com #8->8
+"<kindel_piir/>"
+	"####" L0 Z CLB #9->9
+"<mida>"
+	"mis" Lda P inter rel sg part @OBJ #10->11
+"<kogesin>"
+	"koge" Lsin V main indic impf ps1 sg ps af @FMV #11->7
+"<Teadjanaise>"
+	"Teadja_naine" L0 S prop sg gen @ADVL #12->14
+"<trollile>"
+	"troll" Lle S com sg all @ADVL #13->14
+"<tõtates>"
+	"tõtta" Ltes V main ger @ADVL #14->11
+"<.>"
+	"." Z Fst #15->15
+"</s>"
+
+"<s>"
+
+"<Need>"
+	"see" Ld P dem pl nom @SUBJ #1->3
+"<seal>"
+	"seal" L0 D @<DN #2->1
+"<olid>"
+	"ole" Lid V main indic impf ps3 pl ps af @FMV #3->0
+"<Kaks>"
+	"kaks" L0 N card sg nom @PRD #4->3
+"<Inimest>"
+	"inimene" Lt S com sg part @<Q #5->4
+"<,>"
+	"," Z Com CLB #6->6
+"<kindel_piir/>"
+	"####" L0 Z CLB #7->7
+"<kes>"
+	"kes" L0 P inter rel pl nom @SUBJ #8->9
+"<kohtusid>"
+	"kohtu" Lsid V main indic impf ps3 pl ps af @FMV #9->5
+"<Universumis>"
+	"Universum" Ls S prop sg in @ADVL #10->9
+"<->"
+	"-" Z Dsh CLB #11->11
+"<kindel_piir/>"
+	"####" L0 Z CLB #12->12
+"<üks>"
+	"üks" L0 P dem indef sg nom @SUBJ #13->14
+"<andis>"
+	"and" Lis V main indic impf ps3 sg ps af @FMV #14->3
+"<teisele>"
+	"teine" Lle P dem sg all @ADVL #15->14
+"<teadmise>"
+	"teadmine" L0 S com sg gen @OBJ #16->14
+"<,>"
+	"," Z Com CLB #17->17
+"<kindel_piir/>"
+	"####" L0 Z CLB #18->18
+"<mida>"
+	"mis" Lda P inter rel sg part @OBJ #19->21
+"<teine>"
+	"teine" L0 P dem sg nom @SUBJ #20->21
+"<vajas>"
+	"vaja" Ls V main indic impf ps3 sg ps af @FMV #21->16
+"<kindel_piir/>"
+	"####" L0 Z CLB #22->22
+"<ja>"
+	"ja" L0 J crd @J #23->25
+"<Tänutunne>"
+	"tänu_tunne" L0 S com sg nom @SUBJ #24->25
+"<vabastas>"
+	"vabasta" Ls V main indic impf ps3 sg ps af @FMV #25->3
+"<nad>"
+	"tema" Ld P pers ps3 pl nom @OBJ #26->25
+"<edasisest>"
+	"edasine" Lst A pos sg el @AN> #27->28
+"<sõltuvusest>"
+	"sõltuvus" Lst S com sg el @ADVL #28->25
+"<,>"
+	"," Z Com CLB #29->29
+"<kindel_piir/>"
+	"####" L0 Z CLB #30->30
+"<sest>"
+	"sest" L0 J sub @J #31->33
+"<Vaim>"
+	"vaim" L0 S com sg nom @SUBJ #32->33
+"<on>"
+	"ole" L0 V main indic pres ps3 sg ps af @FMV #33->25
+"<vaba>"
+	"vaba" L0 A pos sg nom @PRD #34->33
+"<.>"
+	"." Z Fst #35->35
+"</s>"
+
+"<s>"
+
+"<Aitäh>"
+	"aitäh" L0 B @B #1->0
+"<!>"
+	"!" Z Exc #2->2
+"</s>"
+
