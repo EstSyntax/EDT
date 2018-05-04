@@ -347,7 +347,7 @@
 "<viinud>"
 	"vii" Lnud V main indic impf ps neg @FMV #18->3
 "<ühtegi>"
-	"üks" Lgi N card sg part l @NN> #19->20
+	"üks" Lgi P indef sg part @NN> #19->20
 "<autoteed>"
 	"auto_tee" Ld S com sg part @SUBJ #20->18
 "<.>"
@@ -467,7 +467,7 @@
 "<ja>"
 	"ja" L0 J crd @J #8->9
 "<mahajäetuna>"
-	"maha_jäetud" Lna A pos sg es @ADVL #9->7
+	"maha_jäetud" Lna A pos partic past sg es @ADVL #9->7
 "<,>"
 	"," Z Com #10->10
 "<võis>"
@@ -917,7 +917,7 @@
 "<olete>"
 	"ole" Lte V main indic pres ps2 pl ps af @FMV #18->14
 "<väsinud>"
-	"väsinud" L0 A pos sg nom @PRD #19->18
+	"väsinud" L0 A pos partic sg nom @PRD #19->18
 "<.>"
 	"." Z Fst #20->20
 "</s>"
@@ -2337,7 +2337,7 @@
 "<läikis>"
 	"läiki" Ls V main indic impf ps3 sg ps af @FMV #5->0
 "<nende>"
-	"tema" Lde P pers ps3 pl gen @P> #6->7
+	"see" Lde P dem pl gen @P> #6->7
 "<ümber>"
 	"ümber" L0 K post @ADVL #7->5
 "<nagu>"
@@ -8811,9 +8811,9 @@
 "<alles>"
 	"alles" L0 D @ADVL #17->16
 "<unest>"
-	"uni" Lst S com sg el @ADVL #18->16
+	"uni" Lst S com sg el @ADVL #18->19
 "<paks>"
-	"paks" L0 S com sg nom @PRD #19->16
+	"paks" L0 A pos sg nom @PRD #19->16
 "<.>"
 	"." Z Fst #20->20
 "</s>"
@@ -9069,7 +9069,7 @@
 "<nööride>"
 	"nöör" Lde S com pl gen @NN> #21->23
 "<teises>"
-	"teine" Ls N ord sg in l @AN> #22->23
+	"teine" Ls P dem sg in @NN> #22->23
 "<otsas>"
 	"ots" Ls S com sg in @ADVL #23->24
 "<seisis>"
@@ -9119,7 +9119,7 @@
 "<ta>"
 	"tema" L0 P pers ps3 sg nom @SUBJ #12->16
 "<mulgi>"
-	"mulgi" L A pos @AN> #13->14
+	"mulgi" L0 A pos @AN> #13->14
 "<kübara>"
 	"kübar" L0 S com sg gen @P> #14->15
 "<vastu>"
@@ -12867,7 +12867,7 @@
 "<me>"
 	"mina" L0 P pers ps1 pl nom @SUBJ #4->3
 "<väärt>"
-	"väärt" L0 A @PRD #5->3
+	"väärt" L0 A pos @PRD #5->3
 "<jõudma>"
 	"jõud" Lma V main sup ps ill @ADVL #6->5
 "<oma>"
@@ -15939,7 +15939,7 @@
 "<,>"
 	"," Z Com #26->26
 "<rahustavat>"
-	"rahusta=v" Lt A pos sg nom partic @AN> #27->25
+	"rahusta=v" Lt A pos sg part partic @AN> #27->25
 "<ja>"
 	"ja" L0 J crd @J #28->31
 "<nagu>"
@@ -15947,9 +15947,9 @@
 "<isegi>"
 	"isegi" L0 D @ADVL #30->31
 "<uinutavat>"
-	"uinuta=v" Lt A pos sg nom partic @AN> #31->27
+	"uinuta=v" Lt A pos sg part partic @AN> #31->27
 "<viit>"
-	"viis" Lt N card nom sg part l @OBJ #32->23
+	"viis" Lt S com sg part @OBJ #32->23
 "<.>"
 	"." Z Fst #33->33
 "</s>"
@@ -20751,7 +20751,7 @@
 "<ootab>"
 	"oota" Lb V main indic pres ps3 sg ps af @FMV #32->22
 "<avamata>"
-	"avamata" L0 A pos @AN> #33->34
+	"avamata" L0 A pos partic @AN> #33->34
 "<purk>"
 	"purk" L0 S com sg nom @SUBJ #34->32
 "<sinise>"

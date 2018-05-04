@@ -2973,7 +2973,7 @@
 "<kraami>"
 	"kraam" L0 S com sg part @<Q #5->4
 "<kui>"
-	"kui" L0 J crd @J #6->8
+	"kui" L0 J sub @J #6->8
 "<Indrikson>"
 	"Indrikson" L0 S prop sg nom @SUBJ #7->8
 "<käskis>"
@@ -3113,7 +3113,7 @@
 "<oli>"
 	"ole" Li V main indic impf ps3 sg ps af @FMV #2->0
 "<muu>"
-	"muu" L0 S com sg nom @SUBJ #3->2
+	"muu" L0 P indef sg nom @SUBJ #3->2
 "<.>"
 	"." Z Fst #4->4
 "</s>"
@@ -4567,7 +4567,7 @@
 "<Kella>"
 	"kell" L0 S com sg gen @NN> #1->2
 "<kaheks>"
-	"kaks" Lks N card nom sg tr l @ADVL #2->5
+	"kaks" Lks N card sg tr l @ADVL #2->5
 "<peab>"
 	"pida" Lb V mod indic pres ps3 sg ps af @FCV #3->6
 "<asi>"
@@ -4629,7 +4629,7 @@
 "<s>"
 
 "<Kolmest>"
-	"kolm" Lst N card nom sg el l @ADVL #1->3
+	"kolm" Lst N card sg el l @ADVL #1->3
 "<oleks>"
 	"ole" Lks V aux cond pres ps af @FCV #2->3
 "<aidanud>"
@@ -4678,36 +4678,32 @@
 
 "<s>"
 
-"<2>"
-	"2" L0 N card sg nom @ADVL #1->6
-"<)>"
-	")" Z Cpr #2->2
 "<Tema>"
-	"tema" L0 P pers ps3 sg gen @ADVL #3->5
+	"tema" L0 P pers ps3 sg gen @ADVL #1->3
 "<tagasi>"
-	"tagasi" L0 D @Vpart #4->5
+	"tagasi" L0 D @Vpart #2->3
 "<tulles>"
-	"tule" Les V main ger @ADVL #5->6
+	"tule" Les V main ger @ADVL #3->4
 "<istus>"
-	"istu" Ls V main indic impf ps3 sg ps af @FMV #6->0
+	"istu" Ls V main indic impf ps3 sg ps af @FMV #4->0
 "<Aune>"
-	"Aune" L0 S prop sg nom @SUBJ #7->6
+	"Aune" L0 S prop sg nom @SUBJ #5->4
 "<ikka>"
-	"ikka" L0 D @ADVL #8->6
+	"ikka" L0 D @ADVL #6->4
 "<oma>"
-	"oma" L0 P pos sg gen @NN> #9->10
+	"oma" L0 P pos sg gen @NN> #7->8
 "<tugitoolis>"
-	"tugi_tool" Ls S com sg in @ADVL #10->6
+	"tugi_tool" Ls S com sg in @ADVL #8->4
 "<,>"
-	"," Z Com #11->11
+	"," Z Com #9->9
 "<hommikukumantel>"
-	"hommikuku_mantel" L0 S com sg nom @SUBJ #12->6
+	"hommikuku_mantel" L0 S com sg nom @SUBJ #10->4
 "<kurguni>"
-	"kurk" Lni S com sg term @ADVL #13->14
+	"kurk" Lni S com sg term @ADVL #11->12
 "<kinni>"
-	"kinni" L0 D @ADVL #14->12
+	"kinni" L0 D @ADVL #12->10
 "<.>"
-	"." Z Fst #15->15
+	"." Z Fst #13->13
 "</s>"
 
 "<s>"
@@ -5601,7 +5597,7 @@
 "<su>"
 	"sina" L0 P pers ps2 sg gen @NN> #11->12
 "<miljoneid>"
-	"miljon" Lid N card sg nom pl part l @OBJ #12->13
+	"miljon" Lid N card pl part l @OBJ #12->13
 "<jagada>"
 	"jaga" Lda V main inf @OBJ #13->10
 "<,>"
@@ -5661,7 +5657,7 @@
 "<s>"
 
 "<Homseni>"
-	"homne" Lni A @ADVL #1->0
+	"homne" Lni A pos sg term @ADVL #1->0
 "<.>"
 	"." Z Fst #2->2
 "</s>"
@@ -5825,7 +5821,7 @@
 "<oskas>"
 	"oska" Ls V main indic impf ps3 sg ps af @FMV #2->0
 "<muud>"
-	"muu" Ld S com sg part @OBJ #3->2
+	"muu" Ld P indef sg part @OBJ #3->2
 "<:>"
 	":" Z Col #4->4
 "<rahast>"
